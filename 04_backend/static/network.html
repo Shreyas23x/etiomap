@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EtioMap — Network Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.30.2/cytoscape.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/layout-base/layout-base.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cose-base/cose-base.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose/cytoscape-fcose.js"></script>
+<style>
+:root{
+  --bg:#0f172a; --bg2:#0b1222; --panel:#1e293b; --panel2:#172033; --line:#334155;
+  --txt:#f8fafc; --mut:#94a3b8; --acc:#22c55e; --acc2:#16a34a;
+  --env:#f59e0b; --drug:#38bdf8; --endo:#a78bfa; --other:#64748b; --reagent:#fb7185;
+  --known:#22c55e; --novel:#64748b;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Fira Sans',system-ui,sans-serif;background:var(--bg);color:var(--txt);height:100vh;overflow:hidden}
+.app{display:grid;grid-template-rows:auto 1fr;height:100vh}
+header{display:flex;align-items:center;gap:12px;padding:12px 18px;background:var(--bg2);border-bottom:1px solid var(--line)}
+header .logo{display:flex;align-items:center;gap:9px}
+header h1{font-size:16px;font-weight:600;margin:0;letter-spacing:.2px}
+header .sub{color:var(--mut);font-size:12px;font-family:'Fira Code',monospace}
+header .spacer{flex:1}
+.hbtn{font-family:'Fira Sans';font-size:12.5px;color:var(--txt);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 12px;cursor:pointer}
+.hbtn:hover{border-color:var(--acc)}
+.main{display:grid;grid-template-columns:270px 1fr 300px;min-height:0}
+.side{background:var(--panel2);border-right:1px solid var(--line);overflow-y:auto;padding:14px}
+.side.right{border-right:0;border-left:1px solid var(--line)}
+.grp{margin-bottom:18px}
+.grp h3{font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--mut);margin:0 0 9px;font-weight:600}
+label.row{display:flex;align-items:center;gap:8px;font-size:13px;padding:4px 0;cursor:pointer}
+label.row .sw{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+input[type=checkbox]{accent-color:var(--acc);width:15px;height:15px}
+input[type=range]{width:100%;accent-color:var(--acc)}
+select{width:100%;background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:7px;padding:7px;font-family:'Fira Sans';font-size:13px}
+.val{font-family:'Fira Code',monospace;color:var(--acc);font-size:12px}
+.toggle{display:flex;align-items:center;justify-content:space-between;font-size:13px;padding:6px 0}
+.switch{position:relative;width:38px;height:21px;background:var(--line);border-radius:11px;cursor:pointer;transition:.2s;flex:0 0 auto}
+.switch.on{background:var(--acc2)}
+.switch i{position:absolute;top:2px;left:2px;width:17px;height:17px;background:#fff;border-radius:50%;transition:.2s}
+.switch.on i{left:19px}
+#cy{width:100%;height:100%;background:radial-gradient(circle at 50% 40%,#13203a 0%,var(--bg) 70%)}
+.cywrap{position:relative;min-height:0}
+.counts{position:absolute;top:10px;left:12px;font-family:'Fira Code',monospace;font-size:11.5px;color:var(--mut);background:rgba(11,18,34,.7);border:1px solid var(--line);border-radius:8px;padding:6px 10px;pointer-events:none}
+.preset{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}
+.preset button{flex:1;min-width:84px;font-size:11.5px;background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:7px;padding:6px;cursor:pointer}
+.preset button:hover{border-color:var(--acc)}
+#tip{position:fixed;z-index:50;pointer-events:none;background:#0b1222ee;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;max-width:260px;display:none;box-shadow:0 6px 24px #0008}
+#tip b{color:var(--acc)}
+.dwrap h2{font-size:14px;margin:0 0 4px}
+.muted{color:var(--mut);font-size:12px}
+.kv{display:flex;justify-content:space-between;font-size:12.5px;padding:3px 0;border-bottom:1px solid #ffffff10}
+.kv span:first-child{color:var(--mut)}
+.tag{display:inline-block;font-size:10.5px;padding:2px 7px;border-radius:9px;font-weight:600}
+.tag.known{background:#14532d;color:#86efac}.tag.novel{background:#334155;color:#cbd5e1}
+.assoc{padding:8px;border:1px solid var(--line);border-radius:8px;margin:7px 0;font-size:12.5px;cursor:pointer}
+.assoc:hover{border-color:var(--acc)}
+.assoc .d{font-weight:500}
+.path{font-family:'Fira Code',monospace;font-size:11px;color:var(--mut);margin-top:4px;line-height:1.5}
+a.src{color:var(--acc);font-size:12px;text-decoration:none}
+a.src:hover{text-decoration:underline}
+.dlbtn{width:100%;background:var(--acc2);color:#04210f;border:0;border-radius:8px;padding:10px;font-weight:600;font-size:13px;cursor:pointer;margin-top:8px}
+.dlbtn:hover{background:var(--acc)}
+.dlbtn:disabled{background:var(--line);color:var(--mut);cursor:not-allowed}
+.empty{color:var(--mut);font-size:12.5px;line-height:1.6;margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.legend .ln{display:inline-block;width:16px;height:0;border-top:3px solid var(--known);margin-right:6px;vertical-align:middle}
+.legend .ln.nv{border-top:3px dashed var(--novel)}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="logo">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="1.6"><path d="M12 2l8.66 5v10L12 22 3.34 17V7L12 2z"/></svg>
+      <h1>EtioMap</h1><span class="sub">network explorer</span>
+    </div>
+    <div class="spacer"></div>
+    <button class="hbtn" onclick="fitView()">Reset view</button>
+    <button class="hbtn" onclick="relayout()">Re-layout</button>
+  </header>
+  <div class="main">
+    <!-- LEFT: filters -->
+    <div class="side">
+      <div class="grp">
+        <h3>Quick presets</h3>
+        <div class="preset">
+          <button onclick="preset('all')">Show all</button>
+          <button onclick="preset('env')">Environmental</button>
+          <button onclick="preset('known')">Known only</button>
+        </div>
+      </div>
+      <div class="grp">
+        <h3>Compound class</h3>
+        <div id="classFilters"></div>
+      </div>
+      <div class="grp">
+        <h3>Association type</h3>
+        <label class="row"><input type="checkbox" id="fKnown" checked> <span class="ln"></span> Known (cited)</label>
+        <label class="row"><input type="checkbox" id="fNovel" checked> <span class="ln nv"></span> Novel candidate</label>
+      </div>
+      <div class="grp">
+        <h3>Min. significance <span class="val" id="sigVal">0.0</span></h3>
+        <input type="range" id="fSig" min="0" max="50" step="0.5" value="0">
+        <div class="muted" style="font-size:11px">−log10(FDR) of shared pathway</div>
+      </div>
+      <div class="grp">
+        <h3>Focus disease</h3>
+        <select id="fDisease"><option value="">All diseases</option></select>
+      </div>
+      <div class="grp">
+        <h3>Layers</h3>
+        <div class="toggle"><span>Model predictions</span><div class="switch" id="tModel" onclick="toggleSwitch('tModel');applyFilters()"><i></i></div></div>
+        <div class="muted" id="modelHint" style="font-size:11px;display:none">Min model score <span class="val" id="msVal">0.50</span><input type="range" id="fModel" min="0" max="1" step="0.01" value="0.5" oninput="document.getElementById('msVal').textContent=(+this.value).toFixed(2);applyFilters()"></div>
+        <div class="toggle" style="margin-top:6px"><span>Expand pathways</span><div class="switch" id="tPath" onclick="toggleSwitch('tPath');onExpandToggle()"><i></i></div></div>
+        <div class="muted" style="font-size:11px">Select a compound, then expand to see the pathways it acts through.</div>
+      </div>
+      <div class="grp legend">
+        <h3>Legend</h3>
+        <div style="font-size:12px;line-height:1.9">
+          <div><i style="background:var(--env)"></i>environmental</div>
+          <div><i style="background:var(--drug)"></i>drug</div>
+          <div><i style="background:var(--endo)"></i>endogenous</div>
+          <div><i style="background:var(--other)"></i>other</div>
+          <div style="margin-top:6px"><span class="ln"></span> known &nbsp; <span class="ln nv"></span> novel</div>
+        </div>
+      </div>
+    </div>
+    <!-- CENTER: graph -->
+    <div class="cywrap">
+      <div id="cy"></div>
+      <div class="counts" id="counts">loading…</div>
+    </div>
+    <!-- RIGHT: details -->
+    <div class="side right">
+      <div class="dwrap" id="detail">
+        <h2>Details</h2>
+        <p class="empty">Click a compound or an edge to inspect the association, its shared pathways, the model score, and the literature sources.<br><br>Shift-click compounds to multi-select, then download the selected associations with citations.</p>
+      </div>
+      <button class="dlbtn" id="dlBtn" disabled onclick="downloadCSV()">Download selected (CSV)</button>
+    </div>
+  </div>
+</div>
+<div id="tip"></div>
+<script>
+const CLASS_COLORS={environmental:'#f59e0b',drug:'#38bdf8',endogenous:'#a78bfa',other:'#64748b',reagent:'#fb7185'};
+const DIS_COLORS=['#ef4444','#f59e0b','#a78bfa','#ec4899','#14b8a6','#60a5fa'];
+let cy, DATA, edgeById={}, layoutName='cose';
+
+function toggleSwitch(id){document.getElementById(id).classList.toggle('on');}
+function shorten(s,n){return s.length>n?s.slice(0,n-1)+'…':s;}
+
+async function boot(){
+  const r=await fetch('/api/network/full'); DATA=await r.json();
+  try{ if(window.cytoscapeFcose){cytoscape.use(window.cytoscapeFcose);layoutName='fcose';} }catch(e){}
+  buildClassFilters();
+  const sel=document.getElementById('fDisease');
+  DATA.diseases.forEach(d=>{const o=document.createElement('option');o.value=d;o.textContent=d;sel.appendChild(o);});
+  buildGraph();
+  ['fKnown','fNovel','fSig','fDisease'].forEach(id=>document.getElementById(id).addEventListener('input',applyFilters));
+  document.getElementById('fSig').addEventListener('input',e=>document.getElementById('sigVal').textContent=(+e.target.value).toFixed(1));
+}
+
+function buildClassFilters(){
+  const box=document.getElementById('classFilters');
+  DATA.classes.forEach(c=>{
+    const id='cls_'+c;
+    const l=document.createElement('label');l.className='row';
+    l.innerHTML=`<input type="checkbox" id="${id}" checked> <span class="sw" style="background:${CLASS_COLORS[c]||'#888'}"></span> ${c}`;
+    box.appendChild(l);
+    l.querySelector('input').addEventListener('change',applyFilters);
+  });
+}
+function activeClasses(){return DATA.classes.filter(c=>document.getElementById('cls_'+c).checked);}
+
+const DIS_R=760;
+function diseasePos(i){const a=(i/DATA.disease_nodes.length)*2*Math.PI - Math.PI/2;return {x:Math.cos(a)*DIS_R,y:Math.sin(a)*DIS_R};}
+function snapDiseases(){DATA.disease_nodes.forEach((d,i)=>{const nd=cy.getElementById(d.id);if(nd)nd.position(diseasePos(i));});}
+function diseaseFixed(){return DATA.disease_nodes.map((d,i)=>({nodeId:d.id,position:diseasePos(i)}));}
+
+function buildGraph(){
+  const els=[];
+  DATA.disease_nodes.forEach((d,i)=>{
+    els.push({data:{id:d.id,label:d.label,ntype:'disease',color:DIS_COLORS[i%DIS_COLORS.length],known:d.known,novel:d.novel},position:diseasePos(i)});
+  });
+  DATA.chemical_nodes.forEach(c=>{
+    els.push({data:{id:c.id,label:c.label,ntype:'chem',cclass:c.compound_class,color:CLASS_COLORS[c.compound_class]||'#888',degree:c.degree}});
+  });
+  DATA.edges.forEach((e,i)=>{
+    const id='e'+i; edgeById[id]=e;
+    els.push({data:{id:id,source:'C:'+e.KEGG_ID,target:'D:'+e.Disease,
+      ltype:e.link_type,sig:e.sig_weight,model:e.model_score,
+      cclass:e.compound_class,disease:e.Disease}});
+  });
+  cy=cytoscape({container:document.getElementById('cy'),elements:els,
+    minZoom:0.15,maxZoom:3,
+    style:[
+      {selector:'node[ntype="disease"]',style:{'background-color':'data(color)','label':'data(label)','color':'#f8fafc',
+        'font-size':15,'font-weight':600,'text-wrap':'wrap','text-max-width':130,'text-valign':'center','text-halign':'center',
+        'width':64,'height':64,'shape':'round-hexagon','border-width':3,'border-color':'#0b1222','text-outline-width':3,'text-outline-color':'#0b1222'}},
+      {selector:'node[ntype="chem"]',style:{'background-color':'data(color)','label':'data(label)','color':'#cbd5e1',
+        'font-size':9,'font-family':'Fira Code','text-valign':'bottom','text-margin-y':3,'text-wrap':'wrap','text-max-width':90,
+        'width':'mapData(degree,1,6,14,34)','height':'mapData(degree,1,6,14,34)','border-width':1.5,'border-color':'#0b1222'}},
+      {selector:'node[ntype="path"]',style:{'background-color':'#0ea5e9','shape':'round-rectangle','label':'data(label)','color':'#bae6fd',
+        'font-size':8,'font-family':'Fira Code','text-valign':'center','text-wrap':'wrap','text-max-width':110,'width':16,'height':16,'border-width':1,'border-color':'#0b1222'}},
+      {selector:'edge',style:{'curve-style':'straight','width':'mapData(sig,1,50,1.2,5.5)','line-color':'#22c55e','opacity':0.55,'target-arrow-shape':'none'}},
+      {selector:'edge[ltype="novel_candidate"]',style:{'line-color':'#64748b','line-style':'dashed','opacity':0.4}},
+      {selector:'edge[ntype="path"]',style:{'line-color':'#0ea5e9','width':1.5,'opacity':0.6,'line-style':'dotted'}},
+      {selector:'.dim',style:{'opacity':0.06}},
+      {selector:'.hl',style:{'opacity':1,'line-color':'#22c55e','width':4}},
+      {selector:'node.sel',style:{'border-width':3,'border-color':'#22c55e'}},
+      {selector:'node:selected',style:{'border-width':3,'border-color':'#22c55e'}},
+      {selector:'.hidden',style:{'display':'none'}}
+    ]});
+  runLayout();
+  wireEvents();
+  applyFilters();
+}
+
+function runLayout(){
+  snapDiseases();
+  cy.nodes('[ntype="disease"]').lock();
+  const opt = layoutName==='fcose'
+    ? {name:'fcose',animate:false,fit:false,padding:60,nodeSeparation:150,idealEdgeLength:190,nodeRepulsion:11000,randomize:true,fixedNodeConstraint:diseaseFixed()}
+    : {name:'cose',animate:false,fit:false,padding:60,nodeRepulsion:11000,idealEdgeLength:190};
+  const l=cy.layout(opt);
+  l.one('layoutstop',()=>{snapDiseases();cy.nodes('[ntype="disease"]').unlock();cy.fit(undefined,70);});
+  l.run();
+}
+function relayout(){runLayout();}
+function fitView(){cy.animate({fit:{padding:60},duration:300});}
+
+function passEdge(e){
+  if(!document.getElementById('fKnown').checked && e.link_type==='known')return false;
+  if(!document.getElementById('fNovel').checked && e.link_type==='novel_candidate')return false;
+  if(e.sig_weight < (+document.getElementById('fSig').value))return false;
+  const dz=document.getElementById('fDisease').value; if(dz && e.Disease!==dz)return false;
+  if(activeClasses().indexOf(e.compound_class)<0)return false;
+  if(document.getElementById('tModel').classList.contains('on')){
+    const m=e.model_score==null?-1:e.model_score;
+    if(m < (+document.getElementById('fModel').value))return false;
+  }
+  return true;
+}
+function applyFilters(){
+  document.getElementById('modelHint').style.display=document.getElementById('tModel').classList.contains('on')?'block':'none';
+  const visChem=new Set(), visDis=new Set(); let ne=0;
+  cy.batch(()=>{
+    cy.edges('[!ntype]').forEach(ed=>{
+      const e=edgeById[ed.id()]; const ok=passEdge(e);
+      ed.toggleClass('hidden',!ok);
+      if(ok){ne++;visChem.add('C:'+e.KEGG_ID);visDis.add('D:'+e.Disease);}
+    });
+    cy.nodes('[ntype="chem"]').forEach(nd=>nd.toggleClass('hidden',!visChem.has(nd.id())));
+    cy.nodes('[ntype="disease"]').forEach(nd=>nd.toggleClass('hidden',!visDis.has(nd.id())));
+  });
+  document.getElementById('counts').innerHTML=
+    `${visChem.size} compounds · ${visDis.size} diseases · ${ne} associations`;
+}
+
+function preset(kind){
+  DATA.classes.forEach(c=>document.getElementById('cls_'+c).checked=(kind==='env'?c==='environmental':true));
+  document.getElementById('fKnown').checked=true;
+  document.getElementById('fNovel').checked=(kind!=='known');
+  document.getElementById('fSig').value=0;document.getElementById('sigVal').textContent='0.0';
+  document.getElementById('fDisease').value='';
+  applyFilters();
+}
+
+let selectedEdges=new Set();
+function wireEvents(){
+  const tip=document.getElementById('tip');
+  cy.on('mouseover','node,edge',ev=>{
+    const t=ev.target; let h='';
+    if(t.isNode()&&t.data('ntype')==='chem'){h=`<b>${t.data('label')}</b><br>${t.data('cclass')} · ${t.data('degree')} link(s)`;}
+    else if(t.isNode()&&t.data('ntype')==='disease'){h=`<b>${t.data('label')}</b><br>${t.data('known')} known · ${t.data('novel')} novel`;}
+    else if(t.isNode()&&t.data('ntype')==='path'){h=`pathway<br><b>${t.data('label')}</b>`;}
+    else if(t.isEdge()&&edgeById[t.id()]){const e=edgeById[t.id()];
+      h=`<b>${e.ChemicalName} → ${e.Disease}</b><br>${e.link_type==='known'?'known':'novel candidate'} · sig ${e.sig_weight}`+
+        (e.model_score!=null?`<br>model score ${e.model_score}`:'')+
+        (e.n_pmids?`<br>${e.n_pmids} citation(s)`:'');}
+    if(h){tip.innerHTML=h;tip.style.display='block';}
+  });
+  cy.on('mousemove',ev=>{tip.style.left=(ev.originalEvent.clientX+14)+'px';tip.style.top=(ev.originalEvent.clientY+14)+'px';});
+  cy.on('mouseout','node,edge',()=>tip.style.display='none');
+  cy.on('tap','edge',ev=>{if(edgeById[ev.target.id()])showEdge(ev.target.id());});
+  cy.on('tap','node[ntype="chem"]',ev=>{
+    const orig=ev.originalEvent;
+    if(!(orig&&orig.shiftKey))selectedEdges.clear();
+    showChem(ev.target);
+  });
+  cy.on('tap',ev=>{if(ev.target===cy){clearHL();selectedEdges.clear();renderEmpty();updateDL();}});
+}
+function clearHL(){cy.elements().removeClass('dim hl sel');}
+function highlight(coll){cy.batch(()=>{cy.elements().not('.hidden').addClass('dim');coll.removeClass('dim').addClass('hl');});}
+
+function showChem(node){
+  const kid=node.id().slice(2);
+  const edges=cy.edges('[!ntype]').not('.hidden').filter(ed=>edgeById[ed.id()].KEGG_ID===kid);
+  clearHL(); highlight(edges.union(node).union(edges.connectedNodes())); node.addClass('sel');
+  edges.forEach(ed=>selectedEdges.add(ed.id()));
+  const assoc=edges.map(ed=>edgeById[ed.id()]).sort((a,b)=>b.sig_weight-a.sig_weight);
+  const c=node.data('cclass');
+  let html=`<h2>${node.data('label')}</h2><div class="muted">KEGG ${kid} · <span style="color:${CLASS_COLORS[c]}">${c}</span></div>`;
+  html+=`<div style="margin:8px 0">`+assoc.map(e=>assocCard(e)).join('')+`</div>`;
+  document.getElementById('detail').innerHTML=html;
+  bindAssocCards();
+  if(document.getElementById('tPath').classList.contains('on'))expandPathways(node);
+  updateDL();
+}
+function showEdge(id){
+  const e=edgeById[id]; const ed=cy.getElementById(id);
+  clearHL(); highlight(ed.union(ed.connectedNodes()));
+  selectedEdges=new Set([id]);
+  let html=`<h2>${e.ChemicalName} → ${e.Disease}</h2>`+
+    `<div style="margin:6px 0"><span class="tag ${e.link_type==='known'?'known':'novel'}">${e.link_type==='known'?'known association':'novel candidate'}</span> <span class="tag" style="background:${CLASS_COLORS[e.compound_class]}33;color:${CLASS_COLORS[e.compound_class]}">${e.compound_class}</span></div>`+
+    kv('Pathway significance',e.sig_weight)+kv('Shared pathways',e.shared_pathways)+
+    (e.model_score!=null?kv('XGBoost score',e.model_score):'')+
+    (e.evidence&&e.evidence.length?kv('CTD evidence',e.evidence.join(', ')):'')+
+    kv('Citations',e.n_pmids||0);
+  html+=`<div class="path"><b style="color:#cbd5e1">Acts through:</b><br>${(e.pathways||'—').split('; ').join('<br>')}</div>`;
+  if(e.pubmed_url)html+=`<div style="margin-top:8px"><a class="src" href="${e.pubmed_url}" target="_blank">View ${e.n_pmids} source(s) on PubMed ↗</a></div>`;
+  document.getElementById('detail').innerHTML=html;
+  updateDL();
+}
+function assocCard(e){
+  return `<div class="assoc" data-d="${encodeURIComponent(e.Disease)}" data-k="${e.KEGG_ID}">
+    <div class="d">${e.Disease} <span class="tag ${e.link_type==='known'?'known':'novel'}">${e.link_type==='known'?'known':'novel'}</span></div>
+    <div class="muted">sig ${e.sig_weight}${e.model_score!=null?' · model '+e.model_score:''}${e.n_pmids?' · '+e.n_pmids+' cites':''}</div></div>`;
+}
+function bindAssocCards(){document.querySelectorAll('.assoc').forEach(el=>el.onclick=()=>{
+  const k=el.getAttribute('data-k'),d=decodeURIComponent(el.getAttribute('data-d'));
+  const id=Object.keys(edgeById).find(i=>edgeById[i].KEGG_ID===k&&edgeById[i].Disease===d);
+  if(id)showEdge(id);
+});}
+function kv(k,v){return `<div class="kv"><span>${k}</span><span>${v}</span></div>`;}
+function renderEmpty(){document.getElementById('detail').innerHTML='<h2>Details</h2><p class="empty">Click a compound or an edge to inspect it.</p>';}
+
+// pathway expansion for a selected compound
+function clearPath(){cy.remove('[ntype="path"]');cy.remove('edge[ntype="path"]');}
+function onExpandToggle(){const s=cy.$('node.sel');clearPath();if(document.getElementById('tPath').classList.contains('on')&&s.length)expandPathways(s[0]);}
+function expandPathways(node){
+  clearPath();const kid=node.id().slice(2);
+  const edges=cy.edges('[!ntype]').not('.hidden').filter(ed=>edgeById[ed.id()].KEGG_ID===kid);
+  const add=[];const seen=new Set();
+  edges.forEach(ed=>{const e=edgeById[ed.id()];(e.pathways||'').split('; ').filter(Boolean).forEach(pw=>{
+    const pid='P:'+pw;
+    if(!seen.has(pid)){seen.add(pid);add.push({data:{id:pid,label:shorten(pw,26),ntype:'path'}});}
+    add.push({data:{id:'pe:'+kid+':'+pw,source:node.id(),target:pid,ntype:'path'}});
+    add.push({data:{id:'pe2:'+pw+':'+e.Disease,source:pid,target:'D:'+e.Disease,ntype:'path'}});
+  });});
+  cy.add(add);
+  const sub=node.union(edges.connectedNodes()).union(cy.$('[ntype="path"]'));
+  cy.layout({name:layoutName,animate:false,fit:false,randomize:false,
+    eles:sub.union(sub.connectedEdges()),idealEdgeLength:90,nodeRepulsion:4500}).run();
+}
+
+function updateDL(){const b=document.getElementById('dlBtn');b.disabled=selectedEdges.size===0;b.textContent=`Download selected (${selectedEdges.size}) CSV`;}
+function downloadCSV(){
+  const cols=['ChemicalName','KEGG_ID','Disease','link_type','compound_class','sig_weight','shared_pathways','model_score','evidence','n_pmids','pathways','pmids','pubmed_url'];
+  const rows=[cols.join(',')];
+  selectedEdges.forEach(id=>{const e=edgeById[id];rows.push(cols.map(c=>{
+    let v=e[c]; if(Array.isArray(v))v=v.join(' ');
+    v=(v==null?'':String(v)).replace(/"/g,'""'); return /[",\n]/.test(v)?`"${v}"`:v;
+  }).join(','));});
+  const blob=new Blob([rows.join('\n')],{type:'text/csv'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download='etiomap_associations.csv';a.click();
+}
+boot();
+</script>
+</body>
+</html>

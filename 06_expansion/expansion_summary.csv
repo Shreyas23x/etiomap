@@ -1,0 +1,7 @@
+disease,mesh,raw_rows,curated_chems,inferred_chems_ge_min,inferred_chems_kept
+Asthma,D001249,40382,223,65,65
+Pneumonia,D011014,28701,206,42,42
+"Pulmonary Disease, Chronic Obstructive",D029424,24959,76,10,10
+Bronchitis,D001991,34,34,0,0
+"Rhinitis, Allergic",D065631,9730,62,0,0
+"Carcinoma, Bronchogenic",D002283,16,16,0,0

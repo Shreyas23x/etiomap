@@ -1,0 +1,151 @@
+ChemicalName,KEGG_ID,Disease,shared_pathways,sig_weight,compound_class,link_type,pathways
+Nitric oxide,C00533,Asthma,22,51.665,endogenous,known,Allograft rejection; Amoebiasis; Apelin signaling pathway; Chagas disease; Circadian entrainment; Estrogen signaling pathway; Gap junction; Graft-versus-host disease; HIF-1 signaling pathway; Hepatocellular carcinoma; Nitrogen cycle; Nitrogen metabolism; Oxytocin signaling pathway; Pathways in cancer; Platelet activation; Relaxin signaling pathway; Renin secretion; Salivary secretion; Sphingolipid signaling pathway; Two-component system; Vascular smooth muscle contraction; cGMP-PKG signaling pathway
+Acetylcholine,C01996,Asthma,13,45.003,endogenous,known,Bile secretion; Cholinergic synapse; Folate transport and metabolism; Gastric acid secretion; Insulin secretion; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Nicotine addiction; Pancreatic secretion; Salivary secretion; Synaptic vesicle cycle; Taste transduction; cAMP signaling pathway
+Adenosine,C00212,Asthma,12,39.506,endogenous,known,ABC transporters; Alcoholism; Morphine addiction; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Parkinson disease; Regulation of lipolysis in adipocytes; Renin secretion; Sphingolipid signaling pathway; Vascular smooth muscle contraction; cAMP signaling pathway; cGMP-PKG signaling pathway
+Leukotriene C4,C02166,Asthma,6,27.798,endogenous,known,Arachidonic acid metabolism; Asthma; Bile secretion; Fc epsilon RI signaling pathway; Neuroactive ligand-receptor interaction; Serotonergic synapse
+Histamine,C00388,Asthma,7,26.532,endogenous,known,Asthma; Fc epsilon RI signaling pathway; Gastric acid secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Synaptic vesicle cycle
+Leukotriene B4,C02165,Asthma,5,24.768,endogenous,known,Arachidonic acid metabolism; Bile secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction; Serotonergic synapse
+Glutathione,C00051,Asthma,4,18.198,endogenous,known,ABC transporters; Bile secretion; Chemical carcinogenesis - reactive oxygen species; Thyroid hormone synthesis
+Leukotriene D4,C05951,Asthma,4,15.571,endogenous,known,Arachidonic acid metabolism; Asthma; Fc epsilon RI signaling pathway; Neuroactive ligand-receptor interaction
+Methotrexate,C01937,Asthma,2,12.849,drug,known,Bile secretion; Folate transport and metabolism
+Taurine,C00245,Asthma,3,12.027,endogenous,novel_candidate,ABC transporters; Neuroactive ligand-receptor interaction; Sulfur metabolism
+Aspirin,C01405,Asthma,1,10.773,other,known,Bile secretion
+Etoposide,C01576,Asthma,1,10.773,drug,novel_candidate,Bile secretion
+Penicillin G,C05551,Asthma,1,10.773,drug,novel_candidate,Bile secretion
+Acetaminophen,C06804,Asthma,1,10.773,other,known,Bile secretion
+Fexofenadine,C06999,Asthma,1,10.773,drug,novel_candidate,Bile secretion
+Paclitaxel,C07394,Asthma,1,10.773,other,novel_candidate,Bile secretion
+DDT,C04623,Asthma,2,10.031,environmental,known,Chemical carcinogenesis - reactive oxygen species; Chemical carcinogenesis - receptor activation
+Nicotine,C00745,Asthma,2,9.384,environmental,novel_candidate,Chemical carcinogenesis - receptor activation; Nicotine addiction
+Phenobarbital,C07434,Asthma,1,7.5,drug,known,Chemical carcinogenesis - receptor activation
+Bisphenol A,C13624,Asthma,1,7.5,environmental,known,Chemical carcinogenesis - receptor activation
+Acetaldehyde,C00084,Asthma,3,5.388,environmental,known,Chemical carcinogenesis - reactive oxygen species; Chloroalkane and chloroalkene degradation; Sulfur metabolism
+Acrolein,C01471,Asthma,2,4.948,environmental,novel_candidate,Hepatocellular carcinoma; Pathways in cancer
+Betaine,C00719,Asthma,2,4.93,endogenous,novel_candidate,ABC transporters; Folate transport and metabolism
+Resveratrol,C03582,Asthma,2,4.707,drug,known,Longevity regulating pathway; Longevity regulating pathway - worm
+Sirolimus,C07909,Asthma,2,4.707,other,novel_candidate,Longevity regulating pathway; Longevity regulating pathway - worm
+Vancomycin,C06689,Asthma,1,4.095,drug,novel_candidate,Two-component system
+Isoproterenol,C07056,Asthma,1,4.067,drug,known,Adrenergic signaling in cardiomyocytes
+Capsaicin,C06866,Asthma,1,3.327,other,novel_candidate,Inflammatory mediator regulation of TRP channels
+Ciprofloxacin,C05349,Asthma,1,2.854,drug,novel_candidate,ABC transporters
+Moxifloxacin,C07663,Asthma,1,2.854,drug,novel_candidate,ABC transporters
+Hydrogen sulfide,C00283,Asthma,2,2.819,other,known,Sulfur cycle; Sulfur metabolism
+Theophylline,C07130,Asthma,1,1.994,drug,known,Caffeine metabolism
+Caffeine,C07481,Asthma,1,1.994,other,novel_candidate,Caffeine metabolism
+"1,7-Dimethylxanthine",C13747,Asthma,1,1.994,drug,novel_candidate,Caffeine metabolism
+Phenanthrene,C11422,Asthma,1,1.617,environmental,known,Polycyclic aromatic hydrocarbon degradation
+Pyrene,C14335,Asthma,1,1.617,environmental,known,Polycyclic aromatic hydrocarbon degradation
+1-Hydroxypyrene,C14519,Asthma,1,1.617,environmental,known,Polycyclic aromatic hydrocarbon degradation
+Formaldehyde,C00067,Asthma,1,1.445,environmental,known,Chloroalkane and chloroalkene degradation
+Sulfur dioxide,C09306,Asthma,1,1.406,environmental,known,Sulfur cycle
+Nicotine,C00745,Bronchitis,3,11.358,environmental,known,Chemical carcinogenesis - receptor activation; Nicotine addiction; Thermogenesis
+DDT,C04623,Bronchitis,1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+Phenobarbital,C07434,Bronchitis,1,7.5,drug,novel_candidate,Chemical carcinogenesis - receptor activation
+Bisphenol A,C13624,Bronchitis,1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+Betaine,C00719,Bronchitis,2,4.93,endogenous,known,ABC transporters; Folate transport and metabolism
+Acetylcholine,C01996,Bronchitis,2,3.96,endogenous,novel_candidate,Folate transport and metabolism; Nicotine addiction
+Glutathione,C00051,Bronchitis,1,2.854,endogenous,novel_candidate,ABC transporters
+Adenosine,C00212,Bronchitis,1,2.854,endogenous,novel_candidate,ABC transporters
+Taurine,C00245,Bronchitis,1,2.854,endogenous,novel_candidate,ABC transporters
+Ciprofloxacin,C05349,Bronchitis,1,2.854,drug,novel_candidate,ABC transporters
+Moxifloxacin,C07663,Bronchitis,1,2.854,drug,novel_candidate,ABC transporters
+Methotrexate,C01937,Bronchitis,1,2.076,drug,novel_candidate,Folate transport and metabolism
+Theophylline,C07130,Bronchitis,1,1.994,drug,known,Caffeine metabolism
+Caffeine,C07481,Bronchitis,1,1.994,other,novel_candidate,Caffeine metabolism
+"1,7-Dimethylxanthine",C13747,Bronchitis,1,1.994,drug,novel_candidate,Caffeine metabolism
+Methotrexate,C01937,"Carcinoma, Bronchogenic",2,12.849,drug,known,Bile secretion; Folate transport and metabolism
+Acetylcholine,C01996,"Carcinoma, Bronchogenic",2,12.849,endogenous,novel_candidate,Bile secretion; Folate transport and metabolism
+Glutathione,C00051,"Carcinoma, Bronchogenic",1,10.773,endogenous,novel_candidate,Bile secretion
+Aspirin,C01405,"Carcinoma, Bronchogenic",1,10.773,other,novel_candidate,Bile secretion
+Etoposide,C01576,"Carcinoma, Bronchogenic",1,10.773,drug,known,Bile secretion
+Leukotriene B4,C02165,"Carcinoma, Bronchogenic",1,10.773,endogenous,novel_candidate,Bile secretion
+Leukotriene C4,C02166,"Carcinoma, Bronchogenic",1,10.773,endogenous,novel_candidate,Bile secretion
+Penicillin G,C05551,"Carcinoma, Bronchogenic",1,10.773,drug,novel_candidate,Bile secretion
+Acetaminophen,C06804,"Carcinoma, Bronchogenic",1,10.773,other,novel_candidate,Bile secretion
+Fexofenadine,C06999,"Carcinoma, Bronchogenic",1,10.773,drug,novel_candidate,Bile secretion
+Paclitaxel,C07394,"Carcinoma, Bronchogenic",1,10.773,other,novel_candidate,Bile secretion
+Betaine,C00719,"Carcinoma, Bronchogenic",1,2.076,endogenous,novel_candidate,Folate transport and metabolism
+Nitric oxide,C00533,Pneumonia,22,51.665,endogenous,known,Allograft rejection; Amoebiasis; Apelin signaling pathway; Chagas disease; Circadian entrainment; Estrogen signaling pathway; Gap junction; Graft-versus-host disease; HIF-1 signaling pathway; Hepatocellular carcinoma; Nitrogen cycle; Nitrogen metabolism; Oxytocin signaling pathway; Pathways in cancer; Platelet activation; Relaxin signaling pathway; Renin secretion; Salivary secretion; Sphingolipid signaling pathway; Two-component system; Vascular smooth muscle contraction; cGMP-PKG signaling pathway
+Acetylcholine,C01996,Pneumonia,4,23.982,endogenous,novel_candidate,Bile secretion; Folate transport and metabolism; Neuroactive ligand-receptor interaction; Salivary secretion
+Adenosine,C00212,Pneumonia,6,22.77,endogenous,novel_candidate,ABC transporters; Neuroactive ligand-receptor interaction; Renin secretion; Sphingolipid signaling pathway; Vascular smooth muscle contraction; cGMP-PKG signaling pathway
+Leukotriene B4,C02165,Pneumonia,3,21.86,endogenous,novel_candidate,Bile secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction
+Leukotriene C4,C02166,Pneumonia,2,18.533,endogenous,novel_candidate,Bile secretion; Neuroactive ligand-receptor interaction
+Glutathione,C00051,Pneumonia,2,13.627,endogenous,novel_candidate,ABC transporters; Bile secretion
+Methotrexate,C01937,Pneumonia,2,12.849,drug,known,Bile secretion; Folate transport and metabolism
+Taurine,C00245,Pneumonia,3,12.027,endogenous,known,ABC transporters; Neuroactive ligand-receptor interaction; Sulfur metabolism
+Histamine,C00388,Pneumonia,2,11.087,endogenous,novel_candidate,Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction
+Aspirin,C01405,Pneumonia,1,10.773,other,novel_candidate,Bile secretion
+Etoposide,C01576,Pneumonia,1,10.773,drug,novel_candidate,Bile secretion
+Penicillin G,C05551,Pneumonia,1,10.773,drug,known,Bile secretion
+Acetaminophen,C06804,Pneumonia,1,10.773,other,novel_candidate,Bile secretion
+Fexofenadine,C06999,Pneumonia,1,10.773,drug,novel_candidate,Bile secretion
+Paclitaxel,C07394,Pneumonia,1,10.773,other,known,Bile secretion
+Leukotriene D4,C05951,Pneumonia,1,7.76,endogenous,novel_candidate,Neuroactive ligand-receptor interaction
+Nicotine,C00745,Pneumonia,1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+DDT,C04623,Pneumonia,1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+Phenobarbital,C07434,Pneumonia,1,7.5,drug,novel_candidate,Chemical carcinogenesis - receptor activation
+Bisphenol A,C13624,Pneumonia,1,7.5,environmental,known,Chemical carcinogenesis - receptor activation
+Sirolimus,C07909,Pneumonia,3,6.591,other,known,Longevity regulating pathway; Longevity regulating pathway - worm; Type I polyketide structures
+Acrolein,C01471,Pneumonia,2,4.948,environmental,known,Hepatocellular carcinoma; Pathways in cancer
+Betaine,C00719,Pneumonia,2,4.93,endogenous,novel_candidate,ABC transporters; Folate transport and metabolism
+Resveratrol,C03582,Pneumonia,2,4.707,drug,novel_candidate,Longevity regulating pathway; Longevity regulating pathway - worm
+Vancomycin,C06689,Pneumonia,1,4.095,drug,known,Two-component system
+Capsaicin,C06866,Pneumonia,1,3.327,other,known,Inflammatory mediator regulation of TRP channels
+Acetaldehyde,C00084,Pneumonia,2,2.857,environmental,novel_candidate,Chloroalkane and chloroalkene degradation; Sulfur metabolism
+Ciprofloxacin,C05349,Pneumonia,1,2.854,drug,known,ABC transporters
+Moxifloxacin,C07663,Pneumonia,1,2.854,drug,known,ABC transporters
+Hydrogen sulfide,C00283,Pneumonia,2,2.819,other,novel_candidate,Sulfur cycle; Sulfur metabolism
+Theophylline,C07130,Pneumonia,1,1.994,drug,known,Caffeine metabolism
+Caffeine,C07481,Pneumonia,1,1.994,other,known,Caffeine metabolism
+"1,7-Dimethylxanthine",C13747,Pneumonia,1,1.994,drug,novel_candidate,Caffeine metabolism
+Erythromycin,C01912,Pneumonia,1,1.884,drug,known,Type I polyketide structures
+Amphotericin B,C06573,Pneumonia,1,1.884,drug,known,Type I polyketide structures
+Quercetin,C00389,Pneumonia,1,1.483,drug,novel_candidate,Degradation of flavonoids
+Apigenin,C01477,Pneumonia,1,1.483,drug,novel_candidate,Degradation of flavonoids
+Naringin,C09789,Pneumonia,1,1.483,drug,known,Degradation of flavonoids
+Formaldehyde,C00067,Pneumonia,1,1.445,environmental,known,Chloroalkane and chloroalkene degradation
+Sulfur dioxide,C09306,Pneumonia,1,1.406,environmental,known,Sulfur cycle
+Methotrexate,C01937,"Pulmonary Disease, Chronic Obstructive",2,12.849,drug,known,Bile secretion; Folate transport and metabolism
+Acetylcholine,C01996,"Pulmonary Disease, Chronic Obstructive",2,12.849,endogenous,novel_candidate,Bile secretion; Folate transport and metabolism
+Glutathione,C00051,"Pulmonary Disease, Chronic Obstructive",1,10.773,endogenous,novel_candidate,Bile secretion
+Aspirin,C01405,"Pulmonary Disease, Chronic Obstructive",1,10.773,other,novel_candidate,Bile secretion
+Etoposide,C01576,"Pulmonary Disease, Chronic Obstructive",1,10.773,drug,novel_candidate,Bile secretion
+Leukotriene B4,C02165,"Pulmonary Disease, Chronic Obstructive",1,10.773,endogenous,novel_candidate,Bile secretion
+Leukotriene C4,C02166,"Pulmonary Disease, Chronic Obstructive",1,10.773,endogenous,novel_candidate,Bile secretion
+Penicillin G,C05551,"Pulmonary Disease, Chronic Obstructive",1,10.773,drug,novel_candidate,Bile secretion
+Acetaminophen,C06804,"Pulmonary Disease, Chronic Obstructive",1,10.773,other,novel_candidate,Bile secretion
+Fexofenadine,C06999,"Pulmonary Disease, Chronic Obstructive",1,10.773,drug,novel_candidate,Bile secretion
+Paclitaxel,C07394,"Pulmonary Disease, Chronic Obstructive",1,10.773,other,novel_candidate,Bile secretion
+Nitric oxide,C00533,"Pulmonary Disease, Chronic Obstructive",2,4.948,endogenous,novel_candidate,Hepatocellular carcinoma; Pathways in cancer
+Acrolein,C01471,"Pulmonary Disease, Chronic Obstructive",2,4.948,environmental,known,Hepatocellular carcinoma; Pathways in cancer
+Resveratrol,C03582,"Pulmonary Disease, Chronic Obstructive",2,4.707,drug,known,Longevity regulating pathway; Longevity regulating pathway - worm
+Sirolimus,C07909,"Pulmonary Disease, Chronic Obstructive",2,4.707,other,novel_candidate,Longevity regulating pathway; Longevity regulating pathway - worm
+Betaine,C00719,"Pulmonary Disease, Chronic Obstructive",1,2.076,endogenous,novel_candidate,Folate transport and metabolism
+Theophylline,C07130,"Pulmonary Disease, Chronic Obstructive",1,1.994,drug,known,Caffeine metabolism
+Caffeine,C07481,"Pulmonary Disease, Chronic Obstructive",1,1.994,other,novel_candidate,Caffeine metabolism
+"1,7-Dimethylxanthine",C13747,"Pulmonary Disease, Chronic Obstructive",1,1.994,drug,known,Caffeine metabolism
+Quercetin,C00389,"Pulmonary Disease, Chronic Obstructive",1,1.483,drug,known,Degradation of flavonoids
+Apigenin,C01477,"Pulmonary Disease, Chronic Obstructive",1,1.483,drug,novel_candidate,Degradation of flavonoids
+Naringin,C09789,"Pulmonary Disease, Chronic Obstructive",1,1.483,drug,novel_candidate,Degradation of flavonoids
+Hydrogen sulfide,C00283,"Pulmonary Disease, Chronic Obstructive",1,1.406,other,novel_candidate,Sulfur cycle
+Sulfur dioxide,C09306,"Pulmonary Disease, Chronic Obstructive",1,1.406,environmental,known,Sulfur cycle
+Glutathione,C00051,"Rhinitis, Allergic",1,10.773,endogenous,novel_candidate,Bile secretion
+Aspirin,C01405,"Rhinitis, Allergic",1,10.773,other,novel_candidate,Bile secretion
+Etoposide,C01576,"Rhinitis, Allergic",1,10.773,drug,novel_candidate,Bile secretion
+Methotrexate,C01937,"Rhinitis, Allergic",1,10.773,drug,novel_candidate,Bile secretion
+Acetylcholine,C01996,"Rhinitis, Allergic",1,10.773,endogenous,novel_candidate,Bile secretion
+Leukotriene B4,C02165,"Rhinitis, Allergic",1,10.773,endogenous,novel_candidate,Bile secretion
+Leukotriene C4,C02166,"Rhinitis, Allergic",1,10.773,endogenous,novel_candidate,Bile secretion
+Penicillin G,C05551,"Rhinitis, Allergic",1,10.773,drug,novel_candidate,Bile secretion
+Acetaminophen,C06804,"Rhinitis, Allergic",1,10.773,other,novel_candidate,Bile secretion
+Fexofenadine,C06999,"Rhinitis, Allergic",1,10.773,drug,known,Bile secretion
+Paclitaxel,C07394,"Rhinitis, Allergic",1,10.773,other,novel_candidate,Bile secretion
+Nicotine,C00745,"Rhinitis, Allergic",1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+DDT,C04623,"Rhinitis, Allergic",1,7.5,environmental,novel_candidate,Chemical carcinogenesis - receptor activation
+Phenobarbital,C07434,"Rhinitis, Allergic",1,7.5,drug,novel_candidate,Chemical carcinogenesis - receptor activation
+Bisphenol A,C13624,"Rhinitis, Allergic",1,7.5,environmental,known,Chemical carcinogenesis - receptor activation
+Quercetin,C00389,"Rhinitis, Allergic",1,1.483,drug,novel_candidate,Degradation of flavonoids
+Apigenin,C01477,"Rhinitis, Allergic",1,1.483,drug,known,Degradation of flavonoids
+Naringin,C09789,"Rhinitis, Allergic",1,1.483,drug,novel_candidate,Degradation of flavonoids
+Hydrogen sulfide,C00283,"Rhinitis, Allergic",1,1.406,other,novel_candidate,Sulfur cycle
+Sulfur dioxide,C09306,"Rhinitis, Allergic",1,1.406,environmental,known,Sulfur cycle

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chemical–Disease Associations</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/dist/vis-network.min.js"></script>
+<style>
+  body{font-family:system-ui,Arial,sans-serif;margin:0;color:#1a2233;background:#f5f7fa}
+  header{background:#1f3a5f;color:#fff;padding:16px 24px}
+  header h1{margin:0;font-size:18px}
+  .wrap{display:flex;gap:16px;padding:16px;flex-wrap:wrap}
+  .panel{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px;flex:1;min-width:320px}
+  select,button{font-size:14px;padding:7px 10px;border-radius:7px;border:1px solid #cbd5e1}
+  button{background:#1f3a5f;color:#fff;border:0;cursor:pointer}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid #eef2f7}
+  .tag{font-size:11px;padding:2px 7px;border-radius:10px;color:#fff}
+  .known{background:#2980b9}.novel{background:#27ae60}
+  #graph{height:560px;border:1px solid #e2e8f0;border-radius:10px;background:#fff}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  small{color:#64748b}
+</style>
+</head>
+<body>
+<header><h1>Chemical–Disease Associations <small style="color:#9fb6d6">· research preview backend</small></h1></header>
+<div class="wrap">
+  <div class="panel" style="flex:0 0 380px">
+    <div class="row">
+      <label>Disease</label>
+      <select id="disease"></select>
+    </div>
+    <div class="row" style="margin-top:8px">
+      <label>Source</label>
+      <select id="source"><option value="network">network (pathways)</option><option value="model">model (XGBoost)</option></select>
+      <label><input type="checkbox" id="novel"> novel only</label>
+    </div>
+    <div class="row" style="margin-top:8px">
+      <label>Compounds</label>
+      <select id="cclass">
+        <option value="environmental">environmental (default)</option>
+        <option value="">all classes</option>
+        <option value="drug">drug</option>
+        <option value="endogenous">endogenous</option>
+        <option value="other">other</option>
+      </select>
+      <button onclick="loadChems()">Rank</button>
+    </div>
+    <table id="tbl"><thead><tr><th>#</th><th>Chemical</th><th>Score</th><th></th></tr></thead><tbody></tbody></table>
+    <p><small id="note"></small></p>
+  </div>
+  <div class="panel">
+    <div class="row"><b>Network</b><small>blue = known link · green = novel candidate · edge width = shared pathways</small></div>
+    <div id="graph"></div>
+  </div>
+</div>
+<script>
+const API = location.origin;
+async function j(u){const r=await fetch(API+u);if(!r.ok)throw new Error((await r.json()).detail||r.status);return r.json();}
+async function init(){
+  const ds = await j('/api/diseases');
+  document.getElementById('disease').innerHTML = ds.map(d=>`<option>${d}</option>`).join('');
+  loadChems(); drawGraph();
+}
+async function loadChems(){
+  const d=document.getElementById('disease').value;
+  const src=document.getElementById('source').value;
+  const nov=document.getElementById('novel').checked;
+  const cc=document.getElementById('cclass').value;
+  const note=document.getElementById('note'); note.textContent='';
+  try{
+    const r=await j(`/api/disease/${encodeURIComponent(d)}/chemicals?source=${src}&novel_only=${nov}&limit=25&classes=${encodeURIComponent(cc)}`);
+    const tb=document.querySelector('#tbl tbody');
+    tb.innerHTML=r.chemicals.map((c,i)=>{
+      const score=(c.score!=null)?c.score.toFixed(3):(c.sig_weight!=null?c.sig_weight.toFixed(1)+` (${c.shared_pathways}p)`:'');
+      const tag=c.link_type?`<span class="tag ${c.link_type==='known'?'known':'novel'}">${c.link_type==='known'?'known':'novel'}</span>`:'';
+      return `<tr><td>${i+1}</td><td>${c.ChemicalName}</td><td>${score}</td><td>${tag}</td></tr>`;
+    }).join('');
+    drawGraph(d);
+  }catch(e){note.textContent='⚠ '+e.message;}
+}
+async function drawGraph(d){
+  const dd=d||document.getElementById('disease').value;
+  const cc=document.getElementById('cclass').value;
+  const g=await j(`/api/network?disease=${encodeURIComponent(dd)}&max_edges=80&classes=${encodeURIComponent(cc)}`);
+  const nodes=g.nodes.map(n=>({id:n.id,label:n.label,
+     shape:n.type==='disease'?'box':'dot',
+     color:n.type==='disease'?'#c0392b':'#2980b9',
+     size:n.type==='disease'?22:12,font:{size:n.type==='disease'?16:12}}));
+  const edges=g.links.map(l=>({from:l.source,to:l.target,value:l.weight,
+     color:l.link_type==='known'?'#9aa7b5':'#27ae60'}));
+  new vis.Network(document.getElementById('graph'),
+     {nodes:new vis.DataSet(nodes),edges:new vis.DataSet(edges)},
+     {physics:{stabilization:true,barnesHut:{springLength:130}}});
+}
+init();
+</script>
+</body>
+</html>

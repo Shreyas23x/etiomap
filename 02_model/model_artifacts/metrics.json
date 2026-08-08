@@ -1,0 +1,10 @@
+{
+  "honest_roc_auc": 0.7996981957879953,
+  "honest_pr_auc": 0.48837858019747415,
+  "optimistic_roc_auc": 0.7365901168159571,
+  "optimistic_pr_auc": 0.4139005138749775,
+  "positives": 520,
+  "pairs": 2478,
+  "chemicals": 474,
+  "diseases": 6
+}

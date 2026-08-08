@@ -1,0 +1,18 @@
+# ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,PubMedIDs
+BRONCHOGENIC LUNG CANCER (16 compounds),,,,,,
+Asbestos,D001194,1332-21-4,"Carcinoma, Bronchogenic",MESH:D002283,marker/mechanism,23885834
+Busulfan,D002066,55-98-1,"Carcinoma, Bronchogenic",MESH:D002283,marker/mechanism,4301103
+Carboplatin,D016190,41575-94-4,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,9137524
+Cisplatin,D002945,15663-27-1,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,9137524
+Cyclophosphamide,D003520,50-18-0,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+Dactinomycin,D003609,50-76-0,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+Etoposide,D005047,33419-42-0,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,9137524
+Hydroxyurea,D006918,127-07-1,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+Ifosfamide,D007069,3778-73-2,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,2156418|6106781
+Lomustine,D008130,13010-47-4,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+Methotrexate,D008727,59-05-2,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+"pregna-4,17-diene-3,16-dione",C023617,95975-55-6,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,17475222
+Streptozocin,D013311,18883-66-4,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4261143
+strontium chromate,C048629,02-06-7789,"Carcinoma, Bronchogenic",MESH:D002283,marker/mechanism,16194677
+Vincristine,D014750,,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,4559404
+Vindesine,D014751,53643-48-4,"Carcinoma, Bronchogenic",MESH:D002283,therapeutic,455587|6282107

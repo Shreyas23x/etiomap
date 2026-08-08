@@ -1,0 +1,3218 @@
+{
+ "diseases": [
+  "Asthma",
+  "Bronchitis",
+  "Carcinoma, Bronchogenic",
+  "Pneumonia",
+  "Pulmonary Disease, Chronic Obstructive",
+  "Rhinitis, Allergic"
+ ],
+ "edges": [
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Asthma",
+   "shared_pathways": 82,
+   "jaccard": 0.3942,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Nitric Oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Asthma",
+   "shared_pathways": 39,
+   "jaccard": 0.1875,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Asthma",
+   "shared_pathways": 29,
+   "jaccard": 0.1394,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Asthma",
+   "shared_pathways": 20,
+   "jaccard": 0.0962,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Norepinephrine",
+   "KEGG_ID": "C00547",
+   "Disease": "Asthma",
+   "shared_pathways": 17,
+   "jaccard": 0.0817,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Asthma",
+   "shared_pathways": 16,
+   "jaccard": 0.0769,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Asthma",
+   "shared_pathways": 16,
+   "jaccard": 0.0769,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetaldehyde",
+   "KEGG_ID": "C00084",
+   "Disease": "Asthma",
+   "shared_pathways": 14,
+   "jaccard": 0.0673,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Asthma",
+   "shared_pathways": 11,
+   "jaccard": 0.0507,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Histamine",
+   "KEGG_ID": "C00388",
+   "Disease": "Asthma",
+   "shared_pathways": 10,
+   "jaccard": 0.0481,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Oxygen",
+   "KEGG_ID": "C00007",
+   "Disease": "Asthma",
+   "shared_pathways": 10,
+   "jaccard": 0.0478,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "phosphatidylinositol 3,4-diphosphate",
+   "KEGG_ID": "C01194",
+   "Disease": "Asthma",
+   "shared_pathways": 10,
+   "jaccard": 0.0481,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Asthma",
+   "shared_pathways": 9,
+   "jaccard": 0.0433,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Asthma",
+   "shared_pathways": 8,
+   "jaccard": 0.0385,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Asthma",
+   "shared_pathways": 7,
+   "jaccard": 0.0337,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Asthma",
+   "shared_pathways": 7,
+   "jaccard": 0.0337,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tretinoin",
+   "KEGG_ID": "C00777",
+   "Disease": "Asthma",
+   "shared_pathways": 7,
+   "jaccard": 0.0337,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "lipopolysaccharide, Escherichia coli O111 B4",
+   "KEGG_ID": "C00338",
+   "Disease": "Asthma",
+   "shared_pathways": 7,
+   "jaccard": 0.0326,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Asthma",
+   "shared_pathways": 6,
+   "jaccard": 0.0288,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Asthma",
+   "shared_pathways": 5,
+   "jaccard": 0.0239,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vitamin A",
+   "KEGG_ID": "C00072",
+   "Disease": "Asthma",
+   "shared_pathways": 5,
+   "jaccard": 0.024,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "pyrene",
+   "KEGG_ID": "C07535",
+   "Disease": "Asthma",
+   "shared_pathways": 5,
+   "jaccard": 0.024,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4,4'-diphenylmethane diisocyanate",
+   "KEGG_ID": "C00004",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Carbon Monoxide",
+   "KEGG_ID": "C00237",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Leukotriene D4",
+   "KEGG_ID": "C05951",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Manganese",
+   "KEGG_ID": "C00034",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0191,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Tetrachlorodibenzodioxin",
+   "KEGG_ID": "C07557",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Zinc Sulfate",
+   "KEGG_ID": "C00038",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "jaccard": 0.0192,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",
+   "KEGG_ID": "C00398",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Hydrogen Sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "nickel sulfate",
+   "KEGG_ID": "C00291",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Platelet Activating Factor",
+   "KEGG_ID": "C04598",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "ceric oxide",
+   "KEGG_ID": "C00258",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0143,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "geraniol",
+   "KEGG_ID": "C01500",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "jaccard": 0.0144,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4-hydroxy-2-nonenal",
+   "KEGG_ID": "C21642",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Capsaicin",
+   "KEGG_ID": "C06866",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Eucalyptol",
+   "KEGG_ID": "C09844",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Formaldehyde",
+   "KEGG_ID": "C00067",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Heparin",
+   "KEGG_ID": "C00374",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Niacin",
+   "KEGG_ID": "C00153",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0095,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sulfur Dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "jaccard": 0.0096,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,7-dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1-hydroxypyrene",
+   "KEGG_ID": "C14519",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "2,4-Dichlorophenoxyacetic Acid",
+   "KEGG_ID": "C03664",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4-dichlorobenzene",
+   "KEGG_ID": "C07092",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "8-epi-prostaglandin F2alpha",
+   "KEGG_ID": "C13809",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Atrazine",
+   "KEGG_ID": "C06551",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cadmium",
+   "KEGG_ID": "C01413",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cobalt",
+   "KEGG_ID": "C00175",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cocaine",
+   "KEGG_ID": "C01416",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Creatinine",
+   "KEGG_ID": "C00791",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ephedrine",
+   "KEGG_ID": "C01575",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Ethylene Dibromide",
+   "KEGG_ID": "C11088",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hexachlorocyclohexane",
+   "KEGG_ID": "C06988",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Hyaluronic Acid",
+   "KEGG_ID": "C00518",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydroxyurea",
+   "KEGG_ID": "C07044",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Iron",
+   "KEGG_ID": "C00023",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Isoproterenol",
+   "KEGG_ID": "C07056",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Mustard Gas",
+   "KEGG_ID": "C19164",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Parathion",
+   "KEGG_ID": "C06604",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0047,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "theophylline, salbutamol drug combination",
+   "KEGG_ID": "C07130",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vancomycin",
+   "KEGG_ID": "C06689",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vincristine",
+   "KEGG_ID": "C07204",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "angiotensin I (1-7)",
+   "KEGG_ID": "C15850",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "arsenite",
+   "KEGG_ID": "C06697",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "cobalt oxide",
+   "KEGG_ID": "C19171",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "epigallocatechin gallate",
+   "KEGG_ID": "C09731",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "gamma-Tocopherol",
+   "KEGG_ID": "C02483",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "phenanthrene",
+   "KEGG_ID": "C03164",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "solasodine",
+   "KEGG_ID": "C10822",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "syringin",
+   "KEGG_ID": "C01533",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "jaccard": 0.0048,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Bronchitis",
+   "shared_pathways": 6,
+   "jaccard": 0.4286,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Bronchitis",
+   "shared_pathways": 3,
+   "jaccard": 0.2143,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Bronchitis",
+   "shared_pathways": 3,
+   "jaccard": 0.0323,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Bronchitis",
+   "shared_pathways": 3,
+   "jaccard": 0.1579,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "pyrene",
+   "KEGG_ID": "C07535",
+   "Disease": "Bronchitis",
+   "shared_pathways": 3,
+   "jaccard": 0.1875,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "jaccard": 0.0488,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Norepinephrine",
+   "KEGG_ID": "C00547",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "jaccard": 0.069,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Tetracycline",
+   "KEGG_ID": "C02811",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "jaccard": 0.1429,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "1,7-dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "4,4'-diphenylmethane diisocyanate",
+   "KEGG_ID": "C00004",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0588,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0303,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0303,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cobalt",
+   "KEGG_ID": "C00175",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cocaine",
+   "KEGG_ID": "C01416",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0625,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Daunorubicin",
+   "KEGG_ID": "C01907",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Diacetyl",
+   "KEGG_ID": "C00741",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ethylene Dibromide",
+   "KEGG_ID": "C11088",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0455,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.05,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0526,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Manganese",
+   "KEGG_ID": "C00034",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0588,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Mustard Gas",
+   "KEGG_ID": "C19164",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Niacin",
+   "KEGG_ID": "C00153",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0625,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "nickel sulfate",
+   "KEGG_ID": "C00291",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0625,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Nitric Oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0192,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.05,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0556,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Tetrachlorodibenzodioxin",
+   "KEGG_ID": "C07557",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0588,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "theophylline, salbutamol drug combination",
+   "KEGG_ID": "C07130",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Zinc Sulfate",
+   "KEGG_ID": "C00038",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0588,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "arsenite",
+   "KEGG_ID": "C06697",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "lipopolysaccharide, Escherichia coli O111 B4",
+   "KEGG_ID": "C00338",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "jaccard": 0.037,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 2,
+   "jaccard": 0.1053,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 2,
+   "jaccard": 0.4,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 2,
+   "jaccard": 0.4,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.05,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",
+   "KEGG_ID": "C00398",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.1429,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.1429,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0303,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.1429,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0417,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0417,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0116,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0833,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0769,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydroxyurea",
+   "KEGG_ID": "C07044",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Ifosfamide",
+   "KEGG_ID": "C07047",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0909,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.1,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.1667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.0909,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vincristine",
+   "KEGG_ID": "C07204",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "jaccard": 0.2,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Nitric Oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Pneumonia",
+   "shared_pathways": 39,
+   "jaccard": 0.3171,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Pneumonia",
+   "shared_pathways": 28,
+   "jaccard": 0.1582,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Pneumonia",
+   "shared_pathways": 20,
+   "jaccard": 0.1626,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Pneumonia",
+   "shared_pathways": 16,
+   "jaccard": 0.1301,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "lipopolysaccharide, Escherichia coli O111 B4",
+   "KEGG_ID": "C00338",
+   "Disease": "Pneumonia",
+   "shared_pathways": 14,
+   "jaccard": 0.1138,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Pneumonia",
+   "shared_pathways": 13,
+   "jaccard": 0.0935,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Pneumonia",
+   "shared_pathways": 13,
+   "jaccard": 0.1,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Oxygen",
+   "KEGG_ID": "C00007",
+   "Disease": "Pneumonia",
+   "shared_pathways": 11,
+   "jaccard": 0.0894,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Pneumonia",
+   "shared_pathways": 7,
+   "jaccard": 0.053,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Norepinephrine",
+   "KEGG_ID": "C00547",
+   "Disease": "Pneumonia",
+   "shared_pathways": 7,
+   "jaccard": 0.0526,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Pneumonia",
+   "shared_pathways": 6,
+   "jaccard": 0.048,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Pneumonia",
+   "shared_pathways": 6,
+   "jaccard": 0.0476,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Pneumonia",
+   "shared_pathways": 5,
+   "jaccard": 0.0407,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "ceric oxide",
+   "KEGG_ID": "C00258",
+   "Disease": "Pneumonia",
+   "shared_pathways": 5,
+   "jaccard": 0.0407,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetaldehyde",
+   "KEGG_ID": "C00084",
+   "Disease": "Pneumonia",
+   "shared_pathways": 4,
+   "jaccard": 0.0301,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Manganese",
+   "KEGG_ID": "C00034",
+   "Disease": "Pneumonia",
+   "shared_pathways": 4,
+   "jaccard": 0.0325,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Pneumonia",
+   "shared_pathways": 4,
+   "jaccard": 0.0325,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Zinc Sulfate",
+   "KEGG_ID": "C00038",
+   "Disease": "Pneumonia",
+   "shared_pathways": 4,
+   "jaccard": 0.0325,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Carbon Monoxide",
+   "KEGG_ID": "C00237",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0242,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Farnesol",
+   "KEGG_ID": "C01126",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Histamine",
+   "KEGG_ID": "C00388",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0231,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrogen Sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0236,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Niacin",
+   "KEGG_ID": "C00153",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "nickel sulfate",
+   "KEGG_ID": "C00291",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vancomycin",
+   "KEGG_ID": "C06689",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "jaccard": 0.0244,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",
+   "KEGG_ID": "C00398",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0161,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "4,4'-diphenylmethane diisocyanate",
+   "KEGG_ID": "C00004",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.016,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "4-hydroxy-2-nonenal",
+   "KEGG_ID": "C21642",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0161,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Capsaicin",
+   "KEGG_ID": "C06866",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Erythromycin",
+   "KEGG_ID": "C01912",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Formaldehyde",
+   "KEGG_ID": "C00067",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Hyaluronic Acid",
+   "KEGG_ID": "C00518",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0157,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0157,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.016,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0161,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0156,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sulfur Dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tetrachlorodibenzodioxin",
+   "KEGG_ID": "C07557",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.016,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vitamin A",
+   "KEGG_ID": "C00072",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0159,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "angiotensin I (1-7)",
+   "KEGG_ID": "C15850",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0163,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "phosphatidylinositol 3,4-diphosphate",
+   "KEGG_ID": "C01194",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0153,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "pyrene",
+   "KEGG_ID": "C07535",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "jaccard": 0.0159,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,7-dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "2,4-Dichlorophenoxyacetic Acid",
+   "KEGG_ID": "C03664",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4-dichlorobenzene",
+   "KEGG_ID": "C07092",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Amphotericin B",
+   "KEGG_ID": "C06573",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01460",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Bleomycin",
+   "KEGG_ID": "C01895",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cadmium",
+   "KEGG_ID": "C01413",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Ofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cobalt",
+   "KEGG_ID": "C00175",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cocaine",
+   "KEGG_ID": "C01416",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Creatinine",
+   "KEGG_ID": "C00791",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.008,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Daunorubicin",
+   "KEGG_ID": "C01907",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Dronabinol",
+   "KEGG_ID": "C06972",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Ephedrine",
+   "KEGG_ID": "C01575",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Eucalyptol",
+   "KEGG_ID": "C09844",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Heparin",
+   "KEGG_ID": "C00374",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hexachlorocyclohexane",
+   "KEGG_ID": "C06988",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ifosfamide",
+   "KEGG_ID": "C07047",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Iron",
+   "KEGG_ID": "C00023",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Leukotriene D4",
+   "KEGG_ID": "C05951",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0079,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Mustard Gas",
+   "KEGG_ID": "C19164",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Platelet Activating Factor",
+   "KEGG_ID": "C04598",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.008,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sodium Selenite",
+   "KEGG_ID": "C05684",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Streptomycin",
+   "KEGG_ID": "C00413",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tetracycline",
+   "KEGG_ID": "C02811",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "theophylline, salbutamol drug combination",
+   "KEGG_ID": "C07130",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tobramycin",
+   "KEGG_ID": "C00397",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tretinoin",
+   "KEGG_ID": "C00777",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0078,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ursodeoxycholic Acid",
+   "KEGG_ID": "C07880",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vincristine",
+   "KEGG_ID": "C07204",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "cobalt oxide",
+   "KEGG_ID": "C19171",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "geraniol",
+   "KEGG_ID": "C01500",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.008,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "solasodine",
+   "KEGG_ID": "C10822",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "jaccard": 0.0081,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 17,
+   "jaccard": 0.1532,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Norepinephrine",
+   "KEGG_ID": "C00547",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 17,
+   "jaccard": 0.3696,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Nitric Oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 9,
+   "jaccard": 0.1184,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 8,
+   "jaccard": 0.1481,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 7,
+   "jaccard": 0.1029,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 5,
+   "jaccard": 0.082,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.069,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon Monoxide",
+   "KEGG_ID": "C00237",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.087,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Histamine",
+   "KEGG_ID": "C00388",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.0769,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.0784,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.087,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tetrachlorodibenzodioxin",
+   "KEGG_ID": "C07557",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 4,
+   "jaccard": 0.087,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",
+   "KEGG_ID": "C00398",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0652,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Acetaldehyde",
+   "KEGG_ID": "C00084",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0526,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0652,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0476,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0652,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0588,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.06,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Oxygen",
+   "KEGG_ID": "C00007",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0556,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0652,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "pyrene",
+   "KEGG_ID": "C07535",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 3,
+   "jaccard": 0.0625,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "4-hydroxy-2-nonenal",
+   "KEGG_ID": "C21642",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01460",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0426,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Eucalyptol",
+   "KEGG_ID": "C09844",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Formaldehyde",
+   "KEGG_ID": "C00067",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hyaluronic Acid",
+   "KEGG_ID": "C00518",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Hydrogen Sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0426,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.04,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "nickel sulfate",
+   "KEGG_ID": "C00291",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0426,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.04,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0392,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0417,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sulfur Dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "jaccard": 0.0435,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "1,7-dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4,4'-diphenylmethane diisocyanate",
+   "KEGG_ID": "C00004",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0204,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cadmium",
+   "KEGG_ID": "C01413",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Capsaicin",
+   "KEGG_ID": "C06866",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0213,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Creatinine",
+   "KEGG_ID": "C00791",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Ifosfamide",
+   "KEGG_ID": "C07047",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Iron",
+   "KEGG_ID": "C00023",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Isoproterenol",
+   "KEGG_ID": "C07056",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene D4",
+   "KEGG_ID": "C05951",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0204,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Manganese",
+   "KEGG_ID": "C00034",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0204,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Mustard Gas",
+   "KEGG_ID": "C19164",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Niacin",
+   "KEGG_ID": "C00153",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0208,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0213,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Platelet Activating Factor",
+   "KEGG_ID": "C04598",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0208,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.02,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "theophylline, salbutamol drug combination",
+   "KEGG_ID": "C07130",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Tretinoin",
+   "KEGG_ID": "C00777",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0192,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vancomycin",
+   "KEGG_ID": "C06689",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0208,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vincristine",
+   "KEGG_ID": "C07204",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Zinc Sulfate",
+   "KEGG_ID": "C00038",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0204,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "arsenite",
+   "KEGG_ID": "C06697",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "ceric oxide",
+   "KEGG_ID": "C00258",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.02,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "cobalt oxide",
+   "KEGG_ID": "C19171",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "epigallocatechin gallate",
+   "KEGG_ID": "C09731",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0217,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "geraniol",
+   "KEGG_ID": "C01500",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0208,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "lipopolysaccharide, Escherichia coli O111 B4",
+   "KEGG_ID": "C00338",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "jaccard": 0.0169,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "4,4'-diphenylmethane diisocyanate",
+   "KEGG_ID": "C00004",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 4,
+   "jaccard": 0.2857,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Cyclic AMP",
+   "KEGG_ID": "C00575",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 4,
+   "jaccard": 0.0435,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00002",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 3,
+   "jaccard": 0.075,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Carbon",
+   "KEGG_ID": "C00011",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 3,
+   "jaccard": 0.0968,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Cholesterol, Dietary",
+   "KEGG_ID": "C00187",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 3,
+   "jaccard": 0.0968,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "geraniol",
+   "KEGG_ID": "C01500",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 3,
+   "jaccard": 0.2143,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "1,6-hexamethylene diisocyanate",
+   "KEGG_ID": "C00001",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01460",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.1429,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00318",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.1333,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.1,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrogen Sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.1333,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.125,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Sulfur Dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 2,
+   "jaccard": 0.1429,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "2,4-Dichlorophenoxyacetic Acid",
+   "KEGG_ID": "C03664",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "4-dichlorobenzene",
+   "KEGG_ID": "C07092",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0345,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Atrazine",
+   "KEGG_ID": "C06551",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "Docetaxel",
+   "KEGG_ID": "C11231",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Norepinephrine",
+   "KEGG_ID": "C00547",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0333,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Eucalyptol",
+   "KEGG_ID": "C09844",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hexachlorocyclohexane",
+   "KEGG_ID": "C06988",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Hydrocortisone",
+   "KEGG_ID": "C00735",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0455,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.05,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0526,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0526,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Oxygen",
+   "KEGG_ID": "C00007",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0417,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Salicylic Acid",
+   "KEGG_ID": "C00805",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.05,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "Vinblastine",
+   "KEGG_ID": "C07201",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "known"
+  },
+  {
+   "ChemicalName": "naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0667,
+   "link_type": "novel_candidate"
+  },
+  {
+   "ChemicalName": "solasodine",
+   "KEGG_ID": "C10822",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "jaccard": 0.0714,
+   "link_type": "novel_candidate"
+  }
+ ],
+ "kegg_name": {
+  "C00001": "1,6-hexamethylene diisocyanate",
+  "C13747": "1,7-dimethylxanthine",
+  "C14519": "1-hydroxypyrene",
+  "C19457": "1-methylphenanthrene",
+  "C03664": "2,4-Dichlorophenoxyacetic Acid",
+  "C00398": "3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",
+  "C00004": "4,4'-diphenylmethane diisocyanate",
+  "C07092": "4-dichlorobenzene",
+  "C21642": "4-hydroxy-2-nonenal",
+  "C02242": "7-methylguanine",
+  "C13809": "8-epi-prostaglandin F2alpha",
+  "C00084": "Acetaldehyde",
+  "C06804": "Acetaminophen",
+  "C06805": "Acetazolamide",
+  "C01996": "Acetylcholine",
+  "C01471": "Acrolein",
+  "C00002": "Adenosine",
+  "C11770": "Albuterol",
+  "C11015": "Aldicarb",
+  "C13391": "aluminum oxide hydroxide",
+  "C11694": "Amides",
+  "C06820": "Amikacin",
+  "C06823": "Amiodarone",
+  "C06573": "Amphotericin B",
+  "C06574": "Ampicillin",
+  "C07638": "Antimony",
+  "C01460": "Apigenin",
+  "C01478": "Arsenic",
+  "C13619": "Arsenic Trioxide",
+  "C16442": "Asbestos, Serpentine",
+  "C01405": "Aspirin",
+  "C06832": "Astemizole",
+  "C06551": "Atrazine",
+  "C06838": "Azithromycin",
+  "C06842": "Beclomethasone",
+  "C00318": "Betaine",
+  "C01895": "Bleomycin",
+  "C06862": "Busulfan",
+  "C14693": "Butylated Hydroxytoluene",
+  "C01413": "Cadmium",
+  "C15233": "Cadmium Chloride",
+  "C07481": "Caffeine",
+  "C13194": "Calcium Sulfate",
+  "C06866": "Capsaicin",
+  "C00145": "Captan",
+  "C07491": "Carbaryl",
+  "C06869": "Carbenicillin",
+  "C07615": "Carbimazole",
+  "C00011": "Carbon",
+  "C19033": "Carbon Disulfide",
+  "C00237": "Carbon Monoxide",
+  "C07561": "Carbon Tetrachloride",
+  "C06873": "Carmustine",
+  "C06881": "Cefixime",
+  "C06885": "Cefotaxime",
+  "C08115": "Cefpodoxime Proxetil",
+  "C06889": "Ceftazidime",
+  "C06683": "Ceftriaxone",
+  "C06894": "Cefuroxime",
+  "C07761": "Cephalothin",
+  "C07778": "Cetirizine",
+  "C00918": "Chloramphenicol",
+  "C14176": "Chlordan",
+  "C14322": "Chlorpyrifos",
+  "C00187": "Cholesterol, Dietary",
+  "C05349": "Ofloxacin",
+  "C06911": "Cisplatin",
+  "C06912": "Clarithromycin",
+  "C08400": "Coal",
+  "C00175": "Cobalt",
+  "C01416": "Cocaine",
+  "C18713": "Copper Sulfate",
+  "C11025": "Coumaphos",
+  "C00791": "Creatinine",
+  "C06928": "Cromolyn Sodium",
+  "C00575": "Cyclic AMP",
+  "C01066": "Cyclohexane",
+  "C06933": "Cyclophosphamide",
+  "C02961": "Cytarabine",
+  "C04623": "DDT",
+  "C06770": "Dactinomycin",
+  "C06939": "Dantrolene",
+  "C07666": "Dapsone",
+  "C01907": "Daunorubicin",
+  "C06943": "Desipramine",
+  "C08174": "Dexamethasone",
+  "C06947": "Dextromethorphan",
+  "C00741": "Diacetyl",
+  "C14324": "Diazinon",
+  "C18597": "Dicamba",
+  "C01691": "Diflunisal",
+  "C14326": "Dimethoate",
+  "C13229": "Dipyrone",
+  "C11231": "Docetaxel",
+  "C06973": "Doxycycline",
+  "C06972": "Dronabinol",
+  "C11081": "EPTC",
+  "C10294": "Emodin",
+  "C06977": "Enalapril",
+  "C06979": "Enoxacin",
+  "C01575": "Ephedrine",
+  "C00547": "Norepinephrine",
+  "C01912": "Erythromycin",
+  "C09264": "Esculin",
+  "C11088": "Ethylene Dibromide",
+  "C06991": "Etodolac",
+  "C01576": "Etoposide",
+  "C09844": "Eucalyptol",
+  "C01126": "Farnesol",
+  "C13179": "Fleroxacin",
+  "C07815": "Fluticasone",
+  "C00067": "Formaldehyde",
+  "C07805": "Formoterol Fumarate",
+  "C07650": "Gemcitabine",
+  "C00051": "Glutathione",
+  "C01705": "Glyphosate",
+  "C07515": "Halothane",
+  "C00374": "Heparin",
+  "C14185": "Heptachlor",
+  "C06534": "Heroin",
+  "C06988": "Hexachlorocyclohexane",
+  "C11205": "Hexadimethrine Bromide",
+  "C00388": "Histamine",
+  "C00518": "Hyaluronic Acid",
+  "C00735": "Hydrocortisone",
+  "C00283": "Hydrogen Sulfide",
+  "C07044": "Hydroxyurea",
+  "C01588": "Ibuprofen",
+  "C07047": "Ifosfamide",
+  "C01926": "Indomethacin",
+  "C07052": "Ipratropium",
+  "C00023": "Iron",
+  "C07056": "Isoproterenol",
+  "C07464": "Ketanserin",
+  "C01716": "Ketoprofen",
+  "C02165": "Leukotriene B4",
+  "C02166": "Leukotriene C4",
+  "C05951": "Leukotriene D4",
+  "C08146": "Linezolid",
+  "C07079": "Lomustine",
+  "C07497": "Malathion",
+  "C00034": "Manganese",
+  "C07115": "Mechlorethamine",
+  "C00703": "Mercury",
+  "C07144": "Metaproterenol",
+  "C07471": "Methacholine Chloride",
+  "C11196": "Methomyl",
+  "C01937": "Methotrexate",
+  "C08179": "Methylprednisolone",
+  "C07868": "Metoclopramide",
+  "C07221": "Mezlocillin",
+  "C15819": "Micafungin",
+  "C07225": "Minocycline",
+  "C07817": "Mometasone Furoate",
+  "C07663": "Moxifloxacin",
+  "C19164": "Mustard Gas",
+  "C07255": "Nedocromil",
+  "C00153": "Niacin",
+  "C07264": "Nicardipine",
+  "C00291": "nickel sulfate",
+  "C00745": "Nicotine",
+  "C07266": "Nifedipine",
+  "C00533": "Nitric Oxide",
+  "C00007": "Oxygen",
+  "C07363": "Oxymetazoline",
+  "C14694": "Ozone",
+  "C07394": "Paclitaxel",
+  "C00225": "Paraquat",
+  "C06604": "Parathion",
+  "C05551": "Penicillin G",
+  "C10984": "Permethrin",
+  "C07591": "Phenacetin",
+  "C07434": "Phenobarbital",
+  "C18690": "Phorate",
+  "C14310": "Picloram",
+  "C07361": "Piperacillin",
+  "C01608": "Piroxicam",
+  "C04598": "Platelet Activating Factor",
+  "C07369": "Prednisolone",
+  "C07370": "Prednisone",
+  "C13235": "Procaterol",
+  "C07407": "Propranolol",
+  "C16459": "Quartz",
+  "C00389": "Quercetin",
+  "C03582": "Resveratrol",
+  "C07937": "Riluzole",
+  "C00805": "Salicylic Acid",
+  "C07241": "Salmeterol Xinafoate",
+  "C07259": "Sildenafil Citrate",
+  "C06710": "Silver Nitrate",
+  "C11172": "Simazine",
+  "C21581": "Simvastatin",
+  "C07909": "Sirolimus",
+  "C07587": "Sodium Salicylate",
+  "C05684": "Sodium Selenite",
+  "C00413": "Streptomycin",
+  "C07313": "Streptozocin",
+  "C02083": "Styrene",
+  "C07316": "Sulfasalazine",
+  "C09306": "Sulfur Dioxide",
+  "C01869": "Synephrine",
+  "C07574": "Tartrazine",
+  "C00245": "Taurine",
+  "C07129": "Terbutaline",
+  "C07463": "Terfenadine",
+  "C07557": "Tetrachlorodibenzodioxin",
+  "C02811": "Tetracycline",
+  "C07130": "theophylline, salbutamol drug combination",
+  "C07141": "Timolol",
+  "C00397": "Tobramycin",
+  "C00727": "Toluene 2,4-Diisocyanate",
+  "C00777": "Tretinoin",
+  "C08183": "Triamcinolone Acetonide",
+  "C12059": "Triclosan",
+  "C14343": "Trifluralin",
+  "C01965": "Trimethoprim, Sulfamethoxazole Drug Combination",
+  "C00753": "Tungsten",
+  "C07880": "Ursodeoxycholic Acid",
+  "C06267": "Vanadium",
+  "C06689": "Vancomycin",
+  "C07187": "Venlafaxine Hydrochloride",
+  "C07188": "Verapamil",
+  "C07201": "Vinblastine",
+  "C07204": "Vincristine",
+  "C00072": "Vitamin A",
+  "C07622": "Voriconazole",
+  "C01541": "Warfarin",
+  "C00038": "Zinc Sulfate",
+  "C12570": "Zinc Oxide",
+  "C11380": "acetovanillone",
+  "C15850": "angiotensin I (1-7)",
+  "C06697": "arsenite",
+  "C08122": "bacampicillin",
+  "C10965": "bentazone",
+  "C09664": "beta-eudesmol",
+  "C10269": "bisphenol A",
+  "C06853": "bitolterol",
+  "C16839": "brevetoxin",
+  "C16923": "bufotalin",
+  "C14323": "butylate",
+  "C14211": "butylbenzyl phthalate",
+  "C00258": "ceric oxide",
+  "C14222": "chrysene",
+  "C19171": "cobalt oxide",
+  "C22424": "cupric oxide",
+  "C15436": "didecyldimethylammonium",
+  "C09731": "epigallocatechin gallate",
+  "C06999": "fexofenadine",
+  "C07005": "flunisolide",
+  "C02483": "gamma-Tocopherol",
+  "C01500": "geraniol",
+  "C10051": "gossypin",
+  "C00338": "lipopolysaccharide, Escherichia coli O111 B4",
+  "C07482": "montelukast",
+  "C09789": "naringin",
+  "C14550": "nonylphenol",
+  "C11019": "pendimethalin",
+  "C18142": "perfluorooctane sulfonic acid",
+  "C03164": "phenanthrene",
+  "C01194": "phosphatidylinositol 3,4-diphosphate",
+  "C19125": "phthalic anhydride",
+  "C04084": "pregna-4,17-diene-3,16-dione",
+  "C07535": "pyrene",
+  "C08034": "quinupristin-dalfopristin",
+  "C08975": "saikosaponin D",
+  "C10822": "solasodine",
+  "C01533": "syringin",
+  "C13409": "titanium dioxide",
+  "C11032": "triclopyr",
+  "C09204": "triptolide",
+  "C12798": "tulobuterol",
+  "C11213": "valspodar",
+  "C19308": "vanadium pentoxide",
+  "C11239": "verlukast",
+  "C10113": "wogonin",
+  "C07206": "zafirlukast"
+ }
+}

@@ -1,0 +1,2845 @@
+DiseaseName,ChemicalID,ChemicalName,actual_label
+Asthma,C000610679,bufei jianpi,0
+Asthma,C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,0
+Asthma,C000626046,RU.521,0
+Asthma,C000630836,LGM2605,1
+Asthma,C001899,triptolide,0
+Asthma,C002003,bentazone,0
+Asthma,C003237,proxyphylline,0
+Asthma,C003330,trospium chloride,0
+Asthma,C004600,bufotalin,0
+Asthma,C005274,naringin,0
+Asthma,C005969,"4,4'-diphenylmethane diisocyanate",1
+Asthma,C006780,bisphenol A,1
+Asthma,C007734,flunisolide,1
+Asthma,C007836,geraniol,1
+Asthma,C008450,7-methylguanine,1
+Asthma,C008514,methylxanthine,1
+Asthma,C009495,titanium dioxide,0
+Asthma,C010809,tulobuterol,1
+Asthma,C011674,bacampicillin,0
+Asthma,C011685,bitolterol,1
+Asthma,C011765,troclosene,0
+Asthma,C012037,solasodine,1
+Asthma,C012260,cyclocreatine,0
+Asthma,C012293,tranilast,1
+Asthma,C012655,nimesulide,0
+Asthma,C015001,arsenite,0
+Asthma,C015262,"1,6-hexamethylene diisocyanate",1
+Asthma,C015559,trimellitic anhydride,1
+Asthma,C017590,oxitropium,1
+Asthma,C018511,4-dichlorobenzene,1
+Asthma,C021183,"1,7-dimethylxanthine",0
+Asthma,C022944,gossypin,0
+Asthma,C023616,zinc chromate,0
+Asthma,C023617,"pregna-4,17-diene-3,16-dione",0
+Asthma,C023898,butylate,1
+Asthma,C024070,pycnogenols,1
+Asthma,C024746,tobacco tar,0
+Asthma,C025256,nonylphenol,0
+Asthma,C025759,saikosaponin D,0
+Asthma,C027118,didecyldimethylammonium,0
+Asthma,C027561,butylbenzyl phthalate,1
+Asthma,C027576,4-hydroxy-2-nonenal,0
+Asthma,C028007,nickel monoxide,0
+Asthma,C028305,syringin,1
+Asthma,C029536,2-oxothiazolidine-4-carboxylic acid,0
+Asthma,C029797,doxofylline,1
+Asthma,C029938,nickel sulfate,0
+Asthma,C030583,ceric oxide,0
+Asthma,C030809,"fenoterol, ipratropium drug combination",0
+Asthma,C030856,pendimethalin,1
+Asthma,C030973,cupric oxide,0
+Asthma,C030984,pyrene,1
+Asthma,C031180,chrysene,0
+Asthma,C031181,phenanthrene,1
+Asthma,C031278,2-chloroethyl ethyl sulfide,0
+Asthma,C031818,"enterotoxin B, staphylococcal",0
+Asthma,C032742,triclopyr,0
+Asthma,C033146,1-hydroxypyrene,1
+Asthma,C034206,Ribomunyl,1
+Asthma,C034347,enprofylline,1
+Asthma,C034587,CHOP protocol,0
+Asthma,C035353,M-BACOD protocol,0
+Asthma,C035978,cefbuperazone,0
+Asthma,C036251,EPTC,1
+Asthma,C036567,perfluorodecanoic acid,0
+Asthma,C038459,curdlan,1
+Asthma,C041507,1-methylphenanthrene,1
+Asthma,C043103,phthalic anhydride,1
+Asthma,C043836,naphthalan,0
+Asthma,C044101,"endotoxin, Escherichia coli",0
+Asthma,C045651,epigallocatechin gallate,1
+Asthma,C047681,pranlukast,1
+Asthma,C047766,bambuterol,1
+Asthma,C048629,strontium chromate,0
+Asthma,C048927,"1,5-anhydrofructose",0
+Asthma,C051082,beta-eudesmol,0
+Asthma,C051309,doqualast,1
+Asthma,C053342,brevetoxin,1
+Asthma,C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,0
+Asthma,C056165,acetovanillone,0
+Asthma,C057710,cefditoren pivoxil,0
+Asthma,C058216,perilla seed oil,0
+Asthma,C059141,verlukast,1
+Asthma,C059528,14-hydroxydocosahexaenoic acid,0
+Asthma,C060230,seratrodast,1
+Asthma,C060540,polyhexamethyleneguanidine,0
+Asthma,C060728,cobalt oxide,0
+Asthma,C060980,"phosphatidylinositol 3,4-diphosphate",1
+Asthma,C062735,zafirlukast,1
+Asthma,C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",0
+Asthma,C062940,quinupristin-dalfopristin,0
+Asthma,C063119,ramatroban,0
+Asthma,C063449,zileuton,1
+Asthma,C066075,vanadium pentoxide,0
+Asthma,C068538,liposomal amphotericin B,0
+Asthma,C069471,aluminum oxide hydroxide,0
+Asthma,C070074,m-ACOD protocol,0
+Asthma,C070272,valspodar,0
+Asthma,C071005,BUCY-2 protocol,0
+Asthma,C075750,8-epi-prostaglandin F2alpha,1
+Asthma,C076944,salvianolic acid B,0
+Asthma,C076994,perfluorooctane sulfonic acid,1
+Asthma,C077110,ambroxol-theophylline-7-acetate,1
+Asthma,C080276,mono(2-ethyl-5-oxohexyl)phthalate,0
+Asthma,C085278,hydroxysafflor yellow A,0
+Asthma,C085514,wogonin,0
+Asthma,C087867,"polymeric 4,4'-diphenylmethane diisocyanate",1
+Asthma,C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",0
+Asthma,C092704,MINE protocol,0
+Asthma,C093230,fexofenadine,0
+Asthma,C093875,montelukast,1
+Asthma,C094049,apaflurane,1
+Asthma,C095476,"theophylline, salbutamol drug combination",1
+Asthma,C099445,S 28463,1
+Asthma,C101816,perfluoro-n-nonanoic acid,1
+Asthma,C105311,FR 173657,1
+Asthma,C112381,cysteinyl-leukotriene,1
+Asthma,C118790,angiotensin I (1-7),0
+Asthma,C121345,desloratadine,0
+Asthma,C424423,Roflumilast,1
+Asthma,C432165,pyrazolanthrone,1
+Asthma,C433247,Cilomilast,1
+Asthma,C433788,"lipopolysaccharide, E. coli O26-B6",0
+Asthma,C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",0
+Asthma,C440499,"lipopolysaccharide, Escherichia coli O111 B4",0
+Asthma,C446402,ovalbumin-alum,1
+Asthma,C472067,levocetirizine,0
+Asthma,C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,0
+Asthma,C492470,fluor-edenite,0
+Asthma,C506365,Cyclohexane,0
+Asthma,C512161,bisphenol A glucuronide,1
+Asthma,C525002,ST2825,0
+Asthma,C532967,yupingfeng,0
+Asthma,C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",1
+Asthma,C542398,PH 797804,0
+Asthma,C542859,aclidinium bromide,0
+Asthma,C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",0
+Asthma,C550144,cang er zi wan,0
+Asthma,C561691,18(R)-hydroxyeicosapentaenoic acid,0
+Asthma,C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",0
+Asthma,C572629,FPS-ZM1,1
+Asthma,C574213,dilmapimod,0
+Asthma,C574914,Bu-Fei-Yi-Shen,0
+Asthma,C583570,revefenacin,0
+Asthma,D000068297,Fluticasone-Salmeterol Drug Combination,1
+Asthma,D000068298,Fluticasone,1
+Asthma,D000068299,Salmeterol Xinafoate,1
+Asthma,D000068338,Everolimus,0
+Asthma,D000068437,Pemetrexed,0
+Asthma,D000068656,Mometasone Furoate,1
+Asthma,D000068677,Sildenafil Citrate,0
+Asthma,D000068759,Formoterol Fumarate,1
+Asthma,D000069349,Linezolid,0
+Asthma,D000069447,Tiotropium Bromide,0
+Asthma,D000069470,Venlafaxine Hydrochloride,0
+Asthma,D000077143,Docetaxel,0
+Asthma,D000077154,Rosiglitazone,0
+Asthma,D000077156,Gefitinib,0
+Asthma,D000077185,Resveratrol,1
+Asthma,D000077209,Decitabine,1
+Asthma,D000077213,Lamotrigine,0
+Asthma,D000077237,Arsenic Trioxide,1
+Asthma,D000077266,Moxifloxacin,0
+Asthma,D000077332,Artesunate,1
+Asthma,D000077337,Vorinostat,0
+Asthma,D000077407,Cilostazol,0
+Asthma,D000077547,Crizotinib,0
+Asthma,D000077551,Micafungin,0
+Asthma,D000077591,Eucalyptol,0
+Asthma,D000077731,Meropenem,0
+Asthma,D000079,Acetaldehyde,1
+Asthma,D000082,Acetaminophen,1
+Asthma,D000086,Acetazolamide,0
+Asthma,D000093542,Gemcitabine,0
+Asthma,D000097627,Cefpodoxime Proxetil,0
+Asthma,D000097797,Glyphosate,1
+Asthma,D000109,Acetylcholine,1
+Asthma,D000171,Acrolein,0
+Asthma,D000241,Adenosine,1
+Asthma,D000242,Cyclic AMP,1
+Asthma,D000305,Adrenal Cortex Hormones,1
+Asthma,D000318,Adrenergic beta-Agonists,1
+Asthma,D000336,Aerosols,1
+Asthma,D000393,Air Pollutants,1
+Asthma,D000395,"Air Pollutants, Occupational",1
+Asthma,D000420,Albuterol,1
+Asthma,D000448,Aldicarb,1
+Asthma,D000485,Allergens,1
+Asthma,D000536,Aluminum Hydroxide,1
+Asthma,D000537,Aluminum Oxide,0
+Asthma,D000538,Aluminum Silicates,0
+Asthma,D000577,Amides,1
+Asthma,D000583,Amikacin,0
+Asthma,D000628,Aminophylline,1
+Asthma,D000638,Amiodarone,0
+Asthma,D000644,Quaternary Ammonium Compounds,1
+Asthma,D000666,Amphotericin B,0
+Asthma,D000667,Ampicillin,0
+Asthma,D000894,"Anti-Inflammatory Agents, Non-Steroidal",1
+Asthma,D000942,"Antigens, Bacterial",1
+Asthma,D000947,"Antigens, Helminth",0
+Asthma,D000965,Antimony,0
+Asthma,D001151,Arsenic,1
+Asthma,D001194,Asbestos,0
+Asthma,D001241,Aspirin,1
+Asthma,D001280,Atrazine,0
+Asthma,D001335,Vehicle Emissions,1
+Asthma,D001507,Beclomethasone,1
+Asthma,D001556,Hexachlorocyclohexane,1
+Asthma,D001564,Benzo(a)pyrene,1
+Asthma,D001572,Benzofurans,1
+Asthma,D001622,Betaine,0
+Asthma,D001761,Bleomycin,0
+Asthma,D001786,Blood Glucose,0
+Asthma,D001993,Bronchodilator Agents,1
+Asthma,D002066,Busulfan,0
+Asthma,D002084,Butylated Hydroxytoluene,0
+Asthma,D002104,Cadmium,1
+Asthma,D002110,Caffeine,0
+Asthma,D002133,Calcium Sulfate,0
+Asthma,D002211,Capsaicin,0
+Asthma,D002215,Captan,1
+Asthma,D002219,Carbamates,1
+Asthma,D002228,Carbenicillin,0
+Asthma,D002231,Carbimazole,1
+Asthma,D002233,Carbocysteine,0
+Asthma,D002244,Carbon,1
+Asthma,D002246,Carbon Disulfide,1
+Asthma,D002248,Carbon Monoxide,1
+Asthma,D002251,Carbon Tetrachloride,1
+Asthma,D002330,Carmustine,0
+Asthma,D002439,Cefotaxime,0
+Asthma,D002442,Ceftazidime,0
+Asthma,D002443,Ceftriaxone,0
+Asthma,D002444,Cefuroxime,0
+Asthma,D002511,Cephalosporins,0
+Asthma,D002512,Cephalothin,0
+Asthma,D002701,Chloramphenicol,0
+Asthma,D002706,Chlordan,1
+Asthma,D002791,"Cholesterol, Dietary",0
+Asthma,D002840,Chromates,1
+Asthma,D002939,Ciprofloxacin,0
+Asthma,D002945,Cisplatin,0
+Asthma,D003031,Coal,0
+Asthma,D003035,Cobalt,0
+Asthma,D003042,Cocaine,1
+Asthma,D003276,"Contraceptives, Oral",1
+Asthma,D003372,Coumaphos,1
+Asthma,D003404,Creatinine,0
+Asthma,D003520,Cyclophosphamide,0
+Asthma,D003561,Cytarabine,0
+Asthma,D003609,Dactinomycin,0
+Asthma,D003620,Dantrolene,0
+Asthma,D003622,Dapsone,0
+Asthma,D003630,Daunorubicin,0
+Asthma,D003634,DDT,1
+Asthma,D003707,Demeclocycline,0
+Asthma,D003891,Desipramine,0
+Asthma,D003907,Dexamethasone,1
+Asthma,D003915,Dextromethorphan,1
+Asthma,D003931,Diacetyl,0
+Asthma,D003932,Heroin,1
+Asthma,D003976,Diazinon,1
+Asthma,D003996,Dicamba,0
+Asthma,D004041,Dietary Fats,1
+Asthma,D004051,Diethylhexyl Phthalate,0
+Asthma,D004061,Diflunisal,0
+Asthma,D004117,Dimethoate,0
+Asthma,D004139,Dinitrofluorobenzene,1
+Asthma,D004177,Dipyrone,0
+Asthma,D004205,Cromolyn Sodium,1
+Asthma,D004318,Doxycycline,0
+Asthma,D004365,"Drugs, Chinese Herbal",1
+Asthma,D004390,Chlorpyrifos,0
+Asthma,D004391,Dust,1
+Asthma,D004396,Coloring Agents,1
+Asthma,D004642,Emodin,1
+Asthma,D004656,Enalapril,0
+Asthma,D004731,Endotoxins,1
+Asthma,D004809,Ephedrine,1
+Asthma,D004837,Epinephrine,1
+Asthma,D004852,Epoxy Compounds,0
+Asthma,D004917,Erythromycin,0
+Asthma,D004929,Esculin,0
+Asthma,D005047,Etoposide,0
+Asthma,D005204,Farnesol,0
+Asthma,D005280,Fenoterol,1
+Asthma,D005473,Fluoxetine,0
+Asthma,D005505,Food Coloring Agents,1
+Asthma,D005520,Food Preservatives,1
+Asthma,D005557,Formaldehyde,1
+Asthma,D005659,"Fungicides, Industrial",1
+Asthma,D005839,Gentamicins,0
+Asthma,D005938,Glucocorticoids,1
+Asthma,D005978,Glutathione,1
+Asthma,D006024,Glycopyrrolate,1
+Asthma,D006140,Guaifenesin,1
+Asthma,D006221,Halothane,1
+Asthma,D006493,Heparin,1
+Asthma,D006533,Heptachlor,1
+Asthma,D006540,Herbicides,1
+Asthma,D006583,Hexadimethrine Bromide,0
+Asthma,D006632,Histamine,1
+Asthma,D006820,Hyaluronic Acid,0
+Asthma,D006843,"Hydrocarbons, Chlorinated",1
+Asthma,D006854,Hydrocortisone,1
+Asthma,D006862,Hydrogen Sulfide,1
+Asthma,D006918,Hydroxyurea,0
+Asthma,D007052,Ibuprofen,1
+Asthma,D007069,Ifosfamide,0
+Asthma,D007213,Indomethacin,0
+Asthma,D007306,Insecticides,0
+Asthma,D007501,Iron,0
+Asthma,D007545,Isoproterenol,1
+Asthma,D007650,Ketanserin,0
+Asthma,D007660,Ketoprofen,1
+Asthma,D007665,Ketotifen,1
+Asthma,D007840,Latex,0
+Asthma,D007975,Leukotriene B4,1
+Asthma,D008054,Lipid Peroxides,1
+Asthma,D008070,Lipopolysaccharides,0
+Asthma,D008130,Lomustine,0
+Asthma,D008294,Malathion,1
+Asthma,D008345,Manganese,0
+Asthma,D008466,Mechlorethamine,0
+Asthma,D008628,Mercury,1
+Asthma,D008724,Methomyl,0
+Asthma,D008727,Methotrexate,1
+Asthma,D008775,Methylprednisolone,1
+Asthma,D008787,Metoclopramide,1
+Asthma,D008802,Mezlocillin,0
+Asthma,D008911,Minocycline,0
+Asthma,D009151,Mustard Gas,1
+Asthma,D009241,Ipratropium,1
+Asthma,D009466,Neuromuscular Blocking Agents,1
+Asthma,D009525,Niacin,0
+Asthma,D009529,Nicardipine,1
+Asthma,D009532,Nickel,0
+Asthma,D009538,Nicotine,0
+Asthma,D009543,Nifedipine,1
+Asthma,D009566,Nitrates,1
+Asthma,D009569,Nitric Oxide,1
+Asthma,D009585,Nitrogen Dioxide,1
+Asthma,D009589,Nitrogen Oxides,1
+Asthma,D009638,Norepinephrine,0
+Asthma,D009921,Metaproterenol,1
+Asthma,D010047,Ovalbumin,1
+Asthma,D010100,Oxygen,0
+Asthma,D010109,Oxymetazoline,0
+Asthma,D010126,Ozone,1
+Asthma,D010269,Paraquat,1
+Asthma,D010278,Parathion,1
+Asthma,D010400,Penicillin G,0
+Asthma,D010406,Penicillins,0
+Asthma,D010575,Pesticides,1
+Asthma,D010578,Petroleum,0
+Asthma,D010615,Phenacetin,0
+Asthma,D010634,Phenobarbital,1
+Asthma,D010702,Phorate,1
+Asthma,D010755,Organophosphates,1
+Asthma,D010846,Picloram,0
+Asthma,D010878,Piperacillin,0
+Asthma,D010894,Piroxicam,0
+Asthma,D010972,Platelet Activating Factor,1
+Asthma,D011078,Polychlorinated Biphenyls,1
+Asthma,D011084,Polycyclic Aromatic Hydrocarbons,1
+Asthma,D011239,Prednisolone,1
+Asthma,D011241,Prednisone,1
+Asthma,D011433,Propranolol,1
+Asthma,D011722,Pyrethrins,0
+Asthma,D011791,Quartz,0
+Asthma,D011794,Quercetin,0
+Asthma,D012378,Rodenticides,0
+Asthma,D012460,Sulfasalazine,0
+Asthma,D012721,Carbaryl,1
+Asthma,D012822,Silicon Dioxide,0
+Asthma,D012835,Silver Nitrate,0
+Asthma,D012839,Simazine,0
+Asthma,D012905,Smog,0
+Asthma,D012906,Smoke,1
+Asthma,D012980,Sodium Salicylate,1
+Asthma,D012997,Solvents,1
+Asthma,D013256,Steroids,0
+Asthma,D013307,Streptomycin,0
+Asthma,D013311,Streptozocin,1
+Asthma,D013431,Sulfates,1
+Asthma,D013458,Sulfur Dioxide,1
+Asthma,D013578,Synephrine,1
+Asthma,D013645,Tartrazine,1
+Asthma,D013654,Taurine,0
+Asthma,D013726,Terbutaline,1
+Asthma,D013749,Tetrachlorodibenzodioxin,0
+Asthma,D013752,Tetracycline,0
+Asthma,D013759,Dronabinol,0
+Asthma,D013806,Theophylline,1
+Asthma,D013999,Timolol,1
+Asthma,D014028,Tobacco Smoke Pollution,1
+Asthma,D014031,Tobramycin,0
+Asthma,D014051,"Toluene 2,4-Diisocyanate",1
+Asthma,D014212,Tretinoin,1
+Asthma,D014222,Triamcinolone Acetonide,1
+Asthma,D014260,Triclosan,1
+Asthma,D014274,Trifluralin,0
+Asthma,D014414,Tungsten,0
+Asthma,D014580,Ursodeoxycholic Acid,0
+Asthma,D014639,Vanadium,0
+Asthma,D014640,Vancomycin,0
+Asthma,D014665,Vasodilator Agents,1
+Asthma,D014700,Verapamil,0
+Asthma,D014747,Vinblastine,0
+Asthma,D014750,Vincristine,0
+Asthma,D014751,Vindesine,0
+Asthma,D014801,Vitamin A,1
+Asthma,D014859,Warfarin,0
+Asthma,D015032,Zinc,1
+Asthma,D015034,Zinc Oxide,0
+Asthma,D015084,"2,4-Dichlorophenoxyacetic Acid",1
+Asthma,D015242,Ofloxacin,0
+Asthma,D015289,Leukotrienes,1
+Asthma,D015365,Enoxacin,0
+Asthma,D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",1
+Asthma,D015946,Ethylene Dibromide,1
+Asthma,D016190,Carboplatin,0
+Asthma,D016210,Methacholine Chloride,1
+Asthma,D016576,Fleroxacin,1
+Asthma,D016578,Crack Cocaine,0
+Asthma,D016589,Astemizole,0
+Asthma,D016593,Terfenadine,1
+Asthma,D017239,Paclitaxel,0
+Asthma,D017265,Procaterol,1
+Asthma,D017291,Clarithromycin,0
+Asthma,D017308,Etodolac,0
+Asthma,D017332,Cetirizine,0
+Asthma,D017336,Loratadine,1
+Asthma,D017632,"Asbestos, Serpentine",0
+Asthma,D017633,Magnesium Silicates,0
+Asthma,D017636,"Asbestos, Amphibole",0
+Asthma,D017638,"Asbestos, Crocidolite",0
+Asthma,D017639,"Asbestos, Amosite",0
+Asthma,D017835,Nedocromil,1
+Asthma,D017963,Azithromycin,0
+Asthma,D017997,Leukotriene C4,1
+Asthma,D017998,Leukotriene D4,1
+Asthma,D018030,Silver Compounds,0
+Asthma,D018038,Sodium Selenite,0
+Asthma,D018927,Anti-Asthmatic Agents,1
+Asthma,D019216,"Metals, Heavy",0
+Asthma,D019256,Cadmium Chloride,0
+Asthma,D019257,Quinpirole,0
+Asthma,D019287,Zinc Sulfate,0
+Asthma,D019327,Copper Sulfate,0
+Asthma,D019782,Riluzole,0
+Asthma,D019819,Budesonide,1
+Asthma,D019821,Simvastatin,0
+Asthma,D019980,Amoxicillin-Potassium Clavulanate Combination,0
+Asthma,D020024,Leukotriene Antagonists,1
+Asthma,D020058,Styrene,0
+Asthma,D020123,Sirolimus,0
+Asthma,D020156,Salicylic Acid,1
+Asthma,D020682,Cefixime,0
+Asthma,D024504,gamma-Tocopherol,1
+Asthma,D026023,Permethrin,1
+Asthma,D028321,Plant Preparations,1
+Asthma,D037742,"Nanotubes, Carbon",0
+Asthma,D039741,"Antigens, Dermatophagoides",1
+Asthma,D047071,beta-Glucans,1
+Asthma,D047310,Apigenin,0
+Asthma,D052638,Particulate Matter,1
+Asthma,D053260,Soot,1
+Asthma,D058185,Magnetite Nanoparticles,0
+Asthma,D058988,Phosphodiesterase 4 Inhibitors,1
+Asthma,D060729,Coal Ash,0
+Asthma,D064747,Lansoprazole,1
+Asthma,D065819,Voriconazole,0
+Bronchitis,C000610679,bufei jianpi,0
+Bronchitis,C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,0
+Bronchitis,C000626046,RU.521,0
+Bronchitis,C000630836,LGM2605,0
+Bronchitis,C001899,triptolide,0
+Bronchitis,C002003,bentazone,0
+Bronchitis,C003237,proxyphylline,0
+Bronchitis,C003330,trospium chloride,0
+Bronchitis,C004600,bufotalin,0
+Bronchitis,C005274,naringin,0
+Bronchitis,C005969,"4,4'-diphenylmethane diisocyanate",0
+Bronchitis,C006780,bisphenol A,0
+Bronchitis,C007734,flunisolide,0
+Bronchitis,C007836,geraniol,0
+Bronchitis,C008450,7-methylguanine,0
+Bronchitis,C008514,methylxanthine,0
+Bronchitis,C009495,titanium dioxide,0
+Bronchitis,C010809,tulobuterol,0
+Bronchitis,C011674,bacampicillin,0
+Bronchitis,C011685,bitolterol,0
+Bronchitis,C011765,troclosene,0
+Bronchitis,C012037,solasodine,0
+Bronchitis,C012260,cyclocreatine,0
+Bronchitis,C012293,tranilast,0
+Bronchitis,C012655,nimesulide,0
+Bronchitis,C015001,arsenite,1
+Bronchitis,C015262,"1,6-hexamethylene diisocyanate",0
+Bronchitis,C015559,trimellitic anhydride,0
+Bronchitis,C017590,oxitropium,0
+Bronchitis,C018511,4-dichlorobenzene,0
+Bronchitis,C021183,"1,7-dimethylxanthine",0
+Bronchitis,C022944,gossypin,0
+Bronchitis,C023616,zinc chromate,0
+Bronchitis,C023617,"pregna-4,17-diene-3,16-dione",0
+Bronchitis,C023898,butylate,0
+Bronchitis,C024070,pycnogenols,0
+Bronchitis,C024746,tobacco tar,1
+Bronchitis,C025256,nonylphenol,0
+Bronchitis,C025759,saikosaponin D,0
+Bronchitis,C027118,didecyldimethylammonium,0
+Bronchitis,C027561,butylbenzyl phthalate,0
+Bronchitis,C027576,4-hydroxy-2-nonenal,0
+Bronchitis,C028007,nickel monoxide,0
+Bronchitis,C028305,syringin,0
+Bronchitis,C029536,2-oxothiazolidine-4-carboxylic acid,0
+Bronchitis,C029797,doxofylline,0
+Bronchitis,C029938,nickel sulfate,0
+Bronchitis,C030583,ceric oxide,0
+Bronchitis,C030809,"fenoterol, ipratropium drug combination",0
+Bronchitis,C030856,pendimethalin,0
+Bronchitis,C030973,cupric oxide,0
+Bronchitis,C030984,pyrene,0
+Bronchitis,C031180,chrysene,0
+Bronchitis,C031181,phenanthrene,0
+Bronchitis,C031278,2-chloroethyl ethyl sulfide,0
+Bronchitis,C031818,"enterotoxin B, staphylococcal",0
+Bronchitis,C032742,triclopyr,0
+Bronchitis,C033146,1-hydroxypyrene,0
+Bronchitis,C034206,Ribomunyl,0
+Bronchitis,C034347,enprofylline,0
+Bronchitis,C034587,CHOP protocol,0
+Bronchitis,C035353,M-BACOD protocol,0
+Bronchitis,C035978,cefbuperazone,1
+Bronchitis,C036251,EPTC,0
+Bronchitis,C036567,perfluorodecanoic acid,0
+Bronchitis,C038459,curdlan,0
+Bronchitis,C041507,1-methylphenanthrene,0
+Bronchitis,C043103,phthalic anhydride,0
+Bronchitis,C043836,naphthalan,0
+Bronchitis,C044101,"endotoxin, Escherichia coli",0
+Bronchitis,C045651,epigallocatechin gallate,0
+Bronchitis,C047681,pranlukast,0
+Bronchitis,C047766,bambuterol,0
+Bronchitis,C048629,strontium chromate,0
+Bronchitis,C048927,"1,5-anhydrofructose",0
+Bronchitis,C051082,beta-eudesmol,0
+Bronchitis,C051309,doqualast,0
+Bronchitis,C053342,brevetoxin,0
+Bronchitis,C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,0
+Bronchitis,C056165,acetovanillone,0
+Bronchitis,C057710,cefditoren pivoxil,0
+Bronchitis,C058216,perilla seed oil,0
+Bronchitis,C059141,verlukast,0
+Bronchitis,C059528,14-hydroxydocosahexaenoic acid,0
+Bronchitis,C060230,seratrodast,0
+Bronchitis,C060540,polyhexamethyleneguanidine,0
+Bronchitis,C060728,cobalt oxide,0
+Bronchitis,C060980,"phosphatidylinositol 3,4-diphosphate",0
+Bronchitis,C062735,zafirlukast,0
+Bronchitis,C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",0
+Bronchitis,C062940,quinupristin-dalfopristin,0
+Bronchitis,C063119,ramatroban,0
+Bronchitis,C063449,zileuton,0
+Bronchitis,C066075,vanadium pentoxide,1
+Bronchitis,C068538,liposomal amphotericin B,0
+Bronchitis,C069471,aluminum oxide hydroxide,0
+Bronchitis,C070074,m-ACOD protocol,0
+Bronchitis,C070272,valspodar,0
+Bronchitis,C071005,BUCY-2 protocol,0
+Bronchitis,C075750,8-epi-prostaglandin F2alpha,0
+Bronchitis,C076944,salvianolic acid B,0
+Bronchitis,C076994,perfluorooctane sulfonic acid,0
+Bronchitis,C077110,ambroxol-theophylline-7-acetate,1
+Bronchitis,C080276,mono(2-ethyl-5-oxohexyl)phthalate,0
+Bronchitis,C085278,hydroxysafflor yellow A,0
+Bronchitis,C085514,wogonin,0
+Bronchitis,C087867,"polymeric 4,4'-diphenylmethane diisocyanate",0
+Bronchitis,C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",0
+Bronchitis,C092704,MINE protocol,0
+Bronchitis,C093230,fexofenadine,0
+Bronchitis,C093875,montelukast,0
+Bronchitis,C094049,apaflurane,0
+Bronchitis,C095476,"theophylline, salbutamol drug combination",0
+Bronchitis,C099445,S 28463,0
+Bronchitis,C101816,perfluoro-n-nonanoic acid,0
+Bronchitis,C105311,FR 173657,0
+Bronchitis,C112381,cysteinyl-leukotriene,0
+Bronchitis,C118790,angiotensin I (1-7),0
+Bronchitis,C121345,desloratadine,0
+Bronchitis,C424423,Roflumilast,0
+Bronchitis,C432165,pyrazolanthrone,0
+Bronchitis,C433247,Cilomilast,0
+Bronchitis,C433788,"lipopolysaccharide, E. coli O26-B6",0
+Bronchitis,C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",0
+Bronchitis,C440499,"lipopolysaccharide, Escherichia coli O111 B4",0
+Bronchitis,C446402,ovalbumin-alum,0
+Bronchitis,C472067,levocetirizine,0
+Bronchitis,C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,0
+Bronchitis,C492470,fluor-edenite,0
+Bronchitis,C506365,Cyclohexane,0
+Bronchitis,C512161,bisphenol A glucuronide,0
+Bronchitis,C525002,ST2825,0
+Bronchitis,C532967,yupingfeng,0
+Bronchitis,C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",0
+Bronchitis,C542398,PH 797804,0
+Bronchitis,C542859,aclidinium bromide,0
+Bronchitis,C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",0
+Bronchitis,C550144,cang er zi wan,0
+Bronchitis,C561691,18(R)-hydroxyeicosapentaenoic acid,0
+Bronchitis,C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",0
+Bronchitis,C572629,FPS-ZM1,0
+Bronchitis,C574213,dilmapimod,0
+Bronchitis,C574914,Bu-Fei-Yi-Shen,0
+Bronchitis,C583570,revefenacin,0
+Bronchitis,D000068297,Fluticasone-Salmeterol Drug Combination,0
+Bronchitis,D000068298,Fluticasone,0
+Bronchitis,D000068299,Salmeterol Xinafoate,1
+Bronchitis,D000068338,Everolimus,0
+Bronchitis,D000068437,Pemetrexed,0
+Bronchitis,D000068656,Mometasone Furoate,0
+Bronchitis,D000068677,Sildenafil Citrate,0
+Bronchitis,D000068759,Formoterol Fumarate,0
+Bronchitis,D000069349,Linezolid,0
+Bronchitis,D000069447,Tiotropium Bromide,0
+Bronchitis,D000069470,Venlafaxine Hydrochloride,0
+Bronchitis,D000077143,Docetaxel,0
+Bronchitis,D000077154,Rosiglitazone,0
+Bronchitis,D000077156,Gefitinib,0
+Bronchitis,D000077185,Resveratrol,0
+Bronchitis,D000077209,Decitabine,0
+Bronchitis,D000077213,Lamotrigine,0
+Bronchitis,D000077237,Arsenic Trioxide,0
+Bronchitis,D000077266,Moxifloxacin,0
+Bronchitis,D000077332,Artesunate,0
+Bronchitis,D000077337,Vorinostat,0
+Bronchitis,D000077407,Cilostazol,0
+Bronchitis,D000077547,Crizotinib,0
+Bronchitis,D000077551,Micafungin,0
+Bronchitis,D000077591,Eucalyptol,0
+Bronchitis,D000077731,Meropenem,0
+Bronchitis,D000079,Acetaldehyde,0
+Bronchitis,D000082,Acetaminophen,0
+Bronchitis,D000086,Acetazolamide,0
+Bronchitis,D000093542,Gemcitabine,0
+Bronchitis,D000097627,Cefpodoxime Proxetil,0
+Bronchitis,D000097797,Glyphosate,0
+Bronchitis,D000109,Acetylcholine,0
+Bronchitis,D000171,Acrolein,0
+Bronchitis,D000241,Adenosine,0
+Bronchitis,D000242,Cyclic AMP,0
+Bronchitis,D000305,Adrenal Cortex Hormones,0
+Bronchitis,D000318,Adrenergic beta-Agonists,0
+Bronchitis,D000336,Aerosols,0
+Bronchitis,D000393,Air Pollutants,1
+Bronchitis,D000395,"Air Pollutants, Occupational",0
+Bronchitis,D000420,Albuterol,0
+Bronchitis,D000448,Aldicarb,0
+Bronchitis,D000485,Allergens,0
+Bronchitis,D000536,Aluminum Hydroxide,0
+Bronchitis,D000537,Aluminum Oxide,0
+Bronchitis,D000538,Aluminum Silicates,0
+Bronchitis,D000577,Amides,0
+Bronchitis,D000583,Amikacin,0
+Bronchitis,D000628,Aminophylline,1
+Bronchitis,D000638,Amiodarone,0
+Bronchitis,D000644,Quaternary Ammonium Compounds,0
+Bronchitis,D000666,Amphotericin B,0
+Bronchitis,D000667,Ampicillin,0
+Bronchitis,D000894,"Anti-Inflammatory Agents, Non-Steroidal",0
+Bronchitis,D000942,"Antigens, Bacterial",0
+Bronchitis,D000947,"Antigens, Helminth",0
+Bronchitis,D000965,Antimony,1
+Bronchitis,D001151,Arsenic,0
+Bronchitis,D001194,Asbestos,0
+Bronchitis,D001241,Aspirin,0
+Bronchitis,D001280,Atrazine,0
+Bronchitis,D001335,Vehicle Emissions,1
+Bronchitis,D001507,Beclomethasone,0
+Bronchitis,D001556,Hexachlorocyclohexane,0
+Bronchitis,D001564,Benzo(a)pyrene,0
+Bronchitis,D001572,Benzofurans,0
+Bronchitis,D001622,Betaine,1
+Bronchitis,D001761,Bleomycin,0
+Bronchitis,D001786,Blood Glucose,0
+Bronchitis,D001993,Bronchodilator Agents,0
+Bronchitis,D002066,Busulfan,0
+Bronchitis,D002084,Butylated Hydroxytoluene,0
+Bronchitis,D002104,Cadmium,0
+Bronchitis,D002110,Caffeine,0
+Bronchitis,D002133,Calcium Sulfate,0
+Bronchitis,D002211,Capsaicin,0
+Bronchitis,D002215,Captan,0
+Bronchitis,D002219,Carbamates,0
+Bronchitis,D002228,Carbenicillin,0
+Bronchitis,D002231,Carbimazole,0
+Bronchitis,D002233,Carbocysteine,0
+Bronchitis,D002244,Carbon,0
+Bronchitis,D002246,Carbon Disulfide,0
+Bronchitis,D002248,Carbon Monoxide,0
+Bronchitis,D002251,Carbon Tetrachloride,0
+Bronchitis,D002330,Carmustine,0
+Bronchitis,D002439,Cefotaxime,0
+Bronchitis,D002442,Ceftazidime,0
+Bronchitis,D002443,Ceftriaxone,0
+Bronchitis,D002444,Cefuroxime,0
+Bronchitis,D002511,Cephalosporins,1
+Bronchitis,D002512,Cephalothin,0
+Bronchitis,D002701,Chloramphenicol,0
+Bronchitis,D002706,Chlordan,0
+Bronchitis,D002791,"Cholesterol, Dietary",0
+Bronchitis,D002840,Chromates,0
+Bronchitis,D002939,Ciprofloxacin,0
+Bronchitis,D002945,Cisplatin,0
+Bronchitis,D003031,Coal,0
+Bronchitis,D003035,Cobalt,0
+Bronchitis,D003042,Cocaine,0
+Bronchitis,D003276,"Contraceptives, Oral",0
+Bronchitis,D003372,Coumaphos,0
+Bronchitis,D003404,Creatinine,0
+Bronchitis,D003520,Cyclophosphamide,0
+Bronchitis,D003561,Cytarabine,0
+Bronchitis,D003609,Dactinomycin,0
+Bronchitis,D003620,Dantrolene,0
+Bronchitis,D003622,Dapsone,0
+Bronchitis,D003630,Daunorubicin,0
+Bronchitis,D003634,DDT,0
+Bronchitis,D003707,Demeclocycline,1
+Bronchitis,D003891,Desipramine,0
+Bronchitis,D003907,Dexamethasone,0
+Bronchitis,D003915,Dextromethorphan,0
+Bronchitis,D003931,Diacetyl,1
+Bronchitis,D003932,Heroin,0
+Bronchitis,D003976,Diazinon,0
+Bronchitis,D003996,Dicamba,0
+Bronchitis,D004041,Dietary Fats,0
+Bronchitis,D004051,Diethylhexyl Phthalate,0
+Bronchitis,D004061,Diflunisal,0
+Bronchitis,D004117,Dimethoate,0
+Bronchitis,D004139,Dinitrofluorobenzene,0
+Bronchitis,D004177,Dipyrone,0
+Bronchitis,D004205,Cromolyn Sodium,0
+Bronchitis,D004318,Doxycycline,1
+Bronchitis,D004365,"Drugs, Chinese Herbal",0
+Bronchitis,D004390,Chlorpyrifos,0
+Bronchitis,D004391,Dust,0
+Bronchitis,D004396,Coloring Agents,0
+Bronchitis,D004642,Emodin,0
+Bronchitis,D004656,Enalapril,0
+Bronchitis,D004731,Endotoxins,0
+Bronchitis,D004809,Ephedrine,0
+Bronchitis,D004837,Epinephrine,0
+Bronchitis,D004852,Epoxy Compounds,0
+Bronchitis,D004917,Erythromycin,0
+Bronchitis,D004929,Esculin,0
+Bronchitis,D005047,Etoposide,0
+Bronchitis,D005204,Farnesol,0
+Bronchitis,D005280,Fenoterol,0
+Bronchitis,D005473,Fluoxetine,0
+Bronchitis,D005505,Food Coloring Agents,0
+Bronchitis,D005520,Food Preservatives,0
+Bronchitis,D005557,Formaldehyde,0
+Bronchitis,D005659,"Fungicides, Industrial",0
+Bronchitis,D005839,Gentamicins,0
+Bronchitis,D005938,Glucocorticoids,0
+Bronchitis,D005978,Glutathione,0
+Bronchitis,D006024,Glycopyrrolate,0
+Bronchitis,D006140,Guaifenesin,0
+Bronchitis,D006221,Halothane,0
+Bronchitis,D006493,Heparin,0
+Bronchitis,D006533,Heptachlor,0
+Bronchitis,D006540,Herbicides,0
+Bronchitis,D006583,Hexadimethrine Bromide,0
+Bronchitis,D006632,Histamine,0
+Bronchitis,D006820,Hyaluronic Acid,0
+Bronchitis,D006843,"Hydrocarbons, Chlorinated",0
+Bronchitis,D006854,Hydrocortisone,0
+Bronchitis,D006862,Hydrogen Sulfide,0
+Bronchitis,D006918,Hydroxyurea,0
+Bronchitis,D007052,Ibuprofen,0
+Bronchitis,D007069,Ifosfamide,0
+Bronchitis,D007213,Indomethacin,0
+Bronchitis,D007306,Insecticides,0
+Bronchitis,D007501,Iron,0
+Bronchitis,D007545,Isoproterenol,0
+Bronchitis,D007650,Ketanserin,0
+Bronchitis,D007660,Ketoprofen,0
+Bronchitis,D007665,Ketotifen,0
+Bronchitis,D007840,Latex,0
+Bronchitis,D007975,Leukotriene B4,0
+Bronchitis,D008054,Lipid Peroxides,0
+Bronchitis,D008070,Lipopolysaccharides,0
+Bronchitis,D008130,Lomustine,0
+Bronchitis,D008294,Malathion,0
+Bronchitis,D008345,Manganese,0
+Bronchitis,D008466,Mechlorethamine,0
+Bronchitis,D008628,Mercury,0
+Bronchitis,D008724,Methomyl,1
+Bronchitis,D008727,Methotrexate,0
+Bronchitis,D008775,Methylprednisolone,0
+Bronchitis,D008787,Metoclopramide,0
+Bronchitis,D008802,Mezlocillin,0
+Bronchitis,D008911,Minocycline,0
+Bronchitis,D009151,Mustard Gas,1
+Bronchitis,D009241,Ipratropium,0
+Bronchitis,D009466,Neuromuscular Blocking Agents,0
+Bronchitis,D009525,Niacin,0
+Bronchitis,D009529,Nicardipine,0
+Bronchitis,D009532,Nickel,0
+Bronchitis,D009538,Nicotine,1
+Bronchitis,D009543,Nifedipine,0
+Bronchitis,D009566,Nitrates,0
+Bronchitis,D009569,Nitric Oxide,0
+Bronchitis,D009585,Nitrogen Dioxide,1
+Bronchitis,D009589,Nitrogen Oxides,0
+Bronchitis,D009638,Norepinephrine,0
+Bronchitis,D009921,Metaproterenol,0
+Bronchitis,D010047,Ovalbumin,1
+Bronchitis,D010100,Oxygen,0
+Bronchitis,D010109,Oxymetazoline,0
+Bronchitis,D010126,Ozone,0
+Bronchitis,D010269,Paraquat,0
+Bronchitis,D010278,Parathion,0
+Bronchitis,D010400,Penicillin G,0
+Bronchitis,D010406,Penicillins,0
+Bronchitis,D010575,Pesticides,0
+Bronchitis,D010578,Petroleum,0
+Bronchitis,D010615,Phenacetin,0
+Bronchitis,D010634,Phenobarbital,0
+Bronchitis,D010702,Phorate,0
+Bronchitis,D010755,Organophosphates,0
+Bronchitis,D010846,Picloram,0
+Bronchitis,D010878,Piperacillin,0
+Bronchitis,D010894,Piroxicam,0
+Bronchitis,D010972,Platelet Activating Factor,0
+Bronchitis,D011078,Polychlorinated Biphenyls,0
+Bronchitis,D011084,Polycyclic Aromatic Hydrocarbons,1
+Bronchitis,D011239,Prednisolone,0
+Bronchitis,D011241,Prednisone,0
+Bronchitis,D011433,Propranolol,0
+Bronchitis,D011722,Pyrethrins,0
+Bronchitis,D011791,Quartz,0
+Bronchitis,D011794,Quercetin,0
+Bronchitis,D012378,Rodenticides,0
+Bronchitis,D012460,Sulfasalazine,0
+Bronchitis,D012721,Carbaryl,0
+Bronchitis,D012822,Silicon Dioxide,0
+Bronchitis,D012835,Silver Nitrate,0
+Bronchitis,D012839,Simazine,0
+Bronchitis,D012905,Smog,0
+Bronchitis,D012906,Smoke,1
+Bronchitis,D012980,Sodium Salicylate,0
+Bronchitis,D012997,Solvents,0
+Bronchitis,D013256,Steroids,0
+Bronchitis,D013307,Streptomycin,0
+Bronchitis,D013311,Streptozocin,0
+Bronchitis,D013431,Sulfates,0
+Bronchitis,D013458,Sulfur Dioxide,0
+Bronchitis,D013578,Synephrine,0
+Bronchitis,D013645,Tartrazine,0
+Bronchitis,D013654,Taurine,0
+Bronchitis,D013726,Terbutaline,1
+Bronchitis,D013749,Tetrachlorodibenzodioxin,0
+Bronchitis,D013752,Tetracycline,1
+Bronchitis,D013759,Dronabinol,0
+Bronchitis,D013806,Theophylline,1
+Bronchitis,D013999,Timolol,0
+Bronchitis,D014028,Tobacco Smoke Pollution,1
+Bronchitis,D014031,Tobramycin,0
+Bronchitis,D014051,"Toluene 2,4-Diisocyanate",0
+Bronchitis,D014212,Tretinoin,0
+Bronchitis,D014222,Triamcinolone Acetonide,0
+Bronchitis,D014260,Triclosan,0
+Bronchitis,D014274,Trifluralin,0
+Bronchitis,D014414,Tungsten,0
+Bronchitis,D014580,Ursodeoxycholic Acid,0
+Bronchitis,D014639,Vanadium,0
+Bronchitis,D014640,Vancomycin,0
+Bronchitis,D014665,Vasodilator Agents,0
+Bronchitis,D014700,Verapamil,0
+Bronchitis,D014747,Vinblastine,0
+Bronchitis,D014750,Vincristine,0
+Bronchitis,D014751,Vindesine,0
+Bronchitis,D014801,Vitamin A,0
+Bronchitis,D014859,Warfarin,0
+Bronchitis,D015032,Zinc,0
+Bronchitis,D015034,Zinc Oxide,0
+Bronchitis,D015084,"2,4-Dichlorophenoxyacetic Acid",0
+Bronchitis,D015242,Ofloxacin,1
+Bronchitis,D015289,Leukotrienes,0
+Bronchitis,D015365,Enoxacin,1
+Bronchitis,D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",1
+Bronchitis,D015946,Ethylene Dibromide,0
+Bronchitis,D016190,Carboplatin,0
+Bronchitis,D016210,Methacholine Chloride,0
+Bronchitis,D016576,Fleroxacin,1
+Bronchitis,D016578,Crack Cocaine,0
+Bronchitis,D016589,Astemizole,0
+Bronchitis,D016593,Terfenadine,0
+Bronchitis,D017239,Paclitaxel,0
+Bronchitis,D017265,Procaterol,0
+Bronchitis,D017291,Clarithromycin,1
+Bronchitis,D017308,Etodolac,0
+Bronchitis,D017332,Cetirizine,0
+Bronchitis,D017336,Loratadine,0
+Bronchitis,D017632,"Asbestos, Serpentine",0
+Bronchitis,D017633,Magnesium Silicates,0
+Bronchitis,D017636,"Asbestos, Amphibole",0
+Bronchitis,D017638,"Asbestos, Crocidolite",0
+Bronchitis,D017639,"Asbestos, Amosite",0
+Bronchitis,D017835,Nedocromil,0
+Bronchitis,D017963,Azithromycin,0
+Bronchitis,D017997,Leukotriene C4,0
+Bronchitis,D017998,Leukotriene D4,0
+Bronchitis,D018030,Silver Compounds,0
+Bronchitis,D018038,Sodium Selenite,0
+Bronchitis,D018927,Anti-Asthmatic Agents,0
+Bronchitis,D019216,"Metals, Heavy",0
+Bronchitis,D019256,Cadmium Chloride,0
+Bronchitis,D019257,Quinpirole,0
+Bronchitis,D019287,Zinc Sulfate,0
+Bronchitis,D019327,Copper Sulfate,0
+Bronchitis,D019782,Riluzole,0
+Bronchitis,D019819,Budesonide,0
+Bronchitis,D019821,Simvastatin,0
+Bronchitis,D019980,Amoxicillin-Potassium Clavulanate Combination,1
+Bronchitis,D020024,Leukotriene Antagonists,0
+Bronchitis,D020058,Styrene,0
+Bronchitis,D020123,Sirolimus,0
+Bronchitis,D020156,Salicylic Acid,0
+Bronchitis,D020682,Cefixime,1
+Bronchitis,D024504,gamma-Tocopherol,0
+Bronchitis,D026023,Permethrin,0
+Bronchitis,D028321,Plant Preparations,0
+Bronchitis,D037742,"Nanotubes, Carbon",0
+Bronchitis,D039741,"Antigens, Dermatophagoides",0
+Bronchitis,D047071,beta-Glucans,0
+Bronchitis,D047310,Apigenin,0
+Bronchitis,D052638,Particulate Matter,1
+Bronchitis,D053260,Soot,0
+Bronchitis,D058185,Magnetite Nanoparticles,0
+Bronchitis,D058988,Phosphodiesterase 4 Inhibitors,0
+Bronchitis,D060729,Coal Ash,0
+Bronchitis,D064747,Lansoprazole,0
+Bronchitis,D065819,Voriconazole,0
+"Carcinoma, Bronchogenic",C000610679,bufei jianpi,0
+"Carcinoma, Bronchogenic",C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,0
+"Carcinoma, Bronchogenic",C000626046,RU.521,0
+"Carcinoma, Bronchogenic",C000630836,LGM2605,0
+"Carcinoma, Bronchogenic",C001899,triptolide,0
+"Carcinoma, Bronchogenic",C002003,bentazone,0
+"Carcinoma, Bronchogenic",C003237,proxyphylline,0
+"Carcinoma, Bronchogenic",C003330,trospium chloride,0
+"Carcinoma, Bronchogenic",C004600,bufotalin,0
+"Carcinoma, Bronchogenic",C005274,naringin,0
+"Carcinoma, Bronchogenic",C005969,"4,4'-diphenylmethane diisocyanate",0
+"Carcinoma, Bronchogenic",C006780,bisphenol A,0
+"Carcinoma, Bronchogenic",C007734,flunisolide,0
+"Carcinoma, Bronchogenic",C007836,geraniol,0
+"Carcinoma, Bronchogenic",C008450,7-methylguanine,0
+"Carcinoma, Bronchogenic",C008514,methylxanthine,0
+"Carcinoma, Bronchogenic",C009495,titanium dioxide,0
+"Carcinoma, Bronchogenic",C010809,tulobuterol,0
+"Carcinoma, Bronchogenic",C011674,bacampicillin,0
+"Carcinoma, Bronchogenic",C011685,bitolterol,0
+"Carcinoma, Bronchogenic",C011765,troclosene,0
+"Carcinoma, Bronchogenic",C012037,solasodine,0
+"Carcinoma, Bronchogenic",C012260,cyclocreatine,0
+"Carcinoma, Bronchogenic",C012293,tranilast,0
+"Carcinoma, Bronchogenic",C012655,nimesulide,0
+"Carcinoma, Bronchogenic",C015001,arsenite,0
+"Carcinoma, Bronchogenic",C015262,"1,6-hexamethylene diisocyanate",0
+"Carcinoma, Bronchogenic",C015559,trimellitic anhydride,0
+"Carcinoma, Bronchogenic",C017590,oxitropium,0
+"Carcinoma, Bronchogenic",C018511,4-dichlorobenzene,0
+"Carcinoma, Bronchogenic",C021183,"1,7-dimethylxanthine",0
+"Carcinoma, Bronchogenic",C022944,gossypin,0
+"Carcinoma, Bronchogenic",C023616,zinc chromate,0
+"Carcinoma, Bronchogenic",C023617,"pregna-4,17-diene-3,16-dione",1
+"Carcinoma, Bronchogenic",C023898,butylate,0
+"Carcinoma, Bronchogenic",C024070,pycnogenols,0
+"Carcinoma, Bronchogenic",C024746,tobacco tar,0
+"Carcinoma, Bronchogenic",C025256,nonylphenol,0
+"Carcinoma, Bronchogenic",C025759,saikosaponin D,0
+"Carcinoma, Bronchogenic",C027118,didecyldimethylammonium,0
+"Carcinoma, Bronchogenic",C027561,butylbenzyl phthalate,0
+"Carcinoma, Bronchogenic",C027576,4-hydroxy-2-nonenal,0
+"Carcinoma, Bronchogenic",C028007,nickel monoxide,0
+"Carcinoma, Bronchogenic",C028305,syringin,0
+"Carcinoma, Bronchogenic",C029536,2-oxothiazolidine-4-carboxylic acid,0
+"Carcinoma, Bronchogenic",C029797,doxofylline,0
+"Carcinoma, Bronchogenic",C029938,nickel sulfate,0
+"Carcinoma, Bronchogenic",C030583,ceric oxide,0
+"Carcinoma, Bronchogenic",C030809,"fenoterol, ipratropium drug combination",0
+"Carcinoma, Bronchogenic",C030856,pendimethalin,0
+"Carcinoma, Bronchogenic",C030973,cupric oxide,0
+"Carcinoma, Bronchogenic",C030984,pyrene,0
+"Carcinoma, Bronchogenic",C031180,chrysene,0
+"Carcinoma, Bronchogenic",C031181,phenanthrene,0
+"Carcinoma, Bronchogenic",C031278,2-chloroethyl ethyl sulfide,0
+"Carcinoma, Bronchogenic",C031818,"enterotoxin B, staphylococcal",0
+"Carcinoma, Bronchogenic",C032742,triclopyr,0
+"Carcinoma, Bronchogenic",C033146,1-hydroxypyrene,0
+"Carcinoma, Bronchogenic",C034206,Ribomunyl,0
+"Carcinoma, Bronchogenic",C034347,enprofylline,0
+"Carcinoma, Bronchogenic",C034587,CHOP protocol,0
+"Carcinoma, Bronchogenic",C035353,M-BACOD protocol,0
+"Carcinoma, Bronchogenic",C035978,cefbuperazone,0
+"Carcinoma, Bronchogenic",C036251,EPTC,0
+"Carcinoma, Bronchogenic",C036567,perfluorodecanoic acid,0
+"Carcinoma, Bronchogenic",C038459,curdlan,0
+"Carcinoma, Bronchogenic",C041507,1-methylphenanthrene,0
+"Carcinoma, Bronchogenic",C043103,phthalic anhydride,0
+"Carcinoma, Bronchogenic",C043836,naphthalan,0
+"Carcinoma, Bronchogenic",C044101,"endotoxin, Escherichia coli",0
+"Carcinoma, Bronchogenic",C045651,epigallocatechin gallate,0
+"Carcinoma, Bronchogenic",C047681,pranlukast,0
+"Carcinoma, Bronchogenic",C047766,bambuterol,0
+"Carcinoma, Bronchogenic",C048629,strontium chromate,1
+"Carcinoma, Bronchogenic",C048927,"1,5-anhydrofructose",0
+"Carcinoma, Bronchogenic",C051082,beta-eudesmol,0
+"Carcinoma, Bronchogenic",C051309,doqualast,0
+"Carcinoma, Bronchogenic",C053342,brevetoxin,0
+"Carcinoma, Bronchogenic",C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,0
+"Carcinoma, Bronchogenic",C056165,acetovanillone,0
+"Carcinoma, Bronchogenic",C057710,cefditoren pivoxil,0
+"Carcinoma, Bronchogenic",C058216,perilla seed oil,0
+"Carcinoma, Bronchogenic",C059141,verlukast,0
+"Carcinoma, Bronchogenic",C059528,14-hydroxydocosahexaenoic acid,0
+"Carcinoma, Bronchogenic",C060230,seratrodast,0
+"Carcinoma, Bronchogenic",C060540,polyhexamethyleneguanidine,0
+"Carcinoma, Bronchogenic",C060728,cobalt oxide,0
+"Carcinoma, Bronchogenic",C060980,"phosphatidylinositol 3,4-diphosphate",0
+"Carcinoma, Bronchogenic",C062735,zafirlukast,0
+"Carcinoma, Bronchogenic",C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",0
+"Carcinoma, Bronchogenic",C062940,quinupristin-dalfopristin,0
+"Carcinoma, Bronchogenic",C063119,ramatroban,0
+"Carcinoma, Bronchogenic",C063449,zileuton,0
+"Carcinoma, Bronchogenic",C066075,vanadium pentoxide,0
+"Carcinoma, Bronchogenic",C068538,liposomal amphotericin B,0
+"Carcinoma, Bronchogenic",C069471,aluminum oxide hydroxide,0
+"Carcinoma, Bronchogenic",C070074,m-ACOD protocol,0
+"Carcinoma, Bronchogenic",C070272,valspodar,0
+"Carcinoma, Bronchogenic",C071005,BUCY-2 protocol,0
+"Carcinoma, Bronchogenic",C075750,8-epi-prostaglandin F2alpha,0
+"Carcinoma, Bronchogenic",C076944,salvianolic acid B,0
+"Carcinoma, Bronchogenic",C076994,perfluorooctane sulfonic acid,0
+"Carcinoma, Bronchogenic",C077110,ambroxol-theophylline-7-acetate,0
+"Carcinoma, Bronchogenic",C080276,mono(2-ethyl-5-oxohexyl)phthalate,0
+"Carcinoma, Bronchogenic",C085278,hydroxysafflor yellow A,0
+"Carcinoma, Bronchogenic",C085514,wogonin,0
+"Carcinoma, Bronchogenic",C087867,"polymeric 4,4'-diphenylmethane diisocyanate",0
+"Carcinoma, Bronchogenic",C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",0
+"Carcinoma, Bronchogenic",C092704,MINE protocol,0
+"Carcinoma, Bronchogenic",C093230,fexofenadine,0
+"Carcinoma, Bronchogenic",C093875,montelukast,0
+"Carcinoma, Bronchogenic",C094049,apaflurane,0
+"Carcinoma, Bronchogenic",C095476,"theophylline, salbutamol drug combination",0
+"Carcinoma, Bronchogenic",C099445,S 28463,0
+"Carcinoma, Bronchogenic",C101816,perfluoro-n-nonanoic acid,0
+"Carcinoma, Bronchogenic",C105311,FR 173657,0
+"Carcinoma, Bronchogenic",C112381,cysteinyl-leukotriene,0
+"Carcinoma, Bronchogenic",C118790,angiotensin I (1-7),0
+"Carcinoma, Bronchogenic",C121345,desloratadine,0
+"Carcinoma, Bronchogenic",C424423,Roflumilast,0
+"Carcinoma, Bronchogenic",C432165,pyrazolanthrone,0
+"Carcinoma, Bronchogenic",C433247,Cilomilast,0
+"Carcinoma, Bronchogenic",C433788,"lipopolysaccharide, E. coli O26-B6",0
+"Carcinoma, Bronchogenic",C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",0
+"Carcinoma, Bronchogenic",C440499,"lipopolysaccharide, Escherichia coli O111 B4",0
+"Carcinoma, Bronchogenic",C446402,ovalbumin-alum,0
+"Carcinoma, Bronchogenic",C472067,levocetirizine,0
+"Carcinoma, Bronchogenic",C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,0
+"Carcinoma, Bronchogenic",C492470,fluor-edenite,0
+"Carcinoma, Bronchogenic",C506365,Cyclohexane,0
+"Carcinoma, Bronchogenic",C512161,bisphenol A glucuronide,0
+"Carcinoma, Bronchogenic",C525002,ST2825,0
+"Carcinoma, Bronchogenic",C532967,yupingfeng,0
+"Carcinoma, Bronchogenic",C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",0
+"Carcinoma, Bronchogenic",C542398,PH 797804,0
+"Carcinoma, Bronchogenic",C542859,aclidinium bromide,0
+"Carcinoma, Bronchogenic",C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",0
+"Carcinoma, Bronchogenic",C550144,cang er zi wan,0
+"Carcinoma, Bronchogenic",C561691,18(R)-hydroxyeicosapentaenoic acid,0
+"Carcinoma, Bronchogenic",C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",0
+"Carcinoma, Bronchogenic",C572629,FPS-ZM1,0
+"Carcinoma, Bronchogenic",C574213,dilmapimod,0
+"Carcinoma, Bronchogenic",C574914,Bu-Fei-Yi-Shen,0
+"Carcinoma, Bronchogenic",C583570,revefenacin,0
+"Carcinoma, Bronchogenic",D000068297,Fluticasone-Salmeterol Drug Combination,0
+"Carcinoma, Bronchogenic",D000068298,Fluticasone,0
+"Carcinoma, Bronchogenic",D000068299,Salmeterol Xinafoate,0
+"Carcinoma, Bronchogenic",D000068338,Everolimus,0
+"Carcinoma, Bronchogenic",D000068437,Pemetrexed,0
+"Carcinoma, Bronchogenic",D000068656,Mometasone Furoate,0
+"Carcinoma, Bronchogenic",D000068677,Sildenafil Citrate,0
+"Carcinoma, Bronchogenic",D000068759,Formoterol Fumarate,0
+"Carcinoma, Bronchogenic",D000069349,Linezolid,0
+"Carcinoma, Bronchogenic",D000069447,Tiotropium Bromide,0
+"Carcinoma, Bronchogenic",D000069470,Venlafaxine Hydrochloride,0
+"Carcinoma, Bronchogenic",D000077143,Docetaxel,0
+"Carcinoma, Bronchogenic",D000077154,Rosiglitazone,0
+"Carcinoma, Bronchogenic",D000077156,Gefitinib,0
+"Carcinoma, Bronchogenic",D000077185,Resveratrol,0
+"Carcinoma, Bronchogenic",D000077209,Decitabine,0
+"Carcinoma, Bronchogenic",D000077213,Lamotrigine,0
+"Carcinoma, Bronchogenic",D000077237,Arsenic Trioxide,0
+"Carcinoma, Bronchogenic",D000077266,Moxifloxacin,0
+"Carcinoma, Bronchogenic",D000077332,Artesunate,0
+"Carcinoma, Bronchogenic",D000077337,Vorinostat,0
+"Carcinoma, Bronchogenic",D000077407,Cilostazol,0
+"Carcinoma, Bronchogenic",D000077547,Crizotinib,0
+"Carcinoma, Bronchogenic",D000077551,Micafungin,0
+"Carcinoma, Bronchogenic",D000077591,Eucalyptol,0
+"Carcinoma, Bronchogenic",D000077731,Meropenem,0
+"Carcinoma, Bronchogenic",D000079,Acetaldehyde,0
+"Carcinoma, Bronchogenic",D000082,Acetaminophen,0
+"Carcinoma, Bronchogenic",D000086,Acetazolamide,0
+"Carcinoma, Bronchogenic",D000093542,Gemcitabine,0
+"Carcinoma, Bronchogenic",D000097627,Cefpodoxime Proxetil,0
+"Carcinoma, Bronchogenic",D000097797,Glyphosate,0
+"Carcinoma, Bronchogenic",D000109,Acetylcholine,0
+"Carcinoma, Bronchogenic",D000171,Acrolein,0
+"Carcinoma, Bronchogenic",D000241,Adenosine,0
+"Carcinoma, Bronchogenic",D000242,Cyclic AMP,0
+"Carcinoma, Bronchogenic",D000305,Adrenal Cortex Hormones,0
+"Carcinoma, Bronchogenic",D000318,Adrenergic beta-Agonists,0
+"Carcinoma, Bronchogenic",D000336,Aerosols,0
+"Carcinoma, Bronchogenic",D000393,Air Pollutants,0
+"Carcinoma, Bronchogenic",D000395,"Air Pollutants, Occupational",0
+"Carcinoma, Bronchogenic",D000420,Albuterol,0
+"Carcinoma, Bronchogenic",D000448,Aldicarb,0
+"Carcinoma, Bronchogenic",D000485,Allergens,0
+"Carcinoma, Bronchogenic",D000536,Aluminum Hydroxide,0
+"Carcinoma, Bronchogenic",D000537,Aluminum Oxide,0
+"Carcinoma, Bronchogenic",D000538,Aluminum Silicates,0
+"Carcinoma, Bronchogenic",D000577,Amides,0
+"Carcinoma, Bronchogenic",D000583,Amikacin,0
+"Carcinoma, Bronchogenic",D000628,Aminophylline,0
+"Carcinoma, Bronchogenic",D000638,Amiodarone,0
+"Carcinoma, Bronchogenic",D000644,Quaternary Ammonium Compounds,0
+"Carcinoma, Bronchogenic",D000666,Amphotericin B,0
+"Carcinoma, Bronchogenic",D000667,Ampicillin,0
+"Carcinoma, Bronchogenic",D000894,"Anti-Inflammatory Agents, Non-Steroidal",0
+"Carcinoma, Bronchogenic",D000942,"Antigens, Bacterial",0
+"Carcinoma, Bronchogenic",D000947,"Antigens, Helminth",0
+"Carcinoma, Bronchogenic",D000965,Antimony,0
+"Carcinoma, Bronchogenic",D001151,Arsenic,0
+"Carcinoma, Bronchogenic",D001194,Asbestos,1
+"Carcinoma, Bronchogenic",D001241,Aspirin,0
+"Carcinoma, Bronchogenic",D001280,Atrazine,0
+"Carcinoma, Bronchogenic",D001335,Vehicle Emissions,0
+"Carcinoma, Bronchogenic",D001507,Beclomethasone,0
+"Carcinoma, Bronchogenic",D001556,Hexachlorocyclohexane,0
+"Carcinoma, Bronchogenic",D001564,Benzo(a)pyrene,0
+"Carcinoma, Bronchogenic",D001572,Benzofurans,0
+"Carcinoma, Bronchogenic",D001622,Betaine,0
+"Carcinoma, Bronchogenic",D001761,Bleomycin,0
+"Carcinoma, Bronchogenic",D001786,Blood Glucose,0
+"Carcinoma, Bronchogenic",D001993,Bronchodilator Agents,0
+"Carcinoma, Bronchogenic",D002066,Busulfan,1
+"Carcinoma, Bronchogenic",D002084,Butylated Hydroxytoluene,0
+"Carcinoma, Bronchogenic",D002104,Cadmium,0
+"Carcinoma, Bronchogenic",D002110,Caffeine,0
+"Carcinoma, Bronchogenic",D002133,Calcium Sulfate,0
+"Carcinoma, Bronchogenic",D002211,Capsaicin,0
+"Carcinoma, Bronchogenic",D002215,Captan,0
+"Carcinoma, Bronchogenic",D002219,Carbamates,0
+"Carcinoma, Bronchogenic",D002228,Carbenicillin,0
+"Carcinoma, Bronchogenic",D002231,Carbimazole,0
+"Carcinoma, Bronchogenic",D002233,Carbocysteine,0
+"Carcinoma, Bronchogenic",D002244,Carbon,0
+"Carcinoma, Bronchogenic",D002246,Carbon Disulfide,0
+"Carcinoma, Bronchogenic",D002248,Carbon Monoxide,0
+"Carcinoma, Bronchogenic",D002251,Carbon Tetrachloride,0
+"Carcinoma, Bronchogenic",D002330,Carmustine,0
+"Carcinoma, Bronchogenic",D002439,Cefotaxime,0
+"Carcinoma, Bronchogenic",D002442,Ceftazidime,0
+"Carcinoma, Bronchogenic",D002443,Ceftriaxone,0
+"Carcinoma, Bronchogenic",D002444,Cefuroxime,0
+"Carcinoma, Bronchogenic",D002511,Cephalosporins,0
+"Carcinoma, Bronchogenic",D002512,Cephalothin,0
+"Carcinoma, Bronchogenic",D002701,Chloramphenicol,0
+"Carcinoma, Bronchogenic",D002706,Chlordan,0
+"Carcinoma, Bronchogenic",D002791,"Cholesterol, Dietary",0
+"Carcinoma, Bronchogenic",D002840,Chromates,0
+"Carcinoma, Bronchogenic",D002939,Ciprofloxacin,0
+"Carcinoma, Bronchogenic",D002945,Cisplatin,1
+"Carcinoma, Bronchogenic",D003031,Coal,0
+"Carcinoma, Bronchogenic",D003035,Cobalt,0
+"Carcinoma, Bronchogenic",D003042,Cocaine,0
+"Carcinoma, Bronchogenic",D003276,"Contraceptives, Oral",0
+"Carcinoma, Bronchogenic",D003372,Coumaphos,0
+"Carcinoma, Bronchogenic",D003404,Creatinine,0
+"Carcinoma, Bronchogenic",D003520,Cyclophosphamide,1
+"Carcinoma, Bronchogenic",D003561,Cytarabine,0
+"Carcinoma, Bronchogenic",D003609,Dactinomycin,1
+"Carcinoma, Bronchogenic",D003620,Dantrolene,0
+"Carcinoma, Bronchogenic",D003622,Dapsone,0
+"Carcinoma, Bronchogenic",D003630,Daunorubicin,0
+"Carcinoma, Bronchogenic",D003634,DDT,0
+"Carcinoma, Bronchogenic",D003707,Demeclocycline,0
+"Carcinoma, Bronchogenic",D003891,Desipramine,0
+"Carcinoma, Bronchogenic",D003907,Dexamethasone,0
+"Carcinoma, Bronchogenic",D003915,Dextromethorphan,0
+"Carcinoma, Bronchogenic",D003931,Diacetyl,0
+"Carcinoma, Bronchogenic",D003932,Heroin,0
+"Carcinoma, Bronchogenic",D003976,Diazinon,0
+"Carcinoma, Bronchogenic",D003996,Dicamba,0
+"Carcinoma, Bronchogenic",D004041,Dietary Fats,0
+"Carcinoma, Bronchogenic",D004051,Diethylhexyl Phthalate,0
+"Carcinoma, Bronchogenic",D004061,Diflunisal,0
+"Carcinoma, Bronchogenic",D004117,Dimethoate,0
+"Carcinoma, Bronchogenic",D004139,Dinitrofluorobenzene,0
+"Carcinoma, Bronchogenic",D004177,Dipyrone,0
+"Carcinoma, Bronchogenic",D004205,Cromolyn Sodium,0
+"Carcinoma, Bronchogenic",D004318,Doxycycline,0
+"Carcinoma, Bronchogenic",D004365,"Drugs, Chinese Herbal",0
+"Carcinoma, Bronchogenic",D004390,Chlorpyrifos,0
+"Carcinoma, Bronchogenic",D004391,Dust,0
+"Carcinoma, Bronchogenic",D004396,Coloring Agents,0
+"Carcinoma, Bronchogenic",D004642,Emodin,0
+"Carcinoma, Bronchogenic",D004656,Enalapril,0
+"Carcinoma, Bronchogenic",D004731,Endotoxins,0
+"Carcinoma, Bronchogenic",D004809,Ephedrine,0
+"Carcinoma, Bronchogenic",D004837,Epinephrine,0
+"Carcinoma, Bronchogenic",D004852,Epoxy Compounds,0
+"Carcinoma, Bronchogenic",D004917,Erythromycin,0
+"Carcinoma, Bronchogenic",D004929,Esculin,0
+"Carcinoma, Bronchogenic",D005047,Etoposide,1
+"Carcinoma, Bronchogenic",D005204,Farnesol,0
+"Carcinoma, Bronchogenic",D005280,Fenoterol,0
+"Carcinoma, Bronchogenic",D005473,Fluoxetine,0
+"Carcinoma, Bronchogenic",D005505,Food Coloring Agents,0
+"Carcinoma, Bronchogenic",D005520,Food Preservatives,0
+"Carcinoma, Bronchogenic",D005557,Formaldehyde,0
+"Carcinoma, Bronchogenic",D005659,"Fungicides, Industrial",0
+"Carcinoma, Bronchogenic",D005839,Gentamicins,0
+"Carcinoma, Bronchogenic",D005938,Glucocorticoids,0
+"Carcinoma, Bronchogenic",D005978,Glutathione,0
+"Carcinoma, Bronchogenic",D006024,Glycopyrrolate,0
+"Carcinoma, Bronchogenic",D006140,Guaifenesin,0
+"Carcinoma, Bronchogenic",D006221,Halothane,0
+"Carcinoma, Bronchogenic",D006493,Heparin,0
+"Carcinoma, Bronchogenic",D006533,Heptachlor,0
+"Carcinoma, Bronchogenic",D006540,Herbicides,0
+"Carcinoma, Bronchogenic",D006583,Hexadimethrine Bromide,0
+"Carcinoma, Bronchogenic",D006632,Histamine,0
+"Carcinoma, Bronchogenic",D006820,Hyaluronic Acid,0
+"Carcinoma, Bronchogenic",D006843,"Hydrocarbons, Chlorinated",0
+"Carcinoma, Bronchogenic",D006854,Hydrocortisone,0
+"Carcinoma, Bronchogenic",D006862,Hydrogen Sulfide,0
+"Carcinoma, Bronchogenic",D006918,Hydroxyurea,1
+"Carcinoma, Bronchogenic",D007052,Ibuprofen,0
+"Carcinoma, Bronchogenic",D007069,Ifosfamide,1
+"Carcinoma, Bronchogenic",D007213,Indomethacin,0
+"Carcinoma, Bronchogenic",D007306,Insecticides,0
+"Carcinoma, Bronchogenic",D007501,Iron,0
+"Carcinoma, Bronchogenic",D007545,Isoproterenol,0
+"Carcinoma, Bronchogenic",D007650,Ketanserin,0
+"Carcinoma, Bronchogenic",D007660,Ketoprofen,0
+"Carcinoma, Bronchogenic",D007665,Ketotifen,0
+"Carcinoma, Bronchogenic",D007840,Latex,0
+"Carcinoma, Bronchogenic",D007975,Leukotriene B4,0
+"Carcinoma, Bronchogenic",D008054,Lipid Peroxides,0
+"Carcinoma, Bronchogenic",D008070,Lipopolysaccharides,0
+"Carcinoma, Bronchogenic",D008130,Lomustine,1
+"Carcinoma, Bronchogenic",D008294,Malathion,0
+"Carcinoma, Bronchogenic",D008345,Manganese,0
+"Carcinoma, Bronchogenic",D008466,Mechlorethamine,0
+"Carcinoma, Bronchogenic",D008628,Mercury,0
+"Carcinoma, Bronchogenic",D008724,Methomyl,0
+"Carcinoma, Bronchogenic",D008727,Methotrexate,1
+"Carcinoma, Bronchogenic",D008775,Methylprednisolone,0
+"Carcinoma, Bronchogenic",D008787,Metoclopramide,0
+"Carcinoma, Bronchogenic",D008802,Mezlocillin,0
+"Carcinoma, Bronchogenic",D008911,Minocycline,0
+"Carcinoma, Bronchogenic",D009151,Mustard Gas,0
+"Carcinoma, Bronchogenic",D009241,Ipratropium,0
+"Carcinoma, Bronchogenic",D009466,Neuromuscular Blocking Agents,0
+"Carcinoma, Bronchogenic",D009525,Niacin,0
+"Carcinoma, Bronchogenic",D009529,Nicardipine,0
+"Carcinoma, Bronchogenic",D009532,Nickel,0
+"Carcinoma, Bronchogenic",D009538,Nicotine,0
+"Carcinoma, Bronchogenic",D009543,Nifedipine,0
+"Carcinoma, Bronchogenic",D009566,Nitrates,0
+"Carcinoma, Bronchogenic",D009569,Nitric Oxide,0
+"Carcinoma, Bronchogenic",D009585,Nitrogen Dioxide,0
+"Carcinoma, Bronchogenic",D009589,Nitrogen Oxides,0
+"Carcinoma, Bronchogenic",D009638,Norepinephrine,0
+"Carcinoma, Bronchogenic",D009921,Metaproterenol,0
+"Carcinoma, Bronchogenic",D010047,Ovalbumin,0
+"Carcinoma, Bronchogenic",D010100,Oxygen,0
+"Carcinoma, Bronchogenic",D010109,Oxymetazoline,0
+"Carcinoma, Bronchogenic",D010126,Ozone,0
+"Carcinoma, Bronchogenic",D010269,Paraquat,0
+"Carcinoma, Bronchogenic",D010278,Parathion,0
+"Carcinoma, Bronchogenic",D010400,Penicillin G,0
+"Carcinoma, Bronchogenic",D010406,Penicillins,0
+"Carcinoma, Bronchogenic",D010575,Pesticides,0
+"Carcinoma, Bronchogenic",D010578,Petroleum,0
+"Carcinoma, Bronchogenic",D010615,Phenacetin,0
+"Carcinoma, Bronchogenic",D010634,Phenobarbital,0
+"Carcinoma, Bronchogenic",D010702,Phorate,0
+"Carcinoma, Bronchogenic",D010755,Organophosphates,0
+"Carcinoma, Bronchogenic",D010846,Picloram,0
+"Carcinoma, Bronchogenic",D010878,Piperacillin,0
+"Carcinoma, Bronchogenic",D010894,Piroxicam,0
+"Carcinoma, Bronchogenic",D010972,Platelet Activating Factor,0
+"Carcinoma, Bronchogenic",D011078,Polychlorinated Biphenyls,0
+"Carcinoma, Bronchogenic",D011084,Polycyclic Aromatic Hydrocarbons,0
+"Carcinoma, Bronchogenic",D011239,Prednisolone,0
+"Carcinoma, Bronchogenic",D011241,Prednisone,0
+"Carcinoma, Bronchogenic",D011433,Propranolol,0
+"Carcinoma, Bronchogenic",D011722,Pyrethrins,0
+"Carcinoma, Bronchogenic",D011791,Quartz,0
+"Carcinoma, Bronchogenic",D011794,Quercetin,0
+"Carcinoma, Bronchogenic",D012378,Rodenticides,0
+"Carcinoma, Bronchogenic",D012460,Sulfasalazine,0
+"Carcinoma, Bronchogenic",D012721,Carbaryl,0
+"Carcinoma, Bronchogenic",D012822,Silicon Dioxide,0
+"Carcinoma, Bronchogenic",D012835,Silver Nitrate,0
+"Carcinoma, Bronchogenic",D012839,Simazine,0
+"Carcinoma, Bronchogenic",D012905,Smog,0
+"Carcinoma, Bronchogenic",D012906,Smoke,0
+"Carcinoma, Bronchogenic",D012980,Sodium Salicylate,0
+"Carcinoma, Bronchogenic",D012997,Solvents,0
+"Carcinoma, Bronchogenic",D013256,Steroids,0
+"Carcinoma, Bronchogenic",D013307,Streptomycin,0
+"Carcinoma, Bronchogenic",D013311,Streptozocin,1
+"Carcinoma, Bronchogenic",D013431,Sulfates,0
+"Carcinoma, Bronchogenic",D013458,Sulfur Dioxide,0
+"Carcinoma, Bronchogenic",D013578,Synephrine,0
+"Carcinoma, Bronchogenic",D013645,Tartrazine,0
+"Carcinoma, Bronchogenic",D013654,Taurine,0
+"Carcinoma, Bronchogenic",D013726,Terbutaline,0
+"Carcinoma, Bronchogenic",D013749,Tetrachlorodibenzodioxin,0
+"Carcinoma, Bronchogenic",D013752,Tetracycline,0
+"Carcinoma, Bronchogenic",D013759,Dronabinol,0
+"Carcinoma, Bronchogenic",D013806,Theophylline,0
+"Carcinoma, Bronchogenic",D013999,Timolol,0
+"Carcinoma, Bronchogenic",D014028,Tobacco Smoke Pollution,0
+"Carcinoma, Bronchogenic",D014031,Tobramycin,0
+"Carcinoma, Bronchogenic",D014051,"Toluene 2,4-Diisocyanate",0
+"Carcinoma, Bronchogenic",D014212,Tretinoin,0
+"Carcinoma, Bronchogenic",D014222,Triamcinolone Acetonide,0
+"Carcinoma, Bronchogenic",D014260,Triclosan,0
+"Carcinoma, Bronchogenic",D014274,Trifluralin,0
+"Carcinoma, Bronchogenic",D014414,Tungsten,0
+"Carcinoma, Bronchogenic",D014580,Ursodeoxycholic Acid,0
+"Carcinoma, Bronchogenic",D014639,Vanadium,0
+"Carcinoma, Bronchogenic",D014640,Vancomycin,0
+"Carcinoma, Bronchogenic",D014665,Vasodilator Agents,0
+"Carcinoma, Bronchogenic",D014700,Verapamil,0
+"Carcinoma, Bronchogenic",D014747,Vinblastine,0
+"Carcinoma, Bronchogenic",D014750,Vincristine,1
+"Carcinoma, Bronchogenic",D014751,Vindesine,1
+"Carcinoma, Bronchogenic",D014801,Vitamin A,0
+"Carcinoma, Bronchogenic",D014859,Warfarin,0
+"Carcinoma, Bronchogenic",D015032,Zinc,0
+"Carcinoma, Bronchogenic",D015034,Zinc Oxide,0
+"Carcinoma, Bronchogenic",D015084,"2,4-Dichlorophenoxyacetic Acid",0
+"Carcinoma, Bronchogenic",D015242,Ofloxacin,0
+"Carcinoma, Bronchogenic",D015289,Leukotrienes,0
+"Carcinoma, Bronchogenic",D015365,Enoxacin,0
+"Carcinoma, Bronchogenic",D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",0
+"Carcinoma, Bronchogenic",D015946,Ethylene Dibromide,0
+"Carcinoma, Bronchogenic",D016190,Carboplatin,1
+"Carcinoma, Bronchogenic",D016210,Methacholine Chloride,0
+"Carcinoma, Bronchogenic",D016576,Fleroxacin,0
+"Carcinoma, Bronchogenic",D016578,Crack Cocaine,0
+"Carcinoma, Bronchogenic",D016589,Astemizole,0
+"Carcinoma, Bronchogenic",D016593,Terfenadine,0
+"Carcinoma, Bronchogenic",D017239,Paclitaxel,0
+"Carcinoma, Bronchogenic",D017265,Procaterol,0
+"Carcinoma, Bronchogenic",D017291,Clarithromycin,0
+"Carcinoma, Bronchogenic",D017308,Etodolac,0
+"Carcinoma, Bronchogenic",D017332,Cetirizine,0
+"Carcinoma, Bronchogenic",D017336,Loratadine,0
+"Carcinoma, Bronchogenic",D017632,"Asbestos, Serpentine",0
+"Carcinoma, Bronchogenic",D017633,Magnesium Silicates,0
+"Carcinoma, Bronchogenic",D017636,"Asbestos, Amphibole",0
+"Carcinoma, Bronchogenic",D017638,"Asbestos, Crocidolite",0
+"Carcinoma, Bronchogenic",D017639,"Asbestos, Amosite",0
+"Carcinoma, Bronchogenic",D017835,Nedocromil,0
+"Carcinoma, Bronchogenic",D017963,Azithromycin,0
+"Carcinoma, Bronchogenic",D017997,Leukotriene C4,0
+"Carcinoma, Bronchogenic",D017998,Leukotriene D4,0
+"Carcinoma, Bronchogenic",D018030,Silver Compounds,0
+"Carcinoma, Bronchogenic",D018038,Sodium Selenite,0
+"Carcinoma, Bronchogenic",D018927,Anti-Asthmatic Agents,0
+"Carcinoma, Bronchogenic",D019216,"Metals, Heavy",0
+"Carcinoma, Bronchogenic",D019256,Cadmium Chloride,0
+"Carcinoma, Bronchogenic",D019257,Quinpirole,0
+"Carcinoma, Bronchogenic",D019287,Zinc Sulfate,0
+"Carcinoma, Bronchogenic",D019327,Copper Sulfate,0
+"Carcinoma, Bronchogenic",D019782,Riluzole,0
+"Carcinoma, Bronchogenic",D019819,Budesonide,0
+"Carcinoma, Bronchogenic",D019821,Simvastatin,0
+"Carcinoma, Bronchogenic",D019980,Amoxicillin-Potassium Clavulanate Combination,0
+"Carcinoma, Bronchogenic",D020024,Leukotriene Antagonists,0
+"Carcinoma, Bronchogenic",D020058,Styrene,0
+"Carcinoma, Bronchogenic",D020123,Sirolimus,0
+"Carcinoma, Bronchogenic",D020156,Salicylic Acid,0
+"Carcinoma, Bronchogenic",D020682,Cefixime,0
+"Carcinoma, Bronchogenic",D024504,gamma-Tocopherol,0
+"Carcinoma, Bronchogenic",D026023,Permethrin,0
+"Carcinoma, Bronchogenic",D028321,Plant Preparations,0
+"Carcinoma, Bronchogenic",D037742,"Nanotubes, Carbon",0
+"Carcinoma, Bronchogenic",D039741,"Antigens, Dermatophagoides",0
+"Carcinoma, Bronchogenic",D047071,beta-Glucans,0
+"Carcinoma, Bronchogenic",D047310,Apigenin,0
+"Carcinoma, Bronchogenic",D052638,Particulate Matter,0
+"Carcinoma, Bronchogenic",D053260,Soot,0
+"Carcinoma, Bronchogenic",D058185,Magnetite Nanoparticles,0
+"Carcinoma, Bronchogenic",D058988,Phosphodiesterase 4 Inhibitors,0
+"Carcinoma, Bronchogenic",D060729,Coal Ash,0
+"Carcinoma, Bronchogenic",D064747,Lansoprazole,0
+"Carcinoma, Bronchogenic",D065819,Voriconazole,0
+Pneumonia,C000610679,bufei jianpi,0
+Pneumonia,C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,1
+Pneumonia,C000626046,RU.521,1
+Pneumonia,C000630836,LGM2605,0
+Pneumonia,C001899,triptolide,1
+Pneumonia,C002003,bentazone,0
+Pneumonia,C003237,proxyphylline,0
+Pneumonia,C003330,trospium chloride,0
+Pneumonia,C004600,bufotalin,0
+Pneumonia,C005274,naringin,1
+Pneumonia,C005969,"4,4'-diphenylmethane diisocyanate",0
+Pneumonia,C006780,bisphenol A,1
+Pneumonia,C007734,flunisolide,0
+Pneumonia,C007836,geraniol,0
+Pneumonia,C008450,7-methylguanine,0
+Pneumonia,C008514,methylxanthine,0
+Pneumonia,C009495,titanium dioxide,1
+Pneumonia,C010809,tulobuterol,0
+Pneumonia,C011674,bacampicillin,1
+Pneumonia,C011685,bitolterol,0
+Pneumonia,C011765,troclosene,1
+Pneumonia,C012037,solasodine,0
+Pneumonia,C012260,cyclocreatine,1
+Pneumonia,C012293,tranilast,0
+Pneumonia,C012655,nimesulide,0
+Pneumonia,C015001,arsenite,0
+Pneumonia,C015262,"1,6-hexamethylene diisocyanate",0
+Pneumonia,C015559,trimellitic anhydride,0
+Pneumonia,C017590,oxitropium,0
+Pneumonia,C018511,4-dichlorobenzene,0
+Pneumonia,C021183,"1,7-dimethylxanthine",0
+Pneumonia,C022944,gossypin,1
+Pneumonia,C023616,zinc chromate,1
+Pneumonia,C023617,"pregna-4,17-diene-3,16-dione",0
+Pneumonia,C023898,butylate,0
+Pneumonia,C024070,pycnogenols,0
+Pneumonia,C024746,tobacco tar,0
+Pneumonia,C025256,nonylphenol,0
+Pneumonia,C025759,saikosaponin D,0
+Pneumonia,C027118,didecyldimethylammonium,1
+Pneumonia,C027561,butylbenzyl phthalate,0
+Pneumonia,C027576,4-hydroxy-2-nonenal,0
+Pneumonia,C028007,nickel monoxide,1
+Pneumonia,C028305,syringin,0
+Pneumonia,C029536,2-oxothiazolidine-4-carboxylic acid,1
+Pneumonia,C029797,doxofylline,0
+Pneumonia,C029938,nickel sulfate,1
+Pneumonia,C030583,ceric oxide,1
+Pneumonia,C030809,"fenoterol, ipratropium drug combination",0
+Pneumonia,C030856,pendimethalin,0
+Pneumonia,C030973,cupric oxide,1
+Pneumonia,C030984,pyrene,0
+Pneumonia,C031180,chrysene,0
+Pneumonia,C031181,phenanthrene,0
+Pneumonia,C031278,2-chloroethyl ethyl sulfide,1
+Pneumonia,C031818,"enterotoxin B, staphylococcal",1
+Pneumonia,C032742,triclopyr,0
+Pneumonia,C033146,1-hydroxypyrene,0
+Pneumonia,C034206,Ribomunyl,0
+Pneumonia,C034347,enprofylline,0
+Pneumonia,C034587,CHOP protocol,1
+Pneumonia,C035353,M-BACOD protocol,1
+Pneumonia,C035978,cefbuperazone,0
+Pneumonia,C036251,EPTC,0
+Pneumonia,C036567,perfluorodecanoic acid,1
+Pneumonia,C038459,curdlan,0
+Pneumonia,C041507,1-methylphenanthrene,0
+Pneumonia,C043103,phthalic anhydride,0
+Pneumonia,C043836,naphthalan,1
+Pneumonia,C044101,"endotoxin, Escherichia coli",1
+Pneumonia,C045651,epigallocatechin gallate,0
+Pneumonia,C047681,pranlukast,1
+Pneumonia,C047766,bambuterol,0
+Pneumonia,C048629,strontium chromate,0
+Pneumonia,C048927,"1,5-anhydrofructose",1
+Pneumonia,C051082,beta-eudesmol,0
+Pneumonia,C051309,doqualast,0
+Pneumonia,C053342,brevetoxin,0
+Pneumonia,C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,1
+Pneumonia,C056165,acetovanillone,1
+Pneumonia,C057710,cefditoren pivoxil,1
+Pneumonia,C058216,perilla seed oil,1
+Pneumonia,C059141,verlukast,0
+Pneumonia,C059528,14-hydroxydocosahexaenoic acid,1
+Pneumonia,C060230,seratrodast,0
+Pneumonia,C060540,polyhexamethyleneguanidine,1
+Pneumonia,C060728,cobalt oxide,1
+Pneumonia,C060980,"phosphatidylinositol 3,4-diphosphate",0
+Pneumonia,C062735,zafirlukast,0
+Pneumonia,C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",1
+Pneumonia,C062940,quinupristin-dalfopristin,1
+Pneumonia,C063119,ramatroban,0
+Pneumonia,C063449,zileuton,0
+Pneumonia,C066075,vanadium pentoxide,0
+Pneumonia,C068538,liposomal amphotericin B,1
+Pneumonia,C069471,aluminum oxide hydroxide,1
+Pneumonia,C070074,m-ACOD protocol,1
+Pneumonia,C070272,valspodar,1
+Pneumonia,C071005,BUCY-2 protocol,1
+Pneumonia,C075750,8-epi-prostaglandin F2alpha,0
+Pneumonia,C076944,salvianolic acid B,1
+Pneumonia,C076994,perfluorooctane sulfonic acid,0
+Pneumonia,C077110,ambroxol-theophylline-7-acetate,0
+Pneumonia,C080276,mono(2-ethyl-5-oxohexyl)phthalate,0
+Pneumonia,C085278,hydroxysafflor yellow A,0
+Pneumonia,C085514,wogonin,1
+Pneumonia,C087867,"polymeric 4,4'-diphenylmethane diisocyanate",0
+Pneumonia,C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",1
+Pneumonia,C092704,MINE protocol,1
+Pneumonia,C093230,fexofenadine,0
+Pneumonia,C093875,montelukast,0
+Pneumonia,C094049,apaflurane,0
+Pneumonia,C095476,"theophylline, salbutamol drug combination",0
+Pneumonia,C099445,S 28463,0
+Pneumonia,C101816,perfluoro-n-nonanoic acid,0
+Pneumonia,C105311,FR 173657,0
+Pneumonia,C112381,cysteinyl-leukotriene,0
+Pneumonia,C118790,angiotensin I (1-7),1
+Pneumonia,C121345,desloratadine,0
+Pneumonia,C424423,Roflumilast,0
+Pneumonia,C432165,pyrazolanthrone,0
+Pneumonia,C433247,Cilomilast,0
+Pneumonia,C433788,"lipopolysaccharide, E. coli O26-B6",1
+Pneumonia,C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",1
+Pneumonia,C440499,"lipopolysaccharide, Escherichia coli O111 B4",1
+Pneumonia,C446402,ovalbumin-alum,1
+Pneumonia,C472067,levocetirizine,0
+Pneumonia,C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,0
+Pneumonia,C492470,fluor-edenite,0
+Pneumonia,C506365,Cyclohexane,0
+Pneumonia,C512161,bisphenol A glucuronide,0
+Pneumonia,C525002,ST2825,1
+Pneumonia,C532967,yupingfeng,1
+Pneumonia,C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",0
+Pneumonia,C542398,PH 797804,0
+Pneumonia,C542859,aclidinium bromide,0
+Pneumonia,C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",0
+Pneumonia,C550144,cang er zi wan,0
+Pneumonia,C561691,18(R)-hydroxyeicosapentaenoic acid,1
+Pneumonia,C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",0
+Pneumonia,C572629,FPS-ZM1,0
+Pneumonia,C574213,dilmapimod,0
+Pneumonia,C574914,Bu-Fei-Yi-Shen,0
+Pneumonia,C583570,revefenacin,0
+Pneumonia,D000068297,Fluticasone-Salmeterol Drug Combination,0
+Pneumonia,D000068298,Fluticasone,0
+Pneumonia,D000068299,Salmeterol Xinafoate,0
+Pneumonia,D000068338,Everolimus,1
+Pneumonia,D000068437,Pemetrexed,1
+Pneumonia,D000068656,Mometasone Furoate,0
+Pneumonia,D000068677,Sildenafil Citrate,1
+Pneumonia,D000068759,Formoterol Fumarate,1
+Pneumonia,D000069349,Linezolid,1
+Pneumonia,D000069447,Tiotropium Bromide,0
+Pneumonia,D000069470,Venlafaxine Hydrochloride,1
+Pneumonia,D000077143,Docetaxel,1
+Pneumonia,D000077154,Rosiglitazone,1
+Pneumonia,D000077156,Gefitinib,1
+Pneumonia,D000077185,Resveratrol,0
+Pneumonia,D000077209,Decitabine,0
+Pneumonia,D000077213,Lamotrigine,1
+Pneumonia,D000077237,Arsenic Trioxide,0
+Pneumonia,D000077266,Moxifloxacin,1
+Pneumonia,D000077332,Artesunate,0
+Pneumonia,D000077337,Vorinostat,1
+Pneumonia,D000077407,Cilostazol,1
+Pneumonia,D000077547,Crizotinib,1
+Pneumonia,D000077551,Micafungin,1
+Pneumonia,D000077591,Eucalyptol,0
+Pneumonia,D000077731,Meropenem,1
+Pneumonia,D000079,Acetaldehyde,0
+Pneumonia,D000082,Acetaminophen,0
+Pneumonia,D000086,Acetazolamide,0
+Pneumonia,D000093542,Gemcitabine,1
+Pneumonia,D000097627,Cefpodoxime Proxetil,1
+Pneumonia,D000097797,Glyphosate,1
+Pneumonia,D000109,Acetylcholine,0
+Pneumonia,D000171,Acrolein,1
+Pneumonia,D000241,Adenosine,0
+Pneumonia,D000242,Cyclic AMP,0
+Pneumonia,D000305,Adrenal Cortex Hormones,1
+Pneumonia,D000318,Adrenergic beta-Agonists,0
+Pneumonia,D000336,Aerosols,0
+Pneumonia,D000393,Air Pollutants,1
+Pneumonia,D000395,"Air Pollutants, Occupational",0
+Pneumonia,D000420,Albuterol,0
+Pneumonia,D000448,Aldicarb,0
+Pneumonia,D000485,Allergens,0
+Pneumonia,D000536,Aluminum Hydroxide,0
+Pneumonia,D000537,Aluminum Oxide,1
+Pneumonia,D000538,Aluminum Silicates,1
+Pneumonia,D000577,Amides,0
+Pneumonia,D000583,Amikacin,1
+Pneumonia,D000628,Aminophylline,0
+Pneumonia,D000638,Amiodarone,1
+Pneumonia,D000644,Quaternary Ammonium Compounds,0
+Pneumonia,D000666,Amphotericin B,1
+Pneumonia,D000667,Ampicillin,1
+Pneumonia,D000894,"Anti-Inflammatory Agents, Non-Steroidal",0
+Pneumonia,D000942,"Antigens, Bacterial",0
+Pneumonia,D000947,"Antigens, Helminth",0
+Pneumonia,D000965,Antimony,0
+Pneumonia,D001151,Arsenic,1
+Pneumonia,D001194,Asbestos,1
+Pneumonia,D001241,Aspirin,0
+Pneumonia,D001280,Atrazine,0
+Pneumonia,D001335,Vehicle Emissions,1
+Pneumonia,D001507,Beclomethasone,0
+Pneumonia,D001556,Hexachlorocyclohexane,0
+Pneumonia,D001564,Benzo(a)pyrene,0
+Pneumonia,D001572,Benzofurans,0
+Pneumonia,D001622,Betaine,0
+Pneumonia,D001761,Bleomycin,1
+Pneumonia,D001786,Blood Glucose,1
+Pneumonia,D001993,Bronchodilator Agents,0
+Pneumonia,D002066,Busulfan,0
+Pneumonia,D002084,Butylated Hydroxytoluene,1
+Pneumonia,D002104,Cadmium,1
+Pneumonia,D002110,Caffeine,1
+Pneumonia,D002133,Calcium Sulfate,1
+Pneumonia,D002211,Capsaicin,1
+Pneumonia,D002215,Captan,0
+Pneumonia,D002219,Carbamates,0
+Pneumonia,D002228,Carbenicillin,1
+Pneumonia,D002231,Carbimazole,0
+Pneumonia,D002233,Carbocysteine,0
+Pneumonia,D002244,Carbon,0
+Pneumonia,D002246,Carbon Disulfide,0
+Pneumonia,D002248,Carbon Monoxide,0
+Pneumonia,D002251,Carbon Tetrachloride,0
+Pneumonia,D002330,Carmustine,1
+Pneumonia,D002439,Cefotaxime,1
+Pneumonia,D002442,Ceftazidime,1
+Pneumonia,D002443,Ceftriaxone,1
+Pneumonia,D002444,Cefuroxime,1
+Pneumonia,D002511,Cephalosporins,0
+Pneumonia,D002512,Cephalothin,1
+Pneumonia,D002701,Chloramphenicol,1
+Pneumonia,D002706,Chlordan,0
+Pneumonia,D002791,"Cholesterol, Dietary",1
+Pneumonia,D002840,Chromates,0
+Pneumonia,D002939,Ciprofloxacin,1
+Pneumonia,D002945,Cisplatin,1
+Pneumonia,D003031,Coal,1
+Pneumonia,D003035,Cobalt,1
+Pneumonia,D003042,Cocaine,1
+Pneumonia,D003276,"Contraceptives, Oral",0
+Pneumonia,D003372,Coumaphos,0
+Pneumonia,D003404,Creatinine,0
+Pneumonia,D003520,Cyclophosphamide,1
+Pneumonia,D003561,Cytarabine,1
+Pneumonia,D003609,Dactinomycin,0
+Pneumonia,D003620,Dantrolene,1
+Pneumonia,D003622,Dapsone,1
+Pneumonia,D003630,Daunorubicin,1
+Pneumonia,D003634,DDT,0
+Pneumonia,D003707,Demeclocycline,0
+Pneumonia,D003891,Desipramine,1
+Pneumonia,D003907,Dexamethasone,1
+Pneumonia,D003915,Dextromethorphan,0
+Pneumonia,D003931,Diacetyl,0
+Pneumonia,D003932,Heroin,0
+Pneumonia,D003976,Diazinon,0
+Pneumonia,D003996,Dicamba,0
+Pneumonia,D004041,Dietary Fats,1
+Pneumonia,D004051,Diethylhexyl Phthalate,0
+Pneumonia,D004061,Diflunisal,1
+Pneumonia,D004117,Dimethoate,0
+Pneumonia,D004139,Dinitrofluorobenzene,0
+Pneumonia,D004177,Dipyrone,1
+Pneumonia,D004205,Cromolyn Sodium,0
+Pneumonia,D004318,Doxycycline,1
+Pneumonia,D004365,"Drugs, Chinese Herbal",0
+Pneumonia,D004390,Chlorpyrifos,0
+Pneumonia,D004391,Dust,1
+Pneumonia,D004396,Coloring Agents,0
+Pneumonia,D004642,Emodin,0
+Pneumonia,D004656,Enalapril,1
+Pneumonia,D004731,Endotoxins,0
+Pneumonia,D004809,Ephedrine,0
+Pneumonia,D004837,Epinephrine,0
+Pneumonia,D004852,Epoxy Compounds,1
+Pneumonia,D004917,Erythromycin,1
+Pneumonia,D004929,Esculin,1
+Pneumonia,D005047,Etoposide,0
+Pneumonia,D005204,Farnesol,1
+Pneumonia,D005280,Fenoterol,0
+Pneumonia,D005473,Fluoxetine,1
+Pneumonia,D005505,Food Coloring Agents,0
+Pneumonia,D005520,Food Preservatives,0
+Pneumonia,D005557,Formaldehyde,1
+Pneumonia,D005659,"Fungicides, Industrial",0
+Pneumonia,D005839,Gentamicins,1
+Pneumonia,D005938,Glucocorticoids,1
+Pneumonia,D005978,Glutathione,0
+Pneumonia,D006024,Glycopyrrolate,0
+Pneumonia,D006140,Guaifenesin,0
+Pneumonia,D006221,Halothane,0
+Pneumonia,D006493,Heparin,0
+Pneumonia,D006533,Heptachlor,0
+Pneumonia,D006540,Herbicides,0
+Pneumonia,D006583,Hexadimethrine Bromide,1
+Pneumonia,D006632,Histamine,0
+Pneumonia,D006820,Hyaluronic Acid,0
+Pneumonia,D006843,"Hydrocarbons, Chlorinated",0
+Pneumonia,D006854,Hydrocortisone,0
+Pneumonia,D006862,Hydrogen Sulfide,0
+Pneumonia,D006918,Hydroxyurea,0
+Pneumonia,D007052,Ibuprofen,0
+Pneumonia,D007069,Ifosfamide,0
+Pneumonia,D007213,Indomethacin,1
+Pneumonia,D007306,Insecticides,0
+Pneumonia,D007501,Iron,1
+Pneumonia,D007545,Isoproterenol,0
+Pneumonia,D007650,Ketanserin,0
+Pneumonia,D007660,Ketoprofen,0
+Pneumonia,D007665,Ketotifen,0
+Pneumonia,D007840,Latex,1
+Pneumonia,D007975,Leukotriene B4,0
+Pneumonia,D008054,Lipid Peroxides,0
+Pneumonia,D008070,Lipopolysaccharides,1
+Pneumonia,D008130,Lomustine,0
+Pneumonia,D008294,Malathion,0
+Pneumonia,D008345,Manganese,1
+Pneumonia,D008466,Mechlorethamine,1
+Pneumonia,D008628,Mercury,0
+Pneumonia,D008724,Methomyl,0
+Pneumonia,D008727,Methotrexate,1
+Pneumonia,D008775,Methylprednisolone,1
+Pneumonia,D008787,Metoclopramide,0
+Pneumonia,D008802,Mezlocillin,1
+Pneumonia,D008911,Minocycline,1
+Pneumonia,D009151,Mustard Gas,1
+Pneumonia,D009241,Ipratropium,1
+Pneumonia,D009466,Neuromuscular Blocking Agents,0
+Pneumonia,D009525,Niacin,1
+Pneumonia,D009529,Nicardipine,0
+Pneumonia,D009532,Nickel,1
+Pneumonia,D009538,Nicotine,0
+Pneumonia,D009543,Nifedipine,0
+Pneumonia,D009566,Nitrates,0
+Pneumonia,D009569,Nitric Oxide,1
+Pneumonia,D009585,Nitrogen Dioxide,1
+Pneumonia,D009589,Nitrogen Oxides,0
+Pneumonia,D009638,Norepinephrine,0
+Pneumonia,D009921,Metaproterenol,0
+Pneumonia,D010047,Ovalbumin,1
+Pneumonia,D010100,Oxygen,1
+Pneumonia,D010109,Oxymetazoline,0
+Pneumonia,D010126,Ozone,1
+Pneumonia,D010269,Paraquat,1
+Pneumonia,D010278,Parathion,0
+Pneumonia,D010400,Penicillin G,1
+Pneumonia,D010406,Penicillins,1
+Pneumonia,D010575,Pesticides,0
+Pneumonia,D010578,Petroleum,0
+Pneumonia,D010615,Phenacetin,1
+Pneumonia,D010634,Phenobarbital,0
+Pneumonia,D010702,Phorate,0
+Pneumonia,D010755,Organophosphates,0
+Pneumonia,D010846,Picloram,0
+Pneumonia,D010878,Piperacillin,1
+Pneumonia,D010894,Piroxicam,1
+Pneumonia,D010972,Platelet Activating Factor,0
+Pneumonia,D011078,Polychlorinated Biphenyls,0
+Pneumonia,D011084,Polycyclic Aromatic Hydrocarbons,0
+Pneumonia,D011239,Prednisolone,1
+Pneumonia,D011241,Prednisone,1
+Pneumonia,D011433,Propranolol,0
+Pneumonia,D011722,Pyrethrins,0
+Pneumonia,D011791,Quartz,1
+Pneumonia,D011794,Quercetin,0
+Pneumonia,D012378,Rodenticides,0
+Pneumonia,D012460,Sulfasalazine,1
+Pneumonia,D012721,Carbaryl,0
+Pneumonia,D012822,Silicon Dioxide,1
+Pneumonia,D012835,Silver Nitrate,1
+Pneumonia,D012839,Simazine,0
+Pneumonia,D012905,Smog,0
+Pneumonia,D012906,Smoke,1
+Pneumonia,D012980,Sodium Salicylate,0
+Pneumonia,D012997,Solvents,0
+Pneumonia,D013256,Steroids,1
+Pneumonia,D013307,Streptomycin,1
+Pneumonia,D013311,Streptozocin,0
+Pneumonia,D013431,Sulfates,0
+Pneumonia,D013458,Sulfur Dioxide,1
+Pneumonia,D013578,Synephrine,0
+Pneumonia,D013645,Tartrazine,0
+Pneumonia,D013654,Taurine,1
+Pneumonia,D013726,Terbutaline,0
+Pneumonia,D013749,Tetrachlorodibenzodioxin,0
+Pneumonia,D013752,Tetracycline,0
+Pneumonia,D013759,Dronabinol,1
+Pneumonia,D013806,Theophylline,1
+Pneumonia,D013999,Timolol,0
+Pneumonia,D014028,Tobacco Smoke Pollution,1
+Pneumonia,D014031,Tobramycin,1
+Pneumonia,D014051,"Toluene 2,4-Diisocyanate",0
+Pneumonia,D014212,Tretinoin,0
+Pneumonia,D014222,Triamcinolone Acetonide,0
+Pneumonia,D014260,Triclosan,0
+Pneumonia,D014274,Trifluralin,0
+Pneumonia,D014414,Tungsten,1
+Pneumonia,D014580,Ursodeoxycholic Acid,1
+Pneumonia,D014639,Vanadium,1
+Pneumonia,D014640,Vancomycin,1
+Pneumonia,D014665,Vasodilator Agents,0
+Pneumonia,D014700,Verapamil,0
+Pneumonia,D014747,Vinblastine,1
+Pneumonia,D014750,Vincristine,0
+Pneumonia,D014751,Vindesine,0
+Pneumonia,D014801,Vitamin A,0
+Pneumonia,D014859,Warfarin,0
+Pneumonia,D015032,Zinc,1
+Pneumonia,D015034,Zinc Oxide,1
+Pneumonia,D015084,"2,4-Dichlorophenoxyacetic Acid",1
+Pneumonia,D015242,Ofloxacin,1
+Pneumonia,D015289,Leukotrienes,0
+Pneumonia,D015365,Enoxacin,1
+Pneumonia,D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",1
+Pneumonia,D015946,Ethylene Dibromide,0
+Pneumonia,D016190,Carboplatin,1
+Pneumonia,D016210,Methacholine Chloride,0
+Pneumonia,D016576,Fleroxacin,0
+Pneumonia,D016578,Crack Cocaine,1
+Pneumonia,D016589,Astemizole,0
+Pneumonia,D016593,Terfenadine,0
+Pneumonia,D017239,Paclitaxel,1
+Pneumonia,D017265,Procaterol,0
+Pneumonia,D017291,Clarithromycin,1
+Pneumonia,D017308,Etodolac,0
+Pneumonia,D017332,Cetirizine,0
+Pneumonia,D017336,Loratadine,0
+Pneumonia,D017632,"Asbestos, Serpentine",1
+Pneumonia,D017633,Magnesium Silicates,1
+Pneumonia,D017636,"Asbestos, Amphibole",1
+Pneumonia,D017638,"Asbestos, Crocidolite",1
+Pneumonia,D017639,"Asbestos, Amosite",1
+Pneumonia,D017835,Nedocromil,0
+Pneumonia,D017963,Azithromycin,1
+Pneumonia,D017997,Leukotriene C4,0
+Pneumonia,D017998,Leukotriene D4,0
+Pneumonia,D018030,Silver Compounds,1
+Pneumonia,D018038,Sodium Selenite,1
+Pneumonia,D018927,Anti-Asthmatic Agents,0
+Pneumonia,D019216,"Metals, Heavy",0
+Pneumonia,D019256,Cadmium Chloride,1
+Pneumonia,D019257,Quinpirole,0
+Pneumonia,D019287,Zinc Sulfate,1
+Pneumonia,D019327,Copper Sulfate,1
+Pneumonia,D019782,Riluzole,1
+Pneumonia,D019819,Budesonide,0
+Pneumonia,D019821,Simvastatin,0
+Pneumonia,D019980,Amoxicillin-Potassium Clavulanate Combination,1
+Pneumonia,D020024,Leukotriene Antagonists,0
+Pneumonia,D020058,Styrene,1
+Pneumonia,D020123,Sirolimus,1
+Pneumonia,D020156,Salicylic Acid,0
+Pneumonia,D020682,Cefixime,1
+Pneumonia,D024504,gamma-Tocopherol,0
+Pneumonia,D026023,Permethrin,0
+Pneumonia,D028321,Plant Preparations,0
+Pneumonia,D037742,"Nanotubes, Carbon",1
+Pneumonia,D039741,"Antigens, Dermatophagoides",1
+Pneumonia,D047071,beta-Glucans,0
+Pneumonia,D047310,Apigenin,0
+Pneumonia,D052638,Particulate Matter,1
+Pneumonia,D053260,Soot,1
+Pneumonia,D058185,Magnetite Nanoparticles,1
+Pneumonia,D058988,Phosphodiesterase 4 Inhibitors,0
+Pneumonia,D060729,Coal Ash,1
+Pneumonia,D064747,Lansoprazole,0
+Pneumonia,D065819,Voriconazole,1
+"Pulmonary Disease, Chronic Obstructive",C000610679,bufei jianpi,1
+"Pulmonary Disease, Chronic Obstructive",C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,0
+"Pulmonary Disease, Chronic Obstructive",C000626046,RU.521,0
+"Pulmonary Disease, Chronic Obstructive",C000630836,LGM2605,0
+"Pulmonary Disease, Chronic Obstructive",C001899,triptolide,0
+"Pulmonary Disease, Chronic Obstructive",C002003,bentazone,0
+"Pulmonary Disease, Chronic Obstructive",C003237,proxyphylline,1
+"Pulmonary Disease, Chronic Obstructive",C003330,trospium chloride,1
+"Pulmonary Disease, Chronic Obstructive",C004600,bufotalin,0
+"Pulmonary Disease, Chronic Obstructive",C005274,naringin,0
+"Pulmonary Disease, Chronic Obstructive",C005969,"4,4'-diphenylmethane diisocyanate",0
+"Pulmonary Disease, Chronic Obstructive",C006780,bisphenol A,0
+"Pulmonary Disease, Chronic Obstructive",C007734,flunisolide,0
+"Pulmonary Disease, Chronic Obstructive",C007836,geraniol,0
+"Pulmonary Disease, Chronic Obstructive",C008450,7-methylguanine,0
+"Pulmonary Disease, Chronic Obstructive",C008514,methylxanthine,0
+"Pulmonary Disease, Chronic Obstructive",C009495,titanium dioxide,0
+"Pulmonary Disease, Chronic Obstructive",C010809,tulobuterol,0
+"Pulmonary Disease, Chronic Obstructive",C011674,bacampicillin,0
+"Pulmonary Disease, Chronic Obstructive",C011685,bitolterol,0
+"Pulmonary Disease, Chronic Obstructive",C011765,troclosene,0
+"Pulmonary Disease, Chronic Obstructive",C012037,solasodine,0
+"Pulmonary Disease, Chronic Obstructive",C012260,cyclocreatine,0
+"Pulmonary Disease, Chronic Obstructive",C012293,tranilast,0
+"Pulmonary Disease, Chronic Obstructive",C012655,nimesulide,0
+"Pulmonary Disease, Chronic Obstructive",C015001,arsenite,0
+"Pulmonary Disease, Chronic Obstructive",C015262,"1,6-hexamethylene diisocyanate",0
+"Pulmonary Disease, Chronic Obstructive",C015559,trimellitic anhydride,0
+"Pulmonary Disease, Chronic Obstructive",C017590,oxitropium,0
+"Pulmonary Disease, Chronic Obstructive",C018511,4-dichlorobenzene,0
+"Pulmonary Disease, Chronic Obstructive",C021183,"1,7-dimethylxanthine",1
+"Pulmonary Disease, Chronic Obstructive",C022944,gossypin,0
+"Pulmonary Disease, Chronic Obstructive",C023616,zinc chromate,0
+"Pulmonary Disease, Chronic Obstructive",C023617,"pregna-4,17-diene-3,16-dione",0
+"Pulmonary Disease, Chronic Obstructive",C023898,butylate,0
+"Pulmonary Disease, Chronic Obstructive",C024070,pycnogenols,0
+"Pulmonary Disease, Chronic Obstructive",C024746,tobacco tar,0
+"Pulmonary Disease, Chronic Obstructive",C025256,nonylphenol,0
+"Pulmonary Disease, Chronic Obstructive",C025759,saikosaponin D,0
+"Pulmonary Disease, Chronic Obstructive",C027118,didecyldimethylammonium,0
+"Pulmonary Disease, Chronic Obstructive",C027561,butylbenzyl phthalate,0
+"Pulmonary Disease, Chronic Obstructive",C027576,4-hydroxy-2-nonenal,1
+"Pulmonary Disease, Chronic Obstructive",C028007,nickel monoxide,0
+"Pulmonary Disease, Chronic Obstructive",C028305,syringin,0
+"Pulmonary Disease, Chronic Obstructive",C029536,2-oxothiazolidine-4-carboxylic acid,0
+"Pulmonary Disease, Chronic Obstructive",C029797,doxofylline,0
+"Pulmonary Disease, Chronic Obstructive",C029938,nickel sulfate,0
+"Pulmonary Disease, Chronic Obstructive",C030583,ceric oxide,0
+"Pulmonary Disease, Chronic Obstructive",C030809,"fenoterol, ipratropium drug combination",1
+"Pulmonary Disease, Chronic Obstructive",C030856,pendimethalin,0
+"Pulmonary Disease, Chronic Obstructive",C030973,cupric oxide,0
+"Pulmonary Disease, Chronic Obstructive",C030984,pyrene,0
+"Pulmonary Disease, Chronic Obstructive",C031180,chrysene,1
+"Pulmonary Disease, Chronic Obstructive",C031181,phenanthrene,0
+"Pulmonary Disease, Chronic Obstructive",C031278,2-chloroethyl ethyl sulfide,0
+"Pulmonary Disease, Chronic Obstructive",C031818,"enterotoxin B, staphylococcal",0
+"Pulmonary Disease, Chronic Obstructive",C032742,triclopyr,0
+"Pulmonary Disease, Chronic Obstructive",C033146,1-hydroxypyrene,0
+"Pulmonary Disease, Chronic Obstructive",C034206,Ribomunyl,1
+"Pulmonary Disease, Chronic Obstructive",C034347,enprofylline,1
+"Pulmonary Disease, Chronic Obstructive",C034587,CHOP protocol,0
+"Pulmonary Disease, Chronic Obstructive",C035353,M-BACOD protocol,0
+"Pulmonary Disease, Chronic Obstructive",C035978,cefbuperazone,0
+"Pulmonary Disease, Chronic Obstructive",C036251,EPTC,0
+"Pulmonary Disease, Chronic Obstructive",C036567,perfluorodecanoic acid,0
+"Pulmonary Disease, Chronic Obstructive",C038459,curdlan,0
+"Pulmonary Disease, Chronic Obstructive",C041507,1-methylphenanthrene,0
+"Pulmonary Disease, Chronic Obstructive",C043103,phthalic anhydride,0
+"Pulmonary Disease, Chronic Obstructive",C043836,naphthalan,0
+"Pulmonary Disease, Chronic Obstructive",C044101,"endotoxin, Escherichia coli",0
+"Pulmonary Disease, Chronic Obstructive",C045651,epigallocatechin gallate,0
+"Pulmonary Disease, Chronic Obstructive",C047681,pranlukast,0
+"Pulmonary Disease, Chronic Obstructive",C047766,bambuterol,1
+"Pulmonary Disease, Chronic Obstructive",C048629,strontium chromate,0
+"Pulmonary Disease, Chronic Obstructive",C048927,"1,5-anhydrofructose",0
+"Pulmonary Disease, Chronic Obstructive",C051082,beta-eudesmol,0
+"Pulmonary Disease, Chronic Obstructive",C051309,doqualast,0
+"Pulmonary Disease, Chronic Obstructive",C053342,brevetoxin,0
+"Pulmonary Disease, Chronic Obstructive",C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,0
+"Pulmonary Disease, Chronic Obstructive",C056165,acetovanillone,0
+"Pulmonary Disease, Chronic Obstructive",C057710,cefditoren pivoxil,0
+"Pulmonary Disease, Chronic Obstructive",C058216,perilla seed oil,0
+"Pulmonary Disease, Chronic Obstructive",C059141,verlukast,0
+"Pulmonary Disease, Chronic Obstructive",C059528,14-hydroxydocosahexaenoic acid,0
+"Pulmonary Disease, Chronic Obstructive",C060230,seratrodast,0
+"Pulmonary Disease, Chronic Obstructive",C060540,polyhexamethyleneguanidine,0
+"Pulmonary Disease, Chronic Obstructive",C060728,cobalt oxide,0
+"Pulmonary Disease, Chronic Obstructive",C060980,"phosphatidylinositol 3,4-diphosphate",0
+"Pulmonary Disease, Chronic Obstructive",C062735,zafirlukast,1
+"Pulmonary Disease, Chronic Obstructive",C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",0
+"Pulmonary Disease, Chronic Obstructive",C062940,quinupristin-dalfopristin,0
+"Pulmonary Disease, Chronic Obstructive",C063119,ramatroban,0
+"Pulmonary Disease, Chronic Obstructive",C063449,zileuton,0
+"Pulmonary Disease, Chronic Obstructive",C066075,vanadium pentoxide,0
+"Pulmonary Disease, Chronic Obstructive",C068538,liposomal amphotericin B,0
+"Pulmonary Disease, Chronic Obstructive",C069471,aluminum oxide hydroxide,0
+"Pulmonary Disease, Chronic Obstructive",C070074,m-ACOD protocol,0
+"Pulmonary Disease, Chronic Obstructive",C070272,valspodar,0
+"Pulmonary Disease, Chronic Obstructive",C071005,BUCY-2 protocol,0
+"Pulmonary Disease, Chronic Obstructive",C075750,8-epi-prostaglandin F2alpha,0
+"Pulmonary Disease, Chronic Obstructive",C076944,salvianolic acid B,0
+"Pulmonary Disease, Chronic Obstructive",C076994,perfluorooctane sulfonic acid,0
+"Pulmonary Disease, Chronic Obstructive",C077110,ambroxol-theophylline-7-acetate,1
+"Pulmonary Disease, Chronic Obstructive",C080276,mono(2-ethyl-5-oxohexyl)phthalate,0
+"Pulmonary Disease, Chronic Obstructive",C085278,hydroxysafflor yellow A,0
+"Pulmonary Disease, Chronic Obstructive",C085514,wogonin,0
+"Pulmonary Disease, Chronic Obstructive",C087867,"polymeric 4,4'-diphenylmethane diisocyanate",0
+"Pulmonary Disease, Chronic Obstructive",C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",0
+"Pulmonary Disease, Chronic Obstructive",C092704,MINE protocol,0
+"Pulmonary Disease, Chronic Obstructive",C093230,fexofenadine,0
+"Pulmonary Disease, Chronic Obstructive",C093875,montelukast,0
+"Pulmonary Disease, Chronic Obstructive",C094049,apaflurane,0
+"Pulmonary Disease, Chronic Obstructive",C095476,"theophylline, salbutamol drug combination",0
+"Pulmonary Disease, Chronic Obstructive",C099445,S 28463,0
+"Pulmonary Disease, Chronic Obstructive",C101816,perfluoro-n-nonanoic acid,0
+"Pulmonary Disease, Chronic Obstructive",C105311,FR 173657,0
+"Pulmonary Disease, Chronic Obstructive",C112381,cysteinyl-leukotriene,0
+"Pulmonary Disease, Chronic Obstructive",C118790,angiotensin I (1-7),0
+"Pulmonary Disease, Chronic Obstructive",C121345,desloratadine,0
+"Pulmonary Disease, Chronic Obstructive",C424423,Roflumilast,1
+"Pulmonary Disease, Chronic Obstructive",C432165,pyrazolanthrone,0
+"Pulmonary Disease, Chronic Obstructive",C433247,Cilomilast,0
+"Pulmonary Disease, Chronic Obstructive",C433788,"lipopolysaccharide, E. coli O26-B6",0
+"Pulmonary Disease, Chronic Obstructive",C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",0
+"Pulmonary Disease, Chronic Obstructive",C440499,"lipopolysaccharide, Escherichia coli O111 B4",0
+"Pulmonary Disease, Chronic Obstructive",C446402,ovalbumin-alum,0
+"Pulmonary Disease, Chronic Obstructive",C472067,levocetirizine,0
+"Pulmonary Disease, Chronic Obstructive",C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,0
+"Pulmonary Disease, Chronic Obstructive",C492470,fluor-edenite,1
+"Pulmonary Disease, Chronic Obstructive",C506365,Cyclohexane,1
+"Pulmonary Disease, Chronic Obstructive",C512161,bisphenol A glucuronide,0
+"Pulmonary Disease, Chronic Obstructive",C525002,ST2825,0
+"Pulmonary Disease, Chronic Obstructive",C532967,yupingfeng,0
+"Pulmonary Disease, Chronic Obstructive",C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",1
+"Pulmonary Disease, Chronic Obstructive",C542398,PH 797804,1
+"Pulmonary Disease, Chronic Obstructive",C542859,aclidinium bromide,1
+"Pulmonary Disease, Chronic Obstructive",C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",1
+"Pulmonary Disease, Chronic Obstructive",C550144,cang er zi wan,0
+"Pulmonary Disease, Chronic Obstructive",C561691,18(R)-hydroxyeicosapentaenoic acid,0
+"Pulmonary Disease, Chronic Obstructive",C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",1
+"Pulmonary Disease, Chronic Obstructive",C572629,FPS-ZM1,0
+"Pulmonary Disease, Chronic Obstructive",C574213,dilmapimod,1
+"Pulmonary Disease, Chronic Obstructive",C574914,Bu-Fei-Yi-Shen,1
+"Pulmonary Disease, Chronic Obstructive",C583570,revefenacin,1
+"Pulmonary Disease, Chronic Obstructive",D000068297,Fluticasone-Salmeterol Drug Combination,0
+"Pulmonary Disease, Chronic Obstructive",D000068298,Fluticasone,0
+"Pulmonary Disease, Chronic Obstructive",D000068299,Salmeterol Xinafoate,1
+"Pulmonary Disease, Chronic Obstructive",D000068338,Everolimus,0
+"Pulmonary Disease, Chronic Obstructive",D000068437,Pemetrexed,0
+"Pulmonary Disease, Chronic Obstructive",D000068656,Mometasone Furoate,0
+"Pulmonary Disease, Chronic Obstructive",D000068677,Sildenafil Citrate,0
+"Pulmonary Disease, Chronic Obstructive",D000068759,Formoterol Fumarate,1
+"Pulmonary Disease, Chronic Obstructive",D000069349,Linezolid,0
+"Pulmonary Disease, Chronic Obstructive",D000069447,Tiotropium Bromide,1
+"Pulmonary Disease, Chronic Obstructive",D000069470,Venlafaxine Hydrochloride,0
+"Pulmonary Disease, Chronic Obstructive",D000077143,Docetaxel,0
+"Pulmonary Disease, Chronic Obstructive",D000077154,Rosiglitazone,0
+"Pulmonary Disease, Chronic Obstructive",D000077156,Gefitinib,0
+"Pulmonary Disease, Chronic Obstructive",D000077185,Resveratrol,1
+"Pulmonary Disease, Chronic Obstructive",D000077209,Decitabine,0
+"Pulmonary Disease, Chronic Obstructive",D000077213,Lamotrigine,0
+"Pulmonary Disease, Chronic Obstructive",D000077237,Arsenic Trioxide,0
+"Pulmonary Disease, Chronic Obstructive",D000077266,Moxifloxacin,0
+"Pulmonary Disease, Chronic Obstructive",D000077332,Artesunate,0
+"Pulmonary Disease, Chronic Obstructive",D000077337,Vorinostat,0
+"Pulmonary Disease, Chronic Obstructive",D000077407,Cilostazol,0
+"Pulmonary Disease, Chronic Obstructive",D000077547,Crizotinib,0
+"Pulmonary Disease, Chronic Obstructive",D000077551,Micafungin,0
+"Pulmonary Disease, Chronic Obstructive",D000077591,Eucalyptol,1
+"Pulmonary Disease, Chronic Obstructive",D000077731,Meropenem,0
+"Pulmonary Disease, Chronic Obstructive",D000079,Acetaldehyde,0
+"Pulmonary Disease, Chronic Obstructive",D000082,Acetaminophen,0
+"Pulmonary Disease, Chronic Obstructive",D000086,Acetazolamide,1
+"Pulmonary Disease, Chronic Obstructive",D000093542,Gemcitabine,0
+"Pulmonary Disease, Chronic Obstructive",D000097627,Cefpodoxime Proxetil,0
+"Pulmonary Disease, Chronic Obstructive",D000097797,Glyphosate,0
+"Pulmonary Disease, Chronic Obstructive",D000109,Acetylcholine,0
+"Pulmonary Disease, Chronic Obstructive",D000171,Acrolein,1
+"Pulmonary Disease, Chronic Obstructive",D000241,Adenosine,0
+"Pulmonary Disease, Chronic Obstructive",D000242,Cyclic AMP,0
+"Pulmonary Disease, Chronic Obstructive",D000305,Adrenal Cortex Hormones,1
+"Pulmonary Disease, Chronic Obstructive",D000318,Adrenergic beta-Agonists,0
+"Pulmonary Disease, Chronic Obstructive",D000336,Aerosols,0
+"Pulmonary Disease, Chronic Obstructive",D000393,Air Pollutants,1
+"Pulmonary Disease, Chronic Obstructive",D000395,"Air Pollutants, Occupational",0
+"Pulmonary Disease, Chronic Obstructive",D000420,Albuterol,1
+"Pulmonary Disease, Chronic Obstructive",D000448,Aldicarb,0
+"Pulmonary Disease, Chronic Obstructive",D000485,Allergens,0
+"Pulmonary Disease, Chronic Obstructive",D000536,Aluminum Hydroxide,0
+"Pulmonary Disease, Chronic Obstructive",D000537,Aluminum Oxide,0
+"Pulmonary Disease, Chronic Obstructive",D000538,Aluminum Silicates,0
+"Pulmonary Disease, Chronic Obstructive",D000577,Amides,0
+"Pulmonary Disease, Chronic Obstructive",D000583,Amikacin,0
+"Pulmonary Disease, Chronic Obstructive",D000628,Aminophylline,1
+"Pulmonary Disease, Chronic Obstructive",D000638,Amiodarone,0
+"Pulmonary Disease, Chronic Obstructive",D000644,Quaternary Ammonium Compounds,0
+"Pulmonary Disease, Chronic Obstructive",D000666,Amphotericin B,0
+"Pulmonary Disease, Chronic Obstructive",D000667,Ampicillin,0
+"Pulmonary Disease, Chronic Obstructive",D000894,"Anti-Inflammatory Agents, Non-Steroidal",0
+"Pulmonary Disease, Chronic Obstructive",D000942,"Antigens, Bacterial",0
+"Pulmonary Disease, Chronic Obstructive",D000947,"Antigens, Helminth",0
+"Pulmonary Disease, Chronic Obstructive",D000965,Antimony,0
+"Pulmonary Disease, Chronic Obstructive",D001151,Arsenic,1
+"Pulmonary Disease, Chronic Obstructive",D001194,Asbestos,1
+"Pulmonary Disease, Chronic Obstructive",D001241,Aspirin,0
+"Pulmonary Disease, Chronic Obstructive",D001280,Atrazine,0
+"Pulmonary Disease, Chronic Obstructive",D001335,Vehicle Emissions,0
+"Pulmonary Disease, Chronic Obstructive",D001507,Beclomethasone,1
+"Pulmonary Disease, Chronic Obstructive",D001556,Hexachlorocyclohexane,0
+"Pulmonary Disease, Chronic Obstructive",D001564,Benzo(a)pyrene,0
+"Pulmonary Disease, Chronic Obstructive",D001572,Benzofurans,0
+"Pulmonary Disease, Chronic Obstructive",D001622,Betaine,0
+"Pulmonary Disease, Chronic Obstructive",D001761,Bleomycin,0
+"Pulmonary Disease, Chronic Obstructive",D001786,Blood Glucose,0
+"Pulmonary Disease, Chronic Obstructive",D001993,Bronchodilator Agents,0
+"Pulmonary Disease, Chronic Obstructive",D002066,Busulfan,0
+"Pulmonary Disease, Chronic Obstructive",D002084,Butylated Hydroxytoluene,0
+"Pulmonary Disease, Chronic Obstructive",D002104,Cadmium,1
+"Pulmonary Disease, Chronic Obstructive",D002110,Caffeine,0
+"Pulmonary Disease, Chronic Obstructive",D002133,Calcium Sulfate,0
+"Pulmonary Disease, Chronic Obstructive",D002211,Capsaicin,0
+"Pulmonary Disease, Chronic Obstructive",D002215,Captan,0
+"Pulmonary Disease, Chronic Obstructive",D002219,Carbamates,0
+"Pulmonary Disease, Chronic Obstructive",D002228,Carbenicillin,0
+"Pulmonary Disease, Chronic Obstructive",D002231,Carbimazole,0
+"Pulmonary Disease, Chronic Obstructive",D002233,Carbocysteine,1
+"Pulmonary Disease, Chronic Obstructive",D002244,Carbon,0
+"Pulmonary Disease, Chronic Obstructive",D002246,Carbon Disulfide,0
+"Pulmonary Disease, Chronic Obstructive",D002248,Carbon Monoxide,1
+"Pulmonary Disease, Chronic Obstructive",D002251,Carbon Tetrachloride,0
+"Pulmonary Disease, Chronic Obstructive",D002330,Carmustine,0
+"Pulmonary Disease, Chronic Obstructive",D002439,Cefotaxime,0
+"Pulmonary Disease, Chronic Obstructive",D002442,Ceftazidime,0
+"Pulmonary Disease, Chronic Obstructive",D002443,Ceftriaxone,0
+"Pulmonary Disease, Chronic Obstructive",D002444,Cefuroxime,0
+"Pulmonary Disease, Chronic Obstructive",D002511,Cephalosporins,0
+"Pulmonary Disease, Chronic Obstructive",D002512,Cephalothin,0
+"Pulmonary Disease, Chronic Obstructive",D002701,Chloramphenicol,0
+"Pulmonary Disease, Chronic Obstructive",D002706,Chlordan,0
+"Pulmonary Disease, Chronic Obstructive",D002791,"Cholesterol, Dietary",0
+"Pulmonary Disease, Chronic Obstructive",D002840,Chromates,0
+"Pulmonary Disease, Chronic Obstructive",D002939,Ciprofloxacin,0
+"Pulmonary Disease, Chronic Obstructive",D002945,Cisplatin,0
+"Pulmonary Disease, Chronic Obstructive",D003031,Coal,0
+"Pulmonary Disease, Chronic Obstructive",D003035,Cobalt,0
+"Pulmonary Disease, Chronic Obstructive",D003042,Cocaine,0
+"Pulmonary Disease, Chronic Obstructive",D003276,"Contraceptives, Oral",0
+"Pulmonary Disease, Chronic Obstructive",D003372,Coumaphos,0
+"Pulmonary Disease, Chronic Obstructive",D003404,Creatinine,1
+"Pulmonary Disease, Chronic Obstructive",D003520,Cyclophosphamide,0
+"Pulmonary Disease, Chronic Obstructive",D003561,Cytarabine,0
+"Pulmonary Disease, Chronic Obstructive",D003609,Dactinomycin,0
+"Pulmonary Disease, Chronic Obstructive",D003620,Dantrolene,0
+"Pulmonary Disease, Chronic Obstructive",D003622,Dapsone,0
+"Pulmonary Disease, Chronic Obstructive",D003630,Daunorubicin,0
+"Pulmonary Disease, Chronic Obstructive",D003634,DDT,0
+"Pulmonary Disease, Chronic Obstructive",D003707,Demeclocycline,0
+"Pulmonary Disease, Chronic Obstructive",D003891,Desipramine,0
+"Pulmonary Disease, Chronic Obstructive",D003907,Dexamethasone,0
+"Pulmonary Disease, Chronic Obstructive",D003915,Dextromethorphan,0
+"Pulmonary Disease, Chronic Obstructive",D003931,Diacetyl,0
+"Pulmonary Disease, Chronic Obstructive",D003932,Heroin,0
+"Pulmonary Disease, Chronic Obstructive",D003976,Diazinon,0
+"Pulmonary Disease, Chronic Obstructive",D003996,Dicamba,0
+"Pulmonary Disease, Chronic Obstructive",D004041,Dietary Fats,0
+"Pulmonary Disease, Chronic Obstructive",D004051,Diethylhexyl Phthalate,0
+"Pulmonary Disease, Chronic Obstructive",D004061,Diflunisal,0
+"Pulmonary Disease, Chronic Obstructive",D004117,Dimethoate,0
+"Pulmonary Disease, Chronic Obstructive",D004139,Dinitrofluorobenzene,0
+"Pulmonary Disease, Chronic Obstructive",D004177,Dipyrone,0
+"Pulmonary Disease, Chronic Obstructive",D004205,Cromolyn Sodium,0
+"Pulmonary Disease, Chronic Obstructive",D004318,Doxycycline,0
+"Pulmonary Disease, Chronic Obstructive",D004365,"Drugs, Chinese Herbal",0
+"Pulmonary Disease, Chronic Obstructive",D004390,Chlorpyrifos,0
+"Pulmonary Disease, Chronic Obstructive",D004391,Dust,1
+"Pulmonary Disease, Chronic Obstructive",D004396,Coloring Agents,0
+"Pulmonary Disease, Chronic Obstructive",D004642,Emodin,0
+"Pulmonary Disease, Chronic Obstructive",D004656,Enalapril,1
+"Pulmonary Disease, Chronic Obstructive",D004731,Endotoxins,0
+"Pulmonary Disease, Chronic Obstructive",D004809,Ephedrine,0
+"Pulmonary Disease, Chronic Obstructive",D004837,Epinephrine,1
+"Pulmonary Disease, Chronic Obstructive",D004852,Epoxy Compounds,0
+"Pulmonary Disease, Chronic Obstructive",D004917,Erythromycin,0
+"Pulmonary Disease, Chronic Obstructive",D004929,Esculin,0
+"Pulmonary Disease, Chronic Obstructive",D005047,Etoposide,0
+"Pulmonary Disease, Chronic Obstructive",D005204,Farnesol,0
+"Pulmonary Disease, Chronic Obstructive",D005280,Fenoterol,0
+"Pulmonary Disease, Chronic Obstructive",D005473,Fluoxetine,0
+"Pulmonary Disease, Chronic Obstructive",D005505,Food Coloring Agents,0
+"Pulmonary Disease, Chronic Obstructive",D005520,Food Preservatives,0
+"Pulmonary Disease, Chronic Obstructive",D005557,Formaldehyde,0
+"Pulmonary Disease, Chronic Obstructive",D005659,"Fungicides, Industrial",0
+"Pulmonary Disease, Chronic Obstructive",D005839,Gentamicins,0
+"Pulmonary Disease, Chronic Obstructive",D005938,Glucocorticoids,1
+"Pulmonary Disease, Chronic Obstructive",D005978,Glutathione,0
+"Pulmonary Disease, Chronic Obstructive",D006024,Glycopyrrolate,1
+"Pulmonary Disease, Chronic Obstructive",D006140,Guaifenesin,0
+"Pulmonary Disease, Chronic Obstructive",D006221,Halothane,0
+"Pulmonary Disease, Chronic Obstructive",D006493,Heparin,0
+"Pulmonary Disease, Chronic Obstructive",D006533,Heptachlor,0
+"Pulmonary Disease, Chronic Obstructive",D006540,Herbicides,0
+"Pulmonary Disease, Chronic Obstructive",D006583,Hexadimethrine Bromide,0
+"Pulmonary Disease, Chronic Obstructive",D006632,Histamine,0
+"Pulmonary Disease, Chronic Obstructive",D006820,Hyaluronic Acid,1
+"Pulmonary Disease, Chronic Obstructive",D006843,"Hydrocarbons, Chlorinated",0
+"Pulmonary Disease, Chronic Obstructive",D006854,Hydrocortisone,0
+"Pulmonary Disease, Chronic Obstructive",D006862,Hydrogen Sulfide,0
+"Pulmonary Disease, Chronic Obstructive",D006918,Hydroxyurea,0
+"Pulmonary Disease, Chronic Obstructive",D007052,Ibuprofen,0
+"Pulmonary Disease, Chronic Obstructive",D007069,Ifosfamide,0
+"Pulmonary Disease, Chronic Obstructive",D007213,Indomethacin,0
+"Pulmonary Disease, Chronic Obstructive",D007306,Insecticides,0
+"Pulmonary Disease, Chronic Obstructive",D007501,Iron,0
+"Pulmonary Disease, Chronic Obstructive",D007545,Isoproterenol,0
+"Pulmonary Disease, Chronic Obstructive",D007650,Ketanserin,1
+"Pulmonary Disease, Chronic Obstructive",D007660,Ketoprofen,0
+"Pulmonary Disease, Chronic Obstructive",D007665,Ketotifen,0
+"Pulmonary Disease, Chronic Obstructive",D007840,Latex,0
+"Pulmonary Disease, Chronic Obstructive",D007975,Leukotriene B4,0
+"Pulmonary Disease, Chronic Obstructive",D008054,Lipid Peroxides,1
+"Pulmonary Disease, Chronic Obstructive",D008070,Lipopolysaccharides,1
+"Pulmonary Disease, Chronic Obstructive",D008130,Lomustine,0
+"Pulmonary Disease, Chronic Obstructive",D008294,Malathion,0
+"Pulmonary Disease, Chronic Obstructive",D008345,Manganese,0
+"Pulmonary Disease, Chronic Obstructive",D008466,Mechlorethamine,0
+"Pulmonary Disease, Chronic Obstructive",D008628,Mercury,0
+"Pulmonary Disease, Chronic Obstructive",D008724,Methomyl,0
+"Pulmonary Disease, Chronic Obstructive",D008727,Methotrexate,1
+"Pulmonary Disease, Chronic Obstructive",D008775,Methylprednisolone,0
+"Pulmonary Disease, Chronic Obstructive",D008787,Metoclopramide,0
+"Pulmonary Disease, Chronic Obstructive",D008802,Mezlocillin,0
+"Pulmonary Disease, Chronic Obstructive",D008911,Minocycline,0
+"Pulmonary Disease, Chronic Obstructive",D009151,Mustard Gas,1
+"Pulmonary Disease, Chronic Obstructive",D009241,Ipratropium,1
+"Pulmonary Disease, Chronic Obstructive",D009466,Neuromuscular Blocking Agents,0
+"Pulmonary Disease, Chronic Obstructive",D009525,Niacin,0
+"Pulmonary Disease, Chronic Obstructive",D009529,Nicardipine,0
+"Pulmonary Disease, Chronic Obstructive",D009532,Nickel,0
+"Pulmonary Disease, Chronic Obstructive",D009538,Nicotine,0
+"Pulmonary Disease, Chronic Obstructive",D009543,Nifedipine,1
+"Pulmonary Disease, Chronic Obstructive",D009566,Nitrates,0
+"Pulmonary Disease, Chronic Obstructive",D009569,Nitric Oxide,0
+"Pulmonary Disease, Chronic Obstructive",D009585,Nitrogen Dioxide,1
+"Pulmonary Disease, Chronic Obstructive",D009589,Nitrogen Oxides,0
+"Pulmonary Disease, Chronic Obstructive",D009638,Norepinephrine,1
+"Pulmonary Disease, Chronic Obstructive",D009921,Metaproterenol,0
+"Pulmonary Disease, Chronic Obstructive",D010047,Ovalbumin,0
+"Pulmonary Disease, Chronic Obstructive",D010100,Oxygen,0
+"Pulmonary Disease, Chronic Obstructive",D010109,Oxymetazoline,0
+"Pulmonary Disease, Chronic Obstructive",D010126,Ozone,1
+"Pulmonary Disease, Chronic Obstructive",D010269,Paraquat,0
+"Pulmonary Disease, Chronic Obstructive",D010278,Parathion,0
+"Pulmonary Disease, Chronic Obstructive",D010400,Penicillin G,0
+"Pulmonary Disease, Chronic Obstructive",D010406,Penicillins,0
+"Pulmonary Disease, Chronic Obstructive",D010575,Pesticides,0
+"Pulmonary Disease, Chronic Obstructive",D010578,Petroleum,0
+"Pulmonary Disease, Chronic Obstructive",D010615,Phenacetin,0
+"Pulmonary Disease, Chronic Obstructive",D010634,Phenobarbital,0
+"Pulmonary Disease, Chronic Obstructive",D010702,Phorate,0
+"Pulmonary Disease, Chronic Obstructive",D010755,Organophosphates,0
+"Pulmonary Disease, Chronic Obstructive",D010846,Picloram,0
+"Pulmonary Disease, Chronic Obstructive",D010878,Piperacillin,0
+"Pulmonary Disease, Chronic Obstructive",D010894,Piroxicam,0
+"Pulmonary Disease, Chronic Obstructive",D010972,Platelet Activating Factor,0
+"Pulmonary Disease, Chronic Obstructive",D011078,Polychlorinated Biphenyls,0
+"Pulmonary Disease, Chronic Obstructive",D011084,Polycyclic Aromatic Hydrocarbons,0
+"Pulmonary Disease, Chronic Obstructive",D011239,Prednisolone,0
+"Pulmonary Disease, Chronic Obstructive",D011241,Prednisone,1
+"Pulmonary Disease, Chronic Obstructive",D011433,Propranolol,0
+"Pulmonary Disease, Chronic Obstructive",D011722,Pyrethrins,0
+"Pulmonary Disease, Chronic Obstructive",D011791,Quartz,0
+"Pulmonary Disease, Chronic Obstructive",D011794,Quercetin,1
+"Pulmonary Disease, Chronic Obstructive",D012378,Rodenticides,0
+"Pulmonary Disease, Chronic Obstructive",D012460,Sulfasalazine,0
+"Pulmonary Disease, Chronic Obstructive",D012721,Carbaryl,0
+"Pulmonary Disease, Chronic Obstructive",D012822,Silicon Dioxide,0
+"Pulmonary Disease, Chronic Obstructive",D012835,Silver Nitrate,0
+"Pulmonary Disease, Chronic Obstructive",D012839,Simazine,0
+"Pulmonary Disease, Chronic Obstructive",D012905,Smog,1
+"Pulmonary Disease, Chronic Obstructive",D012906,Smoke,1
+"Pulmonary Disease, Chronic Obstructive",D012980,Sodium Salicylate,0
+"Pulmonary Disease, Chronic Obstructive",D012997,Solvents,0
+"Pulmonary Disease, Chronic Obstructive",D013256,Steroids,0
+"Pulmonary Disease, Chronic Obstructive",D013307,Streptomycin,0
+"Pulmonary Disease, Chronic Obstructive",D013311,Streptozocin,0
+"Pulmonary Disease, Chronic Obstructive",D013431,Sulfates,0
+"Pulmonary Disease, Chronic Obstructive",D013458,Sulfur Dioxide,1
+"Pulmonary Disease, Chronic Obstructive",D013578,Synephrine,0
+"Pulmonary Disease, Chronic Obstructive",D013645,Tartrazine,0
+"Pulmonary Disease, Chronic Obstructive",D013654,Taurine,0
+"Pulmonary Disease, Chronic Obstructive",D013726,Terbutaline,1
+"Pulmonary Disease, Chronic Obstructive",D013749,Tetrachlorodibenzodioxin,1
+"Pulmonary Disease, Chronic Obstructive",D013752,Tetracycline,0
+"Pulmonary Disease, Chronic Obstructive",D013759,Dronabinol,0
+"Pulmonary Disease, Chronic Obstructive",D013806,Theophylline,1
+"Pulmonary Disease, Chronic Obstructive",D013999,Timolol,1
+"Pulmonary Disease, Chronic Obstructive",D014028,Tobacco Smoke Pollution,1
+"Pulmonary Disease, Chronic Obstructive",D014031,Tobramycin,0
+"Pulmonary Disease, Chronic Obstructive",D014051,"Toluene 2,4-Diisocyanate",0
+"Pulmonary Disease, Chronic Obstructive",D014212,Tretinoin,0
+"Pulmonary Disease, Chronic Obstructive",D014222,Triamcinolone Acetonide,0
+"Pulmonary Disease, Chronic Obstructive",D014260,Triclosan,0
+"Pulmonary Disease, Chronic Obstructive",D014274,Trifluralin,0
+"Pulmonary Disease, Chronic Obstructive",D014414,Tungsten,0
+"Pulmonary Disease, Chronic Obstructive",D014580,Ursodeoxycholic Acid,0
+"Pulmonary Disease, Chronic Obstructive",D014639,Vanadium,0
+"Pulmonary Disease, Chronic Obstructive",D014640,Vancomycin,0
+"Pulmonary Disease, Chronic Obstructive",D014665,Vasodilator Agents,0
+"Pulmonary Disease, Chronic Obstructive",D014700,Verapamil,1
+"Pulmonary Disease, Chronic Obstructive",D014747,Vinblastine,0
+"Pulmonary Disease, Chronic Obstructive",D014750,Vincristine,0
+"Pulmonary Disease, Chronic Obstructive",D014751,Vindesine,0
+"Pulmonary Disease, Chronic Obstructive",D014801,Vitamin A,0
+"Pulmonary Disease, Chronic Obstructive",D014859,Warfarin,0
+"Pulmonary Disease, Chronic Obstructive",D015032,Zinc,0
+"Pulmonary Disease, Chronic Obstructive",D015034,Zinc Oxide,0
+"Pulmonary Disease, Chronic Obstructive",D015084,"2,4-Dichlorophenoxyacetic Acid",0
+"Pulmonary Disease, Chronic Obstructive",D015242,Ofloxacin,0
+"Pulmonary Disease, Chronic Obstructive",D015289,Leukotrienes,0
+"Pulmonary Disease, Chronic Obstructive",D015365,Enoxacin,0
+"Pulmonary Disease, Chronic Obstructive",D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",0
+"Pulmonary Disease, Chronic Obstructive",D015946,Ethylene Dibromide,0
+"Pulmonary Disease, Chronic Obstructive",D016190,Carboplatin,0
+"Pulmonary Disease, Chronic Obstructive",D016210,Methacholine Chloride,0
+"Pulmonary Disease, Chronic Obstructive",D016576,Fleroxacin,0
+"Pulmonary Disease, Chronic Obstructive",D016578,Crack Cocaine,0
+"Pulmonary Disease, Chronic Obstructive",D016589,Astemizole,0
+"Pulmonary Disease, Chronic Obstructive",D016593,Terfenadine,0
+"Pulmonary Disease, Chronic Obstructive",D017239,Paclitaxel,0
+"Pulmonary Disease, Chronic Obstructive",D017265,Procaterol,0
+"Pulmonary Disease, Chronic Obstructive",D017291,Clarithromycin,1
+"Pulmonary Disease, Chronic Obstructive",D017308,Etodolac,0
+"Pulmonary Disease, Chronic Obstructive",D017332,Cetirizine,0
+"Pulmonary Disease, Chronic Obstructive",D017336,Loratadine,0
+"Pulmonary Disease, Chronic Obstructive",D017632,"Asbestos, Serpentine",0
+"Pulmonary Disease, Chronic Obstructive",D017633,Magnesium Silicates,0
+"Pulmonary Disease, Chronic Obstructive",D017636,"Asbestos, Amphibole",0
+"Pulmonary Disease, Chronic Obstructive",D017638,"Asbestos, Crocidolite",0
+"Pulmonary Disease, Chronic Obstructive",D017639,"Asbestos, Amosite",0
+"Pulmonary Disease, Chronic Obstructive",D017835,Nedocromil,0
+"Pulmonary Disease, Chronic Obstructive",D017963,Azithromycin,0
+"Pulmonary Disease, Chronic Obstructive",D017997,Leukotriene C4,0
+"Pulmonary Disease, Chronic Obstructive",D017998,Leukotriene D4,0
+"Pulmonary Disease, Chronic Obstructive",D018030,Silver Compounds,0
+"Pulmonary Disease, Chronic Obstructive",D018038,Sodium Selenite,0
+"Pulmonary Disease, Chronic Obstructive",D018927,Anti-Asthmatic Agents,0
+"Pulmonary Disease, Chronic Obstructive",D019216,"Metals, Heavy",1
+"Pulmonary Disease, Chronic Obstructive",D019256,Cadmium Chloride,0
+"Pulmonary Disease, Chronic Obstructive",D019257,Quinpirole,0
+"Pulmonary Disease, Chronic Obstructive",D019287,Zinc Sulfate,0
+"Pulmonary Disease, Chronic Obstructive",D019327,Copper Sulfate,0
+"Pulmonary Disease, Chronic Obstructive",D019782,Riluzole,0
+"Pulmonary Disease, Chronic Obstructive",D019819,Budesonide,0
+"Pulmonary Disease, Chronic Obstructive",D019821,Simvastatin,1
+"Pulmonary Disease, Chronic Obstructive",D019980,Amoxicillin-Potassium Clavulanate Combination,0
+"Pulmonary Disease, Chronic Obstructive",D020024,Leukotriene Antagonists,0
+"Pulmonary Disease, Chronic Obstructive",D020058,Styrene,0
+"Pulmonary Disease, Chronic Obstructive",D020123,Sirolimus,0
+"Pulmonary Disease, Chronic Obstructive",D020156,Salicylic Acid,0
+"Pulmonary Disease, Chronic Obstructive",D020682,Cefixime,0
+"Pulmonary Disease, Chronic Obstructive",D024504,gamma-Tocopherol,0
+"Pulmonary Disease, Chronic Obstructive",D026023,Permethrin,0
+"Pulmonary Disease, Chronic Obstructive",D028321,Plant Preparations,0
+"Pulmonary Disease, Chronic Obstructive",D037742,"Nanotubes, Carbon",0
+"Pulmonary Disease, Chronic Obstructive",D039741,"Antigens, Dermatophagoides",0
+"Pulmonary Disease, Chronic Obstructive",D047071,beta-Glucans,0
+"Pulmonary Disease, Chronic Obstructive",D047310,Apigenin,0
+"Pulmonary Disease, Chronic Obstructive",D052638,Particulate Matter,1
+"Pulmonary Disease, Chronic Obstructive",D053260,Soot,1
+"Pulmonary Disease, Chronic Obstructive",D058185,Magnetite Nanoparticles,0
+"Pulmonary Disease, Chronic Obstructive",D058988,Phosphodiesterase 4 Inhibitors,1
+"Pulmonary Disease, Chronic Obstructive",D060729,Coal Ash,0
+"Pulmonary Disease, Chronic Obstructive",D064747,Lansoprazole,0
+"Pulmonary Disease, Chronic Obstructive",D065819,Voriconazole,0
+"Rhinitis, Allergic",C000610679,bufei jianpi,0
+"Rhinitis, Allergic",C000623021,3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,0
+"Rhinitis, Allergic",C000626046,RU.521,0
+"Rhinitis, Allergic",C000630836,LGM2605,0
+"Rhinitis, Allergic",C001899,triptolide,0
+"Rhinitis, Allergic",C002003,bentazone,1
+"Rhinitis, Allergic",C003237,proxyphylline,0
+"Rhinitis, Allergic",C003330,trospium chloride,0
+"Rhinitis, Allergic",C004600,bufotalin,1
+"Rhinitis, Allergic",C005274,naringin,0
+"Rhinitis, Allergic",C005969,"4,4'-diphenylmethane diisocyanate",1
+"Rhinitis, Allergic",C006780,bisphenol A,1
+"Rhinitis, Allergic",C007734,flunisolide,0
+"Rhinitis, Allergic",C007836,geraniol,1
+"Rhinitis, Allergic",C008450,7-methylguanine,0
+"Rhinitis, Allergic",C008514,methylxanthine,0
+"Rhinitis, Allergic",C009495,titanium dioxide,0
+"Rhinitis, Allergic",C010809,tulobuterol,0
+"Rhinitis, Allergic",C011674,bacampicillin,0
+"Rhinitis, Allergic",C011685,bitolterol,0
+"Rhinitis, Allergic",C011765,troclosene,0
+"Rhinitis, Allergic",C012037,solasodine,0
+"Rhinitis, Allergic",C012260,cyclocreatine,0
+"Rhinitis, Allergic",C012293,tranilast,0
+"Rhinitis, Allergic",C012655,nimesulide,1
+"Rhinitis, Allergic",C015001,arsenite,0
+"Rhinitis, Allergic",C015262,"1,6-hexamethylene diisocyanate",0
+"Rhinitis, Allergic",C015559,trimellitic anhydride,0
+"Rhinitis, Allergic",C017590,oxitropium,0
+"Rhinitis, Allergic",C018511,4-dichlorobenzene,0
+"Rhinitis, Allergic",C021183,"1,7-dimethylxanthine",0
+"Rhinitis, Allergic",C022944,gossypin,0
+"Rhinitis, Allergic",C023616,zinc chromate,0
+"Rhinitis, Allergic",C023617,"pregna-4,17-diene-3,16-dione",0
+"Rhinitis, Allergic",C023898,butylate,0
+"Rhinitis, Allergic",C024070,pycnogenols,0
+"Rhinitis, Allergic",C024746,tobacco tar,0
+"Rhinitis, Allergic",C025256,nonylphenol,1
+"Rhinitis, Allergic",C025759,saikosaponin D,1
+"Rhinitis, Allergic",C027118,didecyldimethylammonium,0
+"Rhinitis, Allergic",C027561,butylbenzyl phthalate,0
+"Rhinitis, Allergic",C027576,4-hydroxy-2-nonenal,0
+"Rhinitis, Allergic",C028007,nickel monoxide,0
+"Rhinitis, Allergic",C028305,syringin,0
+"Rhinitis, Allergic",C029536,2-oxothiazolidine-4-carboxylic acid,0
+"Rhinitis, Allergic",C029797,doxofylline,0
+"Rhinitis, Allergic",C029938,nickel sulfate,0
+"Rhinitis, Allergic",C030583,ceric oxide,0
+"Rhinitis, Allergic",C030809,"fenoterol, ipratropium drug combination",0
+"Rhinitis, Allergic",C030856,pendimethalin,0
+"Rhinitis, Allergic",C030973,cupric oxide,0
+"Rhinitis, Allergic",C030984,pyrene,0
+"Rhinitis, Allergic",C031180,chrysene,0
+"Rhinitis, Allergic",C031181,phenanthrene,0
+"Rhinitis, Allergic",C031278,2-chloroethyl ethyl sulfide,0
+"Rhinitis, Allergic",C031818,"enterotoxin B, staphylococcal",0
+"Rhinitis, Allergic",C032742,triclopyr,1
+"Rhinitis, Allergic",C033146,1-hydroxypyrene,0
+"Rhinitis, Allergic",C034206,Ribomunyl,0
+"Rhinitis, Allergic",C034347,enprofylline,0
+"Rhinitis, Allergic",C034587,CHOP protocol,0
+"Rhinitis, Allergic",C035353,M-BACOD protocol,0
+"Rhinitis, Allergic",C035978,cefbuperazone,0
+"Rhinitis, Allergic",C036251,EPTC,0
+"Rhinitis, Allergic",C036567,perfluorodecanoic acid,0
+"Rhinitis, Allergic",C038459,curdlan,0
+"Rhinitis, Allergic",C041507,1-methylphenanthrene,0
+"Rhinitis, Allergic",C043103,phthalic anhydride,0
+"Rhinitis, Allergic",C043836,naphthalan,0
+"Rhinitis, Allergic",C044101,"endotoxin, Escherichia coli",0
+"Rhinitis, Allergic",C045651,epigallocatechin gallate,0
+"Rhinitis, Allergic",C047681,pranlukast,0
+"Rhinitis, Allergic",C047766,bambuterol,0
+"Rhinitis, Allergic",C048629,strontium chromate,0
+"Rhinitis, Allergic",C048927,"1,5-anhydrofructose",0
+"Rhinitis, Allergic",C051082,beta-eudesmol,1
+"Rhinitis, Allergic",C051309,doqualast,0
+"Rhinitis, Allergic",C053342,brevetoxin,0
+"Rhinitis, Allergic",C055172,N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,0
+"Rhinitis, Allergic",C056165,acetovanillone,0
+"Rhinitis, Allergic",C057710,cefditoren pivoxil,0
+"Rhinitis, Allergic",C058216,perilla seed oil,0
+"Rhinitis, Allergic",C059141,verlukast,0
+"Rhinitis, Allergic",C059528,14-hydroxydocosahexaenoic acid,0
+"Rhinitis, Allergic",C060230,seratrodast,0
+"Rhinitis, Allergic",C060540,polyhexamethyleneguanidine,0
+"Rhinitis, Allergic",C060728,cobalt oxide,0
+"Rhinitis, Allergic",C060980,"phosphatidylinositol 3,4-diphosphate",0
+"Rhinitis, Allergic",C062735,zafirlukast,1
+"Rhinitis, Allergic",C062894,"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",0
+"Rhinitis, Allergic",C062940,quinupristin-dalfopristin,0
+"Rhinitis, Allergic",C063119,ramatroban,1
+"Rhinitis, Allergic",C063449,zileuton,0
+"Rhinitis, Allergic",C066075,vanadium pentoxide,0
+"Rhinitis, Allergic",C068538,liposomal amphotericin B,0
+"Rhinitis, Allergic",C069471,aluminum oxide hydroxide,0
+"Rhinitis, Allergic",C070074,m-ACOD protocol,0
+"Rhinitis, Allergic",C070272,valspodar,0
+"Rhinitis, Allergic",C071005,BUCY-2 protocol,0
+"Rhinitis, Allergic",C075750,8-epi-prostaglandin F2alpha,0
+"Rhinitis, Allergic",C076944,salvianolic acid B,0
+"Rhinitis, Allergic",C076994,perfluorooctane sulfonic acid,0
+"Rhinitis, Allergic",C077110,ambroxol-theophylline-7-acetate,0
+"Rhinitis, Allergic",C080276,mono(2-ethyl-5-oxohexyl)phthalate,1
+"Rhinitis, Allergic",C085278,hydroxysafflor yellow A,1
+"Rhinitis, Allergic",C085514,wogonin,0
+"Rhinitis, Allergic",C087867,"polymeric 4,4'-diphenylmethane diisocyanate",0
+"Rhinitis, Allergic",C088860,"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",0
+"Rhinitis, Allergic",C092704,MINE protocol,0
+"Rhinitis, Allergic",C093230,fexofenadine,1
+"Rhinitis, Allergic",C093875,montelukast,0
+"Rhinitis, Allergic",C094049,apaflurane,0
+"Rhinitis, Allergic",C095476,"theophylline, salbutamol drug combination",0
+"Rhinitis, Allergic",C099445,S 28463,0
+"Rhinitis, Allergic",C101816,perfluoro-n-nonanoic acid,0
+"Rhinitis, Allergic",C105311,FR 173657,0
+"Rhinitis, Allergic",C112381,cysteinyl-leukotriene,0
+"Rhinitis, Allergic",C118790,angiotensin I (1-7),0
+"Rhinitis, Allergic",C121345,desloratadine,1
+"Rhinitis, Allergic",C424423,Roflumilast,0
+"Rhinitis, Allergic",C432165,pyrazolanthrone,0
+"Rhinitis, Allergic",C433247,Cilomilast,0
+"Rhinitis, Allergic",C433788,"lipopolysaccharide, E. coli O26-B6",0
+"Rhinitis, Allergic",C434926,"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",0
+"Rhinitis, Allergic",C440499,"lipopolysaccharide, Escherichia coli O111 B4",0
+"Rhinitis, Allergic",C446402,ovalbumin-alum,1
+"Rhinitis, Allergic",C472067,levocetirizine,1
+"Rhinitis, Allergic",C479069,mono(2-ethyl-5-hydroxyhexyl) phthalate,1
+"Rhinitis, Allergic",C492470,fluor-edenite,0
+"Rhinitis, Allergic",C506365,Cyclohexane,0
+"Rhinitis, Allergic",C512161,bisphenol A glucuronide,0
+"Rhinitis, Allergic",C525002,ST2825,0
+"Rhinitis, Allergic",C532967,yupingfeng,0
+"Rhinitis, Allergic",C539252,"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",0
+"Rhinitis, Allergic",C542398,PH 797804,0
+"Rhinitis, Allergic",C542859,aclidinium bromide,0
+"Rhinitis, Allergic",C543534,"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",0
+"Rhinitis, Allergic",C550144,cang er zi wan,1
+"Rhinitis, Allergic",C561691,18(R)-hydroxyeicosapentaenoic acid,0
+"Rhinitis, Allergic",C569762,"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",0
+"Rhinitis, Allergic",C572629,FPS-ZM1,0
+"Rhinitis, Allergic",C574213,dilmapimod,0
+"Rhinitis, Allergic",C574914,Bu-Fei-Yi-Shen,0
+"Rhinitis, Allergic",C583570,revefenacin,0
+"Rhinitis, Allergic",D000068297,Fluticasone-Salmeterol Drug Combination,0
+"Rhinitis, Allergic",D000068298,Fluticasone,0
+"Rhinitis, Allergic",D000068299,Salmeterol Xinafoate,0
+"Rhinitis, Allergic",D000068338,Everolimus,0
+"Rhinitis, Allergic",D000068437,Pemetrexed,0
+"Rhinitis, Allergic",D000068656,Mometasone Furoate,0
+"Rhinitis, Allergic",D000068677,Sildenafil Citrate,0
+"Rhinitis, Allergic",D000068759,Formoterol Fumarate,0
+"Rhinitis, Allergic",D000069349,Linezolid,0
+"Rhinitis, Allergic",D000069447,Tiotropium Bromide,0
+"Rhinitis, Allergic",D000069470,Venlafaxine Hydrochloride,0
+"Rhinitis, Allergic",D000077143,Docetaxel,0
+"Rhinitis, Allergic",D000077154,Rosiglitazone,1
+"Rhinitis, Allergic",D000077156,Gefitinib,0
+"Rhinitis, Allergic",D000077185,Resveratrol,0
+"Rhinitis, Allergic",D000077209,Decitabine,0
+"Rhinitis, Allergic",D000077213,Lamotrigine,0
+"Rhinitis, Allergic",D000077237,Arsenic Trioxide,0
+"Rhinitis, Allergic",D000077266,Moxifloxacin,0
+"Rhinitis, Allergic",D000077332,Artesunate,0
+"Rhinitis, Allergic",D000077337,Vorinostat,0
+"Rhinitis, Allergic",D000077407,Cilostazol,0
+"Rhinitis, Allergic",D000077547,Crizotinib,0
+"Rhinitis, Allergic",D000077551,Micafungin,0
+"Rhinitis, Allergic",D000077591,Eucalyptol,0
+"Rhinitis, Allergic",D000077731,Meropenem,0
+"Rhinitis, Allergic",D000079,Acetaldehyde,0
+"Rhinitis, Allergic",D000082,Acetaminophen,0
+"Rhinitis, Allergic",D000086,Acetazolamide,0
+"Rhinitis, Allergic",D000093542,Gemcitabine,0
+"Rhinitis, Allergic",D000097627,Cefpodoxime Proxetil,0
+"Rhinitis, Allergic",D000097797,Glyphosate,1
+"Rhinitis, Allergic",D000109,Acetylcholine,0
+"Rhinitis, Allergic",D000171,Acrolein,0
+"Rhinitis, Allergic",D000241,Adenosine,0
+"Rhinitis, Allergic",D000242,Cyclic AMP,0
+"Rhinitis, Allergic",D000305,Adrenal Cortex Hormones,0
+"Rhinitis, Allergic",D000318,Adrenergic beta-Agonists,0
+"Rhinitis, Allergic",D000336,Aerosols,0
+"Rhinitis, Allergic",D000393,Air Pollutants,1
+"Rhinitis, Allergic",D000395,"Air Pollutants, Occupational",0
+"Rhinitis, Allergic",D000420,Albuterol,0
+"Rhinitis, Allergic",D000448,Aldicarb,0
+"Rhinitis, Allergic",D000485,Allergens,0
+"Rhinitis, Allergic",D000536,Aluminum Hydroxide,1
+"Rhinitis, Allergic",D000537,Aluminum Oxide,0
+"Rhinitis, Allergic",D000538,Aluminum Silicates,0
+"Rhinitis, Allergic",D000577,Amides,0
+"Rhinitis, Allergic",D000583,Amikacin,0
+"Rhinitis, Allergic",D000628,Aminophylline,0
+"Rhinitis, Allergic",D000638,Amiodarone,0
+"Rhinitis, Allergic",D000644,Quaternary Ammonium Compounds,0
+"Rhinitis, Allergic",D000666,Amphotericin B,0
+"Rhinitis, Allergic",D000667,Ampicillin,0
+"Rhinitis, Allergic",D000894,"Anti-Inflammatory Agents, Non-Steroidal",0
+"Rhinitis, Allergic",D000942,"Antigens, Bacterial",1
+"Rhinitis, Allergic",D000947,"Antigens, Helminth",1
+"Rhinitis, Allergic",D000965,Antimony,0
+"Rhinitis, Allergic",D001151,Arsenic,0
+"Rhinitis, Allergic",D001194,Asbestos,0
+"Rhinitis, Allergic",D001241,Aspirin,0
+"Rhinitis, Allergic",D001280,Atrazine,1
+"Rhinitis, Allergic",D001335,Vehicle Emissions,0
+"Rhinitis, Allergic",D001507,Beclomethasone,0
+"Rhinitis, Allergic",D001556,Hexachlorocyclohexane,0
+"Rhinitis, Allergic",D001564,Benzo(a)pyrene,0
+"Rhinitis, Allergic",D001572,Benzofurans,0
+"Rhinitis, Allergic",D001622,Betaine,0
+"Rhinitis, Allergic",D001761,Bleomycin,0
+"Rhinitis, Allergic",D001786,Blood Glucose,0
+"Rhinitis, Allergic",D001993,Bronchodilator Agents,0
+"Rhinitis, Allergic",D002066,Busulfan,0
+"Rhinitis, Allergic",D002084,Butylated Hydroxytoluene,0
+"Rhinitis, Allergic",D002104,Cadmium,0
+"Rhinitis, Allergic",D002110,Caffeine,0
+"Rhinitis, Allergic",D002133,Calcium Sulfate,0
+"Rhinitis, Allergic",D002211,Capsaicin,0
+"Rhinitis, Allergic",D002215,Captan,0
+"Rhinitis, Allergic",D002219,Carbamates,0
+"Rhinitis, Allergic",D002228,Carbenicillin,0
+"Rhinitis, Allergic",D002231,Carbimazole,0
+"Rhinitis, Allergic",D002233,Carbocysteine,0
+"Rhinitis, Allergic",D002244,Carbon,0
+"Rhinitis, Allergic",D002246,Carbon Disulfide,0
+"Rhinitis, Allergic",D002248,Carbon Monoxide,0
+"Rhinitis, Allergic",D002251,Carbon Tetrachloride,0
+"Rhinitis, Allergic",D002330,Carmustine,0
+"Rhinitis, Allergic",D002439,Cefotaxime,0
+"Rhinitis, Allergic",D002442,Ceftazidime,0
+"Rhinitis, Allergic",D002443,Ceftriaxone,0
+"Rhinitis, Allergic",D002444,Cefuroxime,0
+"Rhinitis, Allergic",D002511,Cephalosporins,0
+"Rhinitis, Allergic",D002512,Cephalothin,0
+"Rhinitis, Allergic",D002701,Chloramphenicol,0
+"Rhinitis, Allergic",D002706,Chlordan,0
+"Rhinitis, Allergic",D002791,"Cholesterol, Dietary",0
+"Rhinitis, Allergic",D002840,Chromates,0
+"Rhinitis, Allergic",D002939,Ciprofloxacin,0
+"Rhinitis, Allergic",D002945,Cisplatin,0
+"Rhinitis, Allergic",D003031,Coal,0
+"Rhinitis, Allergic",D003035,Cobalt,0
+"Rhinitis, Allergic",D003042,Cocaine,0
+"Rhinitis, Allergic",D003276,"Contraceptives, Oral",0
+"Rhinitis, Allergic",D003372,Coumaphos,0
+"Rhinitis, Allergic",D003404,Creatinine,0
+"Rhinitis, Allergic",D003520,Cyclophosphamide,0
+"Rhinitis, Allergic",D003561,Cytarabine,0
+"Rhinitis, Allergic",D003609,Dactinomycin,0
+"Rhinitis, Allergic",D003620,Dantrolene,0
+"Rhinitis, Allergic",D003622,Dapsone,0
+"Rhinitis, Allergic",D003630,Daunorubicin,0
+"Rhinitis, Allergic",D003634,DDT,0
+"Rhinitis, Allergic",D003707,Demeclocycline,0
+"Rhinitis, Allergic",D003891,Desipramine,0
+"Rhinitis, Allergic",D003907,Dexamethasone,1
+"Rhinitis, Allergic",D003915,Dextromethorphan,0
+"Rhinitis, Allergic",D003931,Diacetyl,0
+"Rhinitis, Allergic",D003932,Heroin,0
+"Rhinitis, Allergic",D003976,Diazinon,0
+"Rhinitis, Allergic",D003996,Dicamba,1
+"Rhinitis, Allergic",D004041,Dietary Fats,0
+"Rhinitis, Allergic",D004051,Diethylhexyl Phthalate,1
+"Rhinitis, Allergic",D004061,Diflunisal,0
+"Rhinitis, Allergic",D004117,Dimethoate,1
+"Rhinitis, Allergic",D004139,Dinitrofluorobenzene,0
+"Rhinitis, Allergic",D004177,Dipyrone,0
+"Rhinitis, Allergic",D004205,Cromolyn Sodium,0
+"Rhinitis, Allergic",D004318,Doxycycline,0
+"Rhinitis, Allergic",D004365,"Drugs, Chinese Herbal",0
+"Rhinitis, Allergic",D004390,Chlorpyrifos,1
+"Rhinitis, Allergic",D004391,Dust,0
+"Rhinitis, Allergic",D004396,Coloring Agents,0
+"Rhinitis, Allergic",D004642,Emodin,0
+"Rhinitis, Allergic",D004656,Enalapril,0
+"Rhinitis, Allergic",D004731,Endotoxins,0
+"Rhinitis, Allergic",D004809,Ephedrine,0
+"Rhinitis, Allergic",D004837,Epinephrine,0
+"Rhinitis, Allergic",D004852,Epoxy Compounds,0
+"Rhinitis, Allergic",D004917,Erythromycin,0
+"Rhinitis, Allergic",D004929,Esculin,0
+"Rhinitis, Allergic",D005047,Etoposide,0
+"Rhinitis, Allergic",D005204,Farnesol,0
+"Rhinitis, Allergic",D005280,Fenoterol,0
+"Rhinitis, Allergic",D005473,Fluoxetine,0
+"Rhinitis, Allergic",D005505,Food Coloring Agents,0
+"Rhinitis, Allergic",D005520,Food Preservatives,0
+"Rhinitis, Allergic",D005557,Formaldehyde,0
+"Rhinitis, Allergic",D005659,"Fungicides, Industrial",0
+"Rhinitis, Allergic",D005839,Gentamicins,0
+"Rhinitis, Allergic",D005938,Glucocorticoids,0
+"Rhinitis, Allergic",D005978,Glutathione,0
+"Rhinitis, Allergic",D006024,Glycopyrrolate,0
+"Rhinitis, Allergic",D006140,Guaifenesin,0
+"Rhinitis, Allergic",D006221,Halothane,0
+"Rhinitis, Allergic",D006493,Heparin,0
+"Rhinitis, Allergic",D006533,Heptachlor,0
+"Rhinitis, Allergic",D006540,Herbicides,1
+"Rhinitis, Allergic",D006583,Hexadimethrine Bromide,0
+"Rhinitis, Allergic",D006632,Histamine,0
+"Rhinitis, Allergic",D006820,Hyaluronic Acid,0
+"Rhinitis, Allergic",D006843,"Hydrocarbons, Chlorinated",0
+"Rhinitis, Allergic",D006854,Hydrocortisone,0
+"Rhinitis, Allergic",D006862,Hydrogen Sulfide,0
+"Rhinitis, Allergic",D006918,Hydroxyurea,0
+"Rhinitis, Allergic",D007052,Ibuprofen,0
+"Rhinitis, Allergic",D007069,Ifosfamide,0
+"Rhinitis, Allergic",D007213,Indomethacin,0
+"Rhinitis, Allergic",D007306,Insecticides,1
+"Rhinitis, Allergic",D007501,Iron,0
+"Rhinitis, Allergic",D007545,Isoproterenol,0
+"Rhinitis, Allergic",D007650,Ketanserin,0
+"Rhinitis, Allergic",D007660,Ketoprofen,0
+"Rhinitis, Allergic",D007665,Ketotifen,0
+"Rhinitis, Allergic",D007840,Latex,0
+"Rhinitis, Allergic",D007975,Leukotriene B4,0
+"Rhinitis, Allergic",D008054,Lipid Peroxides,0
+"Rhinitis, Allergic",D008070,Lipopolysaccharides,0
+"Rhinitis, Allergic",D008130,Lomustine,0
+"Rhinitis, Allergic",D008294,Malathion,1
+"Rhinitis, Allergic",D008345,Manganese,0
+"Rhinitis, Allergic",D008466,Mechlorethamine,0
+"Rhinitis, Allergic",D008628,Mercury,0
+"Rhinitis, Allergic",D008724,Methomyl,0
+"Rhinitis, Allergic",D008727,Methotrexate,0
+"Rhinitis, Allergic",D008775,Methylprednisolone,1
+"Rhinitis, Allergic",D008787,Metoclopramide,0
+"Rhinitis, Allergic",D008802,Mezlocillin,0
+"Rhinitis, Allergic",D008911,Minocycline,0
+"Rhinitis, Allergic",D009151,Mustard Gas,0
+"Rhinitis, Allergic",D009241,Ipratropium,0
+"Rhinitis, Allergic",D009466,Neuromuscular Blocking Agents,0
+"Rhinitis, Allergic",D009525,Niacin,0
+"Rhinitis, Allergic",D009529,Nicardipine,0
+"Rhinitis, Allergic",D009532,Nickel,0
+"Rhinitis, Allergic",D009538,Nicotine,0
+"Rhinitis, Allergic",D009543,Nifedipine,0
+"Rhinitis, Allergic",D009566,Nitrates,0
+"Rhinitis, Allergic",D009569,Nitric Oxide,0
+"Rhinitis, Allergic",D009585,Nitrogen Dioxide,1
+"Rhinitis, Allergic",D009589,Nitrogen Oxides,0
+"Rhinitis, Allergic",D009638,Norepinephrine,0
+"Rhinitis, Allergic",D009921,Metaproterenol,0
+"Rhinitis, Allergic",D010047,Ovalbumin,1
+"Rhinitis, Allergic",D010100,Oxygen,0
+"Rhinitis, Allergic",D010109,Oxymetazoline,1
+"Rhinitis, Allergic",D010126,Ozone,0
+"Rhinitis, Allergic",D010269,Paraquat,0
+"Rhinitis, Allergic",D010278,Parathion,0
+"Rhinitis, Allergic",D010400,Penicillin G,0
+"Rhinitis, Allergic",D010406,Penicillins,0
+"Rhinitis, Allergic",D010575,Pesticides,0
+"Rhinitis, Allergic",D010578,Petroleum,1
+"Rhinitis, Allergic",D010615,Phenacetin,0
+"Rhinitis, Allergic",D010634,Phenobarbital,0
+"Rhinitis, Allergic",D010702,Phorate,0
+"Rhinitis, Allergic",D010755,Organophosphates,0
+"Rhinitis, Allergic",D010846,Picloram,1
+"Rhinitis, Allergic",D010878,Piperacillin,0
+"Rhinitis, Allergic",D010894,Piroxicam,0
+"Rhinitis, Allergic",D010972,Platelet Activating Factor,0
+"Rhinitis, Allergic",D011078,Polychlorinated Biphenyls,0
+"Rhinitis, Allergic",D011084,Polycyclic Aromatic Hydrocarbons,0
+"Rhinitis, Allergic",D011239,Prednisolone,0
+"Rhinitis, Allergic",D011241,Prednisone,0
+"Rhinitis, Allergic",D011433,Propranolol,0
+"Rhinitis, Allergic",D011722,Pyrethrins,1
+"Rhinitis, Allergic",D011791,Quartz,0
+"Rhinitis, Allergic",D011794,Quercetin,0
+"Rhinitis, Allergic",D012378,Rodenticides,1
+"Rhinitis, Allergic",D012460,Sulfasalazine,0
+"Rhinitis, Allergic",D012721,Carbaryl,1
+"Rhinitis, Allergic",D012822,Silicon Dioxide,0
+"Rhinitis, Allergic",D012835,Silver Nitrate,0
+"Rhinitis, Allergic",D012839,Simazine,1
+"Rhinitis, Allergic",D012905,Smog,0
+"Rhinitis, Allergic",D012906,Smoke,0
+"Rhinitis, Allergic",D012980,Sodium Salicylate,0
+"Rhinitis, Allergic",D012997,Solvents,0
+"Rhinitis, Allergic",D013256,Steroids,0
+"Rhinitis, Allergic",D013307,Streptomycin,0
+"Rhinitis, Allergic",D013311,Streptozocin,0
+"Rhinitis, Allergic",D013431,Sulfates,0
+"Rhinitis, Allergic",D013458,Sulfur Dioxide,1
+"Rhinitis, Allergic",D013578,Synephrine,0
+"Rhinitis, Allergic",D013645,Tartrazine,0
+"Rhinitis, Allergic",D013654,Taurine,0
+"Rhinitis, Allergic",D013726,Terbutaline,0
+"Rhinitis, Allergic",D013749,Tetrachlorodibenzodioxin,0
+"Rhinitis, Allergic",D013752,Tetracycline,0
+"Rhinitis, Allergic",D013759,Dronabinol,0
+"Rhinitis, Allergic",D013806,Theophylline,0
+"Rhinitis, Allergic",D013999,Timolol,0
+"Rhinitis, Allergic",D014028,Tobacco Smoke Pollution,0
+"Rhinitis, Allergic",D014031,Tobramycin,0
+"Rhinitis, Allergic",D014051,"Toluene 2,4-Diisocyanate",0
+"Rhinitis, Allergic",D014212,Tretinoin,0
+"Rhinitis, Allergic",D014222,Triamcinolone Acetonide,1
+"Rhinitis, Allergic",D014260,Triclosan,1
+"Rhinitis, Allergic",D014274,Trifluralin,1
+"Rhinitis, Allergic",D014414,Tungsten,0
+"Rhinitis, Allergic",D014580,Ursodeoxycholic Acid,0
+"Rhinitis, Allergic",D014639,Vanadium,0
+"Rhinitis, Allergic",D014640,Vancomycin,0
+"Rhinitis, Allergic",D014665,Vasodilator Agents,0
+"Rhinitis, Allergic",D014700,Verapamil,0
+"Rhinitis, Allergic",D014747,Vinblastine,0
+"Rhinitis, Allergic",D014750,Vincristine,0
+"Rhinitis, Allergic",D014751,Vindesine,0
+"Rhinitis, Allergic",D014801,Vitamin A,0
+"Rhinitis, Allergic",D014859,Warfarin,1
+"Rhinitis, Allergic",D015032,Zinc,0
+"Rhinitis, Allergic",D015034,Zinc Oxide,0
+"Rhinitis, Allergic",D015084,"2,4-Dichlorophenoxyacetic Acid",1
+"Rhinitis, Allergic",D015242,Ofloxacin,0
+"Rhinitis, Allergic",D015289,Leukotrienes,0
+"Rhinitis, Allergic",D015365,Enoxacin,0
+"Rhinitis, Allergic",D015662,"Trimethoprim, Sulfamethoxazole Drug Combination",0
+"Rhinitis, Allergic",D015946,Ethylene Dibromide,0
+"Rhinitis, Allergic",D016190,Carboplatin,0
+"Rhinitis, Allergic",D016210,Methacholine Chloride,0
+"Rhinitis, Allergic",D016576,Fleroxacin,0
+"Rhinitis, Allergic",D016578,Crack Cocaine,0
+"Rhinitis, Allergic",D016589,Astemizole,1
+"Rhinitis, Allergic",D016593,Terfenadine,1
+"Rhinitis, Allergic",D017239,Paclitaxel,0
+"Rhinitis, Allergic",D017265,Procaterol,0
+"Rhinitis, Allergic",D017291,Clarithromycin,0
+"Rhinitis, Allergic",D017308,Etodolac,1
+"Rhinitis, Allergic",D017332,Cetirizine,1
+"Rhinitis, Allergic",D017336,Loratadine,1
+"Rhinitis, Allergic",D017632,"Asbestos, Serpentine",0
+"Rhinitis, Allergic",D017633,Magnesium Silicates,0
+"Rhinitis, Allergic",D017636,"Asbestos, Amphibole",0
+"Rhinitis, Allergic",D017638,"Asbestos, Crocidolite",0
+"Rhinitis, Allergic",D017639,"Asbestos, Amosite",0
+"Rhinitis, Allergic",D017835,Nedocromil,0
+"Rhinitis, Allergic",D017963,Azithromycin,0
+"Rhinitis, Allergic",D017997,Leukotriene C4,0
+"Rhinitis, Allergic",D017998,Leukotriene D4,0
+"Rhinitis, Allergic",D018030,Silver Compounds,0
+"Rhinitis, Allergic",D018038,Sodium Selenite,0
+"Rhinitis, Allergic",D018927,Anti-Asthmatic Agents,0
+"Rhinitis, Allergic",D019216,"Metals, Heavy",0
+"Rhinitis, Allergic",D019256,Cadmium Chloride,0
+"Rhinitis, Allergic",D019257,Quinpirole,1
+"Rhinitis, Allergic",D019287,Zinc Sulfate,0
+"Rhinitis, Allergic",D019327,Copper Sulfate,0
+"Rhinitis, Allergic",D019782,Riluzole,0
+"Rhinitis, Allergic",D019819,Budesonide,0
+"Rhinitis, Allergic",D019821,Simvastatin,0
+"Rhinitis, Allergic",D019980,Amoxicillin-Potassium Clavulanate Combination,0
+"Rhinitis, Allergic",D020024,Leukotriene Antagonists,0
+"Rhinitis, Allergic",D020058,Styrene,0
+"Rhinitis, Allergic",D020123,Sirolimus,0
+"Rhinitis, Allergic",D020156,Salicylic Acid,0
+"Rhinitis, Allergic",D020682,Cefixime,0
+"Rhinitis, Allergic",D024504,gamma-Tocopherol,0
+"Rhinitis, Allergic",D026023,Permethrin,1
+"Rhinitis, Allergic",D028321,Plant Preparations,0
+"Rhinitis, Allergic",D037742,"Nanotubes, Carbon",0
+"Rhinitis, Allergic",D039741,"Antigens, Dermatophagoides",0
+"Rhinitis, Allergic",D047071,beta-Glucans,0
+"Rhinitis, Allergic",D047310,Apigenin,1
+"Rhinitis, Allergic",D052638,Particulate Matter,1
+"Rhinitis, Allergic",D053260,Soot,1
+"Rhinitis, Allergic",D058185,Magnetite Nanoparticles,0
+"Rhinitis, Allergic",D058988,Phosphodiesterase 4 Inhibitors,0
+"Rhinitis, Allergic",D060729,Coal Ash,0
+"Rhinitis, Allergic",D064747,Lansoprazole,0
+"Rhinitis, Allergic",D065819,Voriconazole,0

@@ -1,0 +1,36 @@
+# ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,PubMedIDs
+ACUTE BRONCHITIS (34 compounds),,,,,,
+Air Pollutants,D000393,,Bronchitis,MESH:D001991,marker/mechanism,16912084|26655675|28106813
+ambroxol-theophylline-7-acetate,C077110,,Bronchitis,MESH:D001991,therapeutic,17455344
+Aminophylline,D000628,317-34-0,Bronchitis,MESH:D001991,therapeutic,9241539
+Amoxicillin-Potassium Clavulanate Combination,D019980,74469-00-4,Bronchitis,MESH:D001991,therapeutic,15616290
+Antimony,D000965,7440-36-0,Bronchitis,MESH:D001991,marker/mechanism,8768112
+arsenite,C015001,15502-74-6,Bronchitis,MESH:D001991,marker/mechanism,23876855
+Betaine,D001622,107-43-7,Bronchitis,MESH:D001991,therapeutic,39742927
+cefbuperazone,C035978,76610-84-9,Bronchitis,MESH:D001991,therapeutic,6308296
+Cefixime,D020682,79350-37-1,Bronchitis,MESH:D001991,therapeutic,2041146
+Cephalosporins,D002511,,Bronchitis,MESH:D001991,therapeutic,9819955
+Clarithromycin,D017291,81103-11-9,Bronchitis,MESH:D001991,therapeutic,18794663|9788033|9819955
+Demeclocycline,D003707,127-33-3,Bronchitis,MESH:D001991,therapeutic,4328367
+Diacetyl,D003931,431-03-8,Bronchitis,MESH:D001991,marker/mechanism,18227102
+Doxycycline,D004318,564-25-0,Bronchitis,MESH:D001991,therapeutic,9004058
+Enoxacin,D015365,74011-58-8,Bronchitis,MESH:D001991,therapeutic,3258863
+Fleroxacin,D016576,79660-72-3,Bronchitis,MESH:D001991,therapeutic,7868853
+Methomyl,D008724,16752-77-5,Bronchitis,MESH:D001991,marker/mechanism,39742927
+Mustard Gas,D009151,505-60-2,Bronchitis,MESH:D001991,marker/mechanism,21129433
+Nicotine,D009538,,Bronchitis,MESH:D001991,marker/mechanism,27806211
+Nitrogen Dioxide,D009585,10102-44-0,Bronchitis,MESH:D001991,marker/mechanism,16912084
+Ofloxacin,D015242,82419-36-1,Bronchitis,MESH:D001991,therapeutic,10388331|11131957|8750178
+Ovalbumin,D010047,9006-59-1,Bronchitis,MESH:D001991,marker/mechanism,28415675
+Particulate Matter,D052638,,Bronchitis,MESH:D001991,marker/mechanism,17938744|19337525|26655675|28106813|28415675|31520956
+Polycyclic Aromatic Hydrocarbons,D011084,,Bronchitis,MESH:D001991,marker/mechanism,17938744
+Salmeterol Xinafoate,D000068299,,Bronchitis,MESH:D001991,therapeutic,23548184
+Smoke,D012906,,Bronchitis,MESH:D001991,marker/mechanism,21705297
+Terbutaline,D013726,23031-25-6,Bronchitis,MESH:D001991,therapeutic,4479294
+Tetracycline,D013752,60-54-8,Bronchitis,MESH:D001991,therapeutic,4301397
+Theophylline,D013806,58-55-9,Bronchitis,MESH:D001991,therapeutic,3025113
+Tobacco Smoke Pollution,D014028,,Bronchitis,MESH:D001991,marker/mechanism,16425588
+tobacco tar,C024746,,Bronchitis,MESH:D001991,marker/mechanism,27806211
+"Trimethoprim, Sulfamethoxazole Drug Combination",D015662,8064-90-2,Bronchitis,MESH:D001991,therapeutic,63882|7256343
+vanadium pentoxide,C066075,1314-62-1,Bronchitis,MESH:D001991,marker/mechanism,17459161
+Vehicle Emissions,D001335,,Bronchitis,MESH:D001991,marker/mechanism,12948892|16912084

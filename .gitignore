@@ -1,0 +1,23 @@
+# dependencies / build output
+node_modules/
+05_frontend/dist/
+**/dist/
+.vercel/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# caches / scratch (regenerable; keep out of the deploy)
+_cache/
+06_expansion/raw/
+*.log
+
+# os / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

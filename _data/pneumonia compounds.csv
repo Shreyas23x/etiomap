@@ -1,0 +1,207 @@
+# ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,PubMedIDs
+PNEUMONIA (205 compounds),,,,,,
+14-hydroxydocosahexaenoic acid,C059528,86360-66-9,Pneumonia,MESH:D011014,therapeutic,34601004
+"1,5-anhydrofructose",C048927,75414-43-6,Pneumonia,MESH:D011014,therapeutic,19559007
+"17-hydroxy-4,7,10,13,15,19-docosahexaenoic acid",C062894,90780-52-2,Pneumonia,MESH:D011014,therapeutic,34601004
+18(R)-hydroxyeicosapentaenoic acid,C561691,,Pneumonia,MESH:D011014,therapeutic,34601004
+"2,4-Dichlorophenoxyacetic Acid",D015084,94-75-7,Pneumonia,MESH:D011014,marker/mechanism,33865415
+2-chloroethyl ethyl sulfide,C031278,693-07-2,Pneumonia,MESH:D011014,marker/mechanism,19464336|32157350
+2-oxothiazolidine-4-carboxylic acid,C029536,,Pneumonia,MESH:D011014,therapeutic,19560508
+3-(pyridin-3-ylsulfonyl)-5-(trifluoromethyl)-2H-chromen-2-one,C000623021,,Pneumonia,MESH:D011014,therapeutic,28790194
+"4-((3-bromophenyl)amino)-6,7-dimethoxyquinazoline",C088860,,Pneumonia,MESH:D011014,therapeutic,26464147
+acetovanillone,C056165,498-02-2,Pneumonia,MESH:D011014,therapeutic,21983654
+Acrolein,D000171,107-02-8,Pneumonia,MESH:D011014,marker/mechanism,36806656
+Adrenal Cortex Hormones,D000305,,Pneumonia,MESH:D011014,therapeutic,12947150
+Air Pollutants,D000393,,Pneumonia,MESH:D011014,marker/mechanism,18367723|34416640|36675130
+Aluminum Oxide,D000537,1344-28-1,Pneumonia,MESH:D011014,marker/mechanism,19270794|22240982
+aluminum oxide hydroxide,C069471,63957-70-0,Pneumonia,MESH:D011014,marker/mechanism,19428954
+Aluminum Silicates,D000538,,Pneumonia,MESH:D011014,marker/mechanism,20368128
+Amikacin,D000583,37517-28-5,Pneumonia,MESH:D011014,therapeutic,1108649|319355
+Amiodarone,D000638,1951-25-3,Pneumonia,MESH:D011014,marker/mechanism,1595783|16131795|16858166|3997294|6409240|6861927|9855346
+Amoxicillin-Potassium Clavulanate Combination,D019980,74469-00-4,Pneumonia,MESH:D011014,therapeutic,10369618|12501879|15328092|16446376|18028086
+Amphotericin B,D000666,1397-89-3,Pneumonia,MESH:D011014,therapeutic,1357285|16538979
+Ampicillin,D000667,69-53-4,Pneumonia,MESH:D011014,therapeutic,6637917|835515
+angiotensin I (1-7),C118790,,Pneumonia,MESH:D011014,therapeutic,28960804
+"Antigens, Dermatophagoides",D039741,,Pneumonia,MESH:D011014,marker/mechanism,24060272|24453940|36975775
+Arsenic,D001151,7440-38-2,Pneumonia,MESH:D011014,marker/mechanism,26497043
+Asbestos,D001194,1332-21-4,Pneumonia,MESH:D011014,marker/mechanism,21362472
+"Asbestos, Amosite",D017639,12172-73-5,Pneumonia,MESH:D011014,marker/mechanism,21797767|22251266|27083413
+"Asbestos, Amphibole",D017636,,Pneumonia,MESH:D011014,marker/mechanism,22168577|22251266|27083413
+"Asbestos, Crocidolite",D017638,12001-28-4,Pneumonia,MESH:D011014,marker/mechanism,17849262
+"Asbestos, Serpentine",D017632,,Pneumonia,MESH:D011014,marker/mechanism,16266986|20368128|32755622
+Azithromycin,D017963,83905-01-5,Pneumonia,MESH:D011014,therapeutic,10858333|16856707
+bacampicillin,C011674,,Pneumonia,MESH:D011014,therapeutic,6352033
+bisphenol A,C006780,80-05-7,Pneumonia,MESH:D011014,marker/mechanism,28285737
+Bleomycin,D001761,11056-06-7,Pneumonia,MESH:D011014,marker/mechanism,16317386|17071938|18024389|19362168|25071917|26600069|32828905|36087614|54212
+Blood Glucose,D001786,,Pneumonia,MESH:D011014,marker/mechanism,25221900
+BUCY-2 protocol,C071005,,Pneumonia,MESH:D011014,marker/mechanism,2025579
+Butylated Hydroxytoluene,D002084,128-37-0,Pneumonia,MESH:D011014,marker/mechanism,11893704
+Cadmium,D002104,7440-43-9,Pneumonia,MESH:D011014,marker/mechanism,22094458
+Cadmium Chloride,D019256,10108-64-2,Pneumonia,MESH:D011014,marker/mechanism,20826145|39587603
+Caffeine,D002110,58-08-2,Pneumonia,MESH:D011014,marker/mechanism,29055810
+Calcium Sulfate,D002133,7778-18-9,Pneumonia,MESH:D011014,marker/mechanism,20368128
+Capsaicin,D002211,404-86-4,Pneumonia,MESH:D011014,marker/mechanism,22575871
+Carbenicillin,D002228,4697-36-3,Pneumonia,MESH:D011014,therapeutic,256433|4850936
+Carboplatin,D016190,41575-94-4,Pneumonia,MESH:D011014,marker/mechanism,16612156
+Carmustine,D002330,154-93-8,Pneumonia,MESH:D011014,marker/mechanism,6354414
+cefditoren pivoxil,C057710,,Pneumonia,MESH:D011014,therapeutic,12501878|12501879
+Cefixime,D020682,79350-37-1,Pneumonia,MESH:D011014,therapeutic,2041146
+Cefotaxime,D002439,63527-52-6,Pneumonia,MESH:D011014,therapeutic,1583528|2041948
+Cefpodoxime Proxetil,D000097627,,Pneumonia,MESH:D011014,therapeutic,12501878
+Ceftazidime,D002442,78439-06-2,Pneumonia,MESH:D011014,therapeutic,21227004|3578331
+Ceftriaxone,D002443,73384-59-5,Pneumonia,MESH:D011014,therapeutic,12642754|18444848|21166949|21227004
+Cefuroxime,D002444,55268-75-2,Pneumonia,MESH:D011014,therapeutic,10858333|2041948
+Cephalothin,D002512,153-61-7,Pneumonia,MESH:D011014,therapeutic,4850936
+ceric oxide,C030583,1306-38-3,Pneumonia,MESH:D011014,marker/mechanism,22240982
+Chloramphenicol,D002701,56-75-7,Pneumonia,MESH:D011014,marker/mechanism,4023934|6071896
+Chloramphenicol,D002701,56-75-7,Pneumonia,MESH:D011014,therapeutic,2041948
+"Cholesterol, Dietary",D002791,,Pneumonia,MESH:D011014,marker/mechanism,34601004
+CHOP protocol,C034587,,Pneumonia,MESH:D011014,marker/mechanism,11732872
+Cilostazol,D000077407,73963-72-1,Pneumonia,MESH:D011014,therapeutic,16645267
+Ciprofloxacin,D002939,85721-33-1,Pneumonia,MESH:D011014,therapeutic,1541177|3555062|3578331
+Cisplatin,D002945,15663-27-1,Pneumonia,MESH:D011014,marker/mechanism,21415776
+Clarithromycin,D017291,81103-11-9,Pneumonia,MESH:D011014,therapeutic,12503933|17021990|20491717|9347384|9606474|9972380
+Coal,D003031,,Pneumonia,MESH:D011014,marker/mechanism,19270797|26774687
+Coal Ash,D060729,,Pneumonia,MESH:D011014,marker/mechanism,9710962
+Cobalt,D003035,7440-48-4,Pneumonia,MESH:D011014,marker/mechanism,22198552
+cobalt oxide,C060728,11104-61-3,Pneumonia,MESH:D011014,marker/mechanism,22240982
+Cocaine,D003042,50-36-2,Pneumonia,MESH:D011014,marker/mechanism,16935692|19204526
+Copper Sulfate,D019327,7758-98-7,Pneumonia,MESH:D011014,marker/mechanism,19679144
+Crack Cocaine,D016578,,Pneumonia,MESH:D011014,marker/mechanism,12947150
+Crizotinib,D000077547,,Pneumonia,MESH:D011014,marker/mechanism,23686600
+cupric oxide,C030973,1317-38-0,Pneumonia,MESH:D011014,marker/mechanism,22240982
+cyclocreatine,C012260,35404-50-3,Pneumonia,MESH:D011014,marker/mechanism,34411581
+Cyclophosphamide,D003520,50-18-0,Pneumonia,MESH:D011014,marker/mechanism,2705179
+Cytarabine,D003561,147-94-4,Pneumonia,MESH:D011014,marker/mechanism,12531223
+Dantrolene,D003620,7261-97-4,Pneumonia,MESH:D011014,marker/mechanism,6736987
+Dapsone,D003622,80-08-0,Pneumonia,MESH:D011014,marker/mechanism,19583683
+Daunorubicin,D003630,20830-81-3,Pneumonia,MESH:D011014,marker/mechanism,12531223
+Desipramine,D003891,50-47-5,Pneumonia,MESH:D011014,therapeutic,17477857
+Dexamethasone,D003907,50-02-2,Pneumonia,MESH:D011014,therapeutic,10380089|21414392|37004399
+didecyldimethylammonium,C027118,20256-56-8,Pneumonia,MESH:D011014,marker/mechanism,32763356
+Dietary Fats,D004041,,Pneumonia,MESH:D011014,marker/mechanism,34601004
+Diflunisal,D004061,22494-42-4,Pneumonia,MESH:D011014,marker/mechanism,9187209
+Dipyrone,D004177,,Pneumonia,MESH:D011014,marker/mechanism,21429049
+Docetaxel,D000077143,,Pneumonia,MESH:D011014,marker/mechanism,12365019|21415776
+Doxycycline,D004318,564-25-0,Pneumonia,MESH:D011014,therapeutic,9145823
+Dronabinol,D013759,,Pneumonia,MESH:D011014,therapeutic,32872332
+Dust,D004391,,Pneumonia,MESH:D011014,marker/mechanism,24376072|26774687|26882889|32777237
+Enalapril,D004656,75847-73-3,Pneumonia,MESH:D011014,therapeutic,19114890
+"endotoxin, Escherichia coli",C044101,67924-63-4,Pneumonia,MESH:D011014,marker/mechanism,19114890
+Enoxacin,D015365,74011-58-8,Pneumonia,MESH:D011014,therapeutic,3258863
+"enterotoxin B, staphylococcal",C031818,39424-53-8,Pneumonia,MESH:D011014,marker/mechanism,32872332
+Epoxy Compounds,D004852,,Pneumonia,MESH:D011014,marker/mechanism,12504350
+Erythromycin,D004917,114-07-8,Pneumonia,MESH:D011014,therapeutic,10858333
+Esculin,D004929,531-75-9,Pneumonia,MESH:D011014,therapeutic,39142713
+Everolimus,D000068338,,Pneumonia,MESH:D011014,marker/mechanism,17346627
+Farnesol,D005204,4602-84-0,Pneumonia,MESH:D011014,therapeutic,18793622
+Fluoxetine,D005473,54910-89-3,Pneumonia,MESH:D011014,therapeutic,17477857
+Formaldehyde,D005557,50-00-0,Pneumonia,MESH:D011014,marker/mechanism,21983654
+Formoterol Fumarate,D000068759,,Pneumonia,MESH:D011014,therapeutic,20826145
+Gefitinib,D000077156,,Pneumonia,MESH:D011014,marker/mechanism,20646869
+Gemcitabine,D000093542,,Pneumonia,MESH:D011014,marker/mechanism,12365019|12367796
+Gentamicins,D005839,,Pneumonia,MESH:D011014,therapeutic,11895059|16225114|4850936
+Glucocorticoids,D005938,,Pneumonia,MESH:D011014,therapeutic,9187209
+Glyphosate,D000097797,,Pneumonia,MESH:D011014,marker/mechanism,25172162
+gossypin,C022944,652-78-8,Pneumonia,MESH:D011014,therapeutic,37148149
+Hexadimethrine Bromide,D006583,05-04-9011,Pneumonia,MESH:D011014,therapeutic,32157350
+Indomethacin,D007213,53-86-1,Pneumonia,MESH:D011014,therapeutic,21983654
+Ipratropium,D009241,60205-81-4,Pneumonia,MESH:D011014,therapeutic,20826145
+Iron,D007501,7439-89-6,Pneumonia,MESH:D011014,marker/mechanism,22198552
+Lamotrigine,D000077213,84057-84-1,Pneumonia,MESH:D011014,marker/mechanism,16442685
+Latex,D007840,,Pneumonia,MESH:D011014,marker/mechanism,18938192
+Linezolid,D000069349,,Pneumonia,MESH:D011014,therapeutic,14520146|16735427
+"lipopolysaccharide, E. coli O26-B6",C433788,,Pneumonia,MESH:D011014,marker/mechanism,20975550|22465845
+"lipopolysaccharide, Escherichia coli O111 B4",C440499,,Pneumonia,MESH:D011014,marker/mechanism,33949057
+Lipopolysaccharides,D008070,,Pneumonia,MESH:D011014,marker/mechanism,11605937|11907180|12224865|15863634|18938192|27302421|29055810|33865415|34978009|37148149|39142713
+liposomal amphotericin B,C068538,,Pneumonia,MESH:D011014,therapeutic,8901182
+m-ACOD protocol,C070074,,Pneumonia,MESH:D011014,marker/mechanism,1713121
+Magnesium Silicates,D017633,,Pneumonia,MESH:D011014,marker/mechanism,20368128
+Magnetite Nanoparticles,D058185,,Pneumonia,MESH:D011014,marker/mechanism,19428954
+Manganese,D008345,7439-96-5,Pneumonia,MESH:D011014,marker/mechanism,19263519
+M-BACOD protocol,C035353,,Pneumonia,MESH:D011014,marker/mechanism,1713121
+Mechlorethamine,D008466,,Pneumonia,MESH:D011014,marker/mechanism,20883710
+Meropenem,D000077731,96036-03-2,Pneumonia,MESH:D011014,therapeutic,15221158|16882111
+Methotrexate,D008727,59-05-2,Pneumonia,MESH:D011014,marker/mechanism,10846532|1450620|19449473|2803334|9651097
+Methylprednisolone,D008775,83-43-2,Pneumonia,MESH:D011014,marker/mechanism,20831552
+Mezlocillin,D008802,51481-65-3,Pneumonia,MESH:D011014,therapeutic,9527154
+Micafungin,D000077551,,Pneumonia,MESH:D011014,therapeutic,19148589
+MINE protocol,C092704,,Pneumonia,MESH:D011014,marker/mechanism,19787462
+Minocycline,D008911,10118-90-8,Pneumonia,MESH:D011014,therapeutic,11600379
+Moxifloxacin,D000077266,,Pneumonia,MESH:D011014,therapeutic,19680025|20731847
+Mustard Gas,D009151,505-60-2,Pneumonia,MESH:D011014,marker/mechanism,19482056|34390737
+N-7-(2-(nitrophenyldithio)ethyl)mitomycin C,C055172,95056-36-3,Pneumonia,MESH:D011014,marker/mechanism,9667686
+"Nanotubes, Carbon",D037742,,Pneumonia,MESH:D011014,marker/mechanism,19836432|19857541|20368128|25554681|31265265|32771490
+naphthalan,C043836,37229-16-6,Pneumonia,MESH:D011014,therapeutic,19637834
+naringin,C005274,10236-47-2,Pneumonia,MESH:D011014,therapeutic,22575871
+Niacin,D009525,,Pneumonia,MESH:D011014,therapeutic,20975550
+Nickel,D009532,7440-02-0,Pneumonia,MESH:D011014,marker/mechanism,20936915|22198552
+nickel monoxide,C028007,1313-99-1,Pneumonia,MESH:D011014,marker/mechanism,19270794|22240982
+nickel sulfate,C029938,7786-81-4,Pneumonia,MESH:D011014,marker/mechanism,19679144
+Nitric Oxide,D009569,10102-43-9,Pneumonia,MESH:D011014,marker/mechanism,17450216
+Nitrogen Dioxide,D009585,10102-44-0,Pneumonia,MESH:D011014,marker/mechanism,22763046
+"N-(oxo-5,6-dihydrophenanthridin-2-yl)-N,N-dimethylacetamide hydrochloride",C434926,,Pneumonia,MESH:D011014,therapeutic,25221900
+Ofloxacin,D015242,82419-36-1,Pneumonia,MESH:D011014,therapeutic,15708235|19189043|19856068
+Ovalbumin,D010047,9006-59-1,Pneumonia,MESH:D011014,marker/mechanism,21429049|26882889|29545090|37004399
+ovalbumin-alum,C446402,,Pneumonia,MESH:D011014,marker/mechanism,11907180
+Oxygen,D010100,7782-44-7,Pneumonia,MESH:D011014,marker/mechanism,23337360|25221900
+Ozone,D010126,10028-15-6,Pneumonia,MESH:D011014,marker/mechanism,18007984|18381685|18929643|21543283|22763046|26464147|26647366|26949510|28790194|29247675|33383130|34558223|36675130
+Paclitaxel,D017239,,Pneumonia,MESH:D011014,marker/mechanism,12367796|16612156
+Paraquat,D010269,4685-14-7,Pneumonia,MESH:D011014,marker/mechanism,12504350|30967525
+Particulate Matter,D052638,,Pneumonia,MESH:D011014,marker/mechanism,17450216|18197293|18686106|19272399|19337525|20049117|22634322|24060272|24136897|24376072|26041432|27377055|28917655|29233668|29540651|29787794|30963444|31884678|31941512|33161053|34416640|35795853|36975775|38941663
+Pemetrexed,D000068437,,Pneumonia,MESH:D011014,marker/mechanism,21415776
+Penicillin G,D010400,61-33-6,Pneumonia,MESH:D011014,therapeutic,4998180|6028697
+Penicillins,D010406,,Pneumonia,MESH:D011014,therapeutic,1583528
+perfluorodecanoic acid,C036567,335-76-2,Pneumonia,MESH:D011014,marker/mechanism,32717646
+perilla seed oil,C058216,68132-21-8,Pneumonia,MESH:D011014,marker/mechanism,10720173
+Phenacetin,D010615,62-44-2,Pneumonia,MESH:D011014,marker/mechanism,5660814
+Piperacillin,D010878,61477-96-1,Pneumonia,MESH:D011014,therapeutic,6391888
+Piroxicam,D010894,36322-90-4,Pneumonia,MESH:D011014,therapeutic,21414392
+polyhexamethyleneguanidine,C060540,31961-54-3,Pneumonia,MESH:D011014,marker/mechanism,24769016|25716161|38969276
+pranlukast,C047681,,Pneumonia,MESH:D011014,therapeutic,21429049
+Prednisolone,D011239,50-24-8,Pneumonia,MESH:D011014,therapeutic,17477857|3997294
+Prednisone,D011241,53-03-2,Pneumonia,MESH:D011014,marker/mechanism,4850720
+Quartz,D011791,14808-60-7,Pneumonia,MESH:D011014,marker/mechanism,17030555|19836432
+quinupristin-dalfopristin,C062940,126602-89-9,Pneumonia,MESH:D011014,therapeutic,11600379
+Riluzole,D019782,1744-22-5,Pneumonia,MESH:D011014,marker/mechanism,31029113
+Rosiglitazone,D000077154,,Pneumonia,MESH:D011014,therapeutic,24612634
+RU.521,C000626046,,Pneumonia,MESH:D011014,therapeutic,39587603
+salvianolic acid B,C076944,115939-25-8,Pneumonia,MESH:D011014,therapeutic,35795853
+Sildenafil Citrate,D000068677,,Pneumonia,MESH:D011014,therapeutic,21414392
+Silicon Dioxide,D012822,7631-86-9,Pneumonia,MESH:D011014,marker/mechanism,21414392|29341224|31284023|32017981|8063194
+Silver Compounds,D018030,,Pneumonia,MESH:D011014,marker/mechanism,32367270|34601004
+Silver Nitrate,D012835,7761-88-8,Pneumonia,MESH:D011014,marker/mechanism,32367270
+Sirolimus,D020123,,Pneumonia,MESH:D011014,marker/mechanism,15219060
+Smoke,D012906,,Pneumonia,MESH:D011014,marker/mechanism,21705297
+Sodium Selenite,D018038,10102-18-8,Pneumonia,MESH:D011014,therapeutic,28285737
+Soot,D053260,,Pneumonia,MESH:D011014,marker/mechanism,25071917
+ST2825,C525002,,Pneumonia,MESH:D011014,therapeutic,35795853
+Steroids,D013256,,Pneumonia,MESH:D011014,marker/mechanism,16131795
+Streptomycin,D013307,57-92-1,Pneumonia,MESH:D011014,therapeutic,4998180|6028697
+Styrene,D020058,,Pneumonia,MESH:D011014,marker/mechanism,19428955
+Sulfasalazine,D012460,599-79-1,Pneumonia,MESH:D011014,marker/mechanism,2859799|2894766
+Sulfur Dioxide,D013458,05-09-7446,Pneumonia,MESH:D011014,marker/mechanism,25115710
+Taurine,D013654,107-35-7,Pneumonia,MESH:D011014,marker/mechanism,19362168
+Theophylline,D013806,58-55-9,Pneumonia,MESH:D011014,therapeutic,1541177
+titanium dioxide,C009495,13463-67-7,Pneumonia,MESH:D011014,marker/mechanism,22956629|27760801|30012374|8063194
+Tobacco Smoke Pollution,D014028,,Pneumonia,MESH:D011014,marker/mechanism,18793622|22575871|24612634|24632068|24633890|28790194|28960804|29205062|33660100
+Tobramycin,D014031,32986-56-4,Pneumonia,MESH:D011014,therapeutic,256433|3578331
+"Trimethoprim, Sulfamethoxazole Drug Combination",D015662,8064-90-2,Pneumonia,MESH:D011014,therapeutic,25170804|9972380
+triptolide,C001899,38748-32-2,Pneumonia,MESH:D011014,therapeutic,20348278
+troclosene,C011765,2782-57-2,Pneumonia,MESH:D011014,marker/mechanism,35675544
+Tungsten,D014414,7440-33-7,Pneumonia,MESH:D011014,marker/mechanism,22198552
+Ursodeoxycholic Acid,D014580,128-13-2,Pneumonia,MESH:D011014,marker/mechanism,22942741
+valspodar,C070272,121584-18-7,Pneumonia,MESH:D011014,marker/mechanism,12531223
+Vanadium,D014639,7440-62-2,Pneumonia,MESH:D011014,marker/mechanism,9710962
+Vancomycin,D014640,1404-90-6,Pneumonia,MESH:D011014,therapeutic,15221158|17060545
+Vehicle Emissions,D001335,,Pneumonia,MESH:D011014,marker/mechanism,17450216|19560508|20049117|24060272
+Venlafaxine Hydrochloride,D000069470,,Pneumonia,MESH:D011014,marker/mechanism,12663337
+Vinblastine,D014747,865-21-4,Pneumonia,MESH:D011014,marker/mechanism,54212
+Voriconazole,D065819,,Pneumonia,MESH:D011014,therapeutic,19148589
+Vorinostat,D000077337,,Pneumonia,MESH:D011014,marker/mechanism,18854394
+wogonin,C085514,632-85-9,Pneumonia,MESH:D011014,therapeutic,37004399
+yupingfeng,C532967,,Pneumonia,MESH:D011014,therapeutic,37004399
+Zinc,D015032,7440-66-6,Pneumonia,MESH:D011014,marker/mechanism,18197293
+zinc chromate,C023616,13530-65-9,Pneumonia,MESH:D011014,marker/mechanism,19109987
+Zinc Oxide,D015034,1314-13-2,Pneumonia,MESH:D011014,marker/mechanism,22240982|23832296|35247504
+Zinc Sulfate,D019287,7733-02-0,Pneumonia,MESH:D011014,marker/mechanism,19679144

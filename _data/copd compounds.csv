@@ -1,0 +1,76 @@
+# ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,PubMedIDs
+COPD (74 compounds),,,,,,
+"1,7-dimethylxanthine",C021183,611-59-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,19962977
+"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",C539252,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,19056934
+4-hydroxy-2-nonenal,C027576,29343-52-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,37832483
+"6-(5-((cyclopropylamino)carbonyl)-3-fluoro-2-methylphenyl)-N-(2,2-dimethylprpyl)-3-pyridinecarboxamide",C543534,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21888439
+Acetazolamide,D000086,59-66-5,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,6410668
+aclidinium bromide,C542859,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21870878
+Acrolein,D000171,107-02-8,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,30204913
+Adrenal Cortex Hormones,D000305,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,11699053
+Air Pollutants,D000393,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,22370087|22536275|25491235|32000783|34331613
+Albuterol,D000420,18559-94-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,15494380|1835292|19011503|2951798
+ambroxol-theophylline-7-acetate,C077110,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,17455344|8725993
+Aminophylline,D000628,317-34-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,16868215
+Arsenic,D001151,7440-38-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,26383851
+Asbestos,D001194,1332-21-4,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,27025411
+bambuterol,C047766,81732-65-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,10027655
+Beclomethasone,D001507,4419-39-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,12668791|15894479
+bufei jianpi,C000610679,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,28887809
+Bu-Fei-Yi-Shen,C574914,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,23107470|24280466|25204290|26469778|27146975|27562320|27699176|28887809|29454913|32344236|33545548
+Cadmium,D002104,7440-43-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,30998937
+Carbocysteine,D002233,2387-59-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,24076166|24998638
+Carbon Monoxide,D002248,630-08-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,32000783
+chrysene,C031180,218-01-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,33345606
+Clarithromycin,D017291,81103-11-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,9825040
+Creatinine,D003404,60-27-5,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,18068611
+Cyclohexane,C506365,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,23981468
+dilmapimod,C574213,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21888439
+Dust,D004391,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,33033587
+Enalapril,D004656,75847-73-3,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,20096799
+enprofylline,C034347,41078-02-8,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,2218006|6288396
+Epinephrine,D004837,51-43-4,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,234363
+Eucalyptol,D000077591,470-82-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,29789401
+"fenoterol, ipratropium drug combination",C030809,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,2951798
+fluor-edenite,C492470,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,15250654
+Formoterol Fumarate,D000068759,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,10516540|18035867|19011503
+Glucocorticoids,D005938,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,11730731
+Glycopyrrolate,D006024,596-51-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21870878|26026369
+Hyaluronic Acid,D006820,9004-61-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,25106431
+Ipratropium,D009241,60205-81-4,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,1835291|1835292|19363211|21870878|24431217
+Ketanserin,D007650,74050-98-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,22048642
+Lipid Peroxides,D008054,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,10921764
+Lipopolysaccharides,D008070,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,23099361|28951138|29984229
+"Metals, Heavy",D019216,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,12842775
+Methotrexate,D008727,59-05-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,1450620
+Mustard Gas,D009151,505-60-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,29569912
+"N-(1-(3-chloro-4-hydroxyphenyl)-3-(1,1-dimethylethyl)-1H-pyrazol-5-yl)-N'-((2-((3-(2-((2-hydroxyethyl)thio)phenyl)-1,2,4-triazolo(4,3-a)pyridin-6-yl)thio)phenyl)methyl)-urea",C569762,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21888439
+Nifedipine,D009543,21829-25-4,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,3671896
+Nitrogen Dioxide,D009585,10102-44-0,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,32000783
+Norepinephrine,D009638,51-41-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,18068611
+Ozone,D010126,10028-15-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,26647366|32000783|36376488
+Particulate Matter,D052638,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,12842775|25387747|25491235|32000783|34331613
+PH 797804,C542398,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21888439
+Phosphodiesterase 4 Inhibitors,D058988,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,17569694
+Prednisone,D011241,53-03-2,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,14643832|2767912
+proxyphylline,C003237,603-00-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,7408664
+Quercetin,D011794,117-39-5,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,23099361
+Resveratrol,D000077185,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,23981542
+revefenacin,C583570,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,30803279|31150963|31245215|32106777|33821890
+Ribomunyl,C034206,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,17078222
+Roflumilast,C424423,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,16317827|23871879
+Salmeterol Xinafoate,D000068299,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,10027655|10516540|18035867
+Simvastatin,D019821,79902-63-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21211366
+Smog,D012905,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,12842775
+Smoke,D012906,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,21211366|21705297|24603126|25491235
+Soot,D053260,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,23271741
+Sulfur Dioxide,D013458,05-09-7446,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,32000783
+Terbutaline,D013726,23031-25-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,234363
+Tetrachlorodibenzodioxin,D013749,1746-01-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,18192277
+Theophylline,D013806,58-55-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,1546832|16430859|17130682|1835291|18983928|20578267|20797314|2218006|2969553|6288396|6858124|8888546|9756159
+Timolol,D013999,26839-75-8,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,7402590
+Tiotropium Bromide,D000069447,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,17342451|18035867|18992357|19281075|21870878|26026369
+Tobacco Smoke Pollution,D014028,,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,marker/mechanism,19637760|22048642|24076166|26100223|28951138|29789401|29984229|30639269|32812458|33033587|33345606
+trospium chloride,C003330,10405-02-4,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,21870878
+Verapamil,D014700,52-53-9,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,9825040
+zafirlukast,C062735,107753-78-6,"Pulmonary Disease, Chronic Obstructive",MESH:D029424,therapeutic,12781059|12877822

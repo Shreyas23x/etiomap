@@ -1,0 +1,16 @@
+# Render blueprint for the EtioMap FastAPI backend.
+# Deploy: push the repo to GitHub, then on render.com → New → Blueprint, point it
+# at this repo. Render reads this file and provisions the service. The existing
+# uvicorn command runs unchanged; Render injects $PORT.
+services:
+  - type: web
+    name: etiomap-backend
+    runtime: python
+    rootDir: 04_backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.9"

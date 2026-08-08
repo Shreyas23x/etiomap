@@ -1,0 +1,3164 @@
+{
+ "diseases": [
+  "Asthma",
+  "Bronchitis",
+  "Carcinoma, Bronchogenic",
+  "Pneumonia",
+  "Pulmonary Disease, Chronic Obstructive",
+  "Rhinitis, Allergic"
+ ],
+ "disease_nodes": [
+  {
+   "id": "D:Asthma",
+   "label": "Asthma",
+   "type": "disease",
+   "known": 24,
+   "novel": 15
+  },
+  {
+   "id": "D:Bronchitis",
+   "label": "Bronchitis",
+   "type": "disease",
+   "known": 3,
+   "novel": 12
+  },
+  {
+   "id": "D:Carcinoma, Bronchogenic",
+   "label": "Carcinoma, Bronchogenic",
+   "type": "disease",
+   "known": 2,
+   "novel": 10
+  },
+  {
+   "id": "D:Pneumonia",
+   "label": "Pneumonia",
+   "type": "disease",
+   "known": 19,
+   "novel": 21
+  },
+  {
+   "id": "D:Pulmonary Disease, Chronic Obstructive",
+   "label": "Pulmonary Disease, Chronic Obstructive",
+   "type": "disease",
+   "known": 7,
+   "novel": 17
+  },
+  {
+   "id": "D:Rhinitis, Allergic",
+   "label": "Rhinitis, Allergic",
+   "type": "disease",
+   "known": 4,
+   "novel": 16
+  }
+ ],
+ "chemical_nodes": [
+  {
+   "id": "C:C00533",
+   "kegg_id": "C00533",
+   "label": "Nitric oxide",
+   "compound_class": "endogenous",
+   "degree": 3
+  },
+  {
+   "id": "C:C01996",
+   "kegg_id": "C01996",
+   "label": "Acetylcholine",
+   "compound_class": "endogenous",
+   "degree": 6
+  },
+  {
+   "id": "C:C00212",
+   "kegg_id": "C00212",
+   "label": "Adenosine",
+   "compound_class": "endogenous",
+   "degree": 3
+  },
+  {
+   "id": "C:C02166",
+   "kegg_id": "C02166",
+   "label": "Leukotriene C4",
+   "compound_class": "endogenous",
+   "degree": 5
+  },
+  {
+   "id": "C:C00388",
+   "kegg_id": "C00388",
+   "label": "Histamine",
+   "compound_class": "endogenous",
+   "degree": 2
+  },
+  {
+   "id": "C:C02165",
+   "kegg_id": "C02165",
+   "label": "Leukotriene B4",
+   "compound_class": "endogenous",
+   "degree": 5
+  },
+  {
+   "id": "C:C00051",
+   "kegg_id": "C00051",
+   "label": "Glutathione",
+   "compound_class": "endogenous",
+   "degree": 6
+  },
+  {
+   "id": "C:C05951",
+   "kegg_id": "C05951",
+   "label": "Leukotriene D4",
+   "compound_class": "endogenous",
+   "degree": 2
+  },
+  {
+   "id": "C:C01937",
+   "kegg_id": "C01937",
+   "label": "Methotrexate",
+   "compound_class": "drug",
+   "degree": 6
+  },
+  {
+   "id": "C:C00245",
+   "kegg_id": "C00245",
+   "label": "Taurine",
+   "compound_class": "endogenous",
+   "degree": 3
+  },
+  {
+   "id": "C:C01405",
+   "kegg_id": "C01405",
+   "label": "Aspirin",
+   "compound_class": "other",
+   "degree": 5
+  },
+  {
+   "id": "C:C01576",
+   "kegg_id": "C01576",
+   "label": "Etoposide",
+   "compound_class": "drug",
+   "degree": 5
+  },
+  {
+   "id": "C:C05551",
+   "kegg_id": "C05551",
+   "label": "Penicillin G",
+   "compound_class": "drug",
+   "degree": 5
+  },
+  {
+   "id": "C:C06804",
+   "kegg_id": "C06804",
+   "label": "Acetaminophen",
+   "compound_class": "other",
+   "degree": 5
+  },
+  {
+   "id": "C:C06999",
+   "kegg_id": "C06999",
+   "label": "Fexofenadine",
+   "compound_class": "drug",
+   "degree": 5
+  },
+  {
+   "id": "C:C07394",
+   "kegg_id": "C07394",
+   "label": "Paclitaxel",
+   "compound_class": "other",
+   "degree": 5
+  },
+  {
+   "id": "C:C04623",
+   "kegg_id": "C04623",
+   "label": "DDT",
+   "compound_class": "environmental",
+   "degree": 4
+  },
+  {
+   "id": "C:C00745",
+   "kegg_id": "C00745",
+   "label": "Nicotine",
+   "compound_class": "environmental",
+   "degree": 4
+  },
+  {
+   "id": "C:C07434",
+   "kegg_id": "C07434",
+   "label": "Phenobarbital",
+   "compound_class": "drug",
+   "degree": 4
+  },
+  {
+   "id": "C:C13624",
+   "kegg_id": "C13624",
+   "label": "Bisphenol A",
+   "compound_class": "environmental",
+   "degree": 4
+  },
+  {
+   "id": "C:C00084",
+   "kegg_id": "C00084",
+   "label": "Acetaldehyde",
+   "compound_class": "environmental",
+   "degree": 2
+  },
+  {
+   "id": "C:C01471",
+   "kegg_id": "C01471",
+   "label": "Acrolein",
+   "compound_class": "environmental",
+   "degree": 3
+  },
+  {
+   "id": "C:C00719",
+   "kegg_id": "C00719",
+   "label": "Betaine",
+   "compound_class": "endogenous",
+   "degree": 5
+  },
+  {
+   "id": "C:C03582",
+   "kegg_id": "C03582",
+   "label": "Resveratrol",
+   "compound_class": "drug",
+   "degree": 3
+  },
+  {
+   "id": "C:C07909",
+   "kegg_id": "C07909",
+   "label": "Sirolimus",
+   "compound_class": "other",
+   "degree": 3
+  },
+  {
+   "id": "C:C06689",
+   "kegg_id": "C06689",
+   "label": "Vancomycin",
+   "compound_class": "drug",
+   "degree": 2
+  },
+  {
+   "id": "C:C07056",
+   "kegg_id": "C07056",
+   "label": "Isoproterenol",
+   "compound_class": "drug",
+   "degree": 1
+  },
+  {
+   "id": "C:C06866",
+   "kegg_id": "C06866",
+   "label": "Capsaicin",
+   "compound_class": "other",
+   "degree": 2
+  },
+  {
+   "id": "C:C05349",
+   "kegg_id": "C05349",
+   "label": "Ciprofloxacin",
+   "compound_class": "drug",
+   "degree": 3
+  },
+  {
+   "id": "C:C07663",
+   "kegg_id": "C07663",
+   "label": "Moxifloxacin",
+   "compound_class": "drug",
+   "degree": 3
+  },
+  {
+   "id": "C:C00283",
+   "kegg_id": "C00283",
+   "label": "Hydrogen sulfide",
+   "compound_class": "other",
+   "degree": 4
+  },
+  {
+   "id": "C:C07130",
+   "kegg_id": "C07130",
+   "label": "Theophylline",
+   "compound_class": "drug",
+   "degree": 4
+  },
+  {
+   "id": "C:C07481",
+   "kegg_id": "C07481",
+   "label": "Caffeine",
+   "compound_class": "other",
+   "degree": 4
+  },
+  {
+   "id": "C:C13747",
+   "kegg_id": "C13747",
+   "label": "1,7-Dimethylxanthine",
+   "compound_class": "drug",
+   "degree": 4
+  },
+  {
+   "id": "C:C11422",
+   "kegg_id": "C11422",
+   "label": "Phenanthrene",
+   "compound_class": "environmental",
+   "degree": 1
+  },
+  {
+   "id": "C:C14335",
+   "kegg_id": "C14335",
+   "label": "Pyrene",
+   "compound_class": "environmental",
+   "degree": 1
+  },
+  {
+   "id": "C:C14519",
+   "kegg_id": "C14519",
+   "label": "1-Hydroxypyrene",
+   "compound_class": "environmental",
+   "degree": 1
+  },
+  {
+   "id": "C:C00067",
+   "kegg_id": "C00067",
+   "label": "Formaldehyde",
+   "compound_class": "environmental",
+   "degree": 2
+  },
+  {
+   "id": "C:C09306",
+   "kegg_id": "C09306",
+   "label": "Sulfur dioxide",
+   "compound_class": "environmental",
+   "degree": 4
+  },
+  {
+   "id": "C:C01912",
+   "kegg_id": "C01912",
+   "label": "Erythromycin",
+   "compound_class": "drug",
+   "degree": 1
+  },
+  {
+   "id": "C:C06573",
+   "kegg_id": "C06573",
+   "label": "Amphotericin B",
+   "compound_class": "drug",
+   "degree": 1
+  },
+  {
+   "id": "C:C00389",
+   "kegg_id": "C00389",
+   "label": "Quercetin",
+   "compound_class": "drug",
+   "degree": 3
+  },
+  {
+   "id": "C:C01477",
+   "kegg_id": "C01477",
+   "label": "Apigenin",
+   "compound_class": "drug",
+   "degree": 3
+  },
+  {
+   "id": "C:C09789",
+   "kegg_id": "C09789",
+   "label": "Naringin",
+   "compound_class": "drug",
+   "degree": 3
+  }
+ ],
+ "edges": [
+  {
+   "ChemicalName": "Nitric oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Asthma",
+   "shared_pathways": 22,
+   "sig_weight": 51.665,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Allograft rejection; Amoebiasis; Apelin signaling pathway; Chagas disease; Circadian entrainment; Estrogen signaling pathway; Gap junction; Graft-versus-host disease; HIF-1 signaling pathway; Hepatocellular carcinoma; Nitrogen cycle; Nitrogen metabolism; Oxytocin signaling pathway; Pathways in cancer; Platelet activation; Relaxin signaling pathway; Renin secretion; Salivary secretion; Sphingolipid signaling pathway; Two-component system; Vascular smooth muscle contraction; cGMP-PKG signaling pathway",
+   "pmids": [
+    "16696591",
+    "16981460",
+    "20123607"
+   ],
+   "n_pmids": 3,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9143,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=16696591+OR+16981460+OR+20123607"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Asthma",
+   "shared_pathways": 13,
+   "sig_weight": 45.003,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Bile secretion; Cholinergic synapse; Folate transport and metabolism; Gastric acid secretion; Insulin secretion; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Nicotine addiction; Pancreatic secretion; Salivary secretion; Synaptic vesicle cycle; Taste transduction; cAMP signaling pathway",
+   "pmids": [
+    "34774659"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7961,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=34774659"
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00212",
+   "Disease": "Asthma",
+   "shared_pathways": 12,
+   "sig_weight": 39.506,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "ABC transporters; Alcoholism; Morphine addiction; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Parkinson disease; Regulation of lipolysis in adipocytes; Renin secretion; Sphingolipid signaling pathway; Vascular smooth muscle contraction; cAMP signaling pathway; cGMP-PKG signaling pathway",
+   "pmids": [
+    "3609189"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8139,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=3609189"
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Asthma",
+   "shared_pathways": 6,
+   "sig_weight": 27.798,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Arachidonic acid metabolism; Asthma; Bile secretion; Fc epsilon RI signaling pathway; Neuroactive ligand-receptor interaction; Serotonergic synapse",
+   "pmids": [
+    "12816731"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7797,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=12816731"
+  },
+  {
+   "ChemicalName": "Histamine",
+   "KEGG_ID": "C00388",
+   "Disease": "Asthma",
+   "shared_pathways": 7,
+   "sig_weight": 26.532,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Asthma; Fc epsilon RI signaling pathway; Gastric acid secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand signaling; Neuroactive ligand-receptor interaction; Synaptic vesicle cycle",
+   "pmids": [
+    "16344897",
+    "16387687",
+    "19363516"
+   ],
+   "n_pmids": 3,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6428,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=16344897+OR+16387687+OR+19363516"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Asthma",
+   "shared_pathways": 5,
+   "sig_weight": 24.768,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Arachidonic acid metabolism; Bile secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction; Serotonergic synapse",
+   "pmids": [
+    "11006272",
+    "19667530"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6905,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=11006272+OR+19667530"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "sig_weight": 18.198,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "ABC transporters; Bile secretion; Chemical carcinogenesis - reactive oxygen species; Thyroid hormone synthesis",
+   "pmids": [
+    "22867017"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7947,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=22867017"
+  },
+  {
+   "ChemicalName": "Leukotriene D4",
+   "KEGG_ID": "C05951",
+   "Disease": "Asthma",
+   "shared_pathways": 4,
+   "sig_weight": 15.571,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Arachidonic acid metabolism; Asthma; Fc epsilon RI signaling pathway; Neuroactive ligand-receptor interaction",
+   "pmids": [
+    "8222486",
+    "9690572"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.85,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=8222486+OR+9690572"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [
+    "1450620",
+    "1557242"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.9184,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1450620+OR+1557242"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "sig_weight": 12.027,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters; Neuroactive ligand-receptor interaction; Sulfur metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.3133,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "1751016",
+    "3539408"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8238,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1751016+OR+3539408"
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2468,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4783,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "15942102"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7427,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=15942102"
+  },
+  {
+   "ChemicalName": "Fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6364,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1242,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 10.031,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - reactive oxygen species; Chemical carcinogenesis - receptor activation",
+   "pmids": [
+    "17932376",
+    "19541724"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8088,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=17932376+OR+19541724"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 9.384,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation; Nicotine addiction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.834,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [
+    "208429"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8045,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=208429"
+  },
+  {
+   "ChemicalName": "Bisphenol A",
+   "KEGG_ID": "C13624",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [
+    "31906378"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9368,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=31906378"
+  },
+  {
+   "ChemicalName": "Acetaldehyde",
+   "KEGG_ID": "C00084",
+   "Disease": "Asthma",
+   "shared_pathways": 3,
+   "sig_weight": 5.388,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - reactive oxygen species; Chloroalkane and chloroalkene degradation; Sulfur metabolism",
+   "pmids": [
+    "9600491"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8754,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=9600491"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 4.948,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Hepatocellular carcinoma; Pathways in cancer",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.7476,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00719",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 4.93,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters; Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6784,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 4.707,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm",
+   "pmids": [
+    "22986054",
+    "34774659"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.91,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=22986054+OR+34774659"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 4.707,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2047,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Vancomycin",
+   "KEGG_ID": "C06689",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 4.095,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Two-component system",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0762,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Isoproterenol",
+   "KEGG_ID": "C07056",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 4.067,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Adrenergic signaling in cardiomyocytes",
+   "pmids": [
+    "1572199",
+    "2878599",
+    "4921234",
+    "6435488"
+   ],
+   "n_pmids": 4,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8504,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1572199+OR+2878599+OR+4921234+OR+6435488"
+  },
+  {
+   "ChemicalName": "Capsaicin",
+   "KEGG_ID": "C06866",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 3.327,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Inflammatory mediator regulation of TRP channels",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6896,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Ciprofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4124,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4924,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Hydrogen sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Asthma",
+   "shared_pathways": 2,
+   "sig_weight": 2.819,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Sulfur cycle; Sulfur metabolism",
+   "pmids": [
+    "22357138"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8141,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=22357138"
+  },
+  {
+   "ChemicalName": "Theophylline",
+   "KEGG_ID": "C07130",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "10596698",
+    "10916367",
+    "11758890",
+    "11951074",
+    "12070353",
+    "12113382",
+    "12355682",
+    "12734767",
+    "1424400",
+    "15370247",
+    "15645133",
+    "16083514",
+    "16270722",
+    "16430859",
+    "16569937",
+    "17130682",
+    "1758745",
+    "17943569",
+    "208429",
+    "2496015",
+    "2578971",
+    "2828249",
+    "3025113",
+    "3074291",
+    "3109801"
+   ],
+   "n_pmids": 40,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.9494,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=10596698+OR+10916367+OR+11758890+OR+11951074+OR+12070353+OR+12113382+OR+12355682+OR+12734767+OR+1424400+OR+15370247+OR+15645133+OR+16083514+OR+16270722+OR+16430859+OR+16569937+OR+17130682+OR+1758745+OR+17943569+OR+208429+OR+2496015+OR+2578971+OR+2828249+OR+3025113+OR+3074291+OR+3109801"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.8514,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "1,7-Dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.8815,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Phenanthrene",
+   "KEGG_ID": "C11422",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.617,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Polycyclic aromatic hydrocarbon degradation",
+   "pmids": [
+    "24407477"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9179,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=24407477"
+  },
+  {
+   "ChemicalName": "Pyrene",
+   "KEGG_ID": "C14335",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.617,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Polycyclic aromatic hydrocarbon degradation",
+   "pmids": [
+    "23010230"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9258,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=23010230"
+  },
+  {
+   "ChemicalName": "1-Hydroxypyrene",
+   "KEGG_ID": "C14519",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.617,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Polycyclic aromatic hydrocarbon degradation",
+   "pmids": [
+    "33972693"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8395,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=33972693"
+  },
+  {
+   "ChemicalName": "Formaldehyde",
+   "KEGG_ID": "C00067",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.445,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chloroalkane and chloroalkene degradation",
+   "pmids": [
+    "11519088",
+    "12212974",
+    "17002712",
+    "17594875",
+    "23671638"
+   ],
+   "n_pmids": 5,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7586,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=11519088+OR+12212974+OR+17002712+OR+17594875+OR+23671638"
+  },
+  {
+   "ChemicalName": "Sulfur dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Asthma",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Sulfur cycle",
+   "pmids": [
+    "19440507",
+    "20123607",
+    "22357138",
+    "26996571",
+    "37162236"
+   ],
+   "n_pmids": 5,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.972,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=19440507+OR+20123607+OR+22357138+OR+26996571+OR+37162236"
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Bronchitis",
+   "shared_pathways": 3,
+   "sig_weight": 11.358,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - receptor activation; Nicotine addiction; Thermogenesis",
+   "pmids": [
+    "27806211"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.4799,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=27806211"
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0083,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0659,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Bisphenol A",
+   "KEGG_ID": "C13624",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0746,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00719",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "sig_weight": 4.93,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "ABC transporters; Folate transport and metabolism",
+   "pmids": [
+    "39742927"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.6105,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=39742927"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Bronchitis",
+   "shared_pathways": 2,
+   "sig_weight": 3.96,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Folate transport and metabolism; Nicotine addiction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4634,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1097,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00212",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2016,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0792,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Ciprofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1503,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1611,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 2.076,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.8522,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Theophylline",
+   "KEGG_ID": "C07130",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "3025113"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.7483,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=3025113"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1804,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "1,7-Dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Bronchitis",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4768,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [
+    "4559404"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.7953,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=4559404"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0281,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0753,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0302,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "9137524"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.4747,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=9137524"
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0117,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.047,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0138,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0214,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0208,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1312,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00719",
+   "Disease": "Carcinoma, Bronchogenic",
+   "shared_pathways": 1,
+   "sig_weight": 2.076,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0454,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Nitric oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Pneumonia",
+   "shared_pathways": 22,
+   "sig_weight": 51.665,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "Allograft rejection; Amoebiasis; Apelin signaling pathway; Chagas disease; Circadian entrainment; Estrogen signaling pathway; Gap junction; Graft-versus-host disease; HIF-1 signaling pathway; Hepatocellular carcinoma; Nitrogen cycle; Nitrogen metabolism; Oxytocin signaling pathway; Pathways in cancer; Platelet activation; Relaxin signaling pathway; Renin secretion; Salivary secretion; Sphingolipid signaling pathway; Two-component system; Vascular smooth muscle contraction; cGMP-PKG signaling pathway",
+   "pmids": [
+    "17450216"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.892,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=17450216"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Pneumonia",
+   "shared_pathways": 4,
+   "sig_weight": 23.982,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion; Folate transport and metabolism; Neuroactive ligand-receptor interaction; Salivary secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6444,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Adenosine",
+   "KEGG_ID": "C00212",
+   "Disease": "Pneumonia",
+   "shared_pathways": 6,
+   "sig_weight": 22.77,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters; Neuroactive ligand-receptor interaction; Renin secretion; Sphingolipid signaling pathway; Vascular smooth muscle contraction; cGMP-PKG signaling pathway",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.477,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "sig_weight": 21.86,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion; Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.5636,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 18.533,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion; Neuroactive ligand-receptor interaction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6535,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 13.627,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters; Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4607,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [
+    "10846532",
+    "1450620",
+    "19449473",
+    "2803334",
+    "9651097"
+   ],
+   "n_pmids": 5,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9856,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=10846532+OR+1450620+OR+19449473+OR+2803334+OR+9651097"
+  },
+  {
+   "ChemicalName": "Taurine",
+   "KEGG_ID": "C00245",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "sig_weight": 12.027,
+   "compound_class": "endogenous",
+   "link_type": "known",
+   "pathways": "ABC transporters; Neuroactive ligand-receptor interaction; Sulfur metabolism",
+   "pmids": [
+    "19362168"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.7813,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=19362168"
+  },
+  {
+   "ChemicalName": "Histamine",
+   "KEGG_ID": "C00388",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 11.087,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Inflammatory mediator regulation of TRP channels; Neuroactive ligand-receptor interaction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.5231,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4435,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.8099,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "4998180",
+    "6028697"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.7943,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=4998180+OR+6028697"
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4144,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.338,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "12367796",
+    "16612156"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8708,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=12367796+OR+16612156"
+  },
+  {
+   "ChemicalName": "Leukotriene D4",
+   "KEGG_ID": "C05951",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 7.76,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Neuroactive ligand-receptor interaction",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2867,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6809,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.3947,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.5142,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Bisphenol A",
+   "KEGG_ID": "C13624",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [
+    "28285737"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8464,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=28285737"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Pneumonia",
+   "shared_pathways": 3,
+   "sig_weight": 6.591,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm; Type I polyketide structures",
+   "pmids": [
+    "15219060"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8586,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=15219060"
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 4.948,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Hepatocellular carcinoma; Pathways in cancer",
+   "pmids": [
+    "36806656"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9149,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=36806656"
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00719",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 4.93,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "ABC transporters; Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.7194,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 4.707,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.5876,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Vancomycin",
+   "KEGG_ID": "C06689",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 4.095,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Two-component system",
+   "pmids": [
+    "15221158",
+    "17060545"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.9567,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=15221158+OR+17060545"
+  },
+  {
+   "ChemicalName": "Capsaicin",
+   "KEGG_ID": "C06866",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 3.327,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Inflammatory mediator regulation of TRP channels",
+   "pmids": [
+    "22575871"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6671,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=22575871"
+  },
+  {
+   "ChemicalName": "Acetaldehyde",
+   "KEGG_ID": "C00084",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 2.857,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chloroalkane and chloroalkene degradation; Sulfur metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.7769,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Ciprofloxacin",
+   "KEGG_ID": "C05349",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "ABC transporters",
+   "pmids": [
+    "1541177",
+    "3555062",
+    "3578331"
+   ],
+   "n_pmids": 3,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.844,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1541177+OR+3555062+OR+3578331"
+  },
+  {
+   "ChemicalName": "Moxifloxacin",
+   "KEGG_ID": "C07663",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 2.854,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "ABC transporters",
+   "pmids": [
+    "19680025",
+    "20731847"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.7905,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=19680025+OR+20731847"
+  },
+  {
+   "ChemicalName": "Hydrogen sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Pneumonia",
+   "shared_pathways": 2,
+   "sig_weight": 2.819,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Sulfur cycle; Sulfur metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6106,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Theophylline",
+   "KEGG_ID": "C07130",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "1541177"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8086,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1541177"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "other",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "29055810"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6068,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=29055810"
+  },
+  {
+   "ChemicalName": "1,7-Dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.6073,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Erythromycin",
+   "KEGG_ID": "C01912",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.884,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Type I polyketide structures",
+   "pmids": [
+    "10858333"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8311,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=10858333"
+  },
+  {
+   "ChemicalName": "Amphotericin B",
+   "KEGG_ID": "C06573",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.884,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Type I polyketide structures",
+   "pmids": [
+    "1357285",
+    "16538979"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.9313,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1357285+OR+16538979"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4365,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01477",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.573,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [
+    "22575871"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.8983,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=22575871"
+  },
+  {
+   "ChemicalName": "Formaldehyde",
+   "KEGG_ID": "C00067",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.445,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chloroalkane and chloroalkene degradation",
+   "pmids": [
+    "21983654"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9038,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=21983654"
+  },
+  {
+   "ChemicalName": "Sulfur dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Pneumonia",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Sulfur cycle",
+   "pmids": [
+    "25115710"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.9814,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=25115710"
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [
+    "1450620"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.7916,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1450620"
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 12.849,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion; Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2362,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2164,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2125,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1136,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1681,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0619,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2023,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1223,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.4388,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0505,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Nitric oxide",
+   "KEGG_ID": "C00533",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 4.948,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Hepatocellular carcinoma; Pathways in cancer",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.269,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acrolein",
+   "KEGG_ID": "C01471",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 4.948,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Hepatocellular carcinoma; Pathways in cancer",
+   "pmids": [
+    "30204913"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6622,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=30204913"
+  },
+  {
+   "ChemicalName": "Resveratrol",
+   "KEGG_ID": "C03582",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 4.707,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm",
+   "pmids": [
+    "23981542"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.612,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=23981542"
+  },
+  {
+   "ChemicalName": "Sirolimus",
+   "KEGG_ID": "C07909",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 2,
+   "sig_weight": 4.707,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Longevity regulating pathway; Longevity regulating pathway - worm",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0397,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Betaine",
+   "KEGG_ID": "C00719",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 2.076,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Folate transport and metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2803,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Theophylline",
+   "KEGG_ID": "C07130",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "1546832",
+    "16430859",
+    "17130682",
+    "1835291",
+    "18983928",
+    "20578267",
+    "20797314",
+    "2218006",
+    "2969553",
+    "6288396",
+    "6858124",
+    "8888546",
+    "9756159"
+   ],
+   "n_pmids": 13,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.766,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=1546832+OR+16430859+OR+17130682+OR+1835291+OR+18983928+OR+20578267+OR+20797314+OR+2218006+OR+2969553+OR+6288396+OR+6858124+OR+8888546+OR+9756159"
+  },
+  {
+   "ChemicalName": "Caffeine",
+   "KEGG_ID": "C07481",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Caffeine metabolism",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.3866,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "1,7-Dimethylxanthine",
+   "KEGG_ID": "C13747",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.994,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Caffeine metabolism",
+   "pmids": [
+    "19962977"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.5929,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=19962977"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [
+    "23099361"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.5151,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=23099361"
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01477",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.293,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0366,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Hydrogen sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Sulfur cycle",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1679,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Sulfur dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Pulmonary Disease, Chronic Obstructive",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Sulfur cycle",
+   "pmids": [
+    "32000783"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8796,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=32000783"
+  },
+  {
+   "ChemicalName": "Glutathione",
+   "KEGG_ID": "C00051",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1134,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Aspirin",
+   "KEGG_ID": "C01405",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1192,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Etoposide",
+   "KEGG_ID": "C01576",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1065,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Methotrexate",
+   "KEGG_ID": "C01937",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2649,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acetylcholine",
+   "KEGG_ID": "C01996",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0961,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene B4",
+   "KEGG_ID": "C02165",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2192,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Leukotriene C4",
+   "KEGG_ID": "C02166",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "endogenous",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.057,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Penicillin G",
+   "KEGG_ID": "C05551",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1382,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Acetaminophen",
+   "KEGG_ID": "C06804",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0627,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Fexofenadine",
+   "KEGG_ID": "C06999",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Bile secretion",
+   "pmids": [
+    "16037679",
+    "21381763"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.5705,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=16037679+OR+21381763"
+  },
+  {
+   "ChemicalName": "Paclitaxel",
+   "KEGG_ID": "C07394",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 10.773,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Bile secretion",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.1037,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Nicotine",
+   "KEGG_ID": "C00745",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.077,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "DDT",
+   "KEGG_ID": "C04623",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.167,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Phenobarbital",
+   "KEGG_ID": "C07434",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.2064,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Bisphenol A",
+   "KEGG_ID": "C13624",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 7.5,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Chemical carcinogenesis - receptor activation",
+   "pmids": [
+    "32909835",
+    "32964057"
+   ],
+   "n_pmids": 2,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.8741,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=32909835+OR+32964057"
+  },
+  {
+   "ChemicalName": "Quercetin",
+   "KEGG_ID": "C00389",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.056,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Apigenin",
+   "KEGG_ID": "C01477",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "known",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [
+    "36350155"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "therapeutic"
+   ],
+   "model_score": 0.426,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=36350155"
+  },
+  {
+   "ChemicalName": "Naringin",
+   "KEGG_ID": "C09789",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 1.483,
+   "compound_class": "drug",
+   "link_type": "novel_candidate",
+   "pathways": "Degradation of flavonoids",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.0241,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Hydrogen sulfide",
+   "KEGG_ID": "C00283",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "other",
+   "link_type": "novel_candidate",
+   "pathways": "Sulfur cycle",
+   "pmids": [],
+   "n_pmids": 0,
+   "evidence": [],
+   "model_score": 0.031,
+   "pubmed_url": null
+  },
+  {
+   "ChemicalName": "Sulfur dioxide",
+   "KEGG_ID": "C09306",
+   "Disease": "Rhinitis, Allergic",
+   "shared_pathways": 1,
+   "sig_weight": 1.406,
+   "compound_class": "environmental",
+   "link_type": "known",
+   "pathways": "Sulfur cycle",
+   "pmids": [
+    "26996571"
+   ],
+   "n_pmids": 1,
+   "evidence": [
+    "marker/mechanism"
+   ],
+   "model_score": 0.6776,
+   "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/?term=26996571"
+  }
+ ],
+ "classes": [
+  "drug",
+  "endogenous",
+  "environmental",
+  "other"
+ ],
+ "meta": {
+  "source": "kegg_enrichment_all.csv",
+  "fdr_cut": 0.05,
+  "max_pathway_size": 200,
+  "kept_pathways": 65,
+  "pathway_ids": {
+   "Bile secretion": "map04976",
+   "Neuroactive ligand-receptor interaction": "map04080",
+   "Chemical carcinogenesis - receptor activation": "map05207",
+   "Renin secretion": "map04924",
+   "Two-component system": "map02020",
+   "Adrenergic signaling in cardiomyocytes": "map04261",
+   "Neuroactive ligand signaling": "map04082",
+   "cAMP signaling pathway": "map04024",
+   "Regulation of lipolysis in adipocytes": "map04923",
+   "Asthma": "map05310",
+   "Pathways in cancer": "map05200",
+   "Vascular smooth muscle contraction": "map04270",
+   "Salivary secretion": "map04970",
+   "Inflammatory mediator regulation of TRP channels": "map04750",
+   "Longevity regulating pathway": "map04211",
+   "ABC transporters": "map02010",
+   "Graft-versus-host disease": "map05332",
+   "cGMP-PKG signaling pathway": "map04022",
+   "Pertussis": "map05133",
+   "Microbial metabolism in diverse environments": "map01120",
+   "Gap junction": "map04540",
+   "Fc epsilon RI signaling pathway": "map04664",
+   "Synaptic vesicle cycle": "map04721",
+   "Chemical carcinogenesis - reactive oxygen species": "map05208",
+   "Gastric acid secretion": "map04971",
+   "HIF-1 signaling pathway": "map04066",
+   "Hormone signaling": "map04081",
+   "Folate transport and metabolism": "map04981",
+   "Nitrogen metabolism": "map00910",
+   "MAPK signaling pathway": "map04010",
+   "Metabolic pathways": "map01100",
+   "Thyroid hormone synthesis": "map04918",
+   "Caffeine metabolism": "map00232",
+   "Chagas disease": "map05142",
+   "Relaxin signaling pathway": "map04926",
+   "Thermogenesis": "map04714",
+   "Type I polyketide structures": "map01052",
+   "Nicotine addiction": "map05033",
+   "Parkinson disease": "map05012",
+   "Morphine addiction": "map05032",
+   "Aldosterone-regulated sodium reabsorption": "map04960",
+   "Nitrogen cycle": "map01310",
+   "Estrogen signaling pathway": "map04915",
+   "Apelin signaling pathway": "map04371",
+   "Circadian entrainment": "map04713",
+   "Longevity regulating pathway - worm": "map04212",
+   "Taste transduction": "map04742",
+   "Alcoholism": "map05034",
+   "Polycyclic aromatic hydrocarbon degradation": "map00624",
+   "Biosynthesis of alkaloids derived from histidine and purine": "map01065",
+   "Insulin secretion": "map04911",
+   "Cholinergic synapse": "map04725",
+   "Oxytocin signaling pathway": "map04921",
+   "Cortisol synthesis and secretion": "map04927",
+   "Amoebiasis": "map05146",
+   "Cushing syndrome": "map04934",
+   "Degradation of flavonoids": "map00946",
+   "Hepatocellular carcinoma": "map05225",
+   "Platelet activation": "map04611",
+   "Arachidonic acid metabolism": "map00590",
+   "Serotonergic synapse": "map04726",
+   "Chloroalkane and chloroalkene degradation": "map00625",
+   "Pancreatic secretion": "map04972",
+   "Hedgehog signaling pathway": "map04340",
+   "Allograft rejection": "map05330",
+   "Sphingolipid signaling pathway": "map04071",
+   "Sulfur metabolism": "map00920",
+   "Sulfur cycle": "map01320",
+   "Biosynthesis of plant secondary metabolites": "map01060",
+   "Intestinal immune network for IgA production": "map04672",
+   "Malaria": "map05144",
+   "Vasopressin-regulated water reabsorption": "map04962",
+   "Cell cycle - yeast": "map04111",
+   "Circadian rhythm": "map04710",
+   "Longevity regulating pathway - multiple species": "map04213",
+   "Quorum sensing": "map02024",
+   "Legionellosis": "map05134",
+   "AMPK signaling pathway": "map04152",
+   "Taurine and hypotaurine metabolism": "map00430",
+   "Retinol metabolism": "map00830",
+   "Meiosis - yeast": "map04113",
+   "Type I diabetes mellitus": "map04940",
+   "Renal cell carcinoma": "map05211",
+   "Small cell lung cancer": "map05222",
+   "Human papillomavirus infection": "map05165",
+   "One carbon pool by folate": "map00670",
+   "Dilated cardiomyopathy": "map05414",
+   "Pathogenic Escherichia coli infection": "map05130",
+   "Dioxin degradation": "map00621",
+   "Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid": "map01064",
+   "Cysteine and methionine metabolism": "map00270",
+   "Growth hormone synthesis, secretion and action": "map04935",
+   "Progesterone-mediated oocyte maturation": "map04914",
+   "Insulin signaling pathway": "map04910",
+   "Leukocyte transendothelial migration": "map04670",
+   "Oocyte meiosis": "map04114",
+   "PI3K-Akt signaling pathway": "map04151",
+   "Glucocorticoid and mineralocorticoid receptor agonists/antagonists": "map07225",
+   "Th17 cell differentiation": "map04659",
+   "Gastric cancer": "map05226",
+   "Flavonoid biosynthesis": "map00941",
+   "Pathways of neurodegeneration - multiple diseases": "map05022",
+   "Biosynthesis of various alkaloids": "map00996",
+   "Plant-pathogen interaction": "map04626",
+   "Yersinia infection": "map05135",
+   "Endocrine resistance": "map01522",
+   "Rap1 signaling pathway": "map04015",
+   "Tropane, piperidine and pyridine alkaloid biosynthesis": "map00960",
+   "Salmonella infection": "map05132",
+   "Human T-cell leukemia virus 1 infection": "map05166",
+   "Prion disease": "map05020",
+   "Chemokine signaling pathway": "map04062",
+   "Regulation of actin cytoskeleton": "map04810",
+   "Cellular senescence": "map04218",
+   "PPAR signaling pathway": "map03320",
+   "Chlorocyclohexane and chlorobenzene degradation": "map00361",
+   "Degradation of aromatic compounds": "map01220",
+   "Melanogenesis": "map04916",
+   "Biofilm formation - Escherichia coli": "map02026",
+   "GnRH signaling pathway": "map04912",
+   "Non-small cell lung cancer": "map05223",
+   "VEGF signaling pathway": "map04370",
+   "NOD-like receptor signaling pathway": "map04621",
+   "Leishmaniasis": "map05140",
+   "Diabetic cardiomyopathy": "map05415",
+   "Drug metabolism - cytochrome P450": "map00982",
+   "Long-term potentiation": "map04720",
+   "Ras signaling pathway": "map04014",
+   "Eicosanoids": "map07034",
+   "Cocaine addiction": "map05030",
+   "Axon regeneration": "map04361",
+   "Olfactory transduction": "map04740",
+   "Endocrine and other factor-regulated calcium reabsorption": "map04961",
+   "Biofilm formation - Pseudomonas aeruginosa": "map02025",
+   "Glutamatergic synapse": "map04724",
+   "Biofilm formation - Vibrio cholerae": "map05111",
+   "African trypanosomiasis": "map05143",
+   "Fluid shear stress and atherosclerosis": "map05418",
+   "Biosynthesis of terpenoids and steroids": "map01062",
+   "GABAergic synapse": "map04727",
+   "Tuberculosis": "map05152",
+   "Long-term depression": "map04730",
+   "Amphetamine addiction": "map05031",
+   "Vibrio cholerae infection": "map05110",
+   "Histamine H2/H3 receptor agonists/antagonists": "map07227",
+   "Flavone and flavonol biosynthesis": "map00944",
+   "N-Glycan biosynthesis": "map00510",
+   "Biosynthesis of phenylpropanoids": "map01061",
+   "Coronavirus disease - COVID-19": "map05171",
+   "Calcium signaling pathway": "map04020",
+   "Alcoholic liver disease": "map04936",
+   "Photosynthesis": "map00195",
+   "Thyroid hormone signaling pathway": "map04919",
+   "Phospholipase D signaling pathway": "map04072",
+   "Parathyroid hormone synthesis, secretion and action": "map04928",
+   "Nicotinate and nicotinamide metabolism": "map00760",
+   "Glycerophospholipid metabolism": "map00564",
+   "Oxidative phosphorylation": "map00190",
+   "Carbon metabolism": "map01200",
+   "Dopaminergic synapse": "map04728",
+   "Cationic antimicrobial peptide (CAMP) resistance": "map01503",
+   "Neutrophil extracellular trap formation": "map04613",
+   "Biosynthesis of siderophore group nonribosomal peptides": "map01053",
+   "Metabolism of xenobiotics by cytochrome P450": "map00980",
+   "Lipid and atherosclerosis": "map05417",
+   "Amyotrophic lateral sclerosis": "map05014",
+   "Shigellosis": "map05131",
+   "Ethylbenzene degradation": "map00642",
+   "Prostate cancer": "map05215",
+   "Plant hormone signal transduction": "map04075",
+   "Arginine and proline metabolism": "map00330",
+   "Retrograde endocannabinoid signaling": "map04723",
+   "Insulin resistance": "map04931",
+   "Biosynthesis of vancomycin group antibiotics": "map01055",
+   "Alzheimer disease": "map05010",
+   "Chemical carcinogenesis - DNA adducts": "map05204",
+   "Tyrosine metabolism": "map00350",
+   "Aldosterone synthesis and secretion": "map04925",
+   "Vancomycin resistance": "map01502",
+   "Streptomycin biosynthesis": "map00521",
+   "Biosynthesis of secondary metabolites": "map01110",
+   "Ovarian steroidogenesis": "map04913",
+   "Styrene degradation": "map00643",
+   "Bisphenol degradation": "map00363",
+   "Methane metabolism": "map00680",
+   "Caprolactam degradation": "map00930",
+   "Glucagon signaling pathway": "map04922",
+   "Stilbenoid, diarylheptanoid and gingerol biosynthesis": "map00945",
+   "Atrazine degradation": "map00791",
+   "Ferroptosis": "map04216",
+   "Glycolysis / Gluconeogenesis": "map00010",
+   "Purine metabolism": "map00230",
+   "Pyruvate metabolism": "map00620",
+   "Secondary bile acid biosynthesis": "map00121",
+   "Xylene degradation": "map00622",
+   "Glutathione metabolism": "map00480",
+   "Vitamin digestion and absorption": "map04977",
+   "Other carbon fixation pathways": "map00720",
+   "Cyanoamino acid metabolism": "map00460",
+   "Protein digestion and absorption": "map04974",
+   "Terpenoid backbone biosynthesis": "map00900",
+   "Histidine metabolism": "map00340",
+   "Primary bile acid biosynthesis": "map00120",
+   "Butanoate metabolism": "map00650",
+   "Glycine, serine and threonine metabolism": "map00260",
+   "Phenylalanine metabolism": "map00360",
+   "Pinene, camphor and geraniol degradation": "map00907",
+   "Biosynthesis of alkaloids derived from shikimate pathway": "map01063",
+   "Biosynthesis of cofactors": "map01240",
+   "Phosphonate and phosphinate metabolism": "map00440",
+   "Nucleotide metabolism": "map01232",
+   "Naphthalene degradation": "map00626",
+   "Monoterpenoid biosynthesis": "map00902",
+   "Isoflavonoid biosynthesis": "map00943",
+   "Glyoxylate and dicarboxylate metabolism": "map00630",
+   "Biosynthesis of plant hormones": "map01070",
+   "D-Amino acid metabolism": "map00470",
+   "Ubiquinone and other terpenoid-quinone biosynthesis": "map00130",
+   "Benzoate degradation": "map00362",
+   "Neomycin, kanamycin and gentamicin biosynthesis": "map00524",
+   "Biosynthesis of 12-, 14- and 16-membered macrolides": "map00522",
+   "Aminobenzoate degradation": "map00627",
+   "Steroid hormone biosynthesis": "map00140",
+   "Indole alkaloid biosynthesis": "map00901",
+   "Biosynthesis of various antibiotics": "map00998",
+   "Diterpenoid biosynthesis": "map00904",
+   "Biosynthesis of type II polyketide products": "map01057",
+   "Biosynthesis of various plant secondary metabolites": "map00999"
+  }
+ }
+}

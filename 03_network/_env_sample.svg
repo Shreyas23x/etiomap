@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Environmental-exposure subnetwork</title><desc>Ten environmental chemicals linked to five respiratory diseases through FDR-significant KEGG pathways. Blue solid = known association, teal dashed = novel candidate, line width = significance.</desc>
+<line x1="250" y1="26" x2="282" y2="26" stroke="#185FA5" stroke-width="3" stroke-linecap="round"/><text class="ts" x="290" y="30" text-anchor="start">known</text>
+<line x1="360" y1="26" x2="392" y2="26" stroke="#1D9E75" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/><text class="ts" x="400" y="30" text-anchor="start">novel candidate</text>
+<text class="ts" x="250" y="48" text-anchor="start">line width = significance (-log10 FDR of shared pathway)</text>
+<line x1="157" y1="124" x2="545" y2="110" stroke="#185FA5" stroke-width="4.11" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="70" x2="545" y2="110" stroke="#1D9E75" stroke-width="3.93" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="178" x2="545" y2="110" stroke="#185FA5" stroke-width="3.38" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="232" x2="545" y2="110" stroke="#185FA5" stroke-width="2.77" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="286" x2="545" y2="110" stroke="#1D9E75" stroke-width="2.64" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="448" x2="545" y2="110" stroke="#185FA5" stroke-width="1.67" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="502" x2="545" y2="110" stroke="#185FA5" stroke-width="1.67" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="556" x2="545" y2="110" stroke="#185FA5" stroke-width="1.67" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="340" x2="545" y2="110" stroke="#185FA5" stroke-width="1.62" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="394" x2="545" y2="110" stroke="#185FA5" stroke-width="1.61" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="70" x2="545" y2="320" stroke="#185FA5" stroke-width="4.5" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="124" x2="545" y2="320" stroke="#1D9E75" stroke-width="3.38" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="178" x2="545" y2="320" stroke="#1D9E75" stroke-width="3.38" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="124" x2="545" y2="215" stroke="#1D9E75" stroke-width="4.11" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="70" x2="545" y2="215" stroke="#1D9E75" stroke-width="3.38" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="178" x2="545" y2="215" stroke="#185FA5" stroke-width="3.38" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="232" x2="545" y2="215" stroke="#1D9E75" stroke-width="2.77" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="286" x2="545" y2="215" stroke="#185FA5" stroke-width="2.64" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="340" x2="545" y2="215" stroke="#185FA5" stroke-width="1.62" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="394" x2="545" y2="215" stroke="#185FA5" stroke-width="1.61" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="286" x2="545" y2="425" stroke="#185FA5" stroke-width="2.64" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="394" x2="545" y2="425" stroke="#185FA5" stroke-width="1.61" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="70" x2="545" y2="520" stroke="#1D9E75" stroke-width="3.38" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="124" x2="545" y2="520" stroke="#1D9E75" stroke-width="3.38" stroke-dasharray="5 4" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="178" x2="545" y2="520" stroke="#185FA5" stroke-width="3.38" stroke-linecap="round" opacity="0.85"/>
+<line x1="157" y1="394" x2="545" y2="520" stroke="#185FA5" stroke-width="1.61" stroke-linecap="round" opacity="0.85"/>
+<g class="c-coral"><rect x="545" y="90" width="130" height="40" rx="8"/><text class="th" x="610" y="115" text-anchor="middle">Asthma</text></g>
+<g class="c-coral"><rect x="545" y="195" width="130" height="40" rx="8"/><text class="th" x="610" y="220" text-anchor="middle">Pneumonia</text></g>
+<g class="c-coral"><rect x="545" y="300" width="130" height="40" rx="8"/><text class="th" x="610" y="325" text-anchor="middle">Bronchitis</text></g>
+<g class="c-coral"><rect x="545" y="405" width="130" height="40" rx="8"/><text class="th" x="610" y="430" text-anchor="middle">COPD</text></g>
+<g class="c-coral"><rect x="545" y="500" width="130" height="40" rx="8"/><text class="th" x="610" y="525" text-anchor="middle">Allergic rhinitis</text></g>
+<g class="c-amber"><circle cx="150" cy="70" r="7"/><text class="ts" x="138" y="74" text-anchor="end">Nicotine</text></g>
+<g class="c-amber"><circle cx="150" cy="124" r="7"/><text class="ts" x="138" y="128" text-anchor="end">DDT</text></g>
+<g class="c-amber"><circle cx="150" cy="178" r="7"/><text class="ts" x="138" y="182" text-anchor="end">Bisphenol A</text></g>
+<g class="c-amber"><circle cx="150" cy="232" r="7"/><text class="ts" x="138" y="236" text-anchor="end">Acetaldehyde</text></g>
+<g class="c-amber"><circle cx="150" cy="286" r="7"/><text class="ts" x="138" y="290" text-anchor="end">Acrolein</text></g>
+<g class="c-amber"><circle cx="150" cy="340" r="7"/><text class="ts" x="138" y="344" text-anchor="end">Formaldehyde</text></g>
+<g class="c-amber"><circle cx="150" cy="394" r="7"/><text class="ts" x="138" y="398" text-anchor="end">Sulfur dioxide</text></g>
+<g class="c-amber"><circle cx="150" cy="448" r="7"/><text class="ts" x="138" y="452" text-anchor="end">Phenanthrene</text></g>
+<g class="c-amber"><circle cx="150" cy="502" r="7"/><text class="ts" x="138" y="506" text-anchor="end">Pyrene</text></g>
+<g class="c-amber"><circle cx="150" cy="556" r="7"/><text class="ts" x="138" y="560" text-anchor="end">1-Hydroxypyrene</text></g>
+</svg>

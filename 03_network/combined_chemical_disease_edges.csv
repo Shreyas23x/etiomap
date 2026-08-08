@@ -1,0 +1,367 @@
+ChemicalName,KEGG_ID,Disease,shared_pathways,jaccard,link_type
+Cyclic AMP,C00575,Asthma,82,0.3942,known
+Nitric Oxide,C00533,Asthma,39,0.1875,known
+Adenosine,C00002,Asthma,29,0.1394,known
+Carbon,C00011,Asthma,20,0.0962,known
+Norepinephrine,C00547,Asthma,17,0.0817,known
+"1,6-hexamethylene diisocyanate",C00001,Asthma,16,0.0769,known
+Acetylcholine,C01996,Asthma,16,0.0769,known
+Acetaldehyde,C00084,Asthma,14,0.0673,known
+"Cholesterol, Dietary",C00187,Asthma,11,0.0507,novel_candidate
+Histamine,C00388,Asthma,10,0.0481,known
+Oxygen,C00007,Asthma,10,0.0478,novel_candidate
+"phosphatidylinositol 3,4-diphosphate",C01194,Asthma,10,0.0481,known
+Hydrocortisone,C00735,Asthma,9,0.0433,known
+Glutathione,C00051,Asthma,8,0.0385,known
+Leukotriene B4,C02165,Asthma,7,0.0337,known
+Salicylic Acid,C00805,Asthma,7,0.0337,known
+Tretinoin,C00777,Asthma,7,0.0337,known
+"lipopolysaccharide, Escherichia coli O111 B4",C00338,Asthma,7,0.0326,novel_candidate
+Leukotriene C4,C02166,Asthma,6,0.0288,known
+Nicotine,C00745,Asthma,5,0.0239,novel_candidate
+Vitamin A,C00072,Asthma,5,0.024,known
+pyrene,C07535,Asthma,5,0.024,known
+"4,4'-diphenylmethane diisocyanate",C00004,Asthma,4,0.0192,known
+Carbon Monoxide,C00237,Asthma,4,0.0192,known
+Leukotriene D4,C05951,Asthma,4,0.0192,known
+Manganese,C00034,Asthma,4,0.0192,novel_candidate
+Taurine,C00245,Asthma,4,0.0191,novel_candidate
+Tetrachlorodibenzodioxin,C07557,Asthma,4,0.0192,novel_candidate
+Zinc Sulfate,C00038,Asthma,4,0.0192,known
+"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",C00398,Asthma,3,0.0144,known
+Betaine,C00318,Asthma,3,0.0144,novel_candidate
+DDT,C04623,Asthma,3,0.0144,known
+Hydrogen Sulfide,C00283,Asthma,3,0.0144,known
+nickel sulfate,C00291,Asthma,3,0.0144,novel_candidate
+Platelet Activating Factor,C04598,Asthma,3,0.0144,known
+Resveratrol,C03582,Asthma,3,0.0144,known
+ceric oxide,C00258,Asthma,3,0.0143,novel_candidate
+geraniol,C01500,Asthma,3,0.0144,known
+4-hydroxy-2-nonenal,C21642,Asthma,2,0.0096,novel_candidate
+Acrolein,C01471,Asthma,2,0.0096,novel_candidate
+Capsaicin,C06866,Asthma,2,0.0096,novel_candidate
+Eucalyptol,C09844,Asthma,2,0.0096,novel_candidate
+Formaldehyde,C00067,Asthma,2,0.0096,known
+Heparin,C00374,Asthma,2,0.0096,known
+Methotrexate,C01937,Asthma,2,0.0096,known
+Niacin,C00153,Asthma,2,0.0096,novel_candidate
+Sirolimus,C07909,Asthma,2,0.0095,novel_candidate
+Sulfur Dioxide,C09306,Asthma,2,0.0096,known
+Vinblastine,C07201,Asthma,2,0.0096,novel_candidate
+"1,7-dimethylxanthine",C13747,Asthma,1,0.0048,novel_candidate
+1-hydroxypyrene,C14519,Asthma,1,0.0048,known
+"2,4-Dichlorophenoxyacetic Acid",C03664,Asthma,1,0.0048,known
+4-dichlorobenzene,C07092,Asthma,1,0.0048,known
+8-epi-prostaglandin F2alpha,C13809,Asthma,1,0.0048,known
+Acetaminophen,C06804,Asthma,1,0.0048,known
+Aspirin,C01405,Asthma,1,0.0048,known
+Atrazine,C06551,Asthma,1,0.0048,novel_candidate
+Cadmium,C01413,Asthma,1,0.0048,known
+Caffeine,C07481,Asthma,1,0.0048,novel_candidate
+Ofloxacin,C05349,Asthma,1,0.0048,novel_candidate
+Cobalt,C00175,Asthma,1,0.0048,novel_candidate
+Cocaine,C01416,Asthma,1,0.0048,known
+Creatinine,C00791,Asthma,1,0.0048,novel_candidate
+Docetaxel,C11231,Asthma,1,0.0048,novel_candidate
+Ephedrine,C01575,Asthma,1,0.0048,known
+Ethylene Dibromide,C11088,Asthma,1,0.0048,known
+Etoposide,C01576,Asthma,1,0.0048,novel_candidate
+Hexachlorocyclohexane,C06988,Asthma,1,0.0048,known
+Hyaluronic Acid,C00518,Asthma,1,0.0048,novel_candidate
+Hydroxyurea,C07044,Asthma,1,0.0048,novel_candidate
+Iron,C00023,Asthma,1,0.0048,novel_candidate
+Isoproterenol,C07056,Asthma,1,0.0048,known
+Moxifloxacin,C07663,Asthma,1,0.0048,novel_candidate
+Mustard Gas,C19164,Asthma,1,0.0048,known
+Paclitaxel,C07394,Asthma,1,0.0048,novel_candidate
+Parathion,C06604,Asthma,1,0.0048,known
+Penicillin G,C05551,Asthma,1,0.0048,novel_candidate
+Phenobarbital,C07434,Asthma,1,0.0048,known
+Quercetin,C00389,Asthma,1,0.0047,novel_candidate
+"theophylline, salbutamol drug combination",C07130,Asthma,1,0.0048,known
+Vancomycin,C06689,Asthma,1,0.0048,novel_candidate
+Vincristine,C07204,Asthma,1,0.0048,novel_candidate
+angiotensin I (1-7),C15850,Asthma,1,0.0048,novel_candidate
+arsenite,C06697,Asthma,1,0.0048,novel_candidate
+cobalt oxide,C19171,Asthma,1,0.0048,novel_candidate
+epigallocatechin gallate,C09731,Asthma,1,0.0048,known
+fexofenadine,C06999,Asthma,1,0.0048,novel_candidate
+gamma-Tocopherol,C02483,Asthma,1,0.0048,known
+phenanthrene,C03164,Asthma,1,0.0048,known
+solasodine,C10822,Asthma,1,0.0048,known
+syringin,C01533,Asthma,1,0.0048,known
+Nicotine,C00745,Bronchitis,6,0.4286,known
+Betaine,C00318,Bronchitis,3,0.2143,known
+Cyclic AMP,C00575,Bronchitis,3,0.0323,novel_candidate
+Glutathione,C00051,Bronchitis,3,0.1579,novel_candidate
+pyrene,C07535,Bronchitis,3,0.1875,novel_candidate
+"1,6-hexamethylene diisocyanate",C00001,Bronchitis,2,0.0714,novel_candidate
+Acetylcholine,C01996,Bronchitis,2,0.0714,novel_candidate
+Adenosine,C00002,Bronchitis,2,0.0488,novel_candidate
+Norepinephrine,C00547,Bronchitis,2,0.069,novel_candidate
+Tetracycline,C02811,Bronchitis,2,0.1429,known
+"1,7-dimethylxanthine",C13747,Bronchitis,1,0.0714,novel_candidate
+"4,4'-diphenylmethane diisocyanate",C00004,Bronchitis,1,0.0588,novel_candidate
+Acetaminophen,C06804,Bronchitis,1,0.0714,novel_candidate
+Aspirin,C01405,Bronchitis,1,0.0714,novel_candidate
+Caffeine,C07481,Bronchitis,1,0.0714,novel_candidate
+Carbon,C00011,Bronchitis,1,0.0303,novel_candidate
+"Cholesterol, Dietary",C00187,Bronchitis,1,0.0303,novel_candidate
+Ofloxacin,C05349,Bronchitis,1,0.0714,known
+Cobalt,C00175,Bronchitis,1,0.0714,novel_candidate
+Cocaine,C01416,Bronchitis,1,0.0714,novel_candidate
+DDT,C04623,Bronchitis,1,0.0625,novel_candidate
+Daunorubicin,C01907,Bronchitis,1,0.0714,novel_candidate
+Diacetyl,C00741,Bronchitis,1,0.0714,known
+Docetaxel,C11231,Bronchitis,1,0.0714,novel_candidate
+Ethylene Dibromide,C11088,Bronchitis,1,0.0714,novel_candidate
+Etoposide,C01576,Bronchitis,1,0.0714,novel_candidate
+Hydrocortisone,C00735,Bronchitis,1,0.0455,novel_candidate
+Leukotriene B4,C02165,Bronchitis,1,0.05,novel_candidate
+Leukotriene C4,C02166,Bronchitis,1,0.0526,novel_candidate
+Manganese,C00034,Bronchitis,1,0.0588,novel_candidate
+Methotrexate,C01937,Bronchitis,1,0.0667,novel_candidate
+Moxifloxacin,C07663,Bronchitis,1,0.0714,novel_candidate
+Mustard Gas,C19164,Bronchitis,1,0.0714,known
+Niacin,C00153,Bronchitis,1,0.0625,novel_candidate
+nickel sulfate,C00291,Bronchitis,1,0.0625,novel_candidate
+Nitric Oxide,C00533,Bronchitis,1,0.0192,novel_candidate
+Paclitaxel,C07394,Bronchitis,1,0.0667,novel_candidate
+Penicillin G,C05551,Bronchitis,1,0.0714,novel_candidate
+Phenobarbital,C07434,Bronchitis,1,0.0714,novel_candidate
+Salicylic Acid,C00805,Bronchitis,1,0.05,novel_candidate
+Taurine,C00245,Bronchitis,1,0.0556,novel_candidate
+Tetrachlorodibenzodioxin,C07557,Bronchitis,1,0.0588,novel_candidate
+"theophylline, salbutamol drug combination",C07130,Bronchitis,1,0.0714,known
+Vinblastine,C07201,Bronchitis,1,0.0667,novel_candidate
+Zinc Sulfate,C00038,Bronchitis,1,0.0588,novel_candidate
+arsenite,C06697,Bronchitis,1,0.0714,known
+fexofenadine,C06999,Bronchitis,1,0.0714,novel_candidate
+"lipopolysaccharide, Escherichia coli O111 B4",C00338,Bronchitis,1,0.037,novel_candidate
+Acetylcholine,C01996,"Carcinoma, Bronchogenic",2,0.1053,novel_candidate
+Methotrexate,C01937,"Carcinoma, Bronchogenic",2,0.4,known
+Vinblastine,C07201,"Carcinoma, Bronchogenic",2,0.4,novel_candidate
+"1,6-hexamethylene diisocyanate",C00001,"Carcinoma, Bronchogenic",1,0.05,novel_candidate
+"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",C00398,"Carcinoma, Bronchogenic",1,0.1429,novel_candidate
+Acetaminophen,C06804,"Carcinoma, Bronchogenic",1,0.2,novel_candidate
+Acrolein,C01471,"Carcinoma, Bronchogenic",1,0.1429,novel_candidate
+Adenosine,C00002,"Carcinoma, Bronchogenic",1,0.0303,novel_candidate
+Aspirin,C01405,"Carcinoma, Bronchogenic",1,0.2,novel_candidate
+Betaine,C00318,"Carcinoma, Bronchogenic",1,0.1429,novel_candidate
+Carbon,C00011,"Carcinoma, Bronchogenic",1,0.0417,novel_candidate
+"Cholesterol, Dietary",C00187,"Carcinoma, Bronchogenic",1,0.0417,novel_candidate
+Cyclic AMP,C00575,"Carcinoma, Bronchogenic",1,0.0116,novel_candidate
+Docetaxel,C11231,"Carcinoma, Bronchogenic",1,0.2,novel_candidate
+Etoposide,C01576,"Carcinoma, Bronchogenic",1,0.2,known
+Glutathione,C00051,"Carcinoma, Bronchogenic",1,0.0833,novel_candidate
+Hydrocortisone,C00735,"Carcinoma, Bronchogenic",1,0.0769,novel_candidate
+Hydroxyurea,C07044,"Carcinoma, Bronchogenic",1,0.2,known
+Ifosfamide,C07047,"Carcinoma, Bronchogenic",1,0.2,known
+Leukotriene B4,C02165,"Carcinoma, Bronchogenic",1,0.0909,novel_candidate
+Leukotriene C4,C02166,"Carcinoma, Bronchogenic",1,0.1,novel_candidate
+Paclitaxel,C07394,"Carcinoma, Bronchogenic",1,0.1667,novel_candidate
+Penicillin G,C05551,"Carcinoma, Bronchogenic",1,0.2,novel_candidate
+Salicylic Acid,C00805,"Carcinoma, Bronchogenic",1,0.0909,novel_candidate
+Vincristine,C07204,"Carcinoma, Bronchogenic",1,0.2,known
+fexofenadine,C06999,"Carcinoma, Bronchogenic",1,0.2,novel_candidate
+Nitric Oxide,C00533,Pneumonia,39,0.3171,known
+Cyclic AMP,C00575,Pneumonia,28,0.1582,novel_candidate
+"Cholesterol, Dietary",C00187,Pneumonia,20,0.1626,known
+"1,6-hexamethylene diisocyanate",C00001,Pneumonia,16,0.1301,known
+"lipopolysaccharide, Escherichia coli O111 B4",C00338,Pneumonia,14,0.1138,known
+Adenosine,C00002,Pneumonia,13,0.0935,novel_candidate
+Carbon,C00011,Pneumonia,13,0.1,novel_candidate
+Oxygen,C00007,Pneumonia,11,0.0894,known
+Acetylcholine,C01996,Pneumonia,7,0.053,novel_candidate
+Norepinephrine,C00547,Pneumonia,7,0.0526,novel_candidate
+Glutathione,C00051,Pneumonia,6,0.048,novel_candidate
+Hydrocortisone,C00735,Pneumonia,6,0.0476,novel_candidate
+Taurine,C00245,Pneumonia,5,0.0407,known
+ceric oxide,C00258,Pneumonia,5,0.0407,known
+Acetaldehyde,C00084,Pneumonia,4,0.0301,novel_candidate
+Manganese,C00034,Pneumonia,4,0.0325,known
+Sirolimus,C07909,Pneumonia,4,0.0325,known
+Zinc Sulfate,C00038,Pneumonia,4,0.0325,known
+Acrolein,C01471,Pneumonia,3,0.0244,known
+Carbon Monoxide,C00237,Pneumonia,3,0.0242,novel_candidate
+Farnesol,C01126,Pneumonia,3,0.0244,known
+Histamine,C00388,Pneumonia,3,0.0231,novel_candidate
+Hydrogen Sulfide,C00283,Pneumonia,3,0.0244,novel_candidate
+Leukotriene B4,C02165,Pneumonia,3,0.0236,novel_candidate
+Niacin,C00153,Pneumonia,3,0.0244,known
+nickel sulfate,C00291,Pneumonia,3,0.0244,known
+Vancomycin,C06689,Pneumonia,3,0.0244,known
+"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",C00398,Pneumonia,2,0.0161,novel_candidate
+"4,4'-diphenylmethane diisocyanate",C00004,Pneumonia,2,0.016,novel_candidate
+4-hydroxy-2-nonenal,C21642,Pneumonia,2,0.0163,novel_candidate
+Betaine,C00318,Pneumonia,2,0.0161,novel_candidate
+Capsaicin,C06866,Pneumonia,2,0.0163,known
+Erythromycin,C01912,Pneumonia,2,0.0163,known
+Formaldehyde,C00067,Pneumonia,2,0.0163,known
+Hyaluronic Acid,C00518,Pneumonia,2,0.0163,novel_candidate
+Leukotriene C4,C02166,Pneumonia,2,0.0157,novel_candidate
+Methotrexate,C01937,Pneumonia,2,0.0163,known
+Nicotine,C00745,Pneumonia,2,0.0157,novel_candidate
+Paclitaxel,C07394,Pneumonia,2,0.0163,known
+Quercetin,C00389,Pneumonia,2,0.016,novel_candidate
+Resveratrol,C03582,Pneumonia,2,0.0161,novel_candidate
+Salicylic Acid,C00805,Pneumonia,2,0.0156,novel_candidate
+Sulfur Dioxide,C09306,Pneumonia,2,0.0163,known
+Tetrachlorodibenzodioxin,C07557,Pneumonia,2,0.016,novel_candidate
+Vinblastine,C07201,Pneumonia,2,0.0163,known
+Vitamin A,C00072,Pneumonia,2,0.0159,novel_candidate
+angiotensin I (1-7),C15850,Pneumonia,2,0.0163,known
+naringin,C09789,Pneumonia,2,0.0163,known
+"phosphatidylinositol 3,4-diphosphate",C01194,Pneumonia,2,0.0153,novel_candidate
+pyrene,C07535,Pneumonia,2,0.0159,novel_candidate
+"1,7-dimethylxanthine",C13747,Pneumonia,1,0.0081,novel_candidate
+"2,4-Dichlorophenoxyacetic Acid",C03664,Pneumonia,1,0.0081,known
+4-dichlorobenzene,C07092,Pneumonia,1,0.0081,novel_candidate
+Acetaminophen,C06804,Pneumonia,1,0.0081,novel_candidate
+Amphotericin B,C06573,Pneumonia,1,0.0081,known
+Apigenin,C01460,Pneumonia,1,0.0081,novel_candidate
+Aspirin,C01405,Pneumonia,1,0.0081,novel_candidate
+Bleomycin,C01895,Pneumonia,1,0.0081,known
+Cadmium,C01413,Pneumonia,1,0.0081,known
+Caffeine,C07481,Pneumonia,1,0.0081,known
+Ofloxacin,C05349,Pneumonia,1,0.0081,known
+Cobalt,C00175,Pneumonia,1,0.0081,known
+Cocaine,C01416,Pneumonia,1,0.0081,known
+Creatinine,C00791,Pneumonia,1,0.0081,novel_candidate
+DDT,C04623,Pneumonia,1,0.008,novel_candidate
+Daunorubicin,C01907,Pneumonia,1,0.0081,known
+Docetaxel,C11231,Pneumonia,1,0.0081,known
+Dronabinol,C06972,Pneumonia,1,0.0081,known
+Ephedrine,C01575,Pneumonia,1,0.0081,novel_candidate
+Etoposide,C01576,Pneumonia,1,0.0081,novel_candidate
+Eucalyptol,C09844,Pneumonia,1,0.0081,novel_candidate
+Heparin,C00374,Pneumonia,1,0.0081,novel_candidate
+Hexachlorocyclohexane,C06988,Pneumonia,1,0.0081,novel_candidate
+Ifosfamide,C07047,Pneumonia,1,0.0081,novel_candidate
+Iron,C00023,Pneumonia,1,0.0081,known
+Leukotriene D4,C05951,Pneumonia,1,0.0079,novel_candidate
+Moxifloxacin,C07663,Pneumonia,1,0.0081,known
+Mustard Gas,C19164,Pneumonia,1,0.0081,known
+Penicillin G,C05551,Pneumonia,1,0.0081,known
+Platelet Activating Factor,C04598,Pneumonia,1,0.008,novel_candidate
+Sodium Selenite,C05684,Pneumonia,1,0.0081,known
+Streptomycin,C00413,Pneumonia,1,0.0081,known
+Tetracycline,C02811,Pneumonia,1,0.0081,novel_candidate
+"theophylline, salbutamol drug combination",C07130,Pneumonia,1,0.0081,known
+Tobramycin,C00397,Pneumonia,1,0.0081,known
+Tretinoin,C00777,Pneumonia,1,0.0078,novel_candidate
+Ursodeoxycholic Acid,C07880,Pneumonia,1,0.0081,known
+Vincristine,C07204,Pneumonia,1,0.0081,novel_candidate
+cobalt oxide,C19171,Pneumonia,1,0.0081,known
+fexofenadine,C06999,Pneumonia,1,0.0081,novel_candidate
+geraniol,C01500,Pneumonia,1,0.008,novel_candidate
+solasodine,C10822,Pneumonia,1,0.0081,novel_candidate
+Cyclic AMP,C00575,"Pulmonary Disease, Chronic Obstructive",17,0.1532,novel_candidate
+Norepinephrine,C00547,"Pulmonary Disease, Chronic Obstructive",17,0.3696,known
+Nitric Oxide,C00533,"Pulmonary Disease, Chronic Obstructive",9,0.1184,novel_candidate
+Acetylcholine,C01996,"Pulmonary Disease, Chronic Obstructive",8,0.1481,novel_candidate
+Adenosine,C00002,"Pulmonary Disease, Chronic Obstructive",7,0.1029,novel_candidate
+Carbon,C00011,"Pulmonary Disease, Chronic Obstructive",5,0.082,novel_candidate
+"1,6-hexamethylene diisocyanate",C00001,"Pulmonary Disease, Chronic Obstructive",4,0.069,novel_candidate
+Carbon Monoxide,C00237,"Pulmonary Disease, Chronic Obstructive",4,0.087,known
+Histamine,C00388,"Pulmonary Disease, Chronic Obstructive",4,0.0769,novel_candidate
+Hydrocortisone,C00735,"Pulmonary Disease, Chronic Obstructive",4,0.0784,novel_candidate
+Quercetin,C00389,"Pulmonary Disease, Chronic Obstructive",4,0.087,known
+Tetrachlorodibenzodioxin,C07557,"Pulmonary Disease, Chronic Obstructive",4,0.087,known
+"3-(2,4-diamino-6-(3-hydroxyphenyl)pteridin-7-yl)phenol",C00398,"Pulmonary Disease, Chronic Obstructive",3,0.0652,known
+Acetaldehyde,C00084,"Pulmonary Disease, Chronic Obstructive",3,0.0526,novel_candidate
+Acrolein,C01471,"Pulmonary Disease, Chronic Obstructive",3,0.0652,known
+"Cholesterol, Dietary",C00187,"Pulmonary Disease, Chronic Obstructive",3,0.0476,novel_candidate
+DDT,C04623,"Pulmonary Disease, Chronic Obstructive",3,0.0652,novel_candidate
+Glutathione,C00051,"Pulmonary Disease, Chronic Obstructive",3,0.0588,novel_candidate
+Leukotriene B4,C02165,"Pulmonary Disease, Chronic Obstructive",3,0.06,novel_candidate
+Oxygen,C00007,"Pulmonary Disease, Chronic Obstructive",3,0.0556,novel_candidate
+Resveratrol,C03582,"Pulmonary Disease, Chronic Obstructive",3,0.0652,known
+pyrene,C07535,"Pulmonary Disease, Chronic Obstructive",3,0.0625,novel_candidate
+4-hydroxy-2-nonenal,C21642,"Pulmonary Disease, Chronic Obstructive",2,0.0435,known
+Apigenin,C01460,"Pulmonary Disease, Chronic Obstructive",2,0.0435,novel_candidate
+Betaine,C00318,"Pulmonary Disease, Chronic Obstructive",2,0.0426,novel_candidate
+Eucalyptol,C09844,"Pulmonary Disease, Chronic Obstructive",2,0.0435,known
+Formaldehyde,C00067,"Pulmonary Disease, Chronic Obstructive",2,0.0435,novel_candidate
+Hyaluronic Acid,C00518,"Pulmonary Disease, Chronic Obstructive",2,0.0435,known
+Hydrogen Sulfide,C00283,"Pulmonary Disease, Chronic Obstructive",2,0.0426,novel_candidate
+Leukotriene C4,C02166,"Pulmonary Disease, Chronic Obstructive",2,0.04,novel_candidate
+Methotrexate,C01937,"Pulmonary Disease, Chronic Obstructive",2,0.0435,known
+nickel sulfate,C00291,"Pulmonary Disease, Chronic Obstructive",2,0.0426,novel_candidate
+Nicotine,C00745,"Pulmonary Disease, Chronic Obstructive",2,0.04,novel_candidate
+Salicylic Acid,C00805,"Pulmonary Disease, Chronic Obstructive",2,0.0392,novel_candidate
+Sirolimus,C07909,"Pulmonary Disease, Chronic Obstructive",2,0.0417,novel_candidate
+Sulfur Dioxide,C09306,"Pulmonary Disease, Chronic Obstructive",2,0.0435,known
+Vinblastine,C07201,"Pulmonary Disease, Chronic Obstructive",2,0.0435,novel_candidate
+naringin,C09789,"Pulmonary Disease, Chronic Obstructive",2,0.0435,novel_candidate
+"1,7-dimethylxanthine",C13747,"Pulmonary Disease, Chronic Obstructive",1,0.0217,known
+"4,4'-diphenylmethane diisocyanate",C00004,"Pulmonary Disease, Chronic Obstructive",1,0.0204,novel_candidate
+Acetaminophen,C06804,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Aspirin,C01405,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Cadmium,C01413,"Pulmonary Disease, Chronic Obstructive",1,0.0217,known
+Caffeine,C07481,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Capsaicin,C06866,"Pulmonary Disease, Chronic Obstructive",1,0.0213,novel_candidate
+Creatinine,C00791,"Pulmonary Disease, Chronic Obstructive",1,0.0217,known
+Docetaxel,C11231,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Etoposide,C01576,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Ifosfamide,C07047,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Iron,C00023,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Isoproterenol,C07056,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Leukotriene D4,C05951,"Pulmonary Disease, Chronic Obstructive",1,0.0204,novel_candidate
+Manganese,C00034,"Pulmonary Disease, Chronic Obstructive",1,0.0204,novel_candidate
+Mustard Gas,C19164,"Pulmonary Disease, Chronic Obstructive",1,0.0217,known
+Niacin,C00153,"Pulmonary Disease, Chronic Obstructive",1,0.0208,novel_candidate
+Paclitaxel,C07394,"Pulmonary Disease, Chronic Obstructive",1,0.0213,novel_candidate
+Penicillin G,C05551,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Phenobarbital,C07434,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Platelet Activating Factor,C04598,"Pulmonary Disease, Chronic Obstructive",1,0.0208,novel_candidate
+Taurine,C00245,"Pulmonary Disease, Chronic Obstructive",1,0.02,novel_candidate
+"theophylline, salbutamol drug combination",C07130,"Pulmonary Disease, Chronic Obstructive",1,0.0217,known
+Tretinoin,C00777,"Pulmonary Disease, Chronic Obstructive",1,0.0192,novel_candidate
+Vancomycin,C06689,"Pulmonary Disease, Chronic Obstructive",1,0.0208,novel_candidate
+Vincristine,C07204,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+Zinc Sulfate,C00038,"Pulmonary Disease, Chronic Obstructive",1,0.0204,novel_candidate
+arsenite,C06697,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+ceric oxide,C00258,"Pulmonary Disease, Chronic Obstructive",1,0.02,novel_candidate
+cobalt oxide,C19171,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+epigallocatechin gallate,C09731,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+fexofenadine,C06999,"Pulmonary Disease, Chronic Obstructive",1,0.0217,novel_candidate
+geraniol,C01500,"Pulmonary Disease, Chronic Obstructive",1,0.0208,novel_candidate
+"lipopolysaccharide, Escherichia coli O111 B4",C00338,"Pulmonary Disease, Chronic Obstructive",1,0.0169,novel_candidate
+"4,4'-diphenylmethane diisocyanate",C00004,"Rhinitis, Allergic",4,0.2857,known
+Cyclic AMP,C00575,"Rhinitis, Allergic",4,0.0435,novel_candidate
+Adenosine,C00002,"Rhinitis, Allergic",3,0.075,novel_candidate
+Carbon,C00011,"Rhinitis, Allergic",3,0.0968,novel_candidate
+"Cholesterol, Dietary",C00187,"Rhinitis, Allergic",3,0.0968,novel_candidate
+geraniol,C01500,"Rhinitis, Allergic",3,0.2143,known
+"1,6-hexamethylene diisocyanate",C00001,"Rhinitis, Allergic",2,0.0714,novel_candidate
+Apigenin,C01460,"Rhinitis, Allergic",2,0.1429,known
+Betaine,C00318,"Rhinitis, Allergic",2,0.1333,novel_candidate
+Glutathione,C00051,"Rhinitis, Allergic",2,0.1,novel_candidate
+Hydrogen Sulfide,C00283,"Rhinitis, Allergic",2,0.1333,novel_candidate
+Quercetin,C00389,"Rhinitis, Allergic",2,0.125,novel_candidate
+Sulfur Dioxide,C09306,"Rhinitis, Allergic",2,0.1429,known
+"2,4-Dichlorophenoxyacetic Acid",C03664,"Rhinitis, Allergic",1,0.0714,known
+4-dichlorobenzene,C07092,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Acetaminophen,C06804,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Acetylcholine,C01996,"Rhinitis, Allergic",1,0.0345,novel_candidate
+Aspirin,C01405,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Atrazine,C06551,"Rhinitis, Allergic",1,0.0714,known
+Docetaxel,C11231,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Norepinephrine,C00547,"Rhinitis, Allergic",1,0.0333,novel_candidate
+Etoposide,C01576,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Eucalyptol,C09844,"Rhinitis, Allergic",1,0.0667,novel_candidate
+Hexachlorocyclohexane,C06988,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Hydrocortisone,C00735,"Rhinitis, Allergic",1,0.0455,novel_candidate
+Leukotriene B4,C02165,"Rhinitis, Allergic",1,0.05,novel_candidate
+Leukotriene C4,C02166,"Rhinitis, Allergic",1,0.0526,novel_candidate
+Methotrexate,C01937,"Rhinitis, Allergic",1,0.0667,novel_candidate
+Nicotine,C00745,"Rhinitis, Allergic",1,0.0526,novel_candidate
+Oxygen,C00007,"Rhinitis, Allergic",1,0.0417,novel_candidate
+Paclitaxel,C07394,"Rhinitis, Allergic",1,0.0667,novel_candidate
+Penicillin G,C05551,"Rhinitis, Allergic",1,0.0714,novel_candidate
+Salicylic Acid,C00805,"Rhinitis, Allergic",1,0.05,novel_candidate
+Vinblastine,C07201,"Rhinitis, Allergic",1,0.0667,novel_candidate
+fexofenadine,C06999,"Rhinitis, Allergic",1,0.0714,known
+naringin,C09789,"Rhinitis, Allergic",1,0.0667,novel_candidate
+solasodine,C10822,"Rhinitis, Allergic",1,0.0714,novel_candidate

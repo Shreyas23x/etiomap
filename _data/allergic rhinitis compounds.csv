@@ -1,0 +1,63 @@
+# ChemicalName,ChemicalID,CasRN,DiseaseName,DiseaseID,DirectEvidence,PubMedIDs
+ALLERGIC RHINITIS (61 compounds),,,,,,
+"2,4-Dichlorophenoxyacetic Acid",D015084,94-75-7,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+"4,4'-diphenylmethane diisocyanate",C005969,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,7973495
+Air Pollutants,D000393,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,29028686
+Aluminum Hydroxide,D000536,21645-51-2,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,36855022
+"Antigens, Bacterial",D000942,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,21108952
+"Antigens, Helminth",D000947,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,21108952
+Apigenin,D047310,520-36-5,"Rhinitis, Allergic",MESH:D065631,therapeutic,36350155
+Astemizole,D016589,68844-77-9,"Rhinitis, Allergic",MESH:D065631,therapeutic,8917271
+Atrazine,D001280,1912-24-9,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+bentazone,C002003,25057-89-0,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+beta-eudesmol,C051082,473-15-4,"Rhinitis, Allergic",MESH:D065631,therapeutic,30148989
+bisphenol A,C006780,80-05-7,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,32909835|32964057
+bufotalin,C004600,471-95-4,"Rhinitis, Allergic",MESH:D065631,therapeutic,36455750
+cang er zi wan,C550144,,"Rhinitis, Allergic",MESH:D065631,therapeutic,36855022
+Carbaryl,D012721,63-25-2,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Cetirizine,D017332,83881-51-0,"Rhinitis, Allergic",MESH:D065631,therapeutic,21381763
+Chlorpyrifos,D004390,2921-88-2,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+desloratadine,C121345,,"Rhinitis, Allergic",MESH:D065631,therapeutic,21381763
+Dexamethasone,D003907,50-02-2,"Rhinitis, Allergic",MESH:D065631,therapeutic,31669322|36350155
+Dicamba,D003996,1918-00-9,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Diethylhexyl Phthalate,D004051,117-81-7,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,32884073
+Dimethoate,D004117,60-51-5,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Etodolac,D017308,41340-25-4,"Rhinitis, Allergic",MESH:D065631,therapeutic,16979129
+fexofenadine,C093230,,"Rhinitis, Allergic",MESH:D065631,therapeutic,16037679|21381763
+geraniol,C007836,624-15-7,"Rhinitis, Allergic",MESH:D065631,therapeutic,30254419
+Glyphosate,D000097797,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Herbicides,D006540,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+hydroxysafflor yellow A,C085278,146087-19-6,"Rhinitis, Allergic",MESH:D065631,therapeutic,37195255
+Insecticides,D007306,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+levocetirizine,C472067,130018-77-8,"Rhinitis, Allergic",MESH:D065631,therapeutic,21381763
+Loratadine,D017336,79794-75-5,"Rhinitis, Allergic",MESH:D065631,therapeutic,16527031|21381763
+Malathion,D008294,121-75-5,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Methylprednisolone,D008775,83-43-2,"Rhinitis, Allergic",MESH:D065631,therapeutic,2910281
+mono(2-ethyl-5-hydroxyhexyl) phthalate,C479069,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,36127783
+mono(2-ethyl-5-oxohexyl)phthalate,C080276,40321-98-0,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,36127783
+nimesulide,C012655,51803-78-2,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,10609620
+Nitrogen Dioxide,D009585,10102-44-0,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,23728483|26996571
+nonylphenol,C025256,25154-52-3,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,36029577
+Ovalbumin,D010047,9006-59-1,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,30481581|30803854|31669322|32964057|35533451|36350155|36455750|36855022|37195255
+ovalbumin-alum,C446402,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,30254419|30481581|34624383
+Oxymetazoline,D010109,1491-59-4,"Rhinitis, Allergic",MESH:D065631,therapeutic,3340705
+Particulate Matter,D052638,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,30481581
+Permethrin,D026023,52645-53-1,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Petroleum,D010578,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Picloram,D010846,01-02-1918,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Pyrethrins,D011722,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Quinpirole,D019257,85760-74-3,"Rhinitis, Allergic",MESH:D065631,therapeutic,34624383
+ramatroban,C063119,116649-85-5,"Rhinitis, Allergic",MESH:D065631,therapeutic,16037679|16979129|21355602|21916510
+Rodenticides,D012378,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Rosiglitazone,D000077154,,"Rhinitis, Allergic",MESH:D065631,therapeutic,18652780
+saikosaponin D,C025759,,"Rhinitis, Allergic",MESH:D065631,therapeutic,31669322
+Simazine,D012839,122-34-9,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Soot,D053260,,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,26996571
+Sulfur Dioxide,D013458,05-09-7446,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,26996571
+Terfenadine,D016593,50679-08-8,"Rhinitis, Allergic",MESH:D065631,therapeutic,16037679|8006312
+Triamcinolone Acetonide,D014222,76-25-5,"Rhinitis, Allergic",MESH:D065631,therapeutic,113742
+triclopyr,C032742,55335-06-3,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Triclosan,D014260,3380-34-5,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,23146048|33654271
+Trifluralin,D014274,1582-09-8,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+Warfarin,D014859,81-81-2,"Rhinitis, Allergic",MESH:D065631,marker/mechanism,27384423
+zafirlukast,C062735,107753-78-6,"Rhinitis, Allergic",MESH:D065631,therapeutic,16527031

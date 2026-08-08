@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.0
+numpy>=1.24
+xgboost>=2.0            # only needed for the ML endpoint; network endpoints work without it
+requests>=2.31          # live PubChem / KEGG / PubMed / Open-Meteo calls
+python-multipart>=0.0.9  # required by the CSV-upload endpoints (UploadFile)
