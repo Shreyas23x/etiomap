@@ -24,7 +24,6 @@ function References({ ev }) {
     const pmids = ev.pmids || []
     return (
       <span style={{ display: 'inline-flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
-        <span className="tag tag-known">curated</span>
         {pmids.length
           ? pmids.map((p, i) => (
             <a key={p} href={`https://pubmed.ncbi.nlm.nih.gov/${p}/`} target="_blank" rel="noreferrer"
@@ -38,8 +37,8 @@ function References({ ev }) {
   return <span className="tag tag-novel">candidate</span>
 }
 
-// Disease-level references: CTD-curated refs for related compounds, plus an on-demand
-// live PubMed scour for the queried compound — each block labelled by its source.
+// Disease-level references: curated refs for related compounds, plus an on-demand
+// live PubMed scour for the queried compound, each block labelled by its source.
 function DiseaseRefs({ edges, disease, compound }) {
   const [scan, setScan] = useState(null)   // { loading } | { error } | { data }
   const [struct, setStruct] = useState(false)   // also search structural analogs
@@ -67,7 +66,7 @@ function DiseaseRefs({ edges, disease, compound }) {
               ? e.pmids.map((p, i) => (
                 <a key={p} href={`https://pubmed.ncbi.nlm.nih.gov/${p}/`} target="_blank" rel="noreferrer" style={refLink} title={`PubMed ${p}`}>[{i + 1}]</a>
               ))
-              : <span className="muted">candidate — no curated reference for this disease</span>}
+              : <span className="muted">candidate, no reference for this disease</span>}
           </div>
         )) : <span className="muted" style={{ fontSize: 12 }}>No related compounds.</span>}
       </div>
@@ -110,7 +109,7 @@ function DiseaseRefs({ edges, disease, compound }) {
 // Related-compound names; click a name to reveal its PubMed references for this disease.
 function RelatedCompounds({ edges }) {
   const [open, setOpen] = useState(null)
-  if (!edges || !edges.length) return <span className="muted">—</span>
+  if (!edges || !edges.length) return <span className="muted">None</span>
   const oe = open ? edges.find(e => e.ChemicalName === open) : null
   const pmids = oe?.pmids || []
   return (
@@ -135,7 +134,7 @@ function RelatedCompounds({ edges }) {
               <a key={p} href={`https://pubmed.ncbi.nlm.nih.gov/${p}/`} target="_blank" rel="noreferrer"
                 style={refLink} title={`PubMed ${p}`}>[{i + 1}]</a>
             ))
-            : <span className="muted">candidate — no curated reference for this disease</span>}
+            : <span className="muted">candidate, no reference for this disease</span>}
         </div>
       )}
     </div>
@@ -268,10 +267,10 @@ export default function Analyze() {
                 </select>
               </div>
               <div style={{ flex: '0 1 240px' }}>
-                <label className="fld">Source</label>
+                <label className="fld">Methods</label>
                 <select className="input" value={source} onChange={e => { setSource(e.target.value); setDRows(null); setErr('') }}>
                   <option value="model">Predicted likelihood</option>
-                  <option value="network">Curated dataset</option>
+                  <option value="network">Pathway Score</option>
                 </select>
               </div>
               <button className="btn btn-primary" onClick={runDisease} disabled={busy}>{busy ? <span className="spin" /> : 'Rank compounds'}</button>
@@ -285,7 +284,7 @@ export default function Analyze() {
                      ...dRows.map(c => { const ev = rowEvidence(c); return [c.ChemicalName, source === 'model' ? c.score : c.sig_weight, EVID_LABEL[ev.kind], refUrls(ev)] })])}>Download CSV</button>
                 </div>
                 <table className="data">
-                  <thead><tr><th>#</th><th>Compound</th><th>{source === 'model' ? 'Likelihood' : 'Pathway score'}</th><th>References</th></tr></thead>
+                  <thead><tr><th>#</th><th>Compound</th><th>{source === 'model' ? 'Likelihood' : 'Pathway score'}</th><th>Source</th></tr></thead>
                   <tbody>
                     {dRows.map((c, i) => (
                       <tr key={i}>
@@ -300,7 +299,7 @@ export default function Analyze() {
                 {source === 'network' && (
                   <p className="muted" style={{ fontSize: 12, marginTop: 10, lineHeight: 1.6 }}>
                     <b>Pathway score</b> is the summed −log10(FDR) over the KEGG pathways a compound and disease
-                    share — an aggregate measure of how many strongly-enriched pathways they have in common,
+                    share; an aggregate measure of how many strongly-enriched pathways they have in common,
                     not a single p-value. Higher means more shared enriched pathways. <b>Curated</b> rows come
                     straight from the CTD dataset with their PubMed references; <b>candidate</b> rows are
                     dataset pairs proposed by shared pathways but not yet curated.
@@ -324,7 +323,7 @@ export default function Analyze() {
             {cRes && (
               <div className="fadein" style={{ marginTop: 22 }}>
                 {!cRes.resolved ? (
-                  <div className="muted" style={{ padding: '18px 0' }}>Couldn't resolve <b>{cRes.query}</b> to a PubChem structure — it may be a mixture or category (e.g. "air pollutants") with no single molecule to model.</div>
+                  <div className="muted" style={{ padding: '18px 0' }}>Couldn't resolve <b>{cRes.query}</b> to a PubChem structure; it may be a mixture or category (e.g. "air pollutants") with no single molecule to model.</div>
                 ) : (
                   <>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, gap: 10, flexWrap: 'wrap' }}>
@@ -415,7 +414,7 @@ export default function Analyze() {
         Likelihood is the model's predicted probability of association from molecular descriptors; it is a research signal, not a clinical or diagnostic claim.
       </p>
       <p className="muted" style={{ fontSize: 12.5, marginTop: 6 }}>
-        The bracketed numbers in the References column — <span className="num" style={{ color: 'var(--emerald-700)', fontWeight: 600 }}>[1] [2] [3]</span> — are clickable: each opens the cited article on PubMed in a new tab.
+        The bracketed numbers in the Source column, <span className="num" style={{ color: 'var(--emerald-700)', fontWeight: 600 }}>[1] [2] [3]</span>, are references: each provides evidence of that compound and its association with the respective disease in the published literature. Click any number to open the cited article on PubMed.
       </p>
     </main>
   )

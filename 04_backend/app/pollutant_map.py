@@ -46,9 +46,9 @@ POLLUTANTS = [
 # CTD curated (DirectEvidence = "marker/mechanism") reference counts for the
 # particulate chemicals vs each disease, pulled from CTD's per-disease batch export
 # (06_expansion/raw/chems_D*.tsv). These are REAL curated PubMed-backed associations
-# — the count of curated references is used as the association strength (log-scaled),
+# the count of curated references is used as the association strength (log-scaled),
 # never a hand-set prior. Diseases with no curated PM evidence under that exact MeSH
-# term (e.g. Carcinoma, Bronchogenic — CTD files PM lung-cancer evidence under the
+# term (e.g. Carcinoma, Bronchogenic; CTD files PM lung-cancer evidence under the
 # broader "Lung Neoplasms") are simply absent, i.e. weight 0.
 CTD_PM_REFS = {
     "Particulate Matter": {"Pneumonia": 25, "Asthma": 21,
@@ -151,7 +151,7 @@ def air(lat: float = Query(..., ge=-90, le=90),
             cid, ctd = g.get("cid"), None
 
         if exceed is None:
-            level = "—"
+            level = "N/A"
         elif exceed >= 4:
             level = "very high"
         elif exceed >= 2:
@@ -232,12 +232,12 @@ def _prevention(band, pollutants):
         tips.append("Air is acceptable for most people; sensitive individuals should still "
                     "watch for symptoms on higher-pollution days.")
     if pm:
-        tips.append("Wear a well-fitted N95/FFP2 respirator outdoors — cloth and surgical "
+        tips.append("Wear a well-fitted N95/FFP2 respirator outdoors; cloth and surgical "
                     "masks do not filter fine particulate (PM2.5).")
         tips.append("Run a HEPA air purifier indoors and keep windows shut during peak "
                     "traffic and early-morning smog.")
     if "NO₂" in high or "CO" in high:
-        tips.append("Avoid busy roads and traffic at rush hour — NO₂ and CO track "
+        tips.append("Avoid busy roads and traffic at rush hour; NO₂ and CO track "
                     "vehicle exhaust and are highest kerbside.")
     if "O₃" in high:
         tips.append("Ozone peaks in afternoon heat; shift outdoor exercise to early morning.")

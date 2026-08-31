@@ -28,32 +28,32 @@ export default function About() {
           Two engines, one question: which chemicals drive respiratory disease?
         </h1>
         <p className="muted" style={{ fontSize: 18, marginTop: 20, maxWidth: 680 }}>
-          EtioMap answers that two independent ways — a machine-learning <b>model</b> and a
+          EtioMap answers that two independent ways: a machine-learning <b>model</b> and a
           biological-pathway <b>network</b>. They are deliberately separate, and reading them
-          together is the point. Here's exactly what each does, and where its limits are.
+          together is the point. Here is what each does, and where its limits are.
         </p>
       </section>
 
       {/* TWO ENGINES */}
-      <Section eyebrow="The two engines" title="Model vs. network — they answer differently">
+      <Section eyebrow="The two engines" title="Model vs. network: they answer differently">
         <div className="grid-3" style={{ gridTemplateColumns: '1fr 1fr' }}>
           <div className="card" style={{ padding: 24 }}>
             <div className="tag tag-model" style={{ marginBottom: 10 }}>model</div>
-            <h3 style={{ fontSize: 19, marginBottom: 8 }}>XGBoost likelihood</h3>
+            <h3 style={{ fontSize: 19, marginBottom: 8 }}>Predicted likelihood</h3>
             <p className="muted" style={{ fontSize: 15, lineHeight: 1.7 }}>
-              A gradient-boosted tree model. It looks only at a chemical's <b>molecular descriptors</b>
+              A machine-learning model. It looks only at a chemical's <b>molecular properties</b>
               (size, lipophilicity, polar surface area, H-bonding, complexity) plus the disease, and
-              outputs a probability of association. It is a statistical pattern-matcher over chemistry —
+              outputs a probability of association. It is a statistical pattern-matcher over chemistry;
               it knows nothing about biology or mechanism.
             </p>
           </div>
           <div className="card" style={{ padding: 24 }}>
             <div className="tag tag-known" style={{ marginBottom: 10 }}>network</div>
-            <h3 style={{ fontSize: 19, marginBottom: 8 }}>Shared KEGG pathways</h3>
+            <h3 style={{ fontSize: 19, marginBottom: 8 }}>Shared biological pathways</h3>
             <p className="muted" style={{ fontSize: 15, lineHeight: 1.7 }}>
-              A graph built from KEGG biology. A chemical links to a disease when they share
-              <b> FDR-significant metabolic pathways</b>. Every link names the pathways it travels
-              through, and every <i>known</i> link carries its CTD literature references. This engine
+              A graph built from biology. A chemical links to a disease when they share
+              <b> significantly enriched metabolic pathways</b>. Every link names the pathways it travels
+              through, and every <i>known</i> link carries its published literature references. This engine
               explains <b>how</b>; the model only estimates <b>whether</b>.
             </p>
           </div>
@@ -61,22 +61,21 @@ export default function About() {
       </Section>
 
       {/* THE MODEL */}
-      <Section eyebrow="The model" title="What the XGBoost model does — and doesn't">
+      <Section eyebrow="The model" title="What the model does, and doesn't">
         <div className="card" style={{ padding: 26 }}>
           <p style={{ fontSize: 15.5, lineHeight: 1.8, margin: 0 }}>
-            The model is trained on a feature vector of <b>disease identity + the chemical's molecular
-            descriptors</b>, with a label of 1 if the pair is a curated association and 0 otherwise.
-            Because both the disease and the chemical are inputs, it works in <b>both directions</b>:
-            fix a disease and rank chemicals (disease → chemical), or fix a chemical and score it across
-            all six diseases (chemical → disease). The Analyze page exposes both.
+            The model learns from the disease together with the chemical's <b>molecular properties</b>,
+            labelled by whether the pair is a known association. Because both the disease and the chemical
+            are inputs, it works in <b>both directions</b>: fix a disease and rank chemicals, or fix a
+            chemical and score it across all six diseases. The Analyze page exposes both.
           </p>
           <p className="muted" style={{ fontSize: 15, lineHeight: 1.8, marginTop: 14 }}>
-            <b>Is XGBoost the optimal choice?</b> For this regime — a few hundred chemicals described by
-            eight tabular descriptors — gradient boosting is a strong, honest default: it handles
-            non-linear feature interactions, resists overfitting on small data, and stays interpretable.
-            Richer approaches (graph neural nets over the molecular structure, or adding protein-target
-            features) could push further, but they need more data and are on the roadmap, not a quick win.
-            For the current dataset, a heavier model would likely overfit rather than improve.
+            <b>Why this kind of model?</b> For this setting, a few hundred chemicals described by a handful
+            of chemical properties, it is a strong, honest default: it captures non-linear patterns, resists
+            overfitting on small data, and stays interpretable. Richer approaches (learning directly from
+            molecular structure, or adding protein-target information) could push further, but they need
+            more data and are on the roadmap, not a quick win. For the current dataset, a heavier model
+            would likely overfit rather than improve.
           </p>
         </div>
       </Section>
@@ -84,49 +83,49 @@ export default function About() {
       {/* FAQ */}
       <Section eyebrow="Good questions" title="The things that trip people up">
         <Faq q="If the model never saw those chemicals, how do you know its predictions are right?">
-          <b>Because we always knew the true answer — we just hid it from the model.</b> Every chemical in
-          the training data has a curated CTD label (associated with a disease, or not). "Held out" means we
+          <b>Because we always knew the true answer; we just hid it from the model.</b> Every chemical in
+          the training data has a known label (associated with a disease, or not). "Held out" means we
           remove a chemical's labels while <i>training</i>, then reveal them only to <i>score</i> the model's
-          guesses. The chemical is new to the model, not unknown to us — so we can check each prediction
-          against the real label and measure how often it's right.
+          guesses. The chemical is new to the model, not unknown to us, so we can check each prediction
+          against the real label and measure how often it is right.
         </Faq>
-        <Faq q="What exactly was the validation split?">
-          <b>5-fold cross-validation grouped by chemical</b> (scikit-learn <span className="mono">StratifiedGroupKFold</span>).
-          The chemicals are split into five groups; each round trains on four groups and tests on the fifth,
-          so a test chemical's pairs never appear in its own training fold. We average ROC-AUC across the
-          folds → <b>≈0.81</b>. We grouped by <i>chemical</i> on purpose: a plain random split would let the
-          same chemical land in both train and test and quietly inflate the score. The model you query on the
-          site is then retrained on all the data. One honest caveat: the truly <b>novel candidates</b> (pairs
-          not in CTD at all) have no ground truth, so they are unvalidated hypotheses by definition.
+        <Faq q="How was it validated?">
+          <b>By testing on chemicals it was never trained on.</b> We repeatedly split the chemicals into
+          groups, train on most of them, and test on the ones held back, so a test chemical's pairs never
+          appear in its own training data. Averaging performance across those splits gives an honest read
+          on how it does on genuinely new chemistry, rather than on look-alikes it had already seen. The
+          model you query on the site is then trained on all the data. One honest caveat: the truly
+          <b> novel candidates</b> (pairs with no prior evidence) have no ground truth, so they are
+          unvalidated hypotheses by definition.
         </Faq>
         <Faq q="If the model predicts a link, how does it know the pathway it acts through?">
-          <b>It doesn't — and it shouldn't.</b> The model only sees molecular descriptors; it has no concept
+          <b>It doesn't, and it shouldn't.</b> The model only sees molecular properties; it has no concept
           of pathways. The "acts through these pathways" text comes entirely from the separate <b>network</b>
           engine. So a pure model prediction has no mechanism attached. When a novel candidate shows pathways,
-          that link was proposed by the network (shared pathways) — the model score is just an extra,
+          that link was proposed by the network (shared pathways), and the model score is just an extra,
           independent opinion on the same pair.
         </Faq>
         <Faq q="Why do some Known links disappear when I turn on Model predictions and raise the minimum score?">
-          <b>Because that toggle filters every edge by the model's confidence — not by evidence type.</b>
-          Raising the threshold hides any edge the model scores below it, including a curated, referenced
+          <b>Because that toggle filters every edge by the model's confidence, not by evidence type.</b>
+          Raising the threshold hides any edge the model scores below it, including a known, referenced
           association that the model happens to rate low. Turn the toggle off to judge links purely on
-          curation and pathway significance.
+          evidence and pathway strength.
         </Faq>
-        <Faq q="Why is a chemical with no reference shown under the “Curated dataset” source?">
+        <Faq q="Why is a chemical with no reference shown under the “Pathway Score” method?">
           <b>Because the network proposes links from biology, not from references.</b> A compound with no
-          curated reference can still share FDR-significant metabolic pathways with a disease — that's a
-          <b> candidate</b>, the network's actual prediction. Curated links are labelled "curated" and
-          carry their PubMed references; everything else is a candidate, or on the likelihood tab a "prediction."
+          reference can still share significantly enriched metabolic pathways with a disease; that is a
+          <b> candidate</b>, the network's actual prediction. Known links carry their published references;
+          everything else is a candidate, or on the likelihood tab a "prediction."
         </Faq>
         <Faq q="Which signal should I trust?">
           <b>Read them together.</b> A link that is both a <i>known</i> association and a high model score is
-          the most solid. A novel candidate with strong shared-pathway significance is a hypothesis worth
-          following. A high model score with no pathway and no reference is the weakest — interesting, but
+          the most solid. A novel candidate with strong shared-pathway evidence is a hypothesis worth
+          following. A high model score with no pathway and no reference is the weakest: interesting, but
           unexplained. None of this is a clinical or diagnostic claim.
         </Faq>
         <Faq q="If it's not a clinical or diagnostic claim, who is it for and how would a researcher use it?">
           <b>It's a discovery and prioritisation tool, not a decision tool.</b> "Not clinical or
-          diagnostic" means it says nothing about an individual patient and proves no causation — it is not
+          diagnostic" means it says nothing about an individual patient and proves no causation; it is not
           for the clinic or for regulation. What it <i>is</i> for: helping environmental-health,
           toxicology, and pharmacology researchers decide <b>what to study next</b> when there are far more
           chemical–disease pairs than anyone can test. Concretely:
@@ -134,15 +133,14 @@ export default function About() {
             <li><b>Shortlist candidates.</b> Rank which environmental chemicals to bring into a costly
               assay or epidemiology study for a given disease, instead of guessing.</li>
             <li><b>Get a mechanism lead.</b> The pathway layer proposes <i>how</i> a chemical might act,
-              which suggests what to measure — a starting hypothesis for bench work, with the KEGG entry as
-              the reference.</li>
-            <li><b>Enter the literature fast.</b> "Curated" links carry their PubMed references, so a curated
+              which suggests what to measure: a starting hypothesis for bench work.</li>
+            <li><b>Enter the literature fast.</b> Known links carry their references, so a known
               association is one click from its evidence.</li>
             <li><b>Spot cross-disease patterns and structure signals.</b> A chemical flagged across several
               respiratory diseases, or a model score that says "this kind of chemistry tends to associate,"
-              flags compounds worth a closer look — including ones no one has tested yet.</li>
+              flags compounds worth a closer look, including ones no one has tested yet.</li>
           </ul>
-          The output is always a <b>ranked hypothesis</b> a human expert then validates — never an answer
+          The output is always a <b>ranked hypothesis</b> a human expert then validates, never an answer
           to act on directly.
         </Faq>
       </Section>

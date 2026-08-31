@@ -1,4 +1,4 @@
-"""PubMed abstract scan — SEPARATE, REVERTIBLE ADD-ON MODULE.
+"""PubMed abstract scan: SEPARATE, REVERTIBLE ADD-ON MODULE.
 
 Unlike the CTD references (pre-curated, shipped in a CSV), this module goes to
 PubMed live and SCOURS REAL ABSTRACTS: it searches for the compound (and its
@@ -9,7 +9,7 @@ so the UI can distinguish it from CTD-curated references.
 
 This is the honest answer to "what if a paper just mentions the compound but does
 not assert the association": here we at least verify co-mention in the abstract
-(still not a claim of causation — a human should read it — but far better than an
+(still not a claim of causation, a human should read it, but far better than an
 unverified curation link).
 
 To revert: delete this file and the two marked lines in app/main.py.
@@ -206,6 +206,6 @@ def scan(compound: str = Query(..., description="compound name or CID"),
         "results": results,
         "note": ("Live PubMed search; each result's abstract was verified to mention both a "
                  "compound term (exact / synonym / structural analog) and the disease. "
-                 "Source = scoured, not CTD-curated. Co-mention is not proof of association "
-                 "— read the paper."),
+                 "Source = scoured, not CTD-curated. Co-mention is not proof of association; "
+                 "read the paper."),
     }

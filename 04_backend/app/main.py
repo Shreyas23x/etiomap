@@ -2,8 +2,8 @@
 Chemical–Disease Association API.
 
 Two prediction engines behind one API:
-  • network  — chemical→disease links via shared KEGG pathways (always available)
-  • model    — disease→chemical ranking from the trained XGBoost model
+  • network  : chemical→disease links via shared KEGG pathways (always available)
+  • model    : disease→chemical ranking from the trained XGBoost model
                (available once model_artifacts/ is present)
 
 Run:  uvicorn app.main:app --reload   (from the 04_backend/ folder)

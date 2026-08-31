@@ -21,8 +21,8 @@ export function NavBar() {
         <NavLink to="/" end className="navlink">Home</NavLink>
         <NavLink to="/analyze" className="navlink">Analyze</NavLink>
         <NavLink to="/explorer" className="navlink">Network</NavLink>
-        <NavLink to="/your-data" className="navlink">Your data</NavLink>{/* user-network add-on (revertible) */}
-        <NavLink to="/air" className="navlink">Air &amp; risk</NavLink>{/* pollutant-map add-on (revertible) */}
+        <NavLink to="/your-data" className="navlink">Data</NavLink>{/* user-network add-on (revertible) */}
+        <NavLink to="/air" className="navlink">Exposure Risk</NavLink>{/* pollutant-map add-on (revertible) */}
         <NavLink to="/about" className="navlink">About</NavLink>
         <Link to="/analyze" className="btn btn-primary btn-sm" style={{ marginLeft: 6 }}>Get started</Link>
       </div>
@@ -38,7 +38,7 @@ export function Footer() {
         <span className="muted" style={{ fontSize: 13.5 }}>Mapping the chemical etiology of respiratory disease.</span>
         <div style={{ flex: 1 }} />
         <span className="mono" style={{ fontSize: 12, color: 'var(--text-3)' }}>
-          Data: CTD · KEGG · PubChem &nbsp;|&nbsp; Model: XGBoost
+          Data: CTD · KEGG · PubChem
         </span>
       </div>
     </footer>
@@ -46,7 +46,7 @@ export function Footer() {
 }
 
 // Hero chemistry illustration: one continuous terpenoid chain threading into a
-// benzene ring (echoes the brand mark). Drawn as connected paths — no breaks.
+// benzene ring (echoes the brand mark). Drawn as connected paths, no breaks.
 export function MoleculeArt({ className = '' }) {
   return (
     <svg className={className} viewBox="0 0 440 360" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style={{ width: '100%', height: 'auto', display: 'block' }}>
@@ -62,7 +62,7 @@ export function MoleculeArt({ className = '' }) {
       {/* methyl branches off the chain */}
       <path d="M62 224 L62 192 M146 224 L146 192 M230 224 L230 192"
         stroke="var(--emerald)" strokeWidth="2.6" strokeLinecap="round" opacity=".85" />
-      {/* benzene ring — starts at the same left vertex, so the figure is one piece */}
+      {/* benzene ring, starts at the same left vertex, so the figure is one piece */}
       <path d="M253 206 L279 161 L331 161 L357 206 L331 251 L279 251 Z"
         stroke="var(--navy)" strokeWidth="2.8" strokeLinejoin="round" />
       {/* aromatic inner bonds */}

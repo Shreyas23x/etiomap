@@ -1,6 +1,6 @@
-# Render blueprint for the EtioMap FastAPI backend.
-# Deploy: push the repo to GitHub, then on render.com → New → Blueprint, point it
-# at this repo. Render reads this file and provisions the service. The existing
+# Render blueprint for the EtioMap FastAPI backend (lives at the repo root so
+# Render's Blueprint feature auto-detects it). Deploy: push the repo to GitHub,
+# then on render.com -> New -> Blueprint, point it at this repo. The existing
 # uvicorn command runs unchanged; Render injects $PORT.
 services:
   - type: web

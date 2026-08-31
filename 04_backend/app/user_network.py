@@ -1,4 +1,4 @@
-"""User-data network builder  — SEPARATE, REVERTIBLE ADD-ON MODULE.
+"""User-data network builder: SEPARATE, REVERTIBLE ADD-ON MODULE.
 
 Turns a user-uploaded CSV into a chemical–disease network the frontend can draw.
 It is intentionally self-contained: it defines its own APIRouter and does NOT
@@ -7,11 +7,11 @@ remove the two marked lines in app/main.py (import + include_router).
 
 Two auto-detected input shapes:
 
-  1. EDGE list  — the CSV has both a chemical column and a disease column
+  1. EDGE list  : the CSV has both a chemical column and a disease column
                   (optional weight/link_type columns). We render exactly the
                   associations the user supplied. Nothing is inferred.
 
-  2. COMPOUND list — the CSV has only a chemical column. We resolve each compound
+  2. COMPOUND list : the CSV has only a chemical column. We resolve each compound
                   via PubChem, score it against the six diseases with the trained
                   model (reusing app.score), and draw an edge wherever the
                   predicted likelihood >= min_score. These edges are PREDICTIONS.

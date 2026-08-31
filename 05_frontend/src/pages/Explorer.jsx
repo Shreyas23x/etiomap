@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import cytoscape from 'cytoscape'
 import fcose from 'cytoscape-fcose'
 import { Logo } from '../components/Brand.jsx'
@@ -95,7 +95,7 @@ export default function Explorer() {
     if (e.sig_weight < s.sig) return false
     if (!s.classes[e.compound_class]) return false
     if (s.modelOn) { const m = e.model_score == null ? -1 : e.model_score; if (m < s.modelMin) return false }
-    return true   // disease is a FOCUS (dim), not a hard filter — see refreshHighlight
+    return true   // disease is a FOCUS (dim), not a hard filter; see refreshHighlight
   }
 
   function apply() {
@@ -179,7 +179,7 @@ export default function Explorer() {
       if (el.isEdge()) { if (!el.hasClass('hidden')) selected.current.add(el.id()) }
       else { const kid = el.id().slice(2); cy.current.edges('[!ntype]').not('.hidden').filter(ed => edgeBy.current[ed.id()].KEGG_ID === kid).forEach(ed => selected.current.add(ed.id())) }
     })
-    cy.current.elements().unselect()                 // drop native selection — we use our own .sel/.hl styling
+    cy.current.elements().unselect()                 // drop native selection; we use our own .sel/.hl styling
     sel.current = { node: null, edge: null, group: true }
     setSelCount(selected.current.size); setDetail(groupSummary()); clearPath(); refreshHighlight()
   }
@@ -218,7 +218,7 @@ export default function Explorer() {
   }
 
   function clearPath() { if (cy.current) { cy.current.remove('[ntype="path"]'); cy.current.remove('edge[ntype="path"]') } }
-  // expand pathways for the selected compound — placed manually between it and its diseases
+  // expand pathways for the selected compound; placed manually between it and its diseases
   function expandPathways(node) {
     clearPath()
     const cyc = cy.current, kid = node.id().slice(2), cpos = node.position()
@@ -251,7 +251,7 @@ export default function Explorer() {
     update({ expandOn: v }); clearPath()
     const node = sel.current.node ? cy.current.getElementById('C:' + sel.current.node) : null
     if (v && node && node.length) expandPathways(node)
-    else if (v) setDetail({ type: 'hint', text: 'Select a compound in the graph — its pathways will then appear between it and its diseases.' })
+    else if (v) setDetail({ type: 'hint', text: 'Select a compound in the graph; its pathways will then appear between it and its diseases.' })
   }
 
   function download() {
@@ -269,8 +269,13 @@ export default function Explorer() {
         <Logo size={24} />
         <span className="mono" style={{ fontSize: 12, color: 'var(--text-3)' }}>network explorer</span>
         <div style={{ flex: 1 }} />
-        <Link to="/about" className="btn btn-ghost btn-sm">How it works</Link>
-        <Link to="/analyze" className="btn btn-ghost btn-sm">Analyze</Link>
+        <NavLink to="/" end className="navlink">Home</NavLink>
+        <NavLink to="/analyze" className="navlink">Analyze</NavLink>
+        <NavLink to="/explorer" className="navlink">Network</NavLink>
+        <NavLink to="/your-data" className="navlink">Data</NavLink>
+        <NavLink to="/air" className="navlink">Exposure Risk</NavLink>
+        <NavLink to="/about" className="navlink">About</NavLink>
+        <span style={{ width: 1, height: 20, background: 'var(--border)', margin: '0 6px' }} />
         <button className="btn btn-ghost btn-sm" onClick={() => cy.current && cy.current.fit(undefined, 60)}>Reset view</button>
         <button className="btn btn-ghost btn-sm" onClick={() => layout()}>Re-layout</button>
       </header>
@@ -291,12 +296,20 @@ export default function Explorer() {
               ))}
             </div>
           </Grp>
-          <Grp title="Group select">
-            <div style={{ display: 'flex', gap: 6 }}>
-              <button className="btn btn-ghost btn-sm" style={{ flex: 1 }} onClick={selectAllVisible}>Select all visible</button>
-              <button className="btn btn-ghost btn-sm" style={{ flex: 1 }} disabled={selCount === 0} onClick={clearSelection}>Clear</button>
+          <Grp title="Focus disease">
+            <select className="input" style={{ padding: 8, fontSize: 13 }} value={f.disease} onChange={e => setFocus(e.target.value)}>
+              <option value="">All diseases</option>
+              {(data.current?.diseases || []).map(d => <option key={d} value={d}>{shortDisease(d)}</option>)}
+            </select>
+            <div className="muted" style={{ fontSize: 11, marginTop: 4 }}>Or click a disease in the graph. Others fade, not vanish.</div>
+          </Grp>
+          <Grp title={<>Pathway score <b className="mono" style={{ color: 'var(--emerald-700)' }}>{f.sig.toFixed(1)}</b></>}>
+            <input type="range" min="0" max="50" step="0.5" value={f.sig} onChange={e => update({ sig: +e.target.value })} style={{ width: '100%', accentColor: 'var(--emerald)' }} />
+            <div className="mono" style={{ fontSize: 11, color: 'var(--text-3)' }}>summed −log10(FDR) across shared pathways</div>
+            <div style={{ marginTop: 12 }}>
+              <Toggle label="Expand pathways" on={f.expandOn} onClick={() => toggleExpand(!f.expandOn)} />
+              <div className="muted" style={{ fontSize: 11 }}>Select a compound, then expand to see the pathways it acts through.</div>
             </div>
-            <div className="muted" style={{ fontSize: 11, marginTop: 6, lineHeight: 1.6 }}>Shift-drag a box on the graph to select many associations at once. Selected: <b className="num">{selCount}</b>.</div>
           </Grp>
           <Grp title="Compound class">
             {classesList.map(c => (
@@ -307,35 +320,28 @@ export default function Explorer() {
             <label style={row}><input type="checkbox" checked={f.known} onChange={e => update({ known: e.target.checked })} /><span style={{ width: 16, borderTop: '3px solid var(--known)' }} /> Known (curated)</label>
             <label style={row}><input type="checkbox" checked={f.novel} onChange={e => update({ novel: e.target.checked })} /><span style={{ width: 16, borderTop: '3px dashed var(--novel)' }} /> Novel candidate</label>
           </Grp>
-          <Grp title={<>Min. pathway score <b className="mono" style={{ color: 'var(--emerald-700)' }}>{f.sig.toFixed(1)}</b></>}>
-            <input type="range" min="0" max="50" step="0.5" value={f.sig} onChange={e => update({ sig: +e.target.value })} style={{ width: '100%', accentColor: 'var(--emerald)' }} />
-            <div className="mono" style={{ fontSize: 11, color: 'var(--text-3)' }}>summed −log10(FDR) across shared pathways</div>
-          </Grp>
-          <Grp title="Focus disease">
-            <select className="input" style={{ padding: 8, fontSize: 13 }} value={f.disease} onChange={e => setFocus(e.target.value)}>
-              <option value="">All diseases</option>
-              {(data.current?.diseases || []).map(d => <option key={d} value={d}>{shortDisease(d)}</option>)}
-            </select>
-            <div className="muted" style={{ fontSize: 11, marginTop: 4 }}>Or click a disease in the graph. Others fade, not vanish.</div>
+          <Grp title="Group select">
+            <div style={{ display: 'flex', gap: 6 }}>
+              <button className="btn btn-ghost btn-sm" style={{ flex: 1 }} onClick={selectAllVisible}>Select all visible</button>
+              <button className="btn btn-ghost btn-sm" style={{ flex: 1 }} disabled={selCount === 0} onClick={clearSelection}>Clear</button>
+            </div>
+            <div className="muted" style={{ fontSize: 11, marginTop: 6, lineHeight: 1.6 }}>Shift-drag a box on the graph to select many associations at once. Selected: <b className="num">{selCount}</b>.</div>
           </Grp>
           <Grp title="Layers">
             <Toggle label="Model predictions" on={f.modelOn} onClick={() => update({ modelOn: !f.modelOn })} />
             {f.modelOn && <div className="mono" style={{ fontSize: 11, color: 'var(--text-3)', margin: '4px 0' }}>min score {f.modelMin.toFixed(2)}
               <input type="range" min="0" max="1" step="0.01" value={f.modelMin} onChange={e => update({ modelMin: +e.target.value })} style={{ width: '100%', accentColor: 'var(--emerald)' }} /></div>}
-            <Toggle label="Expand pathways" on={f.expandOn} onClick={() => toggleExpand(!f.expandOn)} />
-            <div className="muted" style={{ fontSize: 11 }}>Select a compound, then expand to see the pathways it acts through.</div>
-          </Grp>
-          <Grp title="Legend">
-            <div style={{ fontSize: 12.5, lineHeight: 2 }}>
-              {classesList.map(c => <div key={c} style={{ display: 'flex', alignItems: 'center', gap: 7 }}><SW c={CLASS_COLOR[c]} />{c}</div>)}
-              <div style={{ marginTop: 6, display: 'flex', gap: 12 }}><span><span style={{ display: 'inline-block', width: 16, borderTop: '3px solid var(--known)', verticalAlign: 'middle' }} /> known</span><span><span style={{ display: 'inline-block', width: 16, borderTop: '3px dashed var(--novel)', verticalAlign: 'middle' }} /> novel</span></div>
-            </div>
           </Grp>
         </aside>
 
         <div style={{ position: 'relative', minHeight: 0 }}>
           <div ref={cyEl} style={{ width: '100%', height: '100%' }} />
           <div className="mono" style={{ position: 'absolute', top: 12, left: 14, fontSize: 11.5, color: 'var(--text-2)', background: 'rgba(255,255,255,.82)', border: '1px solid var(--border)', borderRadius: 8, padding: '6px 11px', pointerEvents: 'none' }}>{counts}</div>
+          <div style={{ position: 'absolute', bottom: 14, right: 16, fontSize: 12, background: 'rgba(255,255,255,.92)', border: '1px solid var(--border)', borderRadius: 8, padding: '9px 12px', pointerEvents: 'none', lineHeight: 1.75, boxShadow: 'var(--shadow-sm)' }}>
+            <div className="mono" style={{ fontSize: 10, textTransform: 'uppercase', letterSpacing: '.08em', color: 'var(--text-3)', marginBottom: 5 }}>Legend</div>
+            {classesList.map(c => <div key={c} style={{ display: 'flex', alignItems: 'center', gap: 7 }}><SW c={CLASS_COLOR[c]} />{c}</div>)}
+            <div style={{ marginTop: 5, display: 'flex', gap: 12 }}><span><span style={{ display: 'inline-block', width: 16, borderTop: '3px solid var(--known)', verticalAlign: 'middle' }} /> known</span><span><span style={{ display: 'inline-block', width: 16, borderTop: '3px dashed var(--novel)', verticalAlign: 'middle' }} /> novel</span></div>
+          </div>
         </div>
 
         <aside style={{ background: 'var(--surface)', borderLeft: '1px solid var(--border)', overflowY: 'auto', padding: 16, display: 'flex', flexDirection: 'column' }}>
@@ -368,14 +374,22 @@ function Toggle({ label, on, onClick }) {
       <i style={{ position: 'absolute', top: 2, left: on ? 19 : 2, width: 17, height: 17, background: '#fff', borderRadius: '50%', transition: '.2s' }} /></div></div>
 }
 function DetailChem({ d }) {
+  const paths = [...new Set(d.assoc.flatMap(e => (e.pathways || '').split('; ').filter(Boolean)))]
   return <div className="fadein">
     <h3 style={{ fontSize: 17 }}>{d.label}</h3>
     <div className="mono muted" style={{ fontSize: 12 }}>KEGG {d.kegg} · <span style={{ color: CLASS_COLOR[d.cclass] }}>{d.cclass}</span></div>
-    <div style={{ marginTop: 10 }}>{d.assoc.map((e, i) => (
+    <div className="mono" style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.08em', color: 'var(--text-3)', margin: '12px 0 6px' }}>Disease associations</div>
+    <div>{d.assoc.map((e, i) => (
       <div key={i} className="card" style={{ padding: 9, marginBottom: 7, fontSize: 12.5, boxShadow: 'none' }}>
         <div style={{ fontWeight: 500 }}>{shortDisease(e.Disease)} <span className={`tag ${e.link_type === 'known' ? 'tag-known' : 'tag-novel'}`}>{e.link_type === 'known' ? 'known' : 'novel'}</span></div>
         <div className="muted" style={{ fontSize: 12 }}>score {e.sig_weight}{e.model_score != null ? ` · likelihood ${e.model_score}` : ''}{e.n_pmids ? ` · ${e.n_pmids} refs` : ''}</div>
       </div>))}</div>
+    {paths.length > 0 && <div style={{ marginTop: 12 }}>
+      <div className="mono" style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.08em', color: 'var(--text-3)', marginBottom: 6 }}>Pathways ({paths.length})</div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>
+        {paths.map(p => <span key={p} className="tag" style={{ background: '#e0f2fe', color: '#155e75', fontSize: 11, fontWeight: 500 }}>{p}</span>)}
+      </div>
+    </div>}
   </div>
 }
 function DetailGroup({ d, onClear }) {
@@ -411,7 +425,7 @@ function DetailEdge({ e }) {
     {[['Pathway score', e.sig_weight], ['Shared pathways', e.shared_pathways], ...(e.model_score != null ? [['Disease likelihood', e.model_score]] : []), ...(e.evidence?.length ? [['CTD evidence', e.evidence.join(', ')]] : []), ['References', e.n_pmids || 0]].map(([k, v], i) => (
       <div key={i} style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12.5, padding: '3px 0', borderBottom: '1px solid var(--muted)' }}><span className="muted">{k}</span><span className="num">{v}</span></div>
     ))}
-    <div className="mono" style={{ fontSize: 11, color: 'var(--text-2)', marginTop: 10 }}><b style={{ color: 'var(--navy)' }}>Acts through:</b><br />{(e.pathways || '—').split('; ').join('  ·  ')}</div>
+    <div className="mono" style={{ fontSize: 11, color: 'var(--text-2)', marginTop: 10 }}><b style={{ color: 'var(--navy)' }}>Acts through:</b><br />{(e.pathways || 'none').split('; ').join('  ·  ')}</div>
     {e.link_type === 'known'
       ? (e.pmids?.length
         ? <div style={{ marginTop: 10 }}>
@@ -426,6 +440,6 @@ function DetailEdge({ e }) {
         : (e.pubmed_url
           ? <div style={{ marginTop: 10 }}><a href={e.pubmed_url} target="_blank" rel="noreferrer" style={{ color: 'var(--emerald-700)', fontSize: 13 }}>View {e.n_pmids} reference(s) on PubMed ↗</a></div>
           : <div className="muted" style={{ marginTop: 10, fontSize: 12.5 }}>Curated association (CTD).</div>))
-      : <div className="muted" style={{ marginTop: 10, fontSize: 12.5 }}>Candidate — proposed by shared pathways, no direct reference yet.</div>}
+      : <div className="muted" style={{ marginTop: 10, fontSize: 12.5 }}>Candidate: proposed by shared pathways, no direct reference yet.</div>}
   </div>
 }

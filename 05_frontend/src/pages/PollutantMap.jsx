@@ -30,7 +30,7 @@ const pinIcon = L.divIcon({
 })
 
 function fmt(v) {
-  if (v == null) return '—'
+  if (v == null) return 'N/A'
   return v >= 100 ? Math.round(v) : v.toFixed(1)
 }
 
@@ -63,11 +63,13 @@ export default function PollutantMap() {
   useEffect(() => {
     if (map.current || !mapEl.current) return
     const m = L.map(mapEl.current, { minZoom: 4, maxZoom: 13, zoomControl: true, scrollWheelZoom: true })
-    // CARTO Voyager: detailed roads/labels with a clean, muted palette that suits
-    // the light theme (keyless; attribution required).
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      subdomains: 'abcd', maxZoom: 20, detectRetina: true,
-      attribution: '© OpenStreetMap © CARTO',
+    // Esri light-gray canvas: clean, muted, detailed, and KEYLESS (CARTO's tiles
+    // now require an API key). Base layer + a labels/reference overlay.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 16, attribution: 'Tiles © Esri',
+    }).addTo(m)
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 16, attribution: '',
     }).addTo(m)
     m.fitBounds([[7, 68], [35.5, 97.5]])            // frame the Indian subcontinent
     m.setMaxBounds([[5, 66], [37.5, 99.5]])
@@ -80,11 +82,11 @@ export default function PollutantMap() {
 
   return (
     <main className="wrap fadein" style={{ paddingTop: 40, minHeight: '72vh' }}>
-      <span className="eyebrow">Air &amp; risk · India</span>
+      <span className="eyebrow">Exposure Risk · India</span>
       <h1 className="serif" style={{ fontSize: 38, marginTop: 10 }}>Pinpoint a location, see what its air implies.</h1>
       <p className="muted" style={{ maxWidth: 640, marginTop: 8 }}>
         Click anywhere on the map of India. EtioMap pulls the live pollutant levels at that point
-        and connects them to the six respiratory diseases — gases are scored by the model, and
+        and connects them to the six respiratory diseases; gases are scored by the model, and
         particulates carry established epidemiological weights.
       </p>
 
@@ -114,7 +116,7 @@ export default function PollutantMap() {
           {!busy && !data && !err && (
             <div className="card" style={{ padding: 26 }}>
               <p className="muted" style={{ fontSize: 14, lineHeight: 1.7, margin: 0 }}>
-                No point selected yet. Choose a city above or click the map — you'll get the current
+                No point selected yet. Choose a city above or click the map, and you'll get the current
                 US AQI, each pollutant against its WHO guideline, the diseases those pollutants are
                 most associated with, and preventive measures.
               </p>
@@ -126,9 +128,8 @@ export default function PollutantMap() {
 
       <p className="muted" style={{ fontSize: 12.5, marginTop: 16, lineHeight: 1.6 }}>
         Air-quality data: Open-Meteo (keyless). Disease associations for gases (NO₂, SO₂, O₃, CO, NH₃)
-        come from the EtioMap XGBoost model; particulate (PM2.5, PM10, dust) associations use curated
-        CTD <i>marker/mechanism</i> references (e.g. Particulate Matter → Pneumonia is backed by 25
-        curated papers), labelled <b>curated</b>. This is a research and awareness signal, not medical advice.
+        come from the EtioMap model; particulate (PM2.5, PM10, dust) associations come from established
+        curated literature associations, labelled <b>curated</b>. This is a research and awareness signal, not medical advice.
       </p>
     </main>
   )
@@ -141,14 +142,12 @@ function Results({ data }) {
       {/* AQI header */}
       <div className="card" style={{ padding: '16px 20px', display: 'flex', alignItems: 'center', gap: 16 }}>
         <div style={{ minWidth: 64, textAlign: 'center' }}>
-          <div className="num serif" style={{ fontSize: 34, fontWeight: 600, color: aqi.color, lineHeight: 1 }}>{aqi.us_aqi ?? '—'}</div>
+          <div className="num serif" style={{ fontSize: 34, fontWeight: 600, color: aqi.color, lineHeight: 1 }}>{aqi.us_aqi ?? 'N/A'}</div>
           <div className="mono" style={{ fontSize: 10, color: 'var(--text-3)', textTransform: 'uppercase', letterSpacing: '.08em', marginTop: 3 }}>US AQI</div>
         </div>
         <div>
-          <div style={{ fontWeight: 600, color: aqi.color, fontSize: 16 }}>{aqi.band}</div>
-          <div className="muted" style={{ fontSize: 12.5, marginTop: 2 }}>
-            {location.label ? `${location.label} · ` : ''}current conditions
-          </div>
+          <div style={{ fontWeight: 600, fontSize: 16, color: 'var(--navy)' }}>{location.label || `${location.lat.toFixed(3)}, ${location.lon.toFixed(3)}`}</div>
+          <div style={{ fontWeight: 600, color: aqi.color, fontSize: 13.5, marginTop: 2 }}>{aqi.band}</div>
         </div>
       </div>
 
@@ -167,11 +166,11 @@ function Results({ data }) {
             {d.drivers.length > 0 &&
               <div className="muted" style={{ fontSize: 11, marginTop: 2 }}>driven by {d.drivers.join(', ')}</div>}
           </div>
-        )) : <span className="muted" style={{ fontSize: 13 }}>No pollutant exceeds its guideline here — modelled risk is negligible.</span>}
+        )) : <span className="muted" style={{ fontSize: 13 }}>No pollutant exceeds its guideline here, so modelled risk is negligible.</span>}
         <div className="muted" style={{ fontSize: 11, marginTop: 8, lineHeight: 1.5 }}>
           Relative scores (top disease = 100). Each pollutant's contribution scales with how far it
           exceeds its WHO guideline; gas associations come from the EtioMap model and lead the ranking,
-          while particulates corroborate at half weight from curated CTD references. Absolute severity is the AQI above.
+          while particulates corroborate at half weight from established literature associations. Absolute severity is the AQI above.
         </div>
       </div>
 
@@ -199,14 +198,6 @@ function Results({ data }) {
                   <div className="muted" style={{ fontSize: 10.5, marginTop: 5, lineHeight: 1.4 }}>
                     {p.diseases.map(d => shortDisease(d.disease)).slice(0, 2).join(', ')}
                   </div>}
-                {p.ctd && (() => {
-                  const total = Object.values(p.ctd.refs).reduce((a, b) => a + b, 0)
-                  return total > 0 && (
-                    <div className="muted" style={{ fontSize: 10, marginTop: 4, color: 'var(--emerald-700)' }}>
-                      {p.ctd.chemical} · {total} CTD refs
-                    </div>
-                  )
-                })()}
               </div>
             )
           })}

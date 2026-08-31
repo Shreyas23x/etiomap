@@ -1,4 +1,4 @@
-// User-data network — SEPARATE, REVERTIBLE ADD-ON PAGE.
+// User-data network: SEPARATE, REVERTIBLE ADD-ON PAGE.
 // Upload a CSV and get a chemical–disease network back. Two shapes are accepted:
 //   • an association list (chemical + disease columns) -> drawn as-is
 //   • a compound list (chemical column only) -> scored by the model, edges = predictions
@@ -86,14 +86,14 @@ export default function UserNetwork() {
 
   return (
     <main className="wrap fadein" style={{ paddingTop: 40, minHeight: '72vh' }}>
-      <span className="eyebrow">Your data</span>
+      <span className="eyebrow">Data</span>
       <h1 className="serif" style={{ fontSize: 38, marginTop: 10 }}>Build a network from your own dataset.</h1>
       <p className="muted" style={{ maxWidth: 680, marginTop: 8, lineHeight: 1.7 }}>
         Upload a CSV and EtioMap draws the corresponding chemical–disease network. Two formats work:
       </p>
       <ul className="muted" style={{ maxWidth: 680, fontSize: 14.5, lineHeight: 1.8, paddingLeft: 20 }}>
-        <li><b>Association list</b> — columns for a <span className="mono">chemical</span> and a <span className="mono">disease</span> (optional <span className="mono">weight</span> / <span className="mono">link_type</span>). Drawn exactly as given.</li>
-        <li><b>Compound list</b> — just a <span className="mono">chemical</span> column. Each compound is resolved on PubChem and scored by the model against the six diseases; edges are <b>predictions</b> above the likelihood threshold.</li>
+        <li><b>Association list</b>: columns for a <span className="mono">chemical</span> and a <span className="mono">disease</span> (optional <span className="mono">weight</span> / <span className="mono">link_type</span>). Drawn exactly as given.</li>
+        <li><b>Compound list</b>: just a <span className="mono">chemical</span> column. Each compound is resolved on PubChem and scored by the model against the six diseases; edges are <b>predictions</b> above the likelihood threshold.</li>
       </ul>
 
       <div className="card" style={{ padding: 22, marginTop: 16 }}>
