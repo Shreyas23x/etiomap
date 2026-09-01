@@ -42,7 +42,11 @@ export default function Explorer() {
     api.networkFull().then(d => {
       data.current = d
       const cls = {}; d.classes.forEach(c => cls[c] = true)
-      setClasses(d.classes); setF(s => ({ ...s, classes: cls }))
+      setClasses(d.classes)
+      // set fRef synchronously so the first apply() (inside build) sees every class
+      // enabled — otherwise the initial render shows 0/0/0 until "Show all" is clicked
+      const ns = { ...fRef.current, classes: cls }
+      fRef.current = ns; setF(ns)
       build(d)
     }).catch(e => setCounts('failed to load: ' + e.message))
     return () => { cy.current && cy.current.destroy() }
