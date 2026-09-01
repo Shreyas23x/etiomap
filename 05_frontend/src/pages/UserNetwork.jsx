@@ -108,6 +108,7 @@ export default function UserNetwork() {
           </div>
           <button className="btn btn-primary" onClick={build} disabled={busy || !file}>{busy ? <span className="spin" /> : 'Build network'}</button>
         </div>
+        {busy && <div style={{ marginTop: 14, fontSize: 13, color: 'var(--warn)', display: 'flex', alignItems: 'center', gap: 8 }}><span className="spin" /> Resolving your data, this can take a moment. Please do not leave this webpage while data is resolving.</div>}
         {err && <div style={{ color: 'var(--danger)', marginTop: 14, fontSize: 14 }}>⚠ {err}</div>}
       </div>
 

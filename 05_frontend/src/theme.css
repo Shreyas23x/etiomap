@@ -72,7 +72,7 @@ table.data tr:hover td{background:var(--bg)}
 
 /* likelihood bar */
 .lbar{position:relative;height:8px;border-radius:5px;background:var(--muted);overflow:hidden;min-width:90px}
-.lbar i{position:absolute;left:0;top:0;bottom:0;border-radius:5px;background:linear-gradient(90deg,var(--blue),var(--emerald))}
+.lbar i{position:absolute;left:0;top:0;bottom:0;border-radius:5px;background:var(--emerald)}
 
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center}
