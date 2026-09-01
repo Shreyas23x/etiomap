@@ -99,7 +99,7 @@ export default function PollutantMap() {
         ))}
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0,1.05fr) minmax(0,1fr)', gap: 20, marginTop: 16, alignItems: 'start' }}>
+      <div className="air-grid" style={{ marginTop: 16 }}>
         {/* MAP */}
         <div className="card" style={{ padding: 8, overflow: 'hidden' }}>
           <div ref={mapEl} style={{ height: 460, width: '100%', borderRadius: 10, background: 'var(--muted)' }} />

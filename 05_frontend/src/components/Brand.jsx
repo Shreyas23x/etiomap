@@ -24,7 +24,7 @@ export function NavBar() {
         <NavLink to="/your-data" className="navlink">Data</NavLink>{/* user-network add-on (revertible) */}
         <NavLink to="/air" className="navlink">Exposure Risk</NavLink>{/* pollutant-map add-on (revertible) */}
         <NavLink to="/about" className="navlink">About</NavLink>
-        <Link to="/analyze" className="btn btn-primary btn-sm" style={{ marginLeft: 6 }}>Get started</Link>
+        <Link to="/analyze" className="btn btn-primary btn-sm nav-cta" style={{ marginLeft: 6 }}>Get started</Link>
       </div>
     </nav>
   )

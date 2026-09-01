@@ -77,7 +77,19 @@ table.data tr:hover td{background:var(--bg)}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center}
 .hero-art{max-width:440px;margin-left:auto}
-@media(max-width:860px){.grid-3{grid-template-columns:1fr}.nav-inner{gap:14px}.hero-grid{grid-template-columns:1fr;gap:8px}.hero-art{max-width:300px;margin:0 auto}}
+/* Exposure Risk: map + results side-by-side on desktop, stacked on mobile */
+.air-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:20px;align-items:start}
+@media(max-width:860px){.grid-3{grid-template-columns:1fr}.nav-inner{gap:14px}.hero-grid{grid-template-columns:1fr;gap:8px}.hero-art{max-width:300px;margin:0 auto}.air-grid{grid-template-columns:1fr}}
+/* mobile nav: keep to one row and scroll horizontally instead of overflowing */
+@media(max-width:760px){
+  .wrap{padding:0 18px}
+  .nav-inner{gap:16px;padding:0 16px;overflow-x:auto;scrollbar-width:none}
+  .nav-inner::-webkit-scrollbar{display:none}
+  .nav a.navlink{font-size:13px;white-space:nowrap}
+  .nav-cta{display:none}
+  table.data{font-size:13px}
+  table.data th,table.data td{padding:8px 9px}
+}
 .spin{width:18px;height:18px;border:2.5px solid var(--border);border-top-color:var(--emerald);border-radius:50%;animation:sp .7s linear infinite;display:inline-block}
 @keyframes sp{to{transform:rotate(360deg)}}
 .fadein{animation:fi .4s ease}

@@ -27,6 +27,8 @@ export default function Explorer() {
   const [selCount, setSelCount] = useState(0)
   const [inclModel, setInclModel] = useState(false)
   const [leftW, setLeftW] = useState(262)
+  const [vw, setVw] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200)
+  const mobile = vw < 820
 
   // drag-to-resize the left toolbar
   function startResize(e) {
@@ -51,6 +53,13 @@ export default function Explorer() {
     }).catch(e => setCounts('failed to load: ' + e.message))
     return () => { cy.current && cy.current.destroy() }
     // eslint-disable-next-line
+  }, [])
+
+  // track viewport width so the desktop 3-column layout can stack on mobile
+  useEffect(() => {
+    const onR = () => { setVw(window.innerWidth); if (cy.current) cy.current.resize() }
+    window.addEventListener('resize', onR)
+    return () => window.removeEventListener('resize', onR)
   }, [])
 
   function build(d) {
@@ -268,8 +277,8 @@ export default function Explorer() {
   const SW = ({ c }) => <span style={{ width: 11, height: 11, borderRadius: 3, background: c, display: 'inline-block', flex: '0 0 auto' }} />
 
   return (
-    <div style={{ display: 'grid', gridTemplateRows: 'auto 1fr', height: '100vh', background: 'var(--bg)' }}>
-      <header style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 20px', background: 'var(--surface)', borderBottom: '1px solid var(--border)' }}>
+    <div style={{ display: mobile ? 'block' : 'grid', gridTemplateRows: 'auto 1fr', height: mobile ? 'auto' : '100vh', background: 'var(--bg)' }}>
+      <header style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 20px', background: 'var(--surface)', borderBottom: '1px solid var(--border)', flexWrap: mobile ? 'wrap' : 'nowrap' }}>
         <Logo size={24} />
         <span className="mono" style={{ fontSize: 12, color: 'var(--text-3)' }}>network explorer</span>
         <div style={{ flex: 1 }} />
@@ -284,15 +293,15 @@ export default function Explorer() {
         <button className="btn btn-ghost btn-sm" onClick={() => layout()}>Re-layout</button>
       </header>
 
-      <div style={{ display: 'grid', gridTemplateColumns: `${leftW}px 1fr 300px`, minHeight: 0, position: 'relative' }}>
-        {/* drag handle to resize the left toolbar */}
+      <div style={{ display: 'grid', gridTemplateColumns: mobile ? '1fr' : `${leftW}px 1fr 300px`, minHeight: 0, position: 'relative' }}>
+        {/* drag handle to resize the left toolbar (desktop only) */}
         <div onMouseDown={startResize} title="Drag to resize"
-          style={{ position: 'absolute', left: leftW - 3, top: 0, bottom: 0, width: 7, cursor: 'col-resize', zIndex: 30 }}
+          style={{ display: mobile ? 'none' : 'block', position: 'absolute', left: leftW - 3, top: 0, bottom: 0, width: 7, cursor: 'col-resize', zIndex: 30 }}
           onMouseEnter={e => e.currentTarget.firstChild.style.background = 'var(--emerald)'}
           onMouseLeave={e => e.currentTarget.firstChild.style.background = 'transparent'}>
           <div style={{ width: 2, height: '100%', margin: '0 auto', background: 'transparent', transition: 'background .15s' }} />
         </div>
-        <aside style={{ background: 'var(--surface)', borderRight: '1px solid var(--border)', overflowY: 'auto', padding: 16 }}>
+        <aside style={{ background: 'var(--surface)', borderRight: mobile ? 'none' : '1px solid var(--border)', borderTop: mobile ? '1px solid var(--border)' : 'none', overflowY: mobile ? 'visible' : 'auto', padding: 16, order: mobile ? 2 : 0 }}>
           <Grp title="Quick presets">
             <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
               {[['all', 'Show all'], ['env', 'Environmental'], ['known', 'Known only']].map(([k, l]) => (
@@ -338,7 +347,7 @@ export default function Explorer() {
           </Grp>
         </aside>
 
-        <div style={{ position: 'relative', minHeight: 0 }}>
+        <div style={{ position: 'relative', minHeight: 0, height: mobile ? '58vh' : undefined, order: mobile ? 1 : 0 }}>
           <div ref={cyEl} style={{ width: '100%', height: '100%' }} />
           <div className="mono" style={{ position: 'absolute', top: 12, left: 14, fontSize: 11.5, color: 'var(--text-2)', background: 'rgba(255,255,255,.82)', border: '1px solid var(--border)', borderRadius: 8, padding: '6px 11px', pointerEvents: 'none' }}>{counts}</div>
           <div style={{ position: 'absolute', bottom: 14, right: 16, fontSize: 12, background: 'rgba(255,255,255,.92)', border: '1px solid var(--border)', borderRadius: 8, padding: '9px 12px', pointerEvents: 'none', lineHeight: 1.75, boxShadow: 'var(--shadow-sm)' }}>
@@ -348,7 +357,7 @@ export default function Explorer() {
           </div>
         </div>
 
-        <aside style={{ background: 'var(--surface)', borderLeft: '1px solid var(--border)', overflowY: 'auto', padding: 16, display: 'flex', flexDirection: 'column' }}>
+        <aside style={{ background: 'var(--surface)', borderLeft: mobile ? 'none' : '1px solid var(--border)', borderTop: mobile ? '1px solid var(--border)' : 'none', overflowY: mobile ? 'visible' : 'auto', padding: 16, display: 'flex', flexDirection: 'column', order: mobile ? 3 : 0 }}>
           <div style={{ flex: 1 }}>
             {!detail && <><h3 style={{ fontSize: 15, marginBottom: 6 }}>Details</h3><p className="muted" style={{ fontSize: 13, lineHeight: 1.7 }}>Click a compound or an edge to inspect the association, its shared pathways, the model score, and the literature sources. Click a disease to focus it. Shift-click compounds to multi-select, or shift-drag a box on the graph to group-select many at once, then download with references.</p></>}
             {detail?.type === 'chem' && <DetailChem d={detail} onPick={showEdge} edgeBy={edgeBy} />}
