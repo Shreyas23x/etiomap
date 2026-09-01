@@ -42,7 +42,9 @@ STATIC = os.path.join(os.path.dirname(__file__), "..", "static")
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "model_ready": model.is_ready(),
+    ready = model.is_ready()
+    return {"status": "ok", "model_ready": ready,
+            "model_error": None if ready else model._state.get("error"),
             "diseases": len(network.diseases())}
 
 
