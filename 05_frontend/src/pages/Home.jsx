@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* STATS */}
       <section className="wrap">
-        <div className="card" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', padding: '6px 0' }}>
+        <div className="card" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', padding: '6px 0', borderRadius: 0 }}>
           {stats.map((s, i) => (
             <div key={i} style={{ padding: '22px 26px', borderLeft: i ? '1px solid var(--border)' : 'none' }}>
               <div className="serif" style={{ fontSize: 36, color: 'var(--navy)', fontWeight: 600 }}>{s.n}</div>
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* HOW */}
       <section className="wrap" style={{ marginTop: 72 }}>
-        <div className="card" style={{ padding: 36 }}>
+        <div className="card" style={{ padding: 36, borderRadius: 0 }}>
           <span className="eyebrow">How it works</span>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 28, marginTop: 22 }}>
             {steps.map(([t, d], i) => (
@@ -71,7 +71,7 @@ export default function Home() {
 
       {/* CTA */}
       <section className="wrap" style={{ marginTop: 40 }}>
-        <div style={{ background: 'var(--navy)', borderRadius: 'var(--radius-lg)', padding: '44px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 20 }}>
+        <div style={{ background: 'var(--navy)', borderRadius: 0, padding: '44px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 20 }}>
           <div>
             <h2 className="serif" style={{ color: '#fff', fontSize: 28 }}>Start mapping associations.</h2>
             <p style={{ color: '#cbd5e1', marginTop: 6, fontSize: 15.5 }}>Score a compound, rank a disease, or explore the whole network.</p>
