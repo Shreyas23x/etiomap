@@ -49,8 +49,3 @@ Local runnable scripts (used here, cache to `_cache/` so PubChem/KEGG hit once):
 The Colab notebooks (`*.ipynb`) contain the same logic for anyone running in Drive;
 the `run_*_local.py` scripts are the desktop equivalents and produced the committed
 artifacts.
-
-## Open item — your website mockup
-The backend is ready to merge with your own front-end mockup: it just needs the
-`/api/*` endpoints (see `04_backend/README.md`). Share the mockup and it can
-replace the reference `static/index.html`.
