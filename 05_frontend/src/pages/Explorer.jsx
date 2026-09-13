@@ -4,6 +4,7 @@ import cytoscape from 'cytoscape'
 import fcose from 'cytoscape-fcose'
 import { Logo } from '../components/Brand.jsx'
 import { api, shortDisease, CLASS_COLOR } from '../api.js'
+import { SHOW_EXPOSURE_RISK } from '../features.js'
 
 cytoscape.use(fcose)
 
@@ -20,7 +21,7 @@ export default function Explorer() {
   const tipRef = useRef(null)
 
   const [classesList, setClasses] = useState([])
-  const [f, setF] = useState({ classes: {}, known: true, novel: true, sig: 0, disease: '', modelOn: false, modelMin: 0.5, expandOn: false })
+  const [f, setF] = useState({ classes: {}, known: true, novel: true, sig: 0, disease: '', modelOn: false, modelMin: 0, expandOn: false })
   const fRef = useRef(f); fRef.current = f
   const [counts, setCounts] = useState('loading…')
   const [detail, setDetail] = useState(null)
@@ -118,7 +119,10 @@ export default function Explorer() {
     if (!s.novel && e.link_type === 'novel_candidate') return false
     if (e.sig_weight < s.sig) return false
     if (!s.classes[e.compound_class]) return false
-    if (s.modelOn) { const m = e.model_score == null ? -1 : e.model_score; if (m < s.modelMin) return false }
+    // model layer only FILTERS by the min-score slider; edges without a model score
+    // (and the default min of 0) always pass, so turning the layer on never silently
+    // removes connections — raising the slider is what filters.
+    if (s.modelOn && s.modelMin > 0) { const m = e.model_score; if (m != null && m < s.modelMin) return false }
     return true   // disease is a FOCUS (dim), not a hard filter; see refreshHighlight
   }
 
@@ -289,19 +293,23 @@ export default function Explorer() {
 
   return (
     <div style={{ display: mobile ? 'block' : 'grid', gridTemplateRows: 'auto 1fr', height: mobile ? 'auto' : '100vh', background: 'var(--bg)' }}>
-      <header style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 20px', background: 'var(--surface)', borderBottom: '1px solid var(--border)', flexWrap: mobile ? 'wrap' : 'nowrap' }}>
-        <Logo size={24} />
-        <span className="mono" style={{ fontSize: 12, color: 'var(--text-3)' }}>network explorer</span>
-        <div style={{ flex: 1 }} />
-        <NavLink to="/" end className="navlink">Home</NavLink>
-        <NavLink to="/analyze" className="navlink">Analyze</NavLink>
-        <NavLink to="/explorer" className="navlink">Network</NavLink>
-        <NavLink to="/your-data" className="navlink">Data</NavLink>
-        <NavLink to="/air" className="navlink">Exposure Risk</NavLink>
-        <NavLink to="/about" className="navlink">About</NavLink>
-        <span style={{ width: 1, height: 20, background: 'var(--border)', margin: '0 6px' }} />
-        <button className="btn btn-ghost btn-sm" onClick={() => cy.current && cy.current.fit(undefined, 60)}>Reset view</button>
-        <button className="btn btn-ghost btn-sm" onClick={() => layout()}>Re-layout</button>
+      <header className="nav">
+        <div className="nav-inner">
+          <Logo />
+          <div style={{ flex: 1 }} />
+          <NavLink to="/" end className="navlink">Home</NavLink>
+          <NavLink to="/analyze" className="navlink">Analyze</NavLink>
+          <NavLink to="/explorer" className="navlink">Network</NavLink>
+          <NavLink to="/your-data" className="navlink">Data</NavLink>
+          {SHOW_EXPOSURE_RISK && <NavLink to="/air" className="navlink">Exposure Risk</NavLink>}
+          <NavLink to="/about" className="navlink">About</NavLink>
+          <NavLink to="/reviews" className="navlink">Reviews</NavLink>{/* reviews page (local only for now) */}
+          {/* fixed-width control slot (same width as the site's Get started slot) so the nav links align across pages */}
+          <div style={{ width: 168, display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 8, marginLeft: 6 }}>
+            <button className="btn btn-ghost btn-sm" onClick={() => cy.current && cy.current.fit(undefined, 60)}>Reset</button>
+            <button className="btn btn-ghost btn-sm" onClick={() => layout()}>Re-layout</button>
+          </div>
+        </div>
       </header>
 
       <div style={{ display: 'grid', gridTemplateColumns: mobile ? '1fr' : `${leftW}px 1fr 300px`, minHeight: 0, position: 'relative' }}>

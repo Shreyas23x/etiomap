@@ -240,13 +240,14 @@ export default function Analyze() {
   return (
     <main className="wrap fadein" style={{ paddingTop: 40, minHeight: '72vh' }}>
       <span className="eyebrow">Analyze</span>
-      <h1 className="serif" style={{ fontSize: 38, marginTop: 10 }}>Find what links a chemical to a disease.</h1>
-      <p className="muted" style={{ maxWidth: 620, marginTop: 8 }}>
-        Rank the chemical drivers of a disease, score a single compound across all six diseases, or upload your own list.
+      <p style={{ maxWidth: 720, marginTop: 12, fontSize: 17, fontWeight: 600, lineHeight: 1.5, color: 'var(--text)' }}>
+        Rank and find what links a chemical to a disease by shared pathways or likelihood prediction of
+        association. Score a chemical of choice against the six respiratory diseases by likelihood, or upload
+        your own list.
       </p>
 
       {/* segmented control */}
-      <div style={{ display: 'inline-flex', background: 'var(--muted)', borderRadius: 12, padding: 4, marginTop: 24, gap: 4 }}>
+      <div style={{ display: 'inline-flex', background: 'var(--muted)', borderRadius: 2, padding: 4, marginTop: 24, gap: 4 }}>
         {MODES.map(([k, label]) => (
           <button key={k} onClick={() => setMode(k)} className="btn btn-sm"
             style={{ background: mode === k ? 'var(--surface)' : 'transparent', color: mode === k ? 'var(--navy)' : 'var(--text-2)', boxShadow: mode === k ? 'var(--shadow-sm)' : 'none', border: 'none' }}>

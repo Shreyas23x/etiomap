@@ -20,6 +20,7 @@
   --mono:'IBM Plex Mono','Roboto Mono',monospace;
 }
 *{box-sizing:border-box}
+html{scrollbar-gutter:stable}/* reserve scrollbar space always, so centered layouts don't shift between scrolling and non-scrolling pages */
 html,body{margin:0;padding:0}
 body{font-family:var(--sans);background:var(--bg);color:var(--text);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
 a{color:var(--emerald-700);text-decoration:none}
@@ -58,7 +59,7 @@ label.fld{display:block;font-size:13px;font-weight:600;color:var(--text-2);margi
 .input:focus,select.input:focus{outline:none;border-color:var(--emerald);box-shadow:0 0 0 2px rgba(5,150,105,.18)}
 
 /* nav — solid (no blur/transparency), square active underline */
-.nav{position:sticky;top:0;z-index:50;background:var(--surface);border-bottom:1px solid var(--border-strong)}
+.nav{position:sticky;top:0;z-index:1100;background:var(--surface);border-bottom:1px solid var(--border-strong)}
 .nav-inner{max-width:var(--maxw);margin:0 auto;padding:0 28px;height:60px;display:flex;align-items:center;gap:24px}
 .nav a.navlink{font-size:14px;color:var(--text-2);font-weight:600;padding:6px 2px;border-bottom:2px solid transparent}
 .nav a.navlink:hover{color:var(--emerald-700);text-decoration:none}

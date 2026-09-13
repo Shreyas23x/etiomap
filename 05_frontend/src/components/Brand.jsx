@@ -1,13 +1,14 @@
 import { NavLink, Link } from 'react-router-dom'
+import { SHOW_EXPOSURE_RISK } from '../features.js'
 
 export function Logo({ size = 26, color = 'var(--navy)' }) {
   return (
-    <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 9, textDecoration: 'none' }}>
-      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+    <Link to="/" style={{ display: 'inline-flex', alignItems: 'center', gap: 9, textDecoration: 'none', lineHeight: 1 }}>
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" aria-hidden="true" style={{ display: 'block', flex: '0 0 auto' }}>
         <path d="M12 1.6l9 5.2v10.4l-9 5.2-9-5.2V6.8z" stroke="var(--emerald)" strokeWidth="1.5" />
         <path d="M12 6.4l4.8 2.8v5.6L12 17.6l-4.8-2.8V9.2z" stroke={color} strokeWidth="1.2" opacity=".55" />
       </svg>
-      <span style={{ fontFamily: 'var(--serif)', fontSize: size * 0.82, fontWeight: 600, color, letterSpacing: '-.01em' }}>EtioMap</span>
+      <span style={{ fontFamily: 'var(--serif)', fontSize: size * 0.82, fontWeight: 600, color, letterSpacing: '-.01em', lineHeight: 1, display: 'block' }}>EtioMap</span>
     </Link>
   )
 }
@@ -22,9 +23,13 @@ export function NavBar() {
         <NavLink to="/analyze" className="navlink">Analyze</NavLink>
         <NavLink to="/explorer" className="navlink">Network</NavLink>
         <NavLink to="/your-data" className="navlink">Data</NavLink>{/* user-network add-on (revertible) */}
-        <NavLink to="/air" className="navlink">Exposure Risk</NavLink>{/* pollutant-map add-on (revertible) */}
+        {SHOW_EXPOSURE_RISK && <NavLink to="/air" className="navlink">Exposure Risk</NavLink>}{/* pollutant-map add-on (revertible) */}
         <NavLink to="/about" className="navlink">About</NavLink>
-        <Link to="/analyze" className="btn btn-primary btn-sm nav-cta" style={{ marginLeft: 6 }}>Get started</Link>
+        <NavLink to="/reviews" className="navlink">Reviews</NavLink>{/* reviews page (local only for now) */}
+        {/* fixed-width control slot so nav links land at the same x as the Network page */}
+        <div className="nav-cta" style={{ width: 168, display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginLeft: 6 }}>
+          <Link to="/analyze" className="btn btn-primary btn-sm">Get started</Link>
+        </div>
       </div>
     </nav>
   )

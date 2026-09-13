@@ -8,9 +8,9 @@ const stats = [
 ]
 
 const steps = [
-  ['Choose or upload', 'Select a disease, name a compound, or upload a CSV of your own chemicals.'],
-  ['Predict + explain', 'A descriptor-based model predicts likely associations, and a KEGG pathway network explains how a compound links to disease.'],
-  ['Ranked & referenced', 'Get ranked likelihoods, related compounds, and downloadable results with PubMed references.'],
+  ['Choose or upload', 'In the Analyze page, select a disease or name a compound to start finding associations. Upload your own CSV of chemicals in the Data page.'],
+  ['Predict and explain', 'A descriptor-based model predicts likely associations on all present data and what you upload. In the Network page, a KEGG pathway network displays how a compound links to disease.'],
+  ['Ranked and referenced', 'Get ranked likelihoods, related compounds, and downloadable results with PubMed references by exploring the Analyze and Data page.'],
 ]
 
 export default function Home() {
@@ -60,8 +60,7 @@ export default function Home() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 28, marginTop: 22 }}>
             {steps.map(([t, d], i) => (
               <div key={i}>
-                <div className="mono" style={{ fontSize: 13, color: 'var(--emerald-700)', fontWeight: 500 }}>{String(i + 1).padStart(2, '0')}</div>
-                <h3 style={{ fontSize: 18, margin: '8px 0' }}>{t}</h3>
+                <h3 style={{ fontSize: 18, marginBottom: 8 }}>{t}</h3>
                 <p className="muted" style={{ fontSize: 14.5 }}>{d}</p>
               </div>
             ))}
@@ -69,16 +68,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="wrap" style={{ marginTop: 40 }}>
-        <div style={{ background: 'var(--navy)', borderRadius: 0, padding: '44px 40px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 20 }}>
-          <div>
-            <h2 className="serif" style={{ color: '#fff', fontSize: 28 }}>Start mapping associations.</h2>
-            <p style={{ color: '#cbd5e1', marginTop: 6, fontSize: 15.5 }}>Score a compound, rank a disease, or explore the whole network.</p>
-          </div>
-          <Link to="/analyze" className="btn btn-primary">Get started</Link>
-        </div>
-      </section>
     </main>
   )
 }

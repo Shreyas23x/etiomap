@@ -83,11 +83,10 @@ export default function PollutantMap() {
   return (
     <main className="wrap fadein" style={{ paddingTop: 40, minHeight: '72vh' }}>
       <span className="eyebrow">Exposure Risk · India</span>
-      <h1 className="serif" style={{ fontSize: 38, marginTop: 10 }}>Choose a location to find air risk features</h1>
-      <p className="muted" style={{ maxWidth: 640, marginTop: 8 }}>
-        Click anywhere on the map of India. EtioMap pulls the live pollutant levels at that point
-        and connects them to the six respiratory diseases; gases are scored by the model, and
-        particulates carry established epidemiological weights.
+      <p style={{ maxWidth: 720, marginTop: 12, fontSize: 17, lineHeight: 1.6, fontWeight: 600, color: 'var(--text)' }}>
+        Click anywhere on the map of India. EtioMap extrapolates the values of pollutants at the clicked
+        spot and cross-references those with the six respiratory diseases. Gases are assigned scores by the
+        model while particulate matter has established epidemiological weights.
       </p>
 
       {/* city quick-jumps */}
@@ -116,9 +115,9 @@ export default function PollutantMap() {
           {!busy && !data && !err && (
             <div className="card" style={{ padding: 26 }}>
               <p className="muted" style={{ fontSize: 14, lineHeight: 1.7, margin: 0 }}>
-                Nothing selected yet. Pick a city above or tap anywhere on the map, and EtioMap shows
-                that spot's current air quality, which respiratory diseases its pollution is most
-                linked to, and simple steps to protect yourself.
+                Nothing selected yet. Choose a city from the map above or tap anywhere on the map, EtioMap
+                provides the current air quality of that particular location, respiratory diseases most
+                associated with its pollution, and basic protective measures for people.
               </p>
             </div>
           )}
