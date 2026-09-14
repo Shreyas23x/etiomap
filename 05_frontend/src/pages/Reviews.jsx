@@ -16,7 +16,10 @@
 //   comment: 'The network explorer is genuinely fun to browse, and grouping by shared pathways surfaced links I had not considered.' },
 // { name: 'M. Gupta', work: 'Air Quality Analyst',
 //   comment: 'The exposure map connecting local pollution to respiratory risk is a nice touch for communicating findings to non-experts.' },
-const REVIEWS = []
+const REVIEWS = [
+  { name: 'Samvrit Krovvidi', work: 'Undergraduate, Molecular and Cell Biology @ UCSD',
+    comment: 'Interesting concept, useful in disease research as a student in the field of molecular components of disease.' },
+]
 
 function Avatar() {
   return (
