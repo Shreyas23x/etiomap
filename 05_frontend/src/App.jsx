@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { NavBar, Footer } from './components/Brand.jsx'
 import Home from './pages/Home.jsx'
 import Analyze from './pages/Analyze.jsx'
@@ -11,6 +12,8 @@ import { SHOW_EXPOSURE_RISK } from './features.js'
 
 export default function App() {
   return (
+    <>
+    <Analytics />
     <Routes>
       <Route path="/explorer" element={<Explorer />} />
       <Route
@@ -31,5 +34,6 @@ export default function App() {
         }
       />
     </Routes>
+    </>
   )
 }
