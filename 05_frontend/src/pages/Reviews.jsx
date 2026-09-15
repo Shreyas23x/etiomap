@@ -40,6 +40,17 @@ export default function Reviews() {
         Feedback from researchers, students, and clinicians who have used EtioMap.
       </p>
 
+      <a
+        href="https://forms.gle/C1UaLSAaAiDY26Pn8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn btn-primary"
+        style={{ marginTop: 18 }}
+      >
+        Leave your own review
+        <span aria-hidden="true" style={{ fontSize: 13 }}>↗</span>
+      </a>
+
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(320px,1fr))', gap: 16, marginTop: 24 }}>
         {REVIEWS.map((r, i) => (
           <div key={i} className="card" style={{ padding: 18, display: 'flex', gap: 13, alignItems: 'flex-start' }}>
