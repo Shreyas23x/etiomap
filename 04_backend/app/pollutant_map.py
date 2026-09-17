@@ -22,6 +22,7 @@ Revert: delete this file and the two marked lines in app/main.py; remove
 from fastapi import APIRouter, HTTPException, Query
 from functools import lru_cache
 import math
+import time
 import requests
 
 router = APIRouter(prefix="/api/pollutant-map", tags=["pollutant-map"])
@@ -106,16 +107,56 @@ def _gas_assoc():
     return out
 
 
+# Open-Meteo publishes air quality on an hourly cadence, so a short-lived cache
+# keyed on the rounded coordinate (~1 km) makes repeat clicks on the same city
+# essentially free and keeps us well under the keyless API's rate limits. On a
+# 429 (too many requests) we fall back to any cached value — even a stale one —
+# rather than failing the request.
+_AIR_CACHE = {}          # (rlat, rlon) -> (fetched_at, data)
+_AIR_TTL = 900           # 15 min
+_AIR_CACHE_MAX = 500
+
+
 def _fetch_air(lat, lon):
+    key = (round(lat, 2), round(lon, 2))
+    now = time.time()
+    cached = _AIR_CACHE.get(key)
+    if cached and now - cached[0] < _AIR_TTL:
+        return cached[1]
+
     fields = ",".join(k for k, *_ in POLLUTANTS) + ",us_aqi"
-    try:
-        r = requests.get(OPEN_METEO, params={
-            "latitude": lat, "longitude": lon, "current": fields, "timezone": "auto"
-        }, timeout=20)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        raise HTTPException(502, f"Air-quality service unavailable: {e}")
+    last_exc = None
+    for attempt in range(3):
+        try:
+            r = requests.get(OPEN_METEO, params={
+                "latitude": lat, "longitude": lon, "current": fields, "timezone": "auto"
+            }, timeout=20)
+            r.raise_for_status()
+            data = r.json()
+            if len(_AIR_CACHE) >= _AIR_CACHE_MAX:
+                _AIR_CACHE.pop(next(iter(_AIR_CACHE)), None)
+            _AIR_CACHE[key] = (now, data)
+            return data
+        except requests.HTTPError as e:
+            last_exc = e
+            status = getattr(e.response, "status_code", None)
+            if status == 429:
+                if cached:                      # serve stale rather than error out
+                    return cached[1]
+                time.sleep(1.5 * (attempt + 1))  # brief backoff, then retry
+                continue
+            break
+        except Exception as e:
+            last_exc = e
+            break
+
+    if cached:                                  # last resort: any stale value we have
+        return cached[1]
+    status = getattr(getattr(last_exc, "response", None), "status_code", None)
+    if status == 429:
+        raise HTTPException(503, "Air-quality service is busy right now (rate limited). "
+                                 "Please try again in a minute.")
+    raise HTTPException(502, f"Air-quality service unavailable: {last_exc}")
 
 
 @router.get("/air")
