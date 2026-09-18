@@ -19,7 +19,7 @@
 const REVIEWS = [
   { name: 'Samvrit Krovvidi', work: 'Undergraduate, Molecular and Cell Biology @ UCSD',
     comment: 'Interesting concept, useful in disease research as a student in the field of molecular components of disease.' },
-  { name: 'Narayana Rao Sripada', work: 'AI-enabled Digital Respiratory Health and Environmental Health Surveillance, India',
+  { name: 'Narayana Rao Sripada', work: 'AI Respiratory & Environmental Health Surveillance, India',
     comment: 'EtioMap is helpful because it connects environmental exposures with respiratory health by identifying the biological processes through which environmental chemicals may contribute to or worsen respiratory diseases.' },
 ]
 
