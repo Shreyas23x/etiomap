@@ -23,6 +23,8 @@ const REVIEWS = [
     comment: 'EtioMap is helpful because it connects environmental exposures with respiratory health by identifying the biological processes through which environmental chemicals may contribute to or worsen respiratory diseases.' },
   { name: 'Dr. V. S. Reddy', work: 'Oral & Maxillofacial Surgeon, Healthcare Hospital',
     comment: 'Well structured and user friendly.' },
+  { name: 'Dr. Sridevi Chinta', work: 'Dentist, India',
+    comment: 'The best feature for me was the easily accessible literature in the Analyze and Network sections.' },
 ]
 
 function Avatar() {
