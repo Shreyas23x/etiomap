@@ -43,26 +43,24 @@ export default function Explorer() {
 
   useEffect(() => {
     let cancelled = false
-    // retry on failure so a cold-starting (sleeping) backend self-heals instead of
-    // showing an empty graph — the free host can take ~30-60s to wake on first hit
-    const load = (attempt = 0) => {
-      api.networkFull().then(d => {
-        if (cancelled) return
-        data.current = d
-        const cls = {}; d.classes.forEach(c => cls[c] = true)
-        setClasses(d.classes)
-        // set fRef synchronously so the first apply() (inside build) sees every class
-        // enabled — otherwise the initial render shows 0/0/0 until "Show all" is clicked
-        const ns = { ...fRef.current, classes: cls }
-        fRef.current = ns; setF(ns)
-        build(d)
-      }).catch(e => {
-        if (cancelled) return
-        if (attempt < 6) { setCounts('waking up the server, one moment…'); setTimeout(() => load(attempt + 1), 4000) }
-        else setCounts('failed to load: ' + e.message)
-      })
-    }
-    load()
+    // the backend runs on a free host that can take ~30-90s to wake; api.js
+    // retries GET requests through that window, so we just show a waking-up
+    // message until the data resolves (or a real failure surfaces).
+    setCounts('waking up the server, one moment…')
+    api.networkFull().then(d => {
+      if (cancelled) return
+      data.current = d
+      const cls = {}; d.classes.forEach(c => cls[c] = true)
+      setClasses(d.classes)
+      // set fRef synchronously so the first apply() (inside build) sees every class
+      // enabled — otherwise the initial render shows 0/0/0 until "Show all" is clicked
+      const ns = { ...fRef.current, classes: cls }
+      fRef.current = ns; setF(ns)
+      build(d)
+    }).catch(e => {
+      if (cancelled) return
+      setCounts('failed to load: ' + e.message)
+    })
     return () => { cancelled = true; cy.current && cy.current.destroy() }
     // eslint-disable-next-line
   }, [])

@@ -1,12 +1,35 @@
 // Thin API layer. In dev, Vite proxies /api -> FastAPI (see vite.config.js).
+const sleep = (ms) => new Promise((res) => setTimeout(res, ms))
+
+// The backend runs on a free host that sleeps after inactivity and can take
+// ~30-90s to cold-start. GET requests transparently retry through that window —
+// on network errors and on 502/503/504 gateway responses — so a waking server
+// resolves to real data instead of a failure. Non-GET requests (score, uploads)
+// are never auto-retried, to avoid duplicate submissions.
 const J = async (url, opts) => {
-  const r = await fetch(url, opts)
-  if (!r.ok) {
-    let msg = r.status
-    try { msg = (await r.json()).detail || msg } catch {}
-    throw new Error(msg)
+  const isGet = !opts || !opts.method || String(opts.method).toUpperCase() === 'GET'
+  const deadline = Date.now() + 120000
+  let delay = 2500
+  for (;;) {
+    try {
+      const r = await fetch(url, opts)
+      if (!r.ok) {
+        if (isGet && [502, 503, 504].includes(r.status) && Date.now() < deadline) {
+          await sleep(delay); delay = Math.min(delay * 1.5, 8000); continue
+        }
+        let msg = r.status
+        try { msg = (await r.json()).detail || msg } catch {}
+        throw new Error(msg)
+      }
+      return r.json()
+    } catch (e) {
+      // fetch() rejects with a TypeError on network failure (server still waking)
+      if (isGet && e instanceof TypeError && Date.now() < deadline) {
+        await sleep(delay); delay = Math.min(delay * 1.5, 8000); continue
+      }
+      throw e
+    }
   }
-  return r.json()
 }
 
 export const api = {
