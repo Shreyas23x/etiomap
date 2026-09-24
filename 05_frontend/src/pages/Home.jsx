@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { MoleculeArt } from '../components/Brand.jsx'
+import FeatureCards from '../components/FeatureCards.jsx'  // revertible homepage feature-tiles experiment
 
 const stats = [
   { n: '450+', l: 'chemicals mapped' },
@@ -52,6 +53,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* FEATURE TILES (revertible experiment — remove this line + the import above) */}
+      <FeatureCards />
 
       {/* HOW */}
       <section className="wrap" style={{ marginTop: 72 }}>
