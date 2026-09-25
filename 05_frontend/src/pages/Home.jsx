@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { MoleculeArt } from '../components/Brand.jsx'
+import HeroSpecimen from '../components/HeroSpecimen.jsx'  // revertible: real worked-example hero (was MoleculeArt)
 import FeatureCards from '../components/FeatureCards.jsx'  // revertible homepage feature-tiles experiment
 
 const stats = [
@@ -38,7 +38,7 @@ export default function Home() {
               <Link to="/explorer" className="btn btn-ghost">Explore the network</Link>
             </div>
           </div>
-          <div className="hero-art"><MoleculeArt /></div>
+          <div className="hero-art"><HeroSpecimen /></div>
         </div>
       </section>
 

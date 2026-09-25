@@ -9,7 +9,7 @@ import { SHOW_EXPOSURE_RISK } from '../features.js'
 
 const svg = (children) => (
   <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-       strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+       strokeWidth="0.65" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     {children}
   </svg>
 )
@@ -26,7 +26,7 @@ const ICONS = {
   // rather than the tile's accent.
   network: (
     <svg width="56" height="56" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-      <g stroke="#1f2937" strokeWidth="1.1">
+      <g stroke="#1f2937" strokeWidth="0.5">
         <line x1="10" y1="4" x2="20" y2="3.6" />
         <line x1="10" y1="4" x2="4" y2="13" />
         <line x1="10" y1="4" x2="10.6" y2="16.4" />
@@ -39,7 +39,7 @@ const ICONS = {
         <line x1="10.6" y1="16.4" x2="21" y2="19" />
         <line x1="15" y1="12" x2="21" y2="19" />
       </g>
-      <g fill="#fff" stroke="#1f2937" strokeWidth="1.2">
+      <g fill="#fff" stroke="#1f2937" strokeWidth="0.6">
         <circle cx="10" cy="4" r="1.9" />
         <circle cx="20" cy="3.6" r="1.5" />
         <circle cx="4" cy="13" r="1.5" />

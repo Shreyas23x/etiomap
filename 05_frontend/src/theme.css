@@ -15,7 +15,7 @@
   --shadow:0 1px 0 rgba(26,36,48,.06);
   --shadow-lg:0 2px 8px rgba(26,36,48,.10);
   --maxw:1200px;
-  --serif:'Newsreader',Georgia,serif;
+  --serif:'Source Serif 4','Newsreader',Georgia,serif;
   --sans:'Libre Franklin',system-ui,sans-serif;
   --mono:'IBM Plex Mono','Roboto Mono',monospace;
 }
